@@ -1,0 +1,102 @@
+{
+ "_leeme": "Prohibiciones y obligaciones de Pablo. «global» vale para todos los estilos; «estilos.<id>» solo para ese estilo y se suma a global. La compuerta (estudio/validar.py) las hace cumplir y el director las lee. Las cambia Pablo (o el Agente Editor con su corrección).",
+ "global": {
+  "colores_prohibidos": [],
+  "nota": [
+   "El color de la toma de Pablo (su receta + look) NO se cambia en todo el video: un filtro sobre la toma real solo como efecto puntual, rápido (máx. filtro_max_s segundos por escena) (Pablo, 04-nov).",
+   "NUNCA el sujeto recortado (Pablo, 04-nov): la persona siempre en su toma original completa; nada de texto detrás de ella, silueta, neón, recorte con borde ni fondo cambiado.",
+   "Variedad (guía, Opus decide; Pablo 04-nov: «usas un movimiento de cámara o texto o imagen o B-roll similar… en todo el video» y «los estilos tienen riqueza, variaciones, vida»): procura no repetir la misma entrada de texto, tratamiento de imagen ni tipo de apoyo.",
+   "Cada apoyo muestra LITERALMENTE lo que se dice en ese momento, como toma de apoyo (si dice «carpeta», una carpeta) (Pablo, 04-nov).",
+   "Menos imágenes; la vida la dan los elementos tipográficos y las animaciones (Pablo, 10-nov, reemplaza «más riqueza, más imágenes»). Más criterio estético.",
+   "Nunca videos generados con Higgsfield (Pablo, 04-nov); imágenes sí, sutiles.",
+   "Un movimiento a la vez (Pablo, 04-nov; desde el 10-nov vale para TODOS los estilos): se mueve el texto que entra y, si hay, una imagen animada; el resto quieto, y ningún elemento flota más de flotar_elementos_max px. La cámara es fija (nota «Cámara»): la regla habla de elementos en pantalla. Balance: cada elemento con razón y lugar, nada por poner.",
+   "Imágenes integradas (04-nov, luminoso): nunca una foto cuadrada montada encima; la imagen se funde con el fondo y es parte del diseño (fundir, fusion o fondo completo).",
+   "Textos en recorrido (04-nov, pop, general): cada texto principal aparece cerca de donde estaba el anterior y se desplaza gradual por la zona segura, como una montaña rusa (de un pico a un valle se pasa por la bajada); nada de saltar de arriba a abajo.",
+   "Inicio (Pablo, 04-nov y 10-nov): desde el cuadro 0 la persona y el texto o caja del gancho (`gancho: true`); durante los primeros segundos nada más entra ni se mueve (lo corre el código).",
+   "Ritmo (guía, Opus decide; Pablo 04-nov: «el ritmo es muy rápido, muchos cortes y elementos en muy poco tiempo»): que el ritmo respire; cada escena una idea y pocas cosas entrando a la vez.",
+   "Texto (guía, Opus decide; Pablo 04-nov: «siempre debe haber movimiento de textos… no puede quedarse quieto sin ningún tipo de elementos porque se mata el ritmo»): conviene que casi siempre haya un subtítulo o un texto en pantalla.",
+   "Recursos (guía, Opus decide; Pablo 07-nov: «no le está poniendo casi recurso»): que la edición no se quede mucho rato sin un recurso visible.",
+   "Sin texto duplicado (Pablo, 07-nov): si un texto en pantalla ya muestra la palabra, el subtítulo no la repite (el código lo oculta).",
+   "Voz de fuera (Pablo, 07-nov): los conteos («uno, dos, tres, va») y el apuntador no se pueden oír ni un poco en el final (lo corre el código).",
+   "Cámara (Pablo, 11-nov, regla ÚNICA de todo el editor; reemplaza la del 10-nov): la cámara es FIJA en los 13 estilos (`camara_fija`). La toma sale con su encuadre original, completa, sin zoom, viaje, flotación, reencuadre ni golpes de zoom: «los movimientos de cámara lo que están haciendo es dañando el video… dejas todo estático». No escribas `punch`, `camara` ni `camara_mov`: el motor los ignora y no suenan. El movimiento del video lo ponen los textos y los apoyos.",
+   "Legibilidad (Pablo, 10-nov): ninguna línea de texto es diminuta, y en pantalla completa o fondo sólido la palabra o frase principal domina el cuadro (la compuerta dice los números)."
+  ],
+  "color_toma_intocable": true,
+  "filtro_max_s": 1.5,
+  "sujeto_recortado_prohibido": true,
+  "variedad": {
+   "max_mismo_seguido": 2,
+   "max_proporcion": 0.45,
+   "min_tipos": 3
+  },
+  "apoyo_literal_ventana_s": [
+   -1.0,
+   1.5
+  ],
+  "apoyo_integrado": true,
+  "texto_salto_max_px": 380,
+  "inicio_limpio_s": 3,
+  "ritmo": {
+   "escena_min_s": 2.5,
+   "entradas_max": 3,
+   "ventana_s": 5
+  },
+  "texto_siempre_max_s": 1.5,
+  "recurso_hueco_max_s": 2.5,
+  "flotar_elementos_max": 2,
+  "punch_max_por_min": 4,
+  "camara_fija": true,
+  "texto_linea_min_px": 48,
+  "pantalla_principal_ancho_min": 0.4
+ },
+ "estilos": {
+  "cine": {
+   "nota": [
+    "Cine (Pablo, 04-nov): más lento y con menos movimiento; varios efectos distintos, no el mismo de siempre."
+   ]
+  },
+  "pop": {
+   "apoyo_integrado": false
+  },
+  "imprenta": {
+   "apoyo_integrado": false
+  },
+  "vox": {
+   "apoyo_integrado": false
+  },
+  "prestiggio": {
+   "colores_prohibidos": [
+    "rosa"
+   ],
+   "nota": [
+    "Prestiggio = copia del estilo de la app de Prestiggio (Pablo, 04-nov). Guía: librerias/estilos/prestiggio.md.",
+    "Prohibido (reglas de la app): franjas de cine, rosa, burbujas, corazones, destellos, cursiva decorativa (la Playfair itálica de la palabra clave sí), fotos flotantes de mujeres.",
+    "Una sola cosa en pantalla: con una tarjeta o texto gráfico no hay subtítulo en otra zona.",
+    "Caja del hook desde el cuadro 0 hasta que termina el gancho: blanca, Inter negra, el dolor en franja roja; sin subtítulos mientras está.",
+    "Subtítulos: Inter pesada, palabra clave en Playfair itálica roja, entrada seca, glow sutil."
+   ]
+  },
+  "basico": {
+   "nota": [
+    "Estilo básico (Pablo 08-nov): solo subtítulo palabra por palabra; sin recursos, ritmo, cámara ni golpes: esas reglas no aplican."
+   ],
+   "ritmo": null,
+   "recurso_hueco_max_s": null,
+   "inicio_limpio_s": null,
+   "punch_max_por_min": null
+  },
+  "glass": {
+   "nota": [
+    "Glass (Pablo, 10-nov): fotos en miniatura DENTRO de una tarjeta de vidrio (excepción a «imágenes integradas»: `apoyo_integrado` en falso).",
+    "Una cosa a la vez (Pablo, 10-nov, Glass): como máximo UN elemento visible a la vez además del subtítulo (`elementos_a_la_vez_max`); la tarjeta y su texto son un solo `grupo`."
+   ],
+   "elementos_a_la_vez_max": 1,
+   "apoyo_integrado": false
+  },
+  "julian-alborna-3d": {
+   "nota": [
+    "3D (Pablo, 10-nov): excepción escrita a «menos imágenes»: su preset (`tope_imagenes`) trae más renders que el resto."
+   ]
+  }
+ }
+}

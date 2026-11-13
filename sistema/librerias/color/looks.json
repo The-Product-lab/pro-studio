@@ -1,0 +1,635 @@
+{
+ "_leeme": "Biblioteca de looks (Pablo aprobó los 18 el 31-oct; favoritos = recomendados para Prestiggio). Se aplican ENCIMA del color de entrada (sdr.cadena(src, look=…)), en el mismo paso, sin tiempo extra. RawTherapee: CC BY-SA 4.0, atribución en cada ficha. IWLTBAP: uso comercial sí, redistribuir no → sus .cube no van a git (copiar a mano a cada máquina). Look nuevo: .cube aquí + ficha aquí; la prueba de correr.py lo examina.",
+ "looks": [
+  {
+   "id": "natural-Portra400-NC",
+   "nombre": "Portra400-NC",
+   "familia": "natural",
+   "intensidad": 100,
+   "favorito": true,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.0,
+     "crush_pct": 0.0,
+     "piel_tono_grados": 23.48,
+     "piel_desplazamiento_grados": 0.66,
+     "piel_desplazamiento_max": 2.2,
+     "piel_saturacion": 0.47,
+     "rosa_morado_pct": 0.0
+    },
+    "al_50": {
+     "clip_pct": 0.01,
+     "crush_pct": 0.07,
+     "piel_desplazamiento_grados": 0.21,
+     "piel_saturacion": 0.44
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "natural-Portra160-VC",
+   "nombre": "Portra160-VC",
+   "familia": "natural",
+   "intensidad": 100,
+   "favorito": true,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.0,
+     "crush_pct": 0.46,
+     "piel_tono_grados": 24.44,
+     "piel_desplazamiento_grados": 1.61,
+     "piel_desplazamiento_max": 3.5,
+     "piel_saturacion": 0.5,
+     "rosa_morado_pct": 0.0
+    },
+    "al_50": {
+     "clip_pct": 0.01,
+     "crush_pct": 0.48,
+     "piel_desplazamiento_grados": 0.6,
+     "piel_saturacion": 0.46
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "natural-Ektar100",
+   "nombre": "Ektar100",
+   "familia": "natural",
+   "intensidad": 100,
+   "favorito": true,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.0,
+     "crush_pct": 0.59,
+     "piel_tono_grados": 21.15,
+     "piel_desplazamiento_grados": -1.68,
+     "piel_desplazamiento_max": 3.0,
+     "piel_saturacion": 0.42,
+     "rosa_morado_pct": 0.0
+    },
+    "al_50": {
+     "clip_pct": 0.01,
+     "crush_pct": 0.55,
+     "piel_desplazamiento_grados": -0.79,
+     "piel_saturacion": 0.41
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "natural-Precisa100",
+   "nombre": "Precisa100",
+   "familia": "natural",
+   "intensidad": 100,
+   "favorito": false,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.08,
+     "crush_pct": 1.02,
+     "piel_tono_grados": 23.11,
+     "piel_desplazamiento_grados": 0.28,
+     "piel_desplazamiento_max": 2.6,
+     "piel_saturacion": 0.44,
+     "rosa_morado_pct": 0.0
+    },
+    "al_50": {
+     "clip_pct": 0.05,
+     "crush_pct": 0.7,
+     "piel_desplazamiento_grados": 0.24,
+     "piel_saturacion": 0.43
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "calido-Portra800",
+   "nombre": "Portra800",
+   "familia": "calido",
+   "intensidad": 100,
+   "favorito": true,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.02,
+     "crush_pct": 0.14,
+     "piel_tono_grados": 28.16,
+     "piel_desplazamiento_grados": 5.34,
+     "piel_desplazamiento_max": 5.4,
+     "piel_saturacion": 0.51,
+     "rosa_morado_pct": 0.01
+    },
+    "al_50": {
+     "clip_pct": 0.03,
+     "crush_pct": 0.31,
+     "piel_desplazamiento_grados": 2.91,
+     "piel_saturacion": 0.46
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "calido-Superia400",
+   "nombre": "Superia400",
+   "familia": "calido",
+   "intensidad": 70,
+   "favorito": false,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.0,
+     "crush_pct": 0.0,
+     "piel_tono_grados": 30.01,
+     "piel_desplazamiento_grados": 7.19,
+     "piel_desplazamiento_max": 8.6,
+     "piel_saturacion": 0.51,
+     "rosa_morado_pct": 0.0
+    },
+    "al_50": {
+     "clip_pct": 0.01,
+     "crush_pct": 0.19,
+     "piel_desplazamiento_grados": 3.84,
+     "piel_saturacion": 0.46
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "calido-IWLTBAP-Humble",
+   "nombre": "IWLTBAP-Humble",
+   "familia": "calido",
+   "intensidad": 50,
+   "favorito": false,
+   "redistribuible": false,
+   "fuente": "IWLTBAP Free Pack",
+   "autor": "IWLTBAP",
+   "licencia": "\"The LUTs can only be used for photo and video editing for personal or commercial projects.\" / \"The packs (or individual LUT) cannot be resold, shared or otherwise redistributed. The LUTs cannot be mo",
+   "licencia_url": "https://luts.iwltbap.com/terms-of-sale.html",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.0,
+     "crush_pct": 0.66,
+     "piel_tono_grados": 29.85,
+     "piel_desplazamiento_grados": 7.02,
+     "piel_desplazamiento_max": 10.7,
+     "piel_saturacion": 0.4,
+     "rosa_morado_pct": 0.0
+    },
+    "al_50": {
+     "clip_pct": 0.0,
+     "crush_pct": 0.58,
+     "piel_desplazamiento_grados": 3.24,
+     "piel_saturacion": 0.4
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "calido-EliteColor200",
+   "nombre": "EliteColor200",
+   "familia": "calido",
+   "intensidad": 100,
+   "favorito": true,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.02,
+     "crush_pct": 1.16,
+     "piel_tono_grados": 18.27,
+     "piel_desplazamiento_grados": -4.56,
+     "piel_desplazamiento_max": 5.8,
+     "piel_saturacion": 0.43,
+     "rosa_morado_pct": 0.0
+    },
+    "al_50": {
+     "clip_pct": 0.03,
+     "crush_pct": 0.74,
+     "piel_desplazamiento_grados": -2.12,
+     "piel_saturacion": 0.42
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "calido-IWLTBAP-Sedona",
+   "nombre": "IWLTBAP-Sedona",
+   "familia": "calido",
+   "intensidad": 50,
+   "favorito": false,
+   "redistribuible": false,
+   "fuente": "IWLTBAP Free Pack",
+   "autor": "IWLTBAP",
+   "licencia": "\"The LUTs can only be used for photo and video editing for personal or commercial projects.\" / \"The packs (or individual LUT) cannot be resold, shared or otherwise redistributed. The LUTs cannot be mo",
+   "licencia_url": "https://luts.iwltbap.com/terms-of-sale.html",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.0,
+     "crush_pct": 4.04,
+     "piel_tono_grados": 21.47,
+     "piel_desplazamiento_grados": -1.36,
+     "piel_desplazamiento_max": 7.1,
+     "piel_saturacion": 0.62,
+     "rosa_morado_pct": 0.0
+    },
+    "al_50": {
+     "clip_pct": 0.0,
+     "crush_pct": 1.0,
+     "piel_desplazamiento_grados": -0.64,
+     "piel_saturacion": 0.51
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "tealorange-IWLTBAP-F8700",
+   "nombre": "IWLTBAP-F8700",
+   "familia": "tealorange",
+   "intensidad": 50,
+   "favorito": false,
+   "redistribuible": false,
+   "fuente": "IWLTBAP Free Pack",
+   "autor": "IWLTBAP",
+   "licencia": "\"The LUTs can only be used for photo and video editing for personal or commercial projects.\" / \"The packs (or individual LUT) cannot be resold, shared or otherwise redistributed. The LUTs cannot be mo",
+   "licencia_url": "https://luts.iwltbap.com/terms-of-sale.html",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.0,
+     "crush_pct": 0.0,
+     "piel_tono_grados": 30.3,
+     "piel_desplazamiento_grados": 7.47,
+     "piel_desplazamiento_max": 16.0,
+     "piel_saturacion": 0.34,
+     "rosa_morado_pct": 0.0
+    },
+    "al_50": {
+     "clip_pct": 0.0,
+     "crush_pct": 0.0,
+     "piel_desplazamiento_grados": 2.02,
+     "piel_saturacion": 0.38
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "pelicula-Kodachrome64",
+   "nombre": "Kodachrome64",
+   "familia": "pelicula",
+   "intensidad": 50,
+   "favorito": false,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.02,
+     "crush_pct": 2.26,
+     "piel_tono_grados": 14.12,
+     "piel_desplazamiento_grados": -8.7,
+     "piel_desplazamiento_max": 10.4,
+     "piel_saturacion": 0.41,
+     "rosa_morado_pct": 0.01
+    },
+    "al_50": {
+     "clip_pct": 0.03,
+     "crush_pct": 0.84,
+     "piel_desplazamiento_grados": -4.4,
+     "piel_saturacion": 0.41
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "pelicula-SuperiaReala100",
+   "nombre": "SuperiaReala100",
+   "familia": "pelicula",
+   "intensidad": 70,
+   "favorito": false,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.01,
+     "crush_pct": 0.38,
+     "piel_tono_grados": 16.21,
+     "piel_desplazamiento_grados": -6.62,
+     "piel_desplazamiento_max": 7.0,
+     "piel_saturacion": 0.4,
+     "rosa_morado_pct": 0.01
+    },
+    "al_50": {
+     "clip_pct": 0.02,
+     "crush_pct": 0.44,
+     "piel_desplazamiento_grados": -3.39,
+     "piel_saturacion": 0.4
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "pelicula-FP100c-Negative",
+   "nombre": "FP100c-Negative",
+   "familia": "pelicula",
+   "intensidad": 100,
+   "favorito": false,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.0,
+     "crush_pct": 0.0,
+     "piel_tono_grados": 19.41,
+     "piel_desplazamiento_grados": -3.42,
+     "piel_desplazamiento_max": 5.0,
+     "piel_saturacion": 0.42,
+     "rosa_morado_pct": 0.12
+    },
+    "al_50": {
+     "clip_pct": 0.0,
+     "crush_pct": 0.0,
+     "piel_desplazamiento_grados": -2.5,
+     "piel_saturacion": 0.42
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "pelicula-AgfaVista200",
+   "nombre": "AgfaVista200",
+   "familia": "pelicula",
+   "intensidad": 50,
+   "favorito": false,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.03,
+     "crush_pct": 3.43,
+     "piel_tono_grados": 19.28,
+     "piel_desplazamiento_grados": -3.54,
+     "piel_desplazamiento_max": 5.1,
+     "piel_saturacion": 0.56,
+     "rosa_morado_pct": 0.01
+    },
+    "al_50": {
+     "clip_pct": 0.03,
+     "crush_pct": 0.89,
+     "piel_desplazamiento_grados": -1.95,
+     "piel_saturacion": 0.48
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "moody-BleachBypass",
+   "nombre": "BleachBypass",
+   "familia": "moody",
+   "intensidad": 100,
+   "favorito": false,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 1.34,
+     "crush_pct": 0.0,
+     "piel_tono_grados": 22.56,
+     "piel_desplazamiento_grados": -0.27,
+     "piel_desplazamiento_max": 1.7,
+     "piel_saturacion": 0.27,
+     "rosa_morado_pct": 0.0
+    },
+    "al_50": {
+     "clip_pct": 0.14,
+     "crush_pct": 0.0,
+     "piel_desplazamiento_grados": -0.04,
+     "piel_saturacion": 0.35
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "moody-Smokey",
+   "nombre": "Smokey",
+   "familia": "moody",
+   "intensidad": 50,
+   "favorito": false,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.0,
+     "crush_pct": 0.62,
+     "piel_tono_grados": 30.19,
+     "piel_desplazamiento_grados": 7.36,
+     "piel_desplazamiento_max": 11.1,
+     "piel_saturacion": 0.61,
+     "rosa_morado_pct": 0.0
+    },
+    "al_50": {
+     "clip_pct": 0.0,
+     "crush_pct": 0.58,
+     "piel_desplazamiento_grados": 4.51,
+     "piel_saturacion": 0.51
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "suave-Astia100F",
+   "nombre": "Astia100F",
+   "familia": "suave",
+   "intensidad": 70,
+   "favorito": false,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.01,
+     "crush_pct": 0.79,
+     "piel_tono_grados": 14.19,
+     "piel_desplazamiento_grados": -8.64,
+     "piel_desplazamiento_max": 9.6,
+     "piel_saturacion": 0.4,
+     "rosa_morado_pct": 0.0
+    },
+    "al_50": {
+     "clip_pct": 0.02,
+     "crush_pct": 0.66,
+     "piel_desplazamiento_grados": -4.26,
+     "piel_saturacion": 0.4
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  },
+  {
+   "id": "suave-Portra160-NC",
+   "nombre": "Portra160-NC",
+   "familia": "suave",
+   "intensidad": 70,
+   "favorito": true,
+   "redistribuible": true,
+   "fuente": "RawTherapee Film Simulation Collection (HaldCLUT convertido a .cube 33)",
+   "autor": "Pat David, Pavlov Dmitry, Michael Ezra (RawTherapee Film Simulation Collection)",
+   "licencia": "\"CC BY-SA 4.0\" (README.txt dentro de HaldCLUT.zip). Disclaimer: \"The trademarked names ... are there for informational purposes only.\"",
+   "licencia_url": "http://rawtherapee.com/shared/HaldCLUT.zip (HaldCLUT/README.txt)",
+   "metricas_al_elegir": {
+    "original": {
+     "clip_pct": 0.04,
+     "crush_pct": 0.52,
+     "piel_tono_grados": 22.8
+    },
+    "al_100": {
+     "clip_pct": 0.0,
+     "crush_pct": 0.1,
+     "piel_tono_grados": 27.61,
+     "piel_desplazamiento_grados": 4.78,
+     "piel_desplazamiento_max": 7.0,
+     "piel_saturacion": 0.48,
+     "rosa_morado_pct": 0.0
+    },
+    "al_50": {
+     "clip_pct": 0.01,
+     "crush_pct": 0.42,
+     "piel_desplazamiento_grados": 2.49,
+     "piel_saturacion": 0.44
+    },
+    "nota_piel": "tono en grados HSV: 0=rojo, 30=naranja, 60=amarillo; + = hacia amarillo/verde, - = hacia rojo"
+   }
+  }
+ ]
+}

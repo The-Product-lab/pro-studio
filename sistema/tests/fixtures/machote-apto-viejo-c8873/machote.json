@@ -1,0 +1,202 @@
+{
+ "version": 1,
+ "proyecto": "c8873",
+ "firma": "3a0b9375c1c1",
+ "fuente_s": 109.1,
+ "duracion_s": 28.64,
+ "cortes": [
+  [
+   0.0,
+   17.6
+  ],
+  [
+   27.86,
+   49.28
+  ],
+  [
+   52.52,
+   52.67
+  ],
+  [
+   55.75,
+   55.84
+  ],
+  [
+   58.44,
+   85.47
+  ],
+  [
+   89.48,
+   99.16
+  ],
+  [
+   104.61,
+   109.1
+  ]
+ ],
+ "color": {
+  "entrada": "rec709",
+  "receta": "pablo",
+  "look": "calido-EliteColor200",
+  "fuerza": 0.7
+ },
+ "quitado_s": {
+  "claqueta": 1.1,
+  "apuntador": 28.4,
+  "tomas_repetidas": 1.2,
+  "ia_fuera_de_guion": 18.0,
+  "pausas_y_aire": 31.7
+ },
+ "ia": {
+  "usada": true,
+  "quito": [
+   {
+    "t0": 0.0,
+    "t1": 5.58,
+    "texto": "1, 2, 3, acción Si pagas a un editor, te cobra de 10 a 20 dólares por video",
+    "motivo": "conteo «1, 2, 3, acción» y primera versión de la frase; la versión completa que queda es 3-12"
+   },
+   {
+    "t0": 7.34,
+    "t1": 8.18,
+    "texto": "¿Y qué más era?",
+    "motivo": "charla fuera de guion"
+   },
+   {
+    "t0": 11.0,
+    "t1": 16.04,
+    "texto": "Multiplica eso por 10 o 20 videos a la semana No, a ver, de nuevo, de nuevo",
+    "motivo": "toma abandonada con «no, a ver, de nuevo»"
+   },
+   {
+    "t0": 45.03,
+    "t1": 45.68,
+    "texto": "crédito por video",
+    "motivo": "resto de una toma anterior cuyo inicio se quitó (17-18); queda cojo y la idea se repite completa en 32-33"
+   },
+   {
+    "t0": 46.07,
+    "t1": 47.22,
+    "texto": "video Es de centavos",
+    "motivo": "parte de la misma toma abandonada; la versión final de la idea es 32-33"
+   },
+   {
+    "t0": 80.48,
+    "t1": 80.74,
+    "texto": "mejor",
+    "motivo": "toma truncada de «lo mejor de todo»; la versión completa es 52"
+   },
+   {
+    "t0": 80.74,
+    "t1": 80.88,
+    "texto": "de",
+    "motivo": "toma truncada; la versión completa es 52"
+   },
+   {
+    "t0": 80.88,
+    "t1": 81.1,
+    "texto": "todo",
+    "motivo": "toma truncada; la versión completa es 52"
+   },
+   {
+    "t0": 81.1,
+    "t1": 81.26,
+    "texto": "es",
+    "motivo": "toma truncada; la versión completa es 52"
+   },
+   {
+    "t0": 81.26,
+    "t1": 81.38,
+    "texto": "que",
+    "motivo": "toma truncada; la versión completa es 52"
+   },
+   {
+    "t0": 81.38,
+    "t1": 81.64,
+    "texto": "Cloud",
+    "motivo": "toma truncada; la versión completa es 52"
+   },
+   {
+    "t0": 81.64,
+    "t1": 82.4,
+    "texto": "aprende",
+    "motivo": "toma truncada; la versión completa es 52"
+   },
+   {
+    "t0": 82.4,
+    "t1": 82.62,
+    "texto": "cada",
+    "motivo": "toma truncada; la versión completa es 52"
+   },
+   {
+    "t0": 82.62,
+    "t1": 82.84,
+    "texto": "vez",
+    "motivo": "toma truncada; la versión completa es 52"
+   },
+   {
+    "t0": 82.84,
+    "t1": 83.08,
+    "texto": "que",
+    "motivo": "toma truncada; la versión completa es 52"
+   },
+   {
+    "t0": 83.08,
+    "t1": 83.3,
+    "texto": "sigue",
+    "motivo": "toma truncada que no cierra; la versión completa es 52"
+   },
+   {
+    "t0": 89.98,
+    "t1": 92.3,
+    "texto": "Y de ahí sí ya el call to action.",
+    "motivo": "comentario al equipo («y de ahí sí ya el call to action»)"
+   },
+   {
+    "t0": 60.04,
+    "t1": 60.92,
+    "texto": "Siguiente No digo que",
+    "motivo": "orden de grabación («Siguiente») + resto suelto de otra toma («No digo que»)"
+   },
+   {
+    "t0": 83.89,
+    "t1": 85.17,
+    "texto": "mejor de todo es que",
+    "motivo": "versión vieja e incompleta de lo que se repite completo en el tramo 6"
+   }
+  ],
+  "restauro": [
+   {
+    "t0": 48.58,
+    "t1": 49.12,
+    "texto": "O",
+    "motivo": "«O» abre «peor aún, si pagas el sueldo mensual»; es del talento y sin él la frase arranca cortada"
+   }
+  ],
+  "llamadas": 2,
+  "usd_eq": 0.48
+ },
+ "avisos": [
+  {
+   "motivo": "82 palabras tratadas como apuntador (voz ~15 dB bajo el talento) entre 0.0 y 97.5 s: revisa que no sea el talento hablando bajo",
+   "t": 0.0,
+   "tipo": "apuntador"
+  }
+ ],
+ "residuales": [
+  "montaje: el tramo 52.67–55.75 s termina 0.00 s después de «todos»: deja al menos 0.08 s para que la palabra termine"
+ ],
+ "render": {
+  "firma": "b2cba8e019a1",
+  "ancho": 720,
+  "alto": 1280,
+  "crf": 26,
+  "duracion_s": 28.63,
+  "bytes": 2879258
+ },
+ "revision": {
+  "firma": "b2cba8e019a1",
+  "ok": true,
+  "fallas": []
+ }
+}

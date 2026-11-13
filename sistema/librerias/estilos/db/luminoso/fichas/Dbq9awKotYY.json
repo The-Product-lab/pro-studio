@@ -1,0 +1,152 @@
+{
+ "ref": "Dbq9awKotYY",
+ "fuente": "dueño",
+ "sirve": true,
+ "por_que": "Referencia del dueño en español: silueta con contorno de neón cian, texto con glow cian y manuscrita pequeña encima, tarjetas 3D sobre la mesa; es el modelo del estilo (cian sobre azul-negro).",
+ "paleta": [
+  {
+   "hex": "#0A0E14",
+   "rol": "fondo azul-negro",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#00E5FF",
+   "rol": "cian neón: contornos, glow",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#4DEEEA",
+   "rol": "turquesa: brillos y texto",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#FFFFFF",
+   "rol": "destellos",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "sans condensada geométrica con glow cian",
+   "google": "Bebas Neue"
+  },
+  {
+   "rol": "script",
+   "como_es": "manuscrita pequeña sobre el título",
+   "google": "Caveat"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.5,
+   2.5
+  ],
+  "cortes_por_min": [
+   24,
+   40
+  ],
+  "gancho": "0–5 s: ejemplos/tarjetas de video sobre la mesa"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "palabra",
+  "y_aprox": 600,
+  "mayus": false,
+  "clave": "cian/blanco con glow y línea manuscrita arriba"
+ },
+ "persona": {
+  "tratamiento": "silueta recortada con outer glow cian sobre azul oscuro",
+  "encuadre": "perfil/plano medio"
+ },
+ "recursos": [
+  {
+   "nombre": "silueta con contorno neón",
+   "por_min": [
+    3,
+    8
+   ],
+   "dur_s": [
+    1.0,
+    3.0
+   ],
+   "cuando": "autoridad, momento de identidad",
+   "como": "persona silueta, contorno cian, fondo oscuro"
+  },
+  {
+   "nombre": "título con glow cian + manuscrita",
+   "por_min": [
+    8,
+    20
+   ],
+   "dur_s": [
+    0.8,
+    1.5
+   ],
+   "cuando": "cada frase clave",
+   "como": "texto cian con resplandor"
+  },
+  {
+   "nombre": "destello de 4 puntas",
+   "por_min": [
+    3,
+    8
+   ],
+   "dur_s": [
+    0.3,
+    0.6
+   ],
+   "cuando": "puntos de luz",
+   "como": "estrella blanca"
+  },
+  {
+   "nombre": "tarjeta de video en perspectiva",
+   "por_min": [
+    2,
+    5
+   ],
+   "dur_s": [
+    1.5,
+    2.5
+   ],
+   "cuando": "gancho con ejemplos",
+   "como": "pantallas proyectadas sobre la mesa"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   10,
+   20
+  ],
+  "tipos": [
+   "tarjetas 3D",
+   "destellos",
+   "ojos vectoriales"
+  ]
+ },
+ "imagenes": {
+  "tipo": "video proyectado/objetos emisivos",
+  "tratamiento": "grano fino, viñeta, luz volumétrica",
+  "cuantas": 4
+ },
+ "transiciones": [
+  "match cut",
+  "whip pan",
+  "fundido rápido a negro"
+ ],
+ "camara": [
+  "zoom de cámara"
+ ],
+ "sonido": [
+  "whoosh grave",
+  "risers",
+  "sub-drop en cada aparición"
+ ],
+ "si": [
+  "un solo color de luz",
+  "glow en texto y bordes"
+ ],
+ "no": [
+  "fondos claros"
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "estilo": "glass",
+ "identidad": "La toma real de la persona, con su color intacto, y encima piezas de interfaz de vidrio claro (píldoras, tarjetas con filo blanco, cifras que cuentan) que flotan a un lado del cuerpo y entran y salen desenfocándose, más subtítulos en dos tamaños con la palabra clave en un solo acento cálido.",
+ "referencias": [
+  "DfHu8VVoSU6 (busqueda; talking head + tarjeta de vidrio inclinada a un lado, píldora de título, remate amarillo 2×, entradas/salidas con desenfoque)",
+  "DfQLBvuzBIy (busqueda; tarjeta con filo blanco en un tercio, chat oscuro translúcido que se escribe en vivo, subtítulo de 2 pesos)",
+  "Def9pj5TWtA (busqueda; tarjeta-teléfono sobre el pecho con pop +3 % en cada cambio, lista-índice en vidrio ahumado, salida esmerilada)",
+  "DfMi_f0jseK (busqueda; widgets de vidrio en columnas a los lados de la cara, cifras que cuentan, vidrio esmerilado sobre el pecho)",
+  "DfPJRQciAXX (busqueda; prompt de vidrio que se escribe solo y tarjeta-resultado que brota desde un punto)",
+  "Dcb7aXrzmX7 (busqueda; tarjetas blancas en perspectiva 3D con cámara que deriva, contadores, cursor que hace clic, serif itálica en la cifra)",
+  "DfMf8-3O9Yj (busqueda; UI gris perla, tipeo con cursor, cascada de tarjetas cada 0,15–0,25 s, píldora de vidrio sobre foto)",
+  "DcZq3x2vf8l (busqueda; objetos de vidrio brillante que salen de su ventana y flotan sobre blanco, halos suaves detrás)",
+  "De35LSAOxYG (busqueda; texto que se escribe y se asienta de azul a negro, mezcla Inter + Playfair cursiva, barridos de vidrio azul)",
+  "DX_iGShgfL0 (busqueda; palabras que entran desenfocadas y se enfocan, píldoras que llegan vacías y se llenan, cifras gigantes que cuentan)",
+  "DfHpXsEiKFD (busqueda; tablero fijo con UNA tarjeta de muestra redondeada con filo blanco y sombra suave, ~1 por segundo)",
+  "DexINJEym0l (busqueda; tarjetas de vidrio esmerilado sobre pantalla emisiva, cascadas cada ~0,5 s, un acento por plano)"
+ ],
+ "descartadas": [],
+ "paleta": [
+  {
+   "hex": "#F4F2EA",
+   "rol": "vidrio claro: píldoras, tarjetas y filo de las tarjetas (blanco hueso al 85–95 %)"
+  },
+  {
+   "hex": "#1C1F24",
+   "rol": "vidrio oscuro: paneles de chat, prompt y barras tipo iOS (al 60–92 %)"
+  },
+  {
+   "hex": "#F2D872",
+   "rol": "acento único: palabra clave del subtítulo, cifra que cuenta, ítem activo"
+  },
+  {
+   "hex": "#FFFFFF",
+   "rol": "texto de subtítulo y etiquetas sobre la toma"
+  },
+  {
+   "hex": "#111111",
+   "rol": "texto dentro de las piezas claras"
+  },
+  {
+   "hex": "#EBEAED",
+   "rol": "fondo gris perla de las escenas de interfaz sin persona"
+  }
+ ],
+ "colores_extra_permitidos": [
+  "#3B82EA",
+  "#D97757",
+  "#22C55E",
+  "#EF4444",
+  "#8A8F8C"
+ ],
+ "tipografia": {
+  "display": "Inter",
+  "script": "Playfair Display",
+  "mono": "JetBrains Mono"
+ },
+ "ritmo": {
+  "cambio_cada_s": [
+   0.8,
+   2.5
+  ],
+  "gancho_cambio_cada_s": [
+   0.5,
+   1.5
+  ]
+ },
+ "subtitulos": {
+  "modo": "bloque",
+  "y": [
+   960,
+   1460
+  ]
+ },
+ "recursos_firma": [
+  {
+   "nombre": "píldora o tarjeta de vidrio redondeada (título de capítulo, prompt, dato, botón)",
+   "motor": {
+    "tipo": "etiqueta",
+    "radio": true
+   },
+   "por_min": [
+    4,
+    12
+   ]
+  },
+  {
+   "nombre": "remate: palabra clave grande en acento, delante y bajo la línea blanca chica",
+   "motor": {
+    "tipo": "texto",
+    "z": "frente"
+   },
+   "por_min": [
+    6,
+    15
+   ]
+  },
+  {
+   "nombre": "tarjeta de apoyo literal con filo blanco y sombra suave, chica y a un lado del cuerpo (rot ±3–6°)",
+   "motor": {
+    "tipo": "foto"
+   },
+   "por_min": [
+    3,
+    10
+   ]
+  },
+  {
+   "nombre": "cifra que cuenta hasta su valor",
+   "motor": {
+    "tipo": "contador"
+   },
+   "por_min": [
+    1,
+    3
+   ]
+  },
+  {
+   "nombre": "entrada que llega rápido y desacelera suave (sin rebote)",
+   "motor": {
+    "entra": "llega"
+   },
+   "por_min": [
+    3,
+    8
+   ]
+  }
+ ],
+ "apoyos_por_min": [
+  12,
+  40
+ ],
+ "imagenes_max": 20,
+ "transiciones": [
+  "corte seco con salto de escala 8–15 % (punch en el corte)",
+  "desenfoque: lo que sale se esmerila y se va en 1–2 cuadros justo antes del corte",
+  "pop de escala +3–4 % de la tarjeta cuando cambia su contenido",
+  "fundido a negro corto (~0,5 s) entre bloques grandes",
+  "flash blanco de 0,25 s solo para entrar al cierre"
+ ],
+ "si": [
+  "color de la toma intacto: el vidrio y el acento son lo único que se suma",
+  "piezas a un lado del cuerpo (30–35 % del ancho) o sobre el pecho, nunca sobre la cara; si la tarjeta va a la derecha, el subtítulo se corre a la izquierda",
+  "subtítulo en minúscula Inter Bold blanco con sombra suave y la palabra clave debajo en Inter Black acento, 2× más grande",
+  "toda pieza entra desde desenfocada y translúcida hasta nítida en 2–3 cuadros, con ease-out; sale igual al revés justo antes del corte",
+  "las interfaces se arman al ritmo de la voz: prompt que se escribe, chips que aparecen, cifras que cuentan",
+  "Playfair Display cursiva solo para la palabra emocional, una vez por bloque",
+  "varias piezas en cascada con 0,1–0,25 s de desfase; tarjetas que flotan y oscilan ±2°",
+  "cierre con piezas tipo Instagram (comentario con la palabra clave y botón Seguir que cambia de estado)"
+ ],
+ "no": [
+  "grano, viñeta, halation, aberración, scanlines, papel o semitono",
+  "rebotes elásticos, whip pans, temblor o zoom animado sobre la persona",
+  "más de un acento fuerte en el mismo plano; rosa/magenta o degradados arcoíris",
+  "recortar a la persona, ponerla delante de un collage o poner la palabra detrás de su cabeza",
+  "imágenes que llenen la pantalla o tapen la cara: el apoyo es una tarjeta chica",
+  "dos tarjetas de apoyo grandes a la vez",
+  "subtítulos en mayúsculas o con caja de fondo"
+ ],
+ "falta_en_motor": [
+  "vidrio real: desenfocar el video detrás de la píldora/tarjeta (15–30 px), relleno blanco 60–90 %, borde 1 px blanco 40 % y un brillo diagonal que la cruza al salir",
+  "entrada y salida «esmerilada» por elemento: desenfoque 8→0 px + fundido + subida de 1 % del alto en 2–3 cuadros (y al revés al salir, terminando justo en el corte)",
+  "subtítulo de dos jerarquías: línea blanca chica arriba y palabra clave del acento al doble de tamaño en su propia línea debajo, que entra con desenfoque y un glow suave",
+  "barra de prompt que se escribe letra a letra (12–20 letras/s) con cursor y botón de enviar; al enviar se vacía en el mismo cuadro",
+  "clip de video corriendo dentro de una tarjeta redondeada con filo blanco 3–4 px, sombra suave e inclinación 3–6° que oscila ±2°",
+  "pop de escala +3–4 % que vuelve en 2–3 cuadros cuando cambia el contenido de una tarjeta",
+  "cursor de mano que entra, hace clic y el botón cambia de estado (Seguir → Siguiendo)",
+  "tarjetas en perspectiva 3D (giro 10–20°) con cámara que deriva y parallax entre ellas"
+ ]
+}

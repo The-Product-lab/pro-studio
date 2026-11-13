@@ -1,0 +1,170 @@
+{
+ "Playfair": {
+  "regular": "PlayfairDisplay-VariableFont_wght.ttf",
+  "italica": "PlayfairDisplay-Italic-VariableFont_wght.ttf",
+  "licencia": "OFL",
+  "nota": "serif editorial clásica"
+ },
+ "Poppins": {
+  "regular": "Poppins-Bold.ttf",
+  "italica": "Poppins-BlackItalic.ttf",
+  "licencia": "OFL",
+  "nota": "geométrica moderna"
+ },
+ "Montserrat": {
+  "regular": "Montserrat-Black.ttf",
+  "italica": "Montserrat-Italic-VariableFont_wght.ttf",
+  "licencia": "OFL",
+  "nota": "grotesca fuerte"
+ },
+ "Exo 2": {
+  "regular": "Exo2-Medium.otf",
+  "italica": "Exo2-BlackItalic.otf",
+  "licencia": "OFL",
+  "nota": "tecnológica"
+ },
+ "Alex Brush": {
+  "regular": "AlexBrush-Regular.ttf",
+  "italica": "AlexBrush-Regular.ttf",
+  "licencia": "OFL",
+  "nota": "caligrafía de pincel"
+ },
+ "JetBrains Mono": {
+  "regular": "JetBrainsMono-500.woff2",
+  "italica": "JetBrainsMono-500.woff2",
+  "licencia": "OFL",
+  "nota": "mono técnica"
+ },
+ "Bebas Neue": {
+  "regular": "BebasNeue-Regular.ttf",
+  "italica": "BebasNeue-Regular.ttf",
+  "licencia": "OFL",
+  "nota": "condensada de titulares, solo mayúsculas"
+ },
+ "Anton": {
+  "regular": "Anton-Regular.ttf",
+  "italica": "Anton-Regular.ttf",
+  "licencia": "OFL",
+  "nota": "condensada extra pesada (pop, cine)"
+ },
+ "Inter": {
+  "regular": "Inter[opsz,wght].ttf",
+  "italica": "Inter-Italic[opsz,wght].ttf",
+  "licencia": "OFL",
+  "nota": "neo-grotesca neutra (swiss, glass)"
+ },
+ "EB Garamond": {
+  "regular": "EBGaramond[wght].ttf",
+  "italica": "EBGaramond-Italic[wght].ttf",
+  "licencia": "OFL",
+  "nota": "serif de imprenta old-style"
+ },
+ "Courier Prime": {
+  "regular": "CourierPrime-Bold.ttf",
+  "italica": "CourierPrime-Regular.ttf",
+  "licencia": "OFL",
+  "nota": "máquina de escribir"
+ },
+ "Permanent Marker": {
+  "regular": "PermanentMarker-Regular.ttf",
+  "italica": "PermanentMarker-Regular.ttf",
+  "licencia": "Apache-2.0",
+  "nota": "marcador a mano recto (no cursiva)"
+ },
+ "Bodoni Moda": {
+  "regular": "BodoniModa[opsz,wght].ttf",
+  "italica": "BodoniModa-Italic[opsz,wght].ttf",
+  "licencia": "OFL",
+  "nota": "didona de alto contraste (vox, imprenta)"
+ },
+ "Playfair Itálica": {
+  "regular": "PlayfairDisplay-Italic-VariableFont_wght.ttf",
+  "italica": "PlayfairDisplay-Italic-VariableFont_wght.ttf",
+  "licencia": "OFL",
+  "nota": "serif itálica funcional para conectores y palabra clave (no decorativa)"
+ },
+ "Oswald": {
+  "regular": "Oswald[wght].ttf",
+  "italica": "Oswald[wght].ttf",
+  "licencia": "OFL",
+  "nota": "Google Fonts (ofl/oswald)"
+ },
+ "Special Elite": {
+  "regular": "SpecialElite-Regular.ttf",
+  "italica": "SpecialElite-Regular.ttf",
+  "licencia": "Apache-2.0",
+  "nota": "Google Fonts (apache/specialelite)"
+ },
+ "Fjalla One": {
+  "regular": "FjallaOne-Regular.ttf",
+  "italica": "FjallaOne-Regular.ttf",
+  "licencia": "OFL",
+  "nota": "Google Fonts (ofl/fjallaone)"
+ },
+ "Caveat": {
+  "regular": "Caveat[wght].ttf",
+  "italica": "Caveat[wght].ttf",
+  "licencia": "OFL",
+  "nota": "Google Fonts (ofl/caveat)"
+ },
+ "Antonio": {
+  "regular": "Antonio[wght].ttf",
+  "italica": "Antonio[wght].ttf",
+  "licencia": "OFL",
+  "nota": "Google Fonts (ofl/antonio)"
+ },
+ "Barlow Condensed": {
+  "regular": "BarlowCondensed-Black.ttf",
+  "italica": "BarlowCondensed-BlackItalic.ttf",
+  "licencia": "OFL",
+  "nota": "Google Fonts (ofl/barlowcondensed)"
+ },
+ "Pathway Gothic One": {
+  "regular": "PathwayGothicOne-Regular.ttf",
+  "italica": "PathwayGothicOne-Regular.ttf",
+  "licencia": "OFL",
+  "nota": "Google Fonts (ofl/pathwaygothicone)"
+ },
+ "Gochi Hand": {
+  "regular": "GochiHand-Regular.ttf",
+  "italica": "GochiHand-Regular.ttf",
+  "licencia": "OFL",
+  "nota": "Google Fonts (ofl/gochihand)"
+ },
+ "Patrick Hand": {
+  "regular": "PatrickHand-Regular.ttf",
+  "italica": "PatrickHand-Regular.ttf",
+  "licencia": "OFL",
+  "nota": "Google Fonts (ofl/patrickhand)"
+ },
+ "Kalam": {
+  "regular": "Kalam-Bold.ttf",
+  "italica": "Kalam-Bold.ttf",
+  "licencia": "OFL",
+  "nota": "Google Fonts (ofl/kalam)"
+ },
+ "Playfair Display": {
+  "regular": "PlayfairDisplay[wght].ttf",
+  "italica": "PlayfairDisplay-Italic[wght].ttf",
+  "licencia": "OFL",
+  "nota": "Google Fonts (ofl/playfairdisplay)"
+ },
+ "Archivo Black": {
+  "regular": "ArchivoBlack-Regular.ttf",
+  "italica": "ArchivoBlack-Regular.ttf",
+  "licencia": "OFL",
+  "nota": "Google Fonts (ofl/archivoblack)"
+ },
+ "Inter Tight": {
+  "regular": "InterTight[wght].ttf",
+  "italica": "InterTight-Italic[wght].ttf",
+  "licencia": "OFL",
+  "nota": "Google Fonts (ofl/intertight)"
+ },
+ "Covered By Your Grace": {
+  "regular": "CoveredByYourGrace.ttf",
+  "italica": "CoveredByYourGrace.ttf",
+  "licencia": "OFL",
+  "nota": "Google Fonts (ofl/coveredbyyourgrace)"
+ }
+}

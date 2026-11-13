@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pro Studio">
+<title>Pro Studio</title>
+<link rel="stylesheet" href="/app/estilos.css">
+<link rel="stylesheet" href="/app/vista.css">
+<link rel="stylesheet" href="/app/pro.css">
+<style id="letras"></style>
+</head>
+<body>
+<div class="app">
+<header>
+  <div class="marca">Pro Studio</div>
+  <nav id="nav"><button data-v="mat" class="on">Material</button><button data-v="gui">Guion</button><button data-v="est">Estilo</button><button data-v="per">Personalizar</button><button data-v="exp">Exportar</button></nav>
+</header>
+<main>
+<section id="s-mat" class="on">
+  <div id="drop">
+    <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><path d="M12 16V4m0 0l-4 4m4-4l4 4M4 15v3a2 2 0 002 2h12a2 2 0 002-2v-3"/></svg>
+    <p>Suelta aquí el video que quieres editar</p>
+    <div class="fila"><button class="btn g" id="elegir">Elegir video</button></div>
+    <input type="file" id="file" accept="video/*" hidden>
+  </div>
+  <div id="lista"></div>
+</section>
+
+<section id="s-gui"><div class="gui">
+  <div class="gcab oculto" id="guiCab"><b>Tu guion</b><small>Toca una palabra para quitarla o devolverla · el círculo cambia la frase entera</small></div>
+  <div class="gya" id="guiYa" hidden>Este video ya lo habías subido: este es su guion guardado. <button class="btn g chico" id="guiDeCero">Empezar de cero</button></div>
+  <div class="gprob" id="guiProb" hidden></div>
+  <div id="guiTxt"></div>
+  <div class="gpie"><div class="cuenta" id="guiCuenta"></div><button class="btn g chico oculto" id="guiDeshacer" disabled>Deshacer</button><button class="btn g chico oculto" id="guiAplicar" disabled>Aplicar cambios</button><button class="btn" id="guiOk" disabled>Aprobar</button></div>
+</div></section>
+
+<section id="s-est">
+<div class="pro-sel seg" id="proSel"><button data-m="n" class="on">Estilos</button><button data-m="p">Estilos Pro</button></div>
+<div id="pro" class="oculto">
+  <div class="pro-barra">
+    <input id="proBuscar" type="search" placeholder="Buscar por tema o estilo" aria-label="Buscar estilo Pro">
+    <select id="proFamilia" aria-label="Familia"><option value="">Todas las familias</option></select>
+  </div>
+  <div id="proElegido" class="pro-elegido oculto"></div>
+  <div class="pro-cuerpo">
+    <div id="proGrilla" class="pro-grilla"></div>
+    <aside id="proCosto" class="pro-costo" hidden></aside>
+  </div>
+</div>
+<div id="est-sc">
+  <div class="seg conimg" id="conImg"><button data-i="1" class="on">Con imágenes</button><button data-i="0">Sin imágenes</button></div>
+  <div class="rw">
+    <button class="fl i" aria-label="Anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="riel" id="riel"></div>
+    <button class="fl d" aria-label="Siguiente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+</div>
+</section>
+
+<section id="s-per"><div class="per">
+  <div class="pv"><span class="pvt">Con la persona</span><div class="cq" id="cqA"></div></div>
+  <div class="pc"><div id="pcb"></div>
+    <div class="pbar"><button class="btn" id="pSeguir">Seguir</button></div>
+  </div>
+  <div class="pv"><span class="pvt">Apoyo: solo imagen y texto</span><div class="cq" id="cqB"></div></div>
+</div></section>
+
+<section id="s-exp">
+  <h1>Todo listo</h1>
+  <div class="res" id="res"></div>
+  <button class="btn" id="exportar" style="padding:0 44px;min-height:54px;font-size:17px">Exportar</button>
+  <div id="prog" class="oculto"><div id="paso"></div><div class="barra"><i id="pb"></i></div></div>
+  <div id="error" class="err oculto"></div>
+  <div id="final" class="oculto">
+    <video id="vf" controls playsinline></video>
+    <div class="pie" style="justify-content:center;margin-top:16px"><a class="btn" id="desc" download>Descargar</a><button class="btn g" id="finder">Mostrar en Finder</button></div>
+  </div>
+  <div class="corr" id="corr">
+    <h2 style="margin:0">Corregir</h2>
+    <textarea id="cTxt" rows="3" placeholder="Escribe la corrección"></textarea>
+    <div class="pie" style="justify-content:flex-end"><button class="btn chico" id="cEnviar">Enviar corrección</button></div>
+    <div id="cRes" class="aviso"></div>
+  </div>
+</section>
+</main>
+<footer class="abajo"><button id="bib">Biblioteca</button><span>Modo masivo · Próximamente</span></footer>
+</div>
+
+<div id="toast"></div>
+<div id="cargando"><span class="giro"></span><span id="cargandoTxt">Cargando…</span></div>
+<div id="velo" class="velo"></div>
+
+<div id="hojaBib" class="hoja" role="dialog" aria-label="Biblioteca">
+  <div class="asa"></div>
+  <div class="hcab"><b>Biblioteca</b><button class="x" id="bibCerrar" aria-label="Cerrar">×</button></div>
+  <div class="hcuerpo"><div id="bibLista"></div></div>
+</div>
+
+<script src="/app/vista.js"></script>
+<script src="/app/app.js"></script>
+<script src="/app/pro.js"></script>
+<script src="/app/actividad.js"></script>
+</body>
+</html>

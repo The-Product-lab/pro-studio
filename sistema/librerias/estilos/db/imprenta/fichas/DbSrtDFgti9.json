@@ -1,0 +1,158 @@
+{
+ "ref": "DbSrtDFgti9",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Documental vintage: recortes B/N en 2.5D, etiqueta serif cursiva sobre la escena, papel cuadriculado y grano. Cuenta como imprenta aunque el acento sea amarillo rotulador (#D4FF00), que NO se toma: contradice el rojo de los otros dos y es de otro estilo. Se usa para etiqueta, recorte B/N y papel.",
+ "paleta": [
+  {
+   "hex": "#E8E8E8",
+   "rol": "papel cuadriculado/gris",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#000000",
+   "rol": "tinta y viñeta",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#FFFFFF",
+   "rol": "texto sobre oscuro",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#D4FF00",
+   "rol": "rotulador (descartado del sistema)",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#7A1C1C",
+   "rol": "ladrillo, detalle de cierre",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "serif cursiva clásica tipo Times/Playfair, mediana a grande, centrada",
+   "google": "Playfair Display"
+  },
+  {
+   "rol": "cuerpo",
+   "como_es": "sans condensada pesada en escenas de obra",
+   "google": "Bebas Neue"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   2.0,
+   3.0
+  ],
+  "cortes_por_min": [
+   22,
+   26
+  ],
+  "gancho": "paradoja o dato impactante sobre un negocio real, 0-5 s"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "bloque",
+  "y_aprox": 1200,
+  "mayus": false,
+  "clave": "bloques de 2-4 palabras; óvalos de rotulador sobre cifras"
+ },
+ "persona": {
+  "tratamiento": "recorte B/N de alto contraste con sepia mínimo",
+  "encuadre": "sujeto al frente, texto en medio, fondo arquitectónico desaturado detrás"
+ },
+ "recursos": [
+  {
+   "nombre": "etiqueta serif cursiva sobre escena",
+   "por_min": [
+    8,
+    14
+   ],
+   "dur_s": [
+    1.0,
+    2.5
+   ],
+   "cuando": "nombrar la idea central de la frase",
+   "como": "fondo claro con texto serif itálica, centrado"
+  },
+  {
+   "nombre": "recorte B/N 2.5D",
+   "por_min": [
+    6,
+    10
+   ],
+   "dur_s": [
+    2.0,
+    3.0
+   ],
+   "cuando": "presentar protagonista",
+   "como": "cut-out con máscara sobre fondo desaturado"
+  },
+  {
+   "nombre": "óvalo dibujado a mano",
+   "por_min": [
+    3,
+    6
+   ],
+   "dur_s": [
+    0.5,
+    1.5
+   ],
+   "cuando": "cifras y dinero",
+   "como": "trazo que rodea la cifra (aquí amarillo; en el sistema, rojo)"
+  },
+  {
+   "nombre": "papel cuadriculado de fondo",
+   "por_min": [
+    3,
+    6
+   ],
+   "dur_s": [
+    1.0,
+    2.5
+   ],
+   "cuando": "pausas reflexivas",
+   "como": "hoja de cuaderno técnico"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   12,
+   20
+  ],
+  "tipos": [
+   "óvalos",
+   "garabatos",
+   "recorte",
+   "papel"
+  ]
+ },
+ "imagenes": {
+  "tipo": "fotos B/N de archivo, recortes",
+  "tratamiento": "grano 35 mm, viñeta, polvo",
+  "cuantas": 4
+ },
+ "transiciones": [
+  "wipe horizontal tipo página",
+  "corte en golpe de voz"
+ ],
+ "camara": [
+  "push-in/pull-out lento 2.5D"
+ ],
+ "sonido": [
+  "rotulador sobre papel",
+  "whoosh de papel"
+ ],
+ "si": [
+  "escena B/N con grano y viñeta",
+  "etiqueta serif cursiva",
+  "óvalos que señalan cifras"
+ ],
+ "no": [
+  "amarillo neón como acento",
+  "marco dorado de cuadro (solo CTA de este reel)"
+ ]
+}

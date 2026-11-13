@@ -1,0 +1,1103 @@
+{
+ "basico": {
+  "aberracion_corte": 0,
+  "acento": [
+   229,
+   37,
+   42
+  ],
+  "acento2": [
+   255,
+   255,
+   255
+  ],
+  "base": "pantalla",
+  "basico": {
+   "caja": false,
+   "caja_color": [
+    229,
+    37,
+    42
+   ],
+   "clave": [
+    229,
+    37,
+    42
+   ],
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "efecto": "corte"
+  },
+  "bloom": 0.0,
+  "borde": [
+   246,
+   241,
+   230
+  ],
+  "camara_apagar": [
+   "encuadre",
+   "flotar"
+  ],
+  "color": null,
+  "crt": 0.0,
+  "filtro": "ninguno",
+  "flotar": 0,
+  "flotar_elementos": 0,
+  "fuente": {
+   "italica": "Inter-Italic[opsz,wght].ttf",
+   "licencia": "OFL",
+   "nota": "neo-grotesca neutra (swiss, glass)",
+   "regular": "Inter[opsz,wght].ttf"
+  },
+  "grano": 0,
+  "imagenes": false,
+  "papel": [
+   11,
+   12,
+   16
+  ],
+  "persona_bn": false,
+  "roles": {
+   "display": {
+    "italica": "Inter-Italic[opsz,wght].ttf",
+    "licencia": "OFL",
+    "nota": "neo-grotesca neutra (swiss, glass)",
+    "regular": "Inter[opsz,wght].ttf"
+   },
+   "mono": {
+    "italica": "JetBrainsMono-500.woff2",
+    "licencia": "OFL",
+    "nota": "mono técnica",
+    "regular": "JetBrainsMono-500.woff2"
+   },
+   "script": {
+    "italica": "PlayfairDisplay-Italic-VariableFont_wght.ttf",
+    "licencia": "OFL",
+    "nota": "serif itálica funcional para conectores y palabra clave (no decorativa)",
+    "regular": "PlayfairDisplay-Italic-VariableFont_wght.ttf"
+   }
+  },
+  "sfx": 0.28,
+  "sin_director": true,
+  "sonido_paleta": "organico",
+  "subtitulo": "basico",
+  "tinta": [
+   11,
+   12,
+   16
+  ],
+  "tono": [
+   1.0,
+   0.97,
+   0.9
+  ],
+  "tope_imagenes": 8,
+  "transicion": "corte"
+ },
+ "cine": {
+  "aberracion_corte": 0,
+  "acento": [
+   160,
+   14,
+   13
+  ],
+  "acento2": [
+   242,
+   235,
+   218
+  ],
+  "base": "pantalla",
+  "basico": null,
+  "bloom": 0.35,
+  "borde": [
+   242,
+   235,
+   218
+  ],
+  "camara_apagar": [],
+  "color": null,
+  "crt": 0.0,
+  "filtro": "ninguno",
+  "flotar": 0,
+  "flotar_elementos": 0,
+  "fuente": {
+   "italica": "EBGaramond-Italic[wght].ttf",
+   "licencia": "OFL",
+   "nota": "serif de imprenta old-style",
+   "regular": "EBGaramond[wght].ttf"
+  },
+  "grano": 24,
+  "imagenes": false,
+  "papel": [
+   242,
+   235,
+   218
+  ],
+  "persona_bn": false,
+  "roles": {
+   "display": {
+    "italica": "EBGaramond-Italic[wght].ttf",
+    "licencia": "OFL",
+    "nota": "serif de imprenta old-style",
+    "regular": "EBGaramond[wght].ttf"
+   },
+   "mono": {
+    "italica": "CourierPrime-Regular.ttf",
+    "licencia": "OFL",
+    "nota": "máquina de escribir",
+    "regular": "CourierPrime-Bold.ttf"
+   },
+   "script": {
+    "italica": "EBGaramond-Italic[wght].ttf",
+    "licencia": "OFL",
+    "nota": "serif de imprenta old-style",
+    "regular": "EBGaramond[wght].ttf"
+   }
+  },
+  "sfx": 0.28,
+  "sin_director": false,
+  "sonido_paleta": "cine",
+  "subtitulo": "hud",
+  "tinta": [
+   6,
+   7,
+   7
+  ],
+  "tono": [
+   1.0,
+   0.93,
+   0.8
+  ],
+  "tope_imagenes": 8,
+  "transicion": "corte"
+ },
+ "glass": {
+  "aberracion_corte": 0,
+  "acento": [
+   217,
+   119,
+   87
+  ],
+  "acento2": [
+   139,
+   92,
+   246
+  ],
+  "base": "pantalla",
+  "basico": null,
+  "bloom": 0.0,
+  "borde": [
+   244,
+   242,
+   234
+  ],
+  "camara_apagar": [],
+  "color": null,
+  "crt": 0.0,
+  "filtro": "ninguno",
+  "flotar": 8,
+  "flotar_elementos": 0,
+  "fuente": {
+   "italica": "Inter-Italic[opsz,wght].ttf",
+   "licencia": "OFL",
+   "nota": "neo-grotesca neutra (swiss, glass)",
+   "regular": "Inter[opsz,wght].ttf"
+  },
+  "grano": 0,
+  "imagenes": true,
+  "papel": [
+   254,
+   255,
+   251
+  ],
+  "persona_bn": false,
+  "roles": {
+   "display": {
+    "italica": "Inter-Italic[opsz,wght].ttf",
+    "licencia": "OFL",
+    "nota": "neo-grotesca neutra (swiss, glass)",
+    "regular": "Inter[opsz,wght].ttf"
+   },
+   "mono": {
+    "italica": "JetBrainsMono-500.woff2",
+    "licencia": "OFL",
+    "nota": "mono técnica",
+    "regular": "JetBrainsMono-500.woff2"
+   },
+   "script": {
+    "italica": "PlayfairDisplay-Italic-VariableFont_wght.ttf",
+    "licencia": "OFL",
+    "nota": "serif itálica funcional para conectores y palabra clave (no decorativa)",
+    "regular": "PlayfairDisplay-Italic-VariableFont_wght.ttf"
+   }
+  },
+  "sfx": 0.28,
+  "sin_director": false,
+  "sonido_paleta": "organico",
+  "subtitulo": "tira",
+  "tinta": [
+   17,
+   17,
+   17
+  ],
+  "tono": [
+   1.0,
+   0.97,
+   0.9
+  ],
+  "tope_imagenes": 8,
+  "transicion": "corte"
+ },
+ "imprenta": {
+  "aberracion_corte": 0,
+  "acento": [
+   142,
+   28,
+   26
+  ],
+  "acento2": [
+   201,
+   164,
+   90
+  ],
+  "base": "pantalla",
+  "basico": null,
+  "bloom": 0.0,
+  "borde": [
+   239,
+   231,
+   214
+  ],
+  "camara_apagar": [],
+  "color": null,
+  "crt": 0.0,
+  "filtro": "ninguno",
+  "flotar": 4,
+  "flotar_elementos": 0,
+  "fuente": {
+   "italica": "BodoniModa-Italic[opsz,wght].ttf",
+   "licencia": "OFL",
+   "nota": "didona de alto contraste (vox, imprenta)",
+   "regular": "BodoniModa[opsz,wght].ttf"
+  },
+  "grano": 12,
+  "imagenes": true,
+  "papel": [
+   226,
+   214,
+   190
+  ],
+  "persona_bn": false,
+  "roles": {
+   "display": {
+    "italica": "BodoniModa-Italic[opsz,wght].ttf",
+    "licencia": "OFL",
+    "nota": "didona de alto contraste (vox, imprenta)",
+    "regular": "BodoniModa[opsz,wght].ttf"
+   },
+   "mono": {
+    "italica": "SpecialElite-Regular.ttf",
+    "licencia": "Apache-2.0",
+    "nota": "Google Fonts (apache/specialelite)",
+    "regular": "SpecialElite-Regular.ttf"
+   },
+   "script": {
+    "italica": "PlayfairDisplay-Italic-VariableFont_wght.ttf",
+    "licencia": "OFL",
+    "nota": "serif itálica funcional para conectores y palabra clave (no decorativa)",
+    "regular": "PlayfairDisplay-Italic-VariableFont_wght.ttf"
+   }
+  },
+  "sfx": 0.28,
+  "sin_director": false,
+  "sonido_paleta": "organico",
+  "subtitulo": "tira",
+  "tinta": [
+   30,
+   26,
+   22
+  ],
+  "tono": [
+   1.0,
+   0.95,
+   0.86
+  ],
+  "tope_imagenes": 8,
+  "transicion": "corte"
+ },
+ "julian-alborna": {
+  "aberracion_corte": 0,
+  "acento": [
+   226,
+   83,
+   31
+  ],
+  "acento2": [
+   230,
+   223,
+   210
+  ],
+  "base": "pantalla",
+  "basico": null,
+  "bloom": 0,
+  "borde": [
+   246,
+   241,
+   230
+  ],
+  "camara_apagar": [],
+  "color": null,
+  "crt": 0,
+  "filtro": "ninguno",
+  "flotar": 5,
+  "flotar_elementos": 4,
+  "fuente": {
+   "italica": "InterTight-Italic[wght].ttf",
+   "licencia": "OFL",
+   "nota": "Google Fonts (ofl/intertight)",
+   "regular": "InterTight[wght].ttf"
+  },
+  "grano": 16,
+  "imagenes": true,
+  "papel": [
+   220,
+   212,
+   198
+  ],
+  "persona_bn": false,
+  "roles": {
+   "display": {
+    "italica": "InterTight-Italic[wght].ttf",
+    "licencia": "OFL",
+    "nota": "Google Fonts (ofl/intertight)",
+    "regular": "InterTight[wght].ttf"
+   },
+   "mono": {
+    "italica": "CourierPrime-Regular.ttf",
+    "licencia": "OFL",
+    "nota": "máquina de escribir",
+    "regular": "CourierPrime-Bold.ttf"
+   },
+   "script": {
+    "italica": "CoveredByYourGrace.ttf",
+    "licencia": "OFL",
+    "nota": "Google Fonts (ofl/coveredbyyourgrace)",
+    "regular": "CoveredByYourGrace.ttf"
+   }
+  },
+  "sfx": 0.28,
+  "sin_director": false,
+  "sonido_paleta": "papel",
+  "subtitulo": "hud",
+  "tinta": [
+   23,
+   22,
+   20
+  ],
+  "tono": [
+   1.0,
+   0.97,
+   0.9
+  ],
+  "tope_imagenes": 3,
+  "transicion": "corte"
+ },
+ "julian-alborna-3d": {
+  "aberracion_corte": 3,
+  "acento": [
+   255,
+   230,
+   0
+  ],
+  "acento2": [
+   255,
+   255,
+   255
+  ],
+  "base": "pantalla",
+  "basico": null,
+  "bloom": 0.35,
+  "borde": [
+   246,
+   241,
+   230
+  ],
+  "camara_apagar": [
+   "pantalla"
+  ],
+  "color": null,
+  "crt": 0,
+  "filtro": "ninguno",
+  "flotar": 5,
+  "flotar_elementos": 3,
+  "fuente": {
+   "italica": "InterTight-Italic[wght].ttf",
+   "licencia": "OFL",
+   "nota": "Google Fonts (ofl/intertight)",
+   "regular": "InterTight[wght].ttf"
+  },
+  "grano": 18,
+  "imagenes": true,
+  "papel": [
+   7,
+   7,
+   7
+  ],
+  "persona_bn": false,
+  "roles": {
+   "display": {
+    "italica": "InterTight-Italic[wght].ttf",
+    "licencia": "OFL",
+    "nota": "Google Fonts (ofl/intertight)",
+    "regular": "InterTight[wght].ttf"
+   },
+   "mono": {
+    "italica": "JetBrainsMono-500.woff2",
+    "licencia": "OFL",
+    "nota": "mono técnica",
+    "regular": "JetBrainsMono-500.woff2"
+   },
+   "script": {
+    "italica": "InterTight-Italic[wght].ttf",
+    "licencia": "OFL",
+    "nota": "Google Fonts (ofl/intertight)",
+    "regular": "InterTight[wght].ttf"
+   }
+  },
+  "sfx": 0.28,
+  "sin_director": false,
+  "sonido_paleta": "digital",
+  "subtitulo": "hud",
+  "tinta": [
+   7,
+   7,
+   7
+  ],
+  "tono": [
+   1.0,
+   0.97,
+   0.9
+  ],
+  "tope_imagenes": 8,
+  "transicion": "corte"
+ },
+ "luminoso": {
+  "aberracion_corte": 0,
+  "acento": [
+   165,
+   189,
+   188
+  ],
+  "acento2": [
+   63,
+   212,
+   240
+  ],
+  "base": "pantalla",
+  "basico": null,
+  "bloom": 0.4,
+  "borde": [
+   246,
+   241,
+   230
+  ],
+  "camara_apagar": [],
+  "color": null,
+  "crt": 0.3,
+  "filtro": "ninguno",
+  "flotar": 8,
+  "flotar_elementos": 10,
+  "fuente": {
+   "italica": "Antonio[wght].ttf",
+   "licencia": "OFL",
+   "nota": "Google Fonts (ofl/antonio)",
+   "regular": "Antonio[wght].ttf"
+  },
+  "grano": 12,
+  "imagenes": false,
+  "papel": [
+   7,
+   20,
+   22
+  ],
+  "persona_bn": false,
+  "roles": {
+   "display": {
+    "italica": "Antonio[wght].ttf",
+    "licencia": "OFL",
+    "nota": "Google Fonts (ofl/antonio)",
+    "regular": "Antonio[wght].ttf"
+   },
+   "mono": {
+    "italica": "JetBrainsMono-500.woff2",
+    "licencia": "OFL",
+    "nota": "mono técnica",
+    "regular": "JetBrainsMono-500.woff2"
+   },
+   "script": {
+    "italica": "GochiHand-Regular.ttf",
+    "licencia": "OFL",
+    "nota": "Google Fonts (ofl/gochihand)",
+    "regular": "GochiHand-Regular.ttf"
+   }
+  },
+  "sfx": 0.28,
+  "sin_director": false,
+  "sonido_paleta": "organico",
+  "subtitulo": "hud",
+  "tinta": [
+   7,
+   20,
+   22
+  ],
+  "tono": [
+   1.0,
+   0.97,
+   0.9
+  ],
+  "tope_imagenes": 8,
+  "transicion": "desenfoque"
+ },
+ "maestro": {
+  "aberracion_corte": 0,
+  "acento": [
+   217,
+   147,
+   37
+  ],
+  "acento2": [
+   246,
+   248,
+   245
+  ],
+  "base": "pantalla",
+  "basico": null,
+  "bloom": 0.25,
+  "borde": [
+   246,
+   248,
+   245
+  ],
+  "camara_apagar": [],
+  "color": null,
+  "crt": 0.0,
+  "filtro": "ninguno",
+  "flotar": 0,
+  "flotar_elementos": 2,
+  "fuente": {
+   "italica": "Anton-Regular.ttf",
+   "licencia": "OFL",
+   "nota": "condensada extra pesada (pop, cine)",
+   "regular": "Anton-Regular.ttf"
+  },
+  "grano": 16,
+  "imagenes": true,
+  "papel": [
+   246,
+   248,
+   245
+  ],
+  "persona_bn": false,
+  "roles": {
+   "display": {
+    "italica": "Anton-Regular.ttf",
+    "licencia": "OFL",
+    "nota": "condensada extra pesada (pop, cine)",
+    "regular": "Anton-Regular.ttf"
+   },
+   "mono": {
+    "italica": "JetBrainsMono-500.woff2",
+    "licencia": "OFL",
+    "nota": "mono técnica",
+    "regular": "JetBrainsMono-500.woff2"
+   },
+   "script": {
+    "italica": "PlayfairDisplay-Italic-VariableFont_wght.ttf",
+    "licencia": "OFL",
+    "nota": "serif itálica funcional para conectores y palabra clave (no decorativa)",
+    "regular": "PlayfairDisplay-Italic-VariableFont_wght.ttf"
+   }
+  },
+  "sfx": 0.28,
+  "sin_director": false,
+  "sonido_paleta": "organico",
+  "subtitulo": "hud",
+  "tinta": [
+   23,
+   25,
+   22
+  ],
+  "tono": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "tope_imagenes": 4,
+  "transicion": "corte"
+ },
+ "maestro-calma": {
+  "aberracion_corte": 0,
+  "acento": [
+   217,
+   147,
+   37
+  ],
+  "acento2": [
+   246,
+   248,
+   245
+  ],
+  "base": "pantalla",
+  "basico": null,
+  "bloom": 0.2,
+  "borde": [
+   246,
+   248,
+   245
+  ],
+  "camara_apagar": [],
+  "color": null,
+  "crt": 0.0,
+  "filtro": "ninguno",
+  "flotar": 7,
+  "flotar_elementos": 0,
+  "fuente": {
+   "italica": "Anton-Regular.ttf",
+   "licencia": "OFL",
+   "nota": "condensada extra pesada (pop, cine)",
+   "regular": "Anton-Regular.ttf"
+  },
+  "grano": 16,
+  "imagenes": true,
+  "papel": [
+   246,
+   248,
+   245
+  ],
+  "persona_bn": false,
+  "roles": {
+   "display": {
+    "italica": "Anton-Regular.ttf",
+    "licencia": "OFL",
+    "nota": "condensada extra pesada (pop, cine)",
+    "regular": "Anton-Regular.ttf"
+   },
+   "mono": {
+    "italica": "JetBrainsMono-500.woff2",
+    "licencia": "OFL",
+    "nota": "mono técnica",
+    "regular": "JetBrainsMono-500.woff2"
+   },
+   "script": {
+    "italica": "PlayfairDisplay-Italic-VariableFont_wght.ttf",
+    "licencia": "OFL",
+    "nota": "serif itálica funcional para conectores y palabra clave (no decorativa)",
+    "regular": "PlayfairDisplay-Italic-VariableFont_wght.ttf"
+   }
+  },
+  "sfx": 0.28,
+  "sin_director": false,
+  "sonido_paleta": "organico",
+  "subtitulo": "hud",
+  "tinta": [
+   23,
+   25,
+   22
+  ],
+  "tono": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "tope_imagenes": 8,
+  "transicion": "corte"
+ },
+ "pop": {
+  "aberracion_corte": 0,
+  "acento": [
+   227,
+   20,
+   30
+  ],
+  "acento2": [
+   65,
+   68,
+   94
+  ],
+  "base": "pantalla",
+  "basico": null,
+  "bloom": 0.0,
+  "borde": [
+   244,
+   242,
+   236
+  ],
+  "camara_apagar": [],
+  "color": null,
+  "crt": 0.0,
+  "filtro": "ninguno",
+  "flotar": 0,
+  "flotar_elementos": 0,
+  "fuente": {
+   "italica": "Anton-Regular.ttf",
+   "licencia": "OFL",
+   "nota": "condensada extra pesada (pop, cine)",
+   "regular": "Anton-Regular.ttf"
+  },
+  "grano": 9,
+  "imagenes": true,
+  "papel": [
+   128,
+   17,
+   29
+  ],
+  "persona_bn": false,
+  "roles": {
+   "display": {
+    "italica": "Anton-Regular.ttf",
+    "licencia": "OFL",
+    "nota": "condensada extra pesada (pop, cine)",
+    "regular": "Anton-Regular.ttf"
+   },
+   "mono": {
+    "italica": "ArchivoBlack-Regular.ttf",
+    "licencia": "OFL",
+    "nota": "Google Fonts (ofl/archivoblack)",
+    "regular": "ArchivoBlack-Regular.ttf"
+   },
+   "script": {
+    "italica": "GochiHand-Regular.ttf",
+    "licencia": "OFL",
+    "nota": "Google Fonts (ofl/gochihand)",
+    "regular": "GochiHand-Regular.ttf"
+   }
+  },
+  "sfx": 0.28,
+  "sin_director": false,
+  "sonido_paleta": "organico",
+  "subtitulo": "tira",
+  "tinta": [
+   29,
+   26,
+   28
+  ],
+  "tono": [
+   1.0,
+   0.97,
+   0.9
+  ],
+  "tope_imagenes": 8,
+  "transicion": "corte"
+ },
+ "prestiggio": {
+  "aberracion_corte": 0,
+  "acento": [
+   168,
+   50,
+   63
+  ],
+  "acento2": [
+   201,
+   80,
+   92
+  ],
+  "base": "pantalla",
+  "basico": null,
+  "bloom": 0,
+  "borde": [
+   247,
+   241,
+   238
+  ],
+  "camara_apagar": [],
+  "color": null,
+  "crt": 0,
+  "filtro": "ninguno",
+  "flotar": 6,
+  "flotar_elementos": 0,
+  "fuente": {
+   "italica": "Inter-Italic[opsz,wght].ttf",
+   "licencia": "OFL",
+   "nota": "neo-grotesca neutra (swiss, glass)",
+   "regular": "Inter[opsz,wght].ttf"
+  },
+  "grano": 8,
+  "imagenes": false,
+  "papel": [
+   13,
+   10,
+   10
+  ],
+  "persona_bn": false,
+  "roles": {
+   "display": {
+    "italica": "Inter-Italic[opsz,wght].ttf",
+    "licencia": "OFL",
+    "nota": "neo-grotesca neutra (swiss, glass)",
+    "regular": "Inter[opsz,wght].ttf"
+   },
+   "mono": {
+    "italica": "JetBrainsMono-500.woff2",
+    "licencia": "OFL",
+    "nota": "mono técnica",
+    "regular": "JetBrainsMono-500.woff2"
+   },
+   "script": {
+    "italica": "PlayfairDisplay-Italic-VariableFont_wght.ttf",
+    "licencia": "OFL",
+    "nota": "serif itálica funcional para conectores y palabra clave (no decorativa)",
+    "regular": "PlayfairDisplay-Italic-VariableFont_wght.ttf"
+   }
+  },
+  "sfx": 0.26,
+  "sin_director": false,
+  "sonido_paleta": "organico",
+  "subtitulo": "hud",
+  "tinta": [
+   13,
+   10,
+   10
+  ],
+  "tono": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "tope_imagenes": 2,
+  "transicion": "corte"
+ },
+ "swiss": {
+  "aberracion_corte": 0,
+  "acento": [
+   0,
+   47,
+   167
+  ],
+  "acento2": [
+   185,
+   192,
+   210
+  ],
+  "base": "pantalla",
+  "basico": null,
+  "bloom": 0,
+  "borde": [
+   246,
+   241,
+   230
+  ],
+  "camara_apagar": [],
+  "color": null,
+  "crt": 0,
+  "filtro": "ninguno",
+  "flotar": 3,
+  "flotar_elementos": 0,
+  "fuente": {
+   "italica": "Inter-Italic[opsz,wght].ttf",
+   "licencia": "OFL",
+   "nota": "neo-grotesca neutra (swiss, glass)",
+   "regular": "Inter[opsz,wght].ttf"
+  },
+  "grano": 5,
+  "imagenes": true,
+  "papel": [
+   246,
+   244,
+   246
+  ],
+  "persona_bn": false,
+  "roles": {
+   "display": {
+    "italica": "Inter-Italic[opsz,wght].ttf",
+    "licencia": "OFL",
+    "nota": "neo-grotesca neutra (swiss, glass)",
+    "regular": "Inter[opsz,wght].ttf"
+   },
+   "mono": {
+    "italica": "JetBrainsMono-500.woff2",
+    "licencia": "OFL",
+    "nota": "mono técnica",
+    "regular": "JetBrainsMono-500.woff2"
+   },
+   "script": {
+    "italica": "PlayfairDisplay-Italic[wght].ttf",
+    "licencia": "OFL",
+    "nota": "Google Fonts (ofl/playfairdisplay)",
+    "regular": "PlayfairDisplay[wght].ttf"
+   }
+  },
+  "sfx": 0.28,
+  "sin_director": false,
+  "sonido_paleta": "organico",
+  "subtitulo": "hud",
+  "tinta": [
+   17,
+   17,
+   17
+  ],
+  "tono": [
+   1.0,
+   0.97,
+   0.9
+  ],
+  "tope_imagenes": 8,
+  "transicion": "corte"
+ },
+ "vox": {
+  "aberracion_corte": 0,
+  "acento": [
+   232,
+   194,
+   30
+  ],
+  "acento2": [
+   179,
+   34,
+   30
+  ],
+  "base": "pantalla",
+  "basico": null,
+  "bloom": 0.0,
+  "borde": [
+   239,
+   231,
+   214
+  ],
+  "camara_apagar": [],
+  "color": null,
+  "crt": 0.0,
+  "filtro": "ninguno",
+  "flotar": 4,
+  "flotar_elementos": 0,
+  "fuente": {
+   "italica": "Poppins-BlackItalic.ttf",
+   "licencia": "OFL",
+   "nota": "geométrica moderna",
+   "regular": "Poppins-Bold.ttf"
+  },
+  "grano": 11,
+  "imagenes": true,
+  "papel": [
+   161,
+   143,
+   124
+  ],
+  "persona_bn": false,
+  "roles": {
+   "display": {
+    "italica": "Poppins-BlackItalic.ttf",
+    "licencia": "OFL",
+    "nota": "geométrica moderna",
+    "regular": "Poppins-Bold.ttf"
+   },
+   "mono": {
+    "italica": "EBGaramond-Italic[wght].ttf",
+    "licencia": "OFL",
+    "nota": "serif de imprenta old-style",
+    "regular": "EBGaramond[wght].ttf"
+   },
+   "script": {
+    "italica": "PlayfairDisplay-Italic-VariableFont_wght.ttf",
+    "licencia": "OFL",
+    "nota": "serif itálica funcional para conectores y palabra clave (no decorativa)",
+    "regular": "PlayfairDisplay-Italic-VariableFont_wght.ttf"
+   }
+  },
+  "sfx": 0.28,
+  "sin_director": false,
+  "sonido_paleta": "organico",
+  "subtitulo": "tira",
+  "tinta": [
+   24,
+   22,
+   18
+  ],
+  "tono": [
+   1.0,
+   0.94,
+   0.84
+  ],
+  "tope_imagenes": 8,
+  "transicion": "corte"
+ },
+ "lemo": {
+  "base": "pantalla",
+  "persona_bn": false,
+  "acento": [
+   160,
+   14,
+   13
+  ],
+  "acento2": [
+   242,
+   235,
+   218
+  ],
+  "tinta": [
+   6,
+   7,
+   7
+  ],
+  "papel": [
+   242,
+   235,
+   218
+  ],
+  "borde": [
+   242,
+   235,
+   218
+  ],
+  "tono": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "grano": 0,
+  "fuente": {
+   "regular": "EBGaramond[wght].ttf",
+   "italica": "EBGaramond-Italic[wght].ttf",
+   "licencia": "OFL",
+   "nota": "serif de imprenta old-style"
+  },
+  "roles": {
+   "display": {
+    "regular": "EBGaramond[wght].ttf",
+    "italica": "EBGaramond-Italic[wght].ttf",
+    "licencia": "OFL",
+    "nota": "serif de imprenta old-style"
+   },
+   "script": {
+    "regular": "EBGaramond[wght].ttf",
+    "italica": "EBGaramond-Italic[wght].ttf",
+    "licencia": "OFL",
+    "nota": "serif de imprenta old-style"
+   },
+   "mono": {
+    "regular": "CourierPrime-Bold.ttf",
+    "italica": "CourierPrime-Regular.ttf",
+    "licencia": "OFL",
+    "nota": "máquina de escribir"
+   }
+  },
+  "subtitulo": "hud",
+  "basico": null,
+  "crt": 0.0,
+  "aberracion_corte": 0,
+  "transicion": "corte",
+  "flotar": 40,
+  "flotar_elementos": 0,
+  "bloom": 0,
+  "sfx": 0.28,
+  "imagenes": true,
+  "tope_imagenes": 4,
+  "sonido_paleta": "organico",
+  "camara_apagar": [],
+  "sin_director": false,
+  "filtro": "ninguno",
+  "color": null
+ }
+}

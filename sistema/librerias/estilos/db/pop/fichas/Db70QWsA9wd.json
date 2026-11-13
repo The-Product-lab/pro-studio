@@ -1,0 +1,142 @@
+{
+ "ref": "Db70QWsA9wd",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Portada: fondo rojo saturado con rayos radiales blancos, persona recortada con borde blanco, trama halftone y cajas de texto. Collage pop impreso.",
+ "paleta": [
+  {
+   "hex": "#A10B1C",
+   "rol": "rojo carmesí de fondo",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#FFFFFF",
+   "rol": "texto y borde de sticker",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#111111",
+   "rol": "tinta y trama",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#1D9BF0",
+   "rol": "azul de contraste",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#F4D03F",
+   "rol": "amarillo puntual",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "sans geométrica negra en minúsculas",
+   "google": "Inter"
+  },
+  {
+   "rol": "cuerpo",
+   "como_es": "serif de periódico en negrita",
+   "google": "Playfair Display"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.5,
+   2.5
+  ],
+  "cortes_por_min": [
+   20,
+   25
+  ],
+  "gancho": "0-2 s: persona recortada sobre rayos rojos con objeto icónico"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "bloque",
+  "y_aprox": 1400,
+  "mayus": false,
+  "clave": "caja roja con texto blanco"
+ },
+ "persona": {
+  "tratamiento": "recorte con borde blanco y trama halftone",
+  "encuadre": "busto grande a un lado"
+ },
+ "recursos": [
+  {
+   "nombre": "rayos radiales rojos",
+   "por_min": [
+    4,
+    8
+   ],
+   "dur_s": [
+    1.0,
+    3.0
+   ],
+   "cuando": "presentar sujeto",
+   "como": "líneas blancas desde un punto"
+  },
+  {
+   "nombre": "caja de texto roja",
+   "por_min": [
+    8,
+    15
+   ],
+   "dur_s": [
+    0.5,
+    1.2
+   ],
+   "cuando": "verbo o giro dramático",
+   "como": "texto blanco sobre rojo"
+  },
+  {
+   "nombre": "hilos rojos conectados",
+   "por_min": [
+    2,
+    4
+   ],
+   "dur_s": [
+    1.0,
+    2.0
+   ],
+   "cuando": "relacionar ideas",
+   "como": "líneas entre elementos"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   12,
+   22
+  ],
+  "tipos": [
+   "periódico animado",
+   "círculo a mano",
+   "sticker con borde"
+  ]
+ },
+ "imagenes": {
+  "tipo": "recortes de persona y objetos",
+  "tratamiento": "halftone permanente, borde blanco",
+  "cuantas": 4
+ },
+ "transiciones": [
+  "corte duro",
+  "zoom brusco",
+  "rasgado de papel"
+ ],
+ "camara": [
+  "zoom al beat"
+ ],
+ "sonido": [
+  "tempo del beat"
+ ],
+ "si": [
+  "rojo dominante",
+  "halftone sobre fotos"
+ ],
+ "no": [
+  "fondo liso sin rayos ni trama"
+ ]
+}

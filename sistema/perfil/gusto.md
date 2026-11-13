@@ -1,0 +1,14 @@
+# Gusto de Pablo (lo escribe el Agente Editor; máximo 40 líneas, la nueva reemplaza a la que contradice)
+- 2026-11-10 (regla de Opus): el estilo y su ejemplo son un REFERENTE; el director crea piezas, ideas y movimientos nuevos dentro de su identidad. La compuerta solo pone techos y rechaza defectos; nunca cuotas ni recetas.
+- 2026-11-11 (cámara, regla única en reglas.json › camara_fija): la cámara es FIJA en todos los estilos: sin zoom, viaje, flotación, reencuadre ni golpes; la toma sale completa con su encuadre original («los movimientos de cámara lo que están haciendo es dañando el video… dejas todo estático»).
+- 2026-11-10 (todos los estilos): UN MOVIMIENTO A LA VEZ: se mueve lo que entra (el texto y, si hay, una imagen animada); ningún elemento de texto flota más de `flotar_elementos_max` px (las fotos, recortes y clips quedan exentos y sí flotan con su `flotar`). Luminoso incluido.
+- 2026-11-10 (imágenes): MENOS IMÁGENES; la vida la dan los elementos tipográficos y las animaciones. El tope de cada estilo vive en su preset (3D tiene excepción escrita). La imagen es parte del diseño (fondo o fundida), salvo Glass, donde la foto va en miniatura dentro de una tarjeta de vidrio, y los estilos con `apoyo_integrado` en falso.
+- 2026-11-10 (inicio): desde el cuadro 0 la persona y el texto o caja del gancho (`gancho: true`); en los primeros segundos nada más entra ni se mueve.
+- 2026-11-10 (Glass): una sola cosa en pantalla a la vez además del subtítulo (la tarjeta y su texto son un grupo); la cámara, como en todos los estilos, es fija.
+- 2026-11-10 (sonido por estilo): orgánico (papel grabado) en la mayoría; digital en Glass, Prestiggio, Swiss y 3D; papel + click de máquina real en Imprenta y Julián; Cine con su paleta; Básico con efectos suaves en los cortes.
+- 2026-11-10 (legibilidad, todos los estilos): nada de palabras diminutas, ni en las etiquetas del b-roll; en pantalla completa o fondo sólido la palabra o frase principal domina el cuadro (la compuerta mide los pisos).
+- 2026-11-04 (revisión, maestro): BALANCE: pocos elementos por escena, cada uno con razón y lugar; nada puesto por poner. Los golpes de efecto (halftone, flash, glitch) son rapidísimos.
+- 2026-11-04 (C-0002, swiss): NADA DE ZOOM IN + ZOOM OUT juntos ni zooms bruscos: todo zoom acelera y desacelera con calma; la entrada `zoom` casi nunca, mejor corte o pixel.
+- 2026-11-04 (C-0003, todos los estilos): TODO APOYO ANIMADO: ninguna foto, recorte o clip queda quieto; durante toda su vida se acerca y flota con su propio `flotar`, además de su entrada.
+- 2026-11-04 (taller): movimientos que DESACELERAN suave (entrada `llega`), pulidos y elegantes. Las transiciones se mezclan (la variedad lo mide); `transicion` del preset es solo la de por defecto.
+- 2026-11-04 (lote del workshop): MENOS CANTIDAD DE EDICIÓN, mismo estilo: menos elementos y efectos a la vez, más respiro; la persona habla más tiempo sin nada encima.

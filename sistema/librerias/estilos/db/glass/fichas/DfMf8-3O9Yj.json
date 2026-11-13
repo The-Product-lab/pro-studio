@@ -1,0 +1,170 @@
+{
+ "ref": "DfMf8-3O9Yj",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Único con vidrio real: cápsulas blancas 60-90% de opacidad con desenfoque de fondo 15-30 px y borde translúcido de 1 px, flotando sobre UI y sobre video lifestyle. Es anuncio de producto (no talking-head), pero muestra el recurso del estilo.",
+ "paleta": [
+  {
+   "hex": "#F2F2F5",
+   "rol": "canvas claro",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#FFFFFF",
+   "rol": "vidrio (60-90% opacidad)",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#121214",
+   "rol": "texto y modo oscuro/IDE",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#2563EB",
+   "rol": "botón primario / acción",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#22C55E",
+   "rol": "estado ok",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#EF4444",
+   "rol": "estado error",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#F59E0B",
+   "rol": "estado aviso",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "sans geométrica moderna, medium/bold, tipo SF Pro",
+   "google": "Inter"
+  },
+  {
+   "rol": "mono",
+   "como_es": "monoespaciada limpia para código",
+   "google": "JetBrains Mono"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.0,
+   2.0
+  ],
+  "cortes_por_min": [
+   30,
+   34
+  ],
+  "gancho": "orbe difuso que se vuelve avatar y burbuja de prompt en 0-3 s"
+ },
+ "subtitulos": {
+  "hay": false,
+  "modo": "ninguno",
+  "y_aprox": 0,
+  "mayus": false,
+  "clave": "el texto es parte de la UI (prompts tecleados, cápsulas); sin subtítulos de voz"
+ },
+ "persona": {
+  "tratamiento": "video lifestyle de baja saturación y calidez natural como capa inferior",
+  "encuadre": "plano abierto de home-office; la persona no es protagonista"
+ },
+ "recursos": [
+  {
+   "nombre": "cápsula de vidrio",
+   "por_min": [
+    8,
+    14
+   ],
+   "dur_s": [
+    1.0,
+    1.5
+   ],
+   "cuando": "para destacar un copy sobre video real o UI",
+   "como": "blanco 60-90%, blur 15-30 px, radio 16-28 px, borde 1 px blanco 40%"
+  },
+  {
+   "nombre": "grid de tarjetas flotantes",
+   "por_min": [
+    3,
+    6
+   ],
+   "dur_s": [
+    2.0,
+    2.0
+   ],
+   "cuando": "mostrar capacidades o datos modulares",
+   "como": "entran en cascada con stagger 0,05 s y rotación 2.5D de ±5°"
+  },
+  {
+   "nombre": "barra de prompt tecleada",
+   "por_min": [
+    2,
+    4
+   ],
+   "dur_s": [
+    1.0,
+    1.0
+   ],
+   "cuando": "puntos de decisión",
+   "como": "texto tecleado con cursor y botón enviar"
+  },
+  {
+   "nombre": "cursor con clic",
+   "por_min": [
+    2,
+    4
+   ],
+   "dur_s": [
+    0.5,
+    1.0
+   ],
+   "cuando": "transición al CTA",
+   "como": "cursor vectorial que pulsa y rebota"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   10,
+   16
+  ],
+  "tipos": [
+   "tarjetas UI",
+   "píldoras de estado",
+   "cursor",
+   "orbe degradado"
+  ]
+ },
+ "imagenes": {
+  "tipo": "video lifestyle y mockups de UI",
+  "tratamiento": "baja saturación, sombras difusas en eje Y",
+  "cuantas": 2
+ },
+ "transiciones": [
+  "corte lógico de flujo de usuario",
+  "zoom out con despliegue en perspectiva 2.5D"
+ ],
+ "camara": [
+  "rotación 3D suave de las tarjetas"
+ ],
+ "sonido": [
+  "clics mecánicos",
+  "whooshes suaves",
+  "tecleo"
+ ],
+ "si": [
+  "desenfoque de fondo real en cada panel de vidrio",
+  "alternar claro (front) y oscuro (código)",
+  "tarjetas en cascada"
+ ],
+ "no": [
+  "sombras duras",
+  "paneles opacos sin blur",
+  "más de una cosa dominante a la vez"
+ ]
+}

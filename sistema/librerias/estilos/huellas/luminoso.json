@@ -1,0 +1,179 @@
+{
+ "estilo": "luminoso",
+ "identidad": "Toma oscura de cine con un solo color de luz que complementa la escena: las palabras viven DENTRO del espacio (detrás de la persona, en el aire muerto, con brillo, profundidad y volumen) y cada apoyo se funde con el fondo como si emitiera luz, todo pegado en una sola composición.",
+ "referencias": [
+  "DfKZ9g_J3x_ (marcado por Pablo: «el color lo es todo», palabras que son parte del espacio)",
+  "DfM7ZyruNRU (marcado por Pablo: muchos elementos integrados en una sola composición)",
+  "Dbq9awKotYY (dueño)",
+  "DfFNu8XAHWL (búsqueda: receta de glow, halation y grano)"
+ ],
+ "descartadas": [],
+ "paleta": [
+  {
+   "hex": "#4DEEEA",
+   "rol": "acento cian (por defecto: complementa la toma cálida de Pablo): glow de texto, contornos, chispas"
+  },
+  {
+   "hex": "#A5BDBC",
+   "rol": "texto cian pálido con glow (Dbq9)"
+  },
+  {
+   "hex": "#135F70",
+   "rol": "cian profundo: halo, pantallas, texto sólido sobre muro claro"
+  },
+  {
+   "hex": "#9B090A",
+   "rol": "acento rojo sangre para la palabra clave (DfKZ9; otro reel, nunca junto al cian)"
+  },
+  {
+   "hex": "#B3202A",
+   "rol": "rojo serif de palabra gigante detrás (DfM7)"
+  },
+  {
+   "hex": "#F3EC2F",
+   "rol": "acento amarillo con halo cálido (DfFNu8; otro reel)"
+  },
+  {
+   "hex": "#7CF08A",
+   "rol": "verde neón: palabra de acción y CTA (DfM7; otro reel)"
+  },
+  {
+   "hex": "#D9A93F",
+   "rol": "oro con bloom para premio/resultado (DfM7; detalle)"
+  }
+ ],
+ "colores_extra_permitidos": [
+  "#060907",
+  "#071416",
+  "#0A2B33",
+  "#0E0A0E",
+  "#201A1D",
+  "#431917",
+  "#1E1E1B",
+  "#052B18",
+  "#041005",
+  "#6F4E3C",
+  "#727772",
+  "#CDCFC5",
+  "#DAD0B9",
+  "#E8EEEE",
+  "#F2F5F5",
+  "#FFFFFF",
+  "#FFF6D6"
+ ],
+ "tipografia": {
+  "display": "Fjalla One",
+  "clave": "Inter",
+  "serif": "Bodoni Moda",
+  "script": "Caveat",
+  "cuerpo": "Poppins"
+ },
+ "ritmo": {
+  "cambio_cada_s": [
+   0.8,
+   2.5
+  ],
+  "gancho_cambio_cada_s": [
+   0.4,
+   1.5
+  ]
+ },
+ "subtitulos": {
+  "modo": "palabra",
+  "y": [
+   300,
+   1100
+  ]
+ },
+ "recursos_firma": [
+  {
+   "nombre": "texto con luz completa (glow, haze, halation)",
+   "motor": {
+    "tipo": "texto",
+    "luz": true
+   },
+   "por_min": [
+    6,
+    16
+   ]
+  },
+  {
+   "nombre": "apoyo sutil fundido con el fondo",
+   "motor": {
+    "tipo": "foto",
+    "fundir": true
+   },
+   "por_min": [
+    2,
+    5
+   ]
+  },
+  {
+   "nombre": "destello de luz al entrar",
+   "motor": {
+    "en": "escenas",
+    "entrada": "flash"
+   },
+   "por_min": [
+    2,
+    6
+   ]
+  },
+  {
+   "nombre": "muro de luz petróleo",
+   "motor": {
+    "en": "escenas",
+    "persona.fondo": "muro-luz"
+   },
+   "por_min": [
+    1,
+    3
+   ]
+  }
+ ],
+ "apoyos_por_min": [
+  12,
+  28
+ ],
+ "imagenes_max": 20,
+ "transiciones": [
+  "desenfoque (rack focus) en cada corte: sale borroso y entra enfocando",
+  "destello blanco que revela un panel o apoyo",
+  "corte seco en acento de voz",
+  "ráfaga de cortes de ~0,2 s solo en la frase de tensión",
+  "inversión a muro claro una vez por reel (frase de giro)"
+ ],
+ "si": [
+  "un solo color de luz por reel, elegido como complemento del color dominante de la toma",
+  "la frase se arma palabra a palabra y la palabra clave va más grande, más pesada y del color de acento",
+  "palabras en el espacio muerto sobre o junto a la cabeza, detrás de la persona, en pila o arco, pudiendo salirse del borde",
+  "texto que entra borroso y se enfoca, con brillo, halo y grano para que parezca parte del fondo",
+  "varios elementos en una sola composición por capas (fondo, palabra, persona, partículas, línea chica) que se leen como un todo",
+  "cámara que siempre respira (empuje lento o flotación), viñeta fuerte y grano fino"
+ ],
+ "no": [
+  "cambiar el color de la toma de Pablo salvo golpes de ≤ 1,5 s",
+  "imágenes grandes o muñecos que llenen la pantalla: los apoyos van chicos y fundidos",
+  "cajas, pastillas o fondos detrás del texto, ni subtítulo clásico abajo",
+  "dos colores de luz compitiendo, glow que impida leer, rebotes elásticos o temblor",
+  "sujeto recortado o texto detrás de la persona (Pablo, 04-nov: «nunca nunca»)"
+ ],
+ "falta_en_motor": [
+  "palabra que entra deformada (estirada, pixelada, con eco rojo) y se asienta limpia en 2–4 cuadros (DfKZ9)",
+  "palabras acomodadas en arco o círculo alrededor de la cabeza y rotadas 90° (DfKZ9)",
+  "volumen 3D/perspectiva en la palabra que flota en el espacio (DfKZ9 «THEN» cian 3D)",
+  "palabra de fondo desenfocada por profundidad de campo y que se desliza detrás de la persona al salir (DfM7)",
+  "partículas/confeti con capas delante y detrás desenfocadas (DfM7)",
+  "trazo a mano que se dibuja (write-on) rodeando la cabeza o subrayando (DfM7, Dbq9, DfFNu8)",
+  "destello de estrella de 4 puntas que titila (Dbq9)",
+  "grano de película animado y rayón vertical de 1 cuadro (DfFNu8)",
+  "glitch RGB / scanline de 1 cuadro como transición (DfM7)",
+  "paneles de luz sobre la mesa que revelan un clip (Dbq9)",
+  "sombra dura corta abajo-derecha en la palabra clave (DfKZ9)",
+  "visor de cámara REC con esquinas (DfM7)"
+ ],
+ "retirados_por_pablo": [
+  "palabra detrás de la persona, sumergida en el espacio",
+  "golpe de silueta de luz (≤ 1,5 s)"
+ ]
+}

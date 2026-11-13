@@ -1,0 +1,141 @@
+{
+ "ref": "De9Ps19uKaZ",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Por la portada: papel cuadriculado gris, foto recortada con borde blanco, lupa grande, títulos en bloque (etiquetas blancas/verdes). Collage de papel claro. El contenido es tutorial de bit depth con pantallas de After Effects: eso se descarta.",
+ "paleta": [
+  {
+   "hex": "#22384D",
+   "rol": "azul blueprint",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#1F4A39",
+   "rol": "verde pizarra",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#5A0C1A",
+   "rol": "rojo granate",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#F0EDE6",
+   "rol": "blanco roto, bordes",
+   "cuanto": "dominante"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "sans extra pesada en mayúsculas, blanca, en bloques sobre cajas",
+   "google": "Anton"
+  },
+  {
+   "rol": "cuerpo",
+   "como_es": "sans negra mayúsculas",
+   "google": "Inter"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   0.8,
+   1.5
+  ],
+  "cortes_por_min": [
+   40,
+   50
+  ],
+  "gancho": "0-5 s: dilema con objeto visual duplicado y etiquetas"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "palabra",
+  "y_aprox": 1450,
+  "mayus": true,
+  "clave": "cambio de color y escala, cintas/pegatinas"
+ },
+ "persona": {
+  "tratamiento": "no aparece persona recortada; objetos recortados",
+  "encuadre": "objeto central grande"
+ },
+ "recursos": [
+  {
+   "nombre": "lupa de inspección",
+   "por_min": [
+    4,
+    8
+   ],
+   "dur_s": [
+    0.8,
+    1.2
+   ],
+   "cuando": "mostrar un detalle",
+   "como": "círculo con aumento ~130 % y borde negro"
+  },
+  {
+   "nombre": "foto recortada con borde blanco sobre papel milimetrado",
+   "por_min": [
+    10,
+    20
+   ],
+   "dur_s": [
+    0.8,
+    1.5
+   ],
+   "cuando": "cada concepto",
+   "como": "borde blanco irregular"
+  },
+  {
+   "nombre": "flecha doodle",
+   "por_min": [
+    3,
+    6
+   ],
+   "dur_s": [
+    0.5,
+    1.0
+   ],
+   "cuando": "señalar",
+   "como": "trazo blanco a mano"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   25,
+   40
+  ],
+  "tipos": [
+   "lupa",
+   "flecha a mano",
+   "etiquetas en bloque",
+   "comparativa dividida"
+  ]
+ },
+ "imagenes": {
+  "tipo": "recortes surrealistas y stock",
+  "tratamiento": "borde blanco, grano analógico",
+  "cuantas": 6
+ },
+ "transiciones": [
+  "whip",
+  "zoom agresivo",
+  "papel arrugado"
+ ],
+ "camara": [
+  "zoom digital agresivo"
+ ],
+ "sonido": [
+  "papel rasgado",
+  "clic",
+  "thump en cada texto"
+ ],
+ "si": [
+  "papel milimetrado de fondo",
+  "lupa",
+  "bloques de texto pesados"
+ ],
+ "no": [
+  "capturas de software como recurso base"
+ ]
+}
