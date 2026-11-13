@@ -1,0 +1,157 @@
+{
+ "ref": "DdKZ5oBpPCW",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Solo sirven los primeros ~14 s y los gráficos: foto de archivo B/N con grano, caja negra con serif blanca (cinta Dymo), palabra serif grande en color y flecha roja dibujada a mano. El resto es tutorial de Premiere/Adobe Stock: se ignora (ritmo y subtítulos de pantalla no cuentan). La palabra 'Photos' es verde oliva en este reel; se lleva al rojo del sistema.",
+ "paleta": [
+  {
+   "hex": "#E3DEC3",
+   "rol": "foto de archivo vintage",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#0D0D0D",
+   "rol": "caja negra de etiqueta",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#F2F2F2",
+   "rol": "texto sobre caja",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#A32025",
+   "rol": "flecha dibujada a mano (rojo de imprenta)",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#4A4B35",
+   "rol": "palabra de acento del hook (se sustituye por rojo)",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "serif transicional editorial tipo Caslon, regular/bold, caja baja",
+   "google": "EB Garamond"
+  },
+  {
+   "rol": "cuerpo",
+   "como_es": "sans condensada bold en mayúsculas para subtítulos automáticos",
+   "google": "Montserrat"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.0,
+   2.5
+  ],
+  "cortes_por_min": [
+   28,
+   32
+  ],
+  "gancho": "promesa de valor con demo visual inmediata en 0-3 s"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "palabra",
+  "y_aprox": 1450,
+  "mayus": true,
+  "clave": "sin caja, abajo, para no competir con el gráfico central"
+ },
+ "persona": {
+  "tratamiento": "talking head cálido y desenfocado; la foto de archivo ocupa pantalla completa",
+  "encuadre": "foto 9:16 recortada con Ken Burns mínimo"
+ },
+ "recursos": [
+  {
+   "nombre": "caja negra con serif blanca",
+   "por_min": [
+    8,
+    14
+   ],
+   "dur_s": [
+    1.0,
+    2.0
+   ],
+   "cuando": "nombrar cada paso",
+   "como": "rectángulo opaco como corte de papel/cinta Dymo, fade o corte"
+  },
+  {
+   "nombre": "flecha roja dibujada",
+   "por_min": [
+    3,
+    6
+   ],
+   "dur_s": [
+    0.6,
+    1.2
+   ],
+   "cuando": "guiar a un elemento clave",
+   "como": "trazo curvo imperfecto rojo con revelado"
+  },
+  {
+   "nombre": "foto de archivo con viñeta y polvo",
+   "por_min": [
+    6,
+    10
+   ],
+   "dur_s": [
+    1.0,
+    2.0
+   ],
+   "cuando": "base del plano",
+   "como": "B/N sepia, rasguños, grano"
+  },
+  {
+   "nombre": "palabra serif grande de color",
+   "por_min": [
+    2,
+    4
+   ],
+   "dur_s": [
+    1.0,
+    1.5
+   ],
+   "cuando": "hook",
+   "como": "palabra display con desenfoque de movimiento al revelar"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   12,
+   20
+  ],
+  "tipos": [
+   "cajas negras",
+   "flecha roja",
+   "foto de archivo"
+  ]
+ },
+ "imagenes": {
+  "tipo": "foto histórica B/N",
+  "tratamiento": "viñeta, polvo, arañazos, grano 16/35 mm",
+  "cuantas": 3
+ },
+ "transiciones": [
+  "wipe antes/después",
+  "corte"
+ ],
+ "camara": [
+  "Ken Burns mínimo"
+ ],
+ "sonido": [
+  "click",
+  "whoosh de papel"
+ ],
+ "si": [
+  "caja negra + serif blanca",
+  "flecha roja a mano",
+  "foto de archivo con grano"
+ ],
+ "no": [
+  "capturas de software",
+  "azul de interfaz"
+ ]
+}

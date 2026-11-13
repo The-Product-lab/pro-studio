@@ -1,0 +1,205 @@
+{
+ "estilo": "cine",
+ "identidad": "Ensayo de cine de autor: toma oscura y sobria que flota, letras que viven DENTRO de la escena (a los lados de la cabeza o detrás de la persona), un solo acento rojo o dorado y apoyos de archivo chicos y fundidos que se mueven en capas.",
+ "referencias": [
+  "DfM5Ce5OQOM (dueño: «top, mete elementos de color a las escenas reales, los textos hacen parte del todo»)",
+  "DbqvQrPTPIS (dueño: «muchas imágenes animadas y juntadas, todo se mueve, la cámara se mueve, todo flota»)",
+  "DfC63wopniq (dueño: «el fondo flota, los textos flotan»)",
+  "DfRyjPhTGJq (dueño: «simple, texto a cada lado de las personas»)",
+  "DebwdMgzSJP (dueño: «ritmo rápido, cámara lenta, letras con efectos: fusión, cambio de color, degradado, invertir»)",
+  "DecbrespqWe (busqueda)",
+  "Db3rNmlTK6q (busqueda)",
+  "DfA9-ZYN8Sg (busqueda)",
+  "DfPdZbdRMn7 (busqueda)"
+ ],
+ "descartadas": [],
+ "paleta": [
+  {
+   "hex": "#0D0E0E",
+   "rol": "negro grafito levantado de fondo (nunca negro plano en la toma)"
+  },
+  {
+   "hex": "#F5F4F0",
+   "rol": "blanco hueso: títulos, palabras de unión y subtítulo"
+  },
+  {
+   "hex": "#A00E0D",
+   "rol": "acento único rojo: palabra clave, silueta, golpe de transición (DfM5)"
+  },
+  {
+   "hex": "#8F6D40",
+   "rol": "acento alterno dorado apagado: palabra de marca o caja clave (DfC6); nunca junto al rojo en el mismo plano"
+  },
+  {
+   "hex": "#E0DAC5",
+   "rol": "papel crema/sepia: tarjeta de cierre, fondo de apoyos de archivo (Dbqv)"
+  },
+  {
+   "hex": "#496262",
+   "rol": "teal apagado: solo en apoyos y gráficos, nunca sobre la toma (Debwd)"
+  }
+ ],
+ "colores_extra_permitidos": [
+  "#FFFFFF",
+  "#000000",
+  "#000100",
+  "#151A17",
+  "#2D201A",
+  "#CFC2A0",
+  "#302D21",
+  "#E8C23A",
+  "#0F5197"
+ ],
+ "tipografia": {
+  "display": "Anton",
+  "clave": "Archivo Black",
+  "script": "EB Garamond",
+  "cuerpo": "Inter",
+  "mono": "Courier Prime"
+ },
+ "ritmo": {
+  "cambio_cada_s": [
+   0.8,
+   2.5
+  ],
+  "gancho_cambio_cada_s": [
+   0.4,
+   1.2
+  ]
+ },
+ "subtitulos": {
+  "modo": "frase",
+  "y": [
+   1380,
+   1480
+  ]
+ },
+ "recursos_firma": [
+  {
+   "nombre": "título o palabra clave al lado de la cabeza, delante, en serif itálica o condensada",
+   "motor": {
+    "tipo": "texto",
+    "z": "frente"
+   },
+   "por_min": [
+    4,
+    10
+   ]
+  },
+  {
+   "nombre": "apoyo de archivo chico y fundido con el fondo (flota en capas)",
+   "motor": {
+    "tipo": "foto",
+    "fundir": true
+   },
+   "por_min": [
+    4,
+    10
+   ]
+  },
+  {
+   "nombre": "apoyo con fusión de luz (el negro desaparece, solo suma su luz)",
+   "motor": {
+    "fusion": "pantalla"
+   },
+   "por_min": [
+    2,
+    6
+   ]
+  },
+  {
+   "nombre": "golpe de zoom con desenfoque al cambiar de idea",
+   "motor": {
+    "en": "escenas",
+    "entrada": "zoom"
+   },
+   "por_min": [
+    3,
+    8
+   ]
+  },
+  {
+   "nombre": "golpe de blanco y negro sobre la toma (máx. 1,5 s)",
+   "motor": {
+    "en": "escenas",
+    "filtro": "bn"
+   },
+   "por_min": [
+    1,
+    4
+   ]
+  },
+  {
+   "nombre": "negativo de 2 cuadros (invertir) en cambio de idea",
+   "motor": {
+    "en": "escenas",
+    "entrada": "invertir"
+   },
+   "por_min": [
+    1,
+    3
+   ]
+  },
+  {
+   "nombre": "flecha o tachado a mano que se dibuja",
+   "motor": {
+    "en": "trazos",
+    "tipo": "linea"
+   },
+   "por_min": [
+    1,
+    3
+   ]
+  }
+ ],
+ "apoyos_por_min": [
+  10,
+  24
+ ],
+ "imagenes_max": 20,
+ "transiciones": [
+  "corte",
+  "zoom",
+  "desenfoque",
+  "invertir"
+ ],
+ "si": [
+  "estilo.flotar (cámara flotante) y empuje lento: nada queda quieto, ni el fondo ni las letras",
+  "la palabra clave gigante (Archivo Black o Anton, 40–90 % del ancho) va DETRÁS de la persona; las de unión chicas alrededor",
+  "en planos tranquilos: texto chico en EB Garamond itálica a cada lado de la cabeza, partido por ella",
+  "un solo acento por plano: rojo #A00E0D o dorado #8F6D40, todo lo demás blanco hueso",
+  "apoyos de archivo B/N o sepia chicos (ancho 500–700), fundidos (fundir .55) y en capas que derivan",
+  "microcréditos en esquinas (Courier Prime o Inter, ~22 px): fecha, nombre, «capítulo 1»",
+  "golpes de efecto sobre la toma (B/N, silueta, negativo) de 1,5 s o menos; el resto, el color de Pablo intacto",
+  "cada cambio de plano con un golpe: zoom con desenfoque, negativo o rack focus",
+  "respiros de 1–2 s solo con subtítulo entre ráfagas de letras",
+  "cierre en papel crema o negro con la frase-tesis escribiéndose palabra a palabra"
+ ],
+ "no": [
+  "cambiar el color de la toma de Pablo fuera de golpes de ≤ 1,5 s (ni grade sepia global, ni B/N largo)",
+  "imágenes grandes que llenen la pantalla o personajes generados protagonistas",
+  "cajas, pastillas, stickers, emojis o íconos de app detrás o junto al texto",
+  "dos acentos de color en el mismo plano; rosa o magenta nunca",
+  "rebotes elásticos o entradas tipo «pop» en títulos: entran secos, por desenfoque o escribiéndose",
+  "persona hablando a cámara sin ninguna letra ni apoyo más de ~2,5 s",
+  "sujeto recortado o texto detrás de la persona (Pablo, 04-nov: «nunca nunca»)"
+ ],
+ "falta_en_motor": [
+  "parallax 2,5D: separar un apoyo en 3 capas (delante desenfocada / medio / fondo) que derivan a distinta velocidad, 2,5–5 s (DbqvQ)",
+  "transición por objeto que cruza: papel rasgado, mancha roja, hoja gigante o disco negro barre el cuadro en 2–4 cuadros y destapa el plano siguiente (DfM5, DbqvQ)",
+  "texto que entra enfocándose desde desenfoque letra a letra y sale igual, ~0,3 s (DecbrespqWe, DfC6)",
+  "rack focus del título: se desenfoca y vuelve a enfocar ya reencuadrado más grande, 4–6 cuadros (DfC6)",
+  "letra con degradado o que cambia de color en el tiempo (rojo → blanco) (DebwdMgzSJP, dueño)",
+  "cámara lenta de un tramo de la toma o del B-roll (DebwdMgzSJP, dueño)",
+  "textura de película: grano animado, polvo, pelusas y rayas verticales sobre fondos negros (DfC6, DfPd)",
+  "franja de cine (letterbox) que se cierra en el gancho de 85 % a 52 % del alto en 0,5 s (DfA9, DfPd, Db3r)",
+  "iris de viñeta ovalada que se abre al empezar (DbqvQ)",
+  "palabra deformada: en arco, en perspectiva o con borde rasgado de recorte de revista (DfM5)",
+  "contornos de línea que siguen a la persona y tiemblan a 12 cps (DfM5)",
+  "texto escrito palabra a palabra acumulativo en tarjeta final de papel (DbqvQ)"
+ ],
+ "retirados_por_pablo": [
+  "palabra gigante detrás de la persona (la letra hace parte de la escena)",
+  "silueta roja plana de la persona (golpe, máx. 1,5 s)"
+ ]
+}

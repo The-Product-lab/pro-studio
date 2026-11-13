@@ -1,0 +1,159 @@
+{
+ "ref": "DYjgNQ5ALOA",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Composición modular suiza con neo-grotesca, espacio negativo, texto gigante cortado detrás de objetos recortados y blueprint azul; sin persona, pero muestra con más claridad la gramática del estilo.",
+ "paleta": [
+  {
+   "hex": "#F4F4F4",
+   "rol": "fondo blanco humo",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#0D0D0D",
+   "rol": "bloques negros y texto",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#808080",
+   "rol": "retícula y texto secundario",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#1D4ED8",
+   "rol": "azul blueprint, señal",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#7F1D1D",
+   "rol": "rojo vino puntual",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "neo-grotesca, titulares regular/medium con interletrado negativo",
+   "google": "Inter"
+  },
+  {
+   "rol": "mono",
+   "como_es": "labels técnicos ligeros con tracking abierto",
+   "google": "JetBrains Mono"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.0,
+   1.8
+  ],
+  "cortes_por_min": [
+   28,
+   32
+  ],
+  "gancho": "0–1 s: blueprint azul con «In a study»"
+ },
+ "subtitulos": {
+  "hay": false,
+  "modo": "ninguno",
+  "y_aprox": 1300,
+  "mayus": false,
+  "clave": "el texto es estructura de la cuadrícula; revelado por máscara lineal"
+ },
+ "persona": {
+  "tratamiento": "no hay persona; productos recortados con sombra direccional",
+  "encuadre": "módulos en 2–4 cuadrantes"
+ },
+ "recursos": [
+  {
+   "nombre": "texto gigante cortado detrás del objeto",
+   "por_min": [
+    6,
+    12
+   ],
+   "dur_s": [
+    1.0,
+    2.0
+   ],
+   "cuando": "dar profundidad",
+   "como": "texto heavy tras recorte de producto"
+  },
+  {
+   "nombre": "blueprint técnico",
+   "por_min": [
+    2,
+    5
+   ],
+   "dur_s": [
+    0.8,
+    0.8
+   ],
+   "cuando": "abrir contexto científico",
+   "como": "plano azul/blanco con cotas"
+  },
+  {
+   "nombre": "producto recortado flotante",
+   "por_min": [
+    4,
+    8
+   ],
+   "dur_s": [
+    1.2,
+    1.2
+   ],
+   "cuando": "categorizar objetos",
+   "como": "PNG con sombra suave, rotación lenta"
+  },
+  {
+   "nombre": "split de cuadrantes",
+   "por_min": [
+    4,
+    8
+   ],
+   "dur_s": [
+    1.0,
+    1.8
+   ],
+   "cuando": "comparar",
+   "como": "pantalla dividida 2/4"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   20,
+   35
+  ],
+  "tipos": [
+   "blueprint",
+   "MRI/rayos X",
+   "cuadrícula 3×6",
+   "mockups"
+  ]
+ },
+ "imagenes": {
+  "tipo": "producto/objeto PNG",
+  "tratamiento": "sombra direccional, sin grano (<3 %)",
+  "cuantas": 6
+ },
+ "transiciones": [
+  "wipe con retícula",
+  "desplazamiento de cuadrantes",
+  "corte duro a la percusión"
+ ],
+ "camara": [
+  "rotación 3D lenta del producto"
+ ],
+ "sonido": [
+  "beat downtempo minimalista",
+  "clics secos",
+  "blips"
+ ],
+ "si": [
+  "espacio negativo extremo",
+  "un acento"
+ ],
+ "no": [
+  "rebotes",
+  "adornos"
+ ]
+}

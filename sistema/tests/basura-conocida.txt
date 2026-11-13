@@ -1,0 +1,12 @@
+# Deuda de limpieza tolerada por `estudio verificar`. Solo puede BAJAR: la limpieza (rama limpieza/base) la vacía; nunca se agrega una línea nueva.
+estudio/director/ejemplo/cine.palabras.json
+estudio/director/ejemplo/glass.palabras.json
+estudio/director/ejemplo/imprenta.palabras.json
+estudio/director/ejemplo/julian-alborna-3d.palabras.json
+estudio/director/ejemplo/julian-alborna.palabras.json
+estudio/director/ejemplo/luminoso.palabras.json
+estudio/director/ejemplo/maestro.palabras.json
+estudio/director/ejemplo/pop.palabras.json
+estudio/director/ejemplo/prestiggio.palabras.json
+estudio/director/ejemplo/swiss.palabras.json
+estudio/director/ejemplo/vox.palabras.json

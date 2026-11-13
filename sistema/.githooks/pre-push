@@ -1,0 +1,13 @@
+#!/bin/sh
+# Compuerta antes de empujar: corre `estudio verificar` y bloquea el push si falla.
+# Se activa con `git config core.hooksPath .githooks` (lo hacen instalar.command / instalar.bat).
+cd "$(git rev-parse --show-toplevel)" || exit 1
+export PATH="$HOME/.local/bin:/usr/local/bin:/opt/homebrew/bin:$PATH"
+if ! command -v uv >/dev/null 2>&1; then
+  echo "pre-push: no encuentro uv. Corre instalar.command (Mac) o instalar.bat (Windows) y vuelve a empujar." >&2
+  exit 1
+fi
+if ! uv run --quiet estudio verificar; then
+  echo "pre-push: estudio verificar falló. Nada se empujó. Arregla lo de arriba y vuelve a intentar." >&2
+  exit 1
+fi

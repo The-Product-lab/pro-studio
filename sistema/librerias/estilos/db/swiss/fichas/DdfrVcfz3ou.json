@@ -1,0 +1,122 @@
+{
+ "ref": "DdfrVcfz3ou",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Dos tarjetas blancas sobre la persona que alternan protagonismo por opacidad, con rojo señal puntual y sans neutra; sirve para el patrón persona + láminas limpias.",
+ "paleta": [
+  {
+   "hex": "#FFFFFF",
+   "rol": "tarjeta activa",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#000000",
+   "rol": "títulos",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#8E8E93",
+   "rol": "tarjeta inactiva al 30 %",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#D32F2F",
+   "rol": "rojo señal: círculos y flechas",
+   "cuanto": "acento"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "sans grotesca neutra, Arial Black en títulos",
+   "google": "Inter"
+  },
+  {
+   "rol": "script",
+   "como_es": "serif didone para ejemplos",
+   "google": "Playfair Display"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.0,
+   1.2
+  ],
+  "cortes_por_min": [
+   50,
+   60
+  ],
+  "gancho": "0–1 s: tarjeta derecha con «Aa»"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "frase",
+  "y_aprox": 1350,
+  "mayus": false,
+  "clave": "blanco con sombra sutil; título activo en negro, inactivo gris"
+ },
+ "persona": {
+  "tratamiento": "color natural en cuarto claro",
+  "encuadre": "plano medio en mitad inferior, tarjetas arriba"
+ },
+ "recursos": [
+  {
+   "nombre": "tarjeta doble A/B",
+   "por_min": [
+    40,
+    60
+   ],
+   "dur_s": [
+    1.0,
+    1.2
+   ],
+   "cuando": "alternar conceptos",
+   "como": "dos láminas, una al 100 % y otra al 30 %"
+  },
+  {
+   "nombre": "círculo/flecha roja de señal",
+   "por_min": [
+    20,
+    40
+   ],
+   "dur_s": [
+    0.8,
+    1.2
+   ],
+   "cuando": "anotar el detalle",
+   "como": "trazo fino 2 px"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   40,
+   60
+  ],
+  "tipos": [
+   "tarjetas",
+   "flechas",
+   "círculos"
+  ]
+ },
+ "imagenes": {
+  "tipo": "láminas vectoriales",
+  "tratamiento": "planas, sin sombras",
+  "cuantas": 10
+ },
+ "transiciones": [
+  "corte seco a la palabra"
+ ],
+ "camara": [
+  "fija"
+ ],
+ "sonido": [
+  "sonido directo",
+  "sin SFX"
+ ],
+ "si": [
+  "composición 50/50 persona-láminas"
+ ],
+ "no": [
+  "sombras proyectadas"
+ ]
+}

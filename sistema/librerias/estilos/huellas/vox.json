@@ -1,0 +1,230 @@
+{
+ "estilo": "vox",
+ "identidad": "Documental explicativo de archivo en papel kraft con grano: grabados y fotos B/N literales a cada frase, placas de cartón burdeos con la palabra clave en amarillo mostaza, texto en 2 niveles centrado y cámara que siempre flota; Pablo en su toma original a color.",
+ "referencias": [
+  "DbGP21gqRnm (busqueda · marcado «me encanta» 5 veces por Pablo: manda)",
+  "DceFNdVM-NG (busqueda)",
+  "De9Ps19uKaZ (busqueda)",
+  "Da3YpRipHuF (busqueda · tutorial: se usa por sus efectos)",
+  "DdWb9S4oCnu (busqueda)",
+  "Db-51hmhOlp (busqueda)",
+  "DbvdFAgBHKy (busqueda)",
+  "DcjSDhcsZM3 (busqueda)",
+  "DeswHnkNY73 (busqueda)",
+  "DewjrtNuAVk (busqueda)",
+  "DfCj6H4uSYg (busqueda)"
+ ],
+ "descartadas": [],
+ "paleta": [
+  {
+   "hex": "#A18F7C",
+   "rol": "papel kraft (fondo base de los apoyos)"
+  },
+  {
+   "hex": "#CCC2B0",
+   "rol": "papel claro / blanco roto del texto de contexto"
+  },
+  {
+   "hex": "#3D342A",
+   "rol": "placa de cartón marrón"
+  },
+  {
+   "hex": "#181612",
+   "rol": "tinta: negro levantado, nunca negro puro"
+  },
+  {
+   "hex": "#7A2A26",
+   "rol": "placa burdeos y marcos [ ]"
+  },
+  {
+   "hex": "#B3221E",
+   "rol": "caja roja ladrillo detrás de la palabra clave, óvalo a mano"
+  },
+  {
+   "hex": "#E8C21E",
+   "rol": "acento único: palabra clave amarillo mostaza"
+  }
+ ],
+ "colores_extra_permitidos": [
+  "#FFFFFF",
+  "#8B7C6A",
+  "#574F44",
+  "#DFAD15",
+  "#1B32A3",
+  "#161F37",
+  "#E0533E",
+  "#3D1F76",
+  "#28A93B"
+ ],
+ "tipografia": {
+  "display": "Montserrat",
+  "script": "Playfair Display",
+  "cuerpo": "Inter",
+  "mono": "JetBrains Mono"
+ },
+ "ritmo": {
+  "cambio_cada_s": [
+   1.0,
+   2.5
+  ],
+  "gancho_cambio_cada_s": [
+   0.3,
+   1.6
+  ]
+ },
+ "subtitulos": {
+  "modo": "frase",
+  "y": [
+   1390,
+   1500
+  ]
+ },
+ "recursos_firma": [
+  {
+   "nombre": "placa de cartón burdeos/roja con la palabra clave en amarillo mostaza (entra seca o inclinada que se endereza)",
+   "motor": {
+    "tipo": "etiqueta"
+   },
+   "por_min": [
+    8,
+    18
+   ]
+  },
+  {
+   "nombre": "texto en 2 niveles centrado delante: contexto chico arriba (blanco roto) + palabra clave grande abajo (mostaza o serif itálica)",
+   "motor": {
+    "tipo": "texto",
+    "z": "frente"
+   },
+   "por_min": [
+    4,
+    10
+   ]
+  },
+  {
+   "nombre": "grabado o foto de archivo con trama de imprenta, literal a lo que se dice, chica y fundida con el papel",
+   "motor": {
+    "tipo": "foto",
+    "tratamiento": "halftone"
+   },
+   "por_min": [
+    4,
+    10
+   ]
+  },
+  {
+   "nombre": "foto de archivo B/N sepia literal (persona, lugar, objeto de época), chica y fundida (fundir, sin borde blanco), a un lado del cuerpo",
+   "motor": {
+    "tipo": "foto",
+    "tratamiento": "bn"
+   },
+   "por_min": [
+    3,
+    8
+   ]
+  },
+  {
+   "nombre": "objeto recortado de época (lupa, portapapeles, TV retro, máquina de escribir, moneda) con borde de papel",
+   "motor": {
+    "tipo": "recorte"
+   },
+   "por_min": [
+    3,
+    8
+   ]
+  },
+  {
+   "nombre": "óvalo rojo trazado a mano alrededor de la palabra o el objeto",
+   "motor": {
+    "en": "trazos",
+    "tipo": "elipse"
+   },
+   "por_min": [
+    1,
+    4
+   ]
+  },
+  {
+   "nombre": "ráfaga de archivo en semitono B/N como golpe antes de la palabra clave (≤ 1,5 s, 4 planos de 0,17–0,2 s)",
+   "motor": {
+    "en": "escenas",
+    "filtro": "halftone"
+   },
+   "por_min": [
+    1,
+    3
+   ]
+  },
+  {
+   "nombre": "transición de desenfoque: el plano sale desenfocado y el siguiente entra y se enfoca",
+   "motor": {
+    "en": "escenas",
+    "entrada": "desenfoque"
+   },
+   "por_min": [
+    1,
+    3
+   ]
+  },
+  {
+   "nombre": "iris de viñeta oval que se abre como foco de linterna",
+   "motor": {
+    "en": "escenas",
+    "entrada": "iris"
+   },
+   "por_min": [
+    0.5,
+    2
+   ]
+  }
+ ],
+ "apoyos_por_min": [
+  20,
+  36
+ ],
+ "imagenes_max": 20,
+ "transiciones": [
+  "corte seco en la palabra",
+  "desenfoque (sale borroso, entra y enfoca)",
+  "iris de viñeta oval",
+  "ráfaga de 4 cortes de 0,17–0,2 s antes de la palabra clave"
+ ],
+ "si": [
+  "papel kraft con grano y viñeta suave en todo apoyo (nunca sobre la toma de Pablo)",
+  "imagen de los apoyos desaturada sepia (saturación ≈ 0,10), negros levantados #181612",
+  "un solo acento amarillo mostaza por cuadro, sobre la palabra clave; el rojo/burdeos solo como placa o caja detrás",
+  "cada sustantivo concreto se ilustra literal con grabado, foto de archivo u objeto de época, ~1 apoyo cada 1,6 s",
+  "texto centrado en 2 niveles (contexto chico arriba, clave grande abajo), palabra por palabra con la voz",
+  "rótulos como objetos físicos: placa de cartón, portapapeles, papel, con borde áspero y sombra suave",
+  "cámara siempre viva y distinta por escena (push, pull, deriva, giro), también mientras entra el apoyo",
+  "Pablo en su toma original completa y con su color; el collage va en los apoyos y alrededor de él"
+ ],
+ "no": [
+  "sujeto recortado, en B/N, silueta o texto detrás de la persona (Pablo, 04-nov: «nunca nunca»)",
+  "filtro sobre la toma de Pablo de más de 1,5 s",
+  "fondos lisos digitales o degradados en los apoyos",
+  "más de un color saturado a la vez; neón, glow, bloom, vidrio, 3D o íconos planos",
+  "barridos digitales, whip, glitch o flash como transición",
+  "subtítulo continuo palabra por palabra todo el video o más de 2 familias tipográficas",
+  "imagen generada que llene la pantalla: chica y fundida siempre",
+  "rosa o magenta (el papel rasgado rosa de DbGP se hace en kraft)"
+ ],
+ "falta_en_motor": [
+  "placa colgante con 2 cuerdas rojas en V donde la frase entra palabra a palabra (DbGP 9,6 s, gustó a Pablo)",
+  "placa burdeos con borde punteado crema que entra inclinada −8° y se endereza con un rebote chico (DbGP 12 s)",
+  "lupa con aumento: aro oscuro que entra sobre un grabado y muestra adentro otra imagen ~130 % (DbGP 7,5 s, gustó a Pablo)",
+  "corchetes [ ] burdeos que nacen chicos y se abren hasta encuadrar una fecha o cifra (gancho de DbGP)",
+  "manchas de tinta negra que crecen y se tragan el plano como transición (DbGP 34 s)",
+  "barra de pincel roja a todo el ancho detrás de una palabra golpe (DbGP 23,5 s)",
+  "papel rasgado: tira o máscara con borde roto blanco que revela una foto (DceF, DdWb)",
+  "piezas de collage animadas en stop-motion a 12 cuadros/s (mano que pone una foto, moneda que sube, piezas que se apilan)",
+  "grano animado y fibra de papel ENCIMA de las placas y textos (hoy solo el fondo)",
+  "sombra dura corrida 2–3 px en la letra golpe",
+  "tarjeta-mapa redondeada sobre fondo azul cobalto con pastillas de etiqueta que se suman frase a frase (Db-51, Dbvd)",
+  "diorama de cuarto retro fijo con la toma de Pablo DENTRO de un televisor CRT y título en cajas violeta/verde (Desw, Dewj, DfCj)",
+  "fuentes más fieles no instaladas: Instrument Serif Italic (fechas/nombres) y Fraunces Black Italic (palabra golpe); hoy se usan Playfair Display Italic y Montserrat Black"
+ ],
+ "retirados_por_pablo": [
+  "foto de archivo con borde"
+ ]
+}

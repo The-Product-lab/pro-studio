@@ -1,0 +1,203 @@
+{
+ "estilo": "imprenta",
+ "identidad": "Archivo de época impreso alrededor de la toma real: papeles, etiquetas y cintas con letra de máquina de escribir que se teclea, cifras gigantes en serif itálica roja, fotos de archivo en B/N chicas y fundidas, un solo acento rojo ladrillo; la persona queda en su toma original y con su color.",
+ "referencias": [
+  "DeMdv7NqeL- (busqueda; núcleo: todo sobre superficies de época, texto tecleado letra a letra (~20 letras/s) en mono áspera con la palabra clave en rojo, año gigante en Playfair itálica roja ≈ 50 % del ancho, etiquetas y placas en cascada 0,3–0,5 s, óvalo rojo a mano, cámara siempre en push-in lento, transiciones blandas: fundido 0,1–0,2 s y rack focus 0,25 s; solo 3 cortes duros en 40 s)",
+  "DbSrtDFgti9 (busqueda; collage de prensa casi B/N (saturación 0,04), 53 cortes/min: serif itálica blanca palabra por palabra en la zona libre junto a la cabeza, tira de periódico rasgada con Playfair Black itálica −3°, caja negra de etiqueta que cambia por frase, pausa en papel cuadriculado con una frase serif negra, óvalo a mano en la cifra, flash de tinte de 1 cuadro; su persona recortada NO se copia)",
+  "DdKZ5oBpPCW (busqueda; 55 cortes/min: foto de archivo B/N que respira con luz y sombra de ventana, titular de revista en 3 renglones en diagonal (chico → gigante serif → chico a la derecha) con flecha roja de pincel, cinta negra áspera que aparece vacía y se llena palabra a palabra, parpadeo antes/después de 0,17 s; el presentador sale con su color natural, que es lo que aplica a Pablo)"
+ ],
+ "descartadas": [],
+ "paleta": [
+  {
+   "hex": "#E2D6BE",
+   "rol": "papel crema: etiquetas, cintas, hojas y pantallas de pausa"
+  },
+  {
+   "hex": "#1E1A16",
+   "rol": "tinta: texto tecleado y letras sobre papel; negro cálido, nunca #000"
+  },
+  {
+   "hex": "#8E1C1A",
+   "rol": "acento único rojo ladrillo: año/cifra gigante, palabra clave, flecha, óvalo (el lima de DbSrt pasa a este rojo)"
+  },
+  {
+   "hex": "#1B1D1C",
+   "rol": "cinta negra de etiqueta (texto crema dentro)"
+  },
+  {
+   "hex": "#F2F0EA",
+   "rol": "texto blanco hueso sobre la toma o dentro de la cinta negra"
+  }
+ ],
+ "colores_extra_permitidos": [
+  "#3B3328",
+  "#60503F",
+  "#88755E",
+  "#CBB086",
+  "#D1CBBF",
+  "#DAD8CC",
+  "#C9A45A",
+  "#2E3A4A"
+ ],
+ "tipografia": {
+  "display": "Playfair Display",
+  "script": "Playfair Display Italic",
+  "cuerpo": "EB Garamond",
+  "mono": "Special Elite"
+ },
+ "ritmo": {
+  "cambio_cada_s": [
+   1.0,
+   3.0
+  ],
+  "gancho_cambio_cada_s": [
+   0.15,
+   1.5
+  ]
+ },
+ "subtitulos": {
+  "modo": "palabra",
+  "y": [
+   960,
+   1460
+  ]
+ },
+ "recursos_firma": [
+  {
+   "nombre": "frase narrada que se teclea letra a letra en Special Elite (mono), con cursor, palabra clave en rojo",
+   "motor": {
+    "tipo": "texto",
+    "tecleo": true
+   },
+   "por_min": [
+    4,
+    10
+   ]
+  },
+  {
+   "nombre": "año o cifra gigante en Playfair itálica roja delante (≈ 50 % del ancho), uno por hito",
+   "motor": {
+    "tipo": "texto",
+    "z": "frente"
+   },
+   "por_min": [
+    3,
+    8
+   ]
+  },
+  {
+   "nombre": "etiqueta de papel crema o cinta negra con letra de máquina o serif, en cascada 0,3–0,5 s",
+   "motor": {
+    "tipo": "etiqueta"
+   },
+   "por_min": [
+    8,
+    16
+   ]
+  },
+  {
+   "nombre": "foto de archivo B/N literal, chica (ancho 500–700) y fundida con el fondo, a un lado del cuerpo; nunca llena la pantalla",
+   "motor": {
+    "tipo": "foto",
+    "tratamiento": "bn"
+   },
+   "por_min": [
+    4,
+    10
+   ]
+  },
+  {
+   "nombre": "recorte de objeto de época (sobre lacrado, llave, libro, ticket) junto al cuerpo",
+   "motor": {
+    "tipo": "recorte"
+   },
+   "por_min": [
+    2,
+    6
+   ]
+  },
+  {
+   "nombre": "óvalo rojo trazado a mano alrededor de la cifra o el objeto",
+   "motor": {
+    "en": "trazos",
+    "tipo": "elipse"
+   },
+   "por_min": [
+    1,
+    4
+   ]
+  },
+  {
+   "nombre": "flecha roja que se dibuja hacia el objeto o la palabra",
+   "motor": {
+    "en": "trazos",
+    "tipo": "linea"
+   },
+   "por_min": [
+    1,
+    3
+   ]
+  },
+  {
+   "nombre": "entrada blanda de escena: rack focus (entra desenfocada y se enfoca)",
+   "motor": {
+    "en": "escenas",
+    "entrada": "desenfoque"
+   },
+   "por_min": [
+    1,
+    4
+   ]
+  }
+ ],
+ "apoyos_por_min": [
+  16,
+  30
+ ],
+ "imagenes_max": 20,
+ "transiciones": [
+  "corte seco en golpe de voz o por contraste de luz (de lo más oscuro a lo más claro) en cambios de capítulo",
+  "rack focus: la escena nueva entra desenfocada y se enfoca en 0,25 s",
+  "fundido cruzado corto 0,1–0,2 s entre escenas del mismo bloque",
+  "deriva lateral lenta (cámara «deriva») como paneo por una tira de fotos entre ideas seguidas",
+  "ráfaga antes/después de 0,16–0,17 s por cuadro (parpadeo comparativo)"
+ ],
+ "si": [
+  "la persona siempre en su toma original y con su color; lo de época vive en los apoyos (papel, fotos B/N, etiquetas), no en la toma",
+  "el texto narrado se teclea letra a letra («tecleo» 15–20) en Special Elite, caja baja, con la palabra clave en rojo",
+  "cada año o cifra protagonista en Playfair Display itálica roja grande, uno por hito, con óvalo rojo a mano si es el dato fuerte",
+  "las piezas de un rótulo se construyen en cascada de arriba abajo (0,3–0,5 s de desfase) con entrada «llega», sin rebote",
+  "cámara que nunca está quieta y cambia por escena: push lento, pull, deriva, giro leve (repertorio variado, nunca la misma 3 veces seguidas)",
+  "apoyos literales chicos y fundidos («fundir» ≈ 0,55, «fusion: multiplicar», «tratamiento: bn»), a un lado del cuerpo, nunca sobre la cara",
+  "pausa de idea = etiqueta grande de papel crema con una sola frase serif negra centrada",
+  "palabra clave grande en cinta negra o tira de papel con Playfair Display negra itálica (rot −3°)",
+  "texto en la zona libre junto a la cabeza o en el tercio superior; titular de gancho en 3 renglones en diagonal (chico → gigante → chico)"
+ ],
+ "no": [
+  "teñir de sepia o filtrar la toma de Pablo más de 1,5 s",
+  "recortar a la persona, cambiarle el fondo o poner texto detrás de ella",
+  "imágenes que llenen la pantalla o un personaje generado que tape el cuadro",
+  "neón, amarillo lima, degradados, glow, halation, aberración, scanlines, glitch o vidrio",
+  "rebotes elásticos, temblor, whip pan o punch-in por palabra",
+  "íconos planos, píldoras con radio grande o formas vectoriales limpias",
+  "sans moderna en titulares (solo Oswald condensada para un dato de proceso, nunca en el héroe)",
+  "más de un acento rojo fuerte a la vez en pantalla"
+ ],
+ "falta_en_motor": [
+  "textura de papel envejecido (manchas, pliegues, aro de café) en etiquetas y pantallas de pausa, y grano fino + viñeta suave que no cambie el color de la toma",
+  "papel cuadriculado (hoja milimetrada con viñeta) como fondo de pausa",
+  "bordes rasgados, quemados o festoneados en etiquetas y cintas (hoy salen rectos) y sombra de contacto suave",
+  "tecleo dentro de una etiqueta, y cinta negra con borde áspero tipo Dymo que aparece vacía y se llena palabra a palabra (hoy el tecleo solo existe en «texto»)",
+  "flecha y óvalo con textura de pincel seco y punta de flecha (hoy el trazo es liso)",
+  "palabra héroe que entra con desenfoque y barrido letra a letra (~0,4 s)",
+  "overlays de luz y sombra de ventana (multiplicar/pantalla) que barren despacio sobre una foto de archivo o, como golpe ≤ 1,5 s, sobre la toma",
+  "Fraunces Black / Alfa Slab One para las frases-golpe en cinta (no están en librerias/fuentes)",
+  "tablero de corcho con recortes, chinchetas e hilo rojo; marco dorado que entra en péndulo amortiguado",
+  "contador de año por sustitución (1851→1911 de 5 en 5 cada 0,1 s): el «contador» actual cuenta de 1 en 1",
+  "transición «rodillo»: la escena entera se desliza a la izquierda y entra la siguiente por la derecha, como tira de contacto (DbSrt 7,0 y 9,3 s)",
+  "fundido cruzado corto (0,1–0,2 s) como entrada de escena",
+  "parpadeo antes/después de 0,17 s entre dos estados de un apoyo",
+  "primer plano desenfocado que cruza por delante (auto, transeúnte) y tapa el corte",
+  "flash de tinte de 1–2 cuadros (película dañada) como golpe sobre la toma"
+ ]
+}

@@ -1,0 +1,602 @@
+{
+ "estilo": {
+  "id": "julian-alborna-3d",
+  "base": "pantalla",
+  "acento": "#FFE600",
+  "acento2": "#FFFFFF",
+  "tinta": "#070707",
+  "papel": "#070707",
+  "persona": "color",
+  "fuente": "Inter Tight",
+  "fuente_script": "Inter Tight",
+  "fuente_mono": "JetBrains Mono",
+  "subtitulo": "hud",
+  "crt": 0,
+  "grano": 18,
+  "flotar": 5,
+  "flotar_elementos": 3,
+  "bloom": 0.35,
+  "aberracion_corte": 3,
+  "sonido_paleta": "digital",
+  "imagenes": true,
+  "tope_imagenes": 8,
+  "color": {
+   "entrada": "rec709",
+   "receta": "pablo",
+   "look": "calido-EliteColor200",
+   "fuerza": 0.7
+  }
+ },
+ "cortes": [
+  [
+   0.0,
+   4.13
+  ],
+  [
+   11.91,
+   13.19
+  ],
+  [
+   14.24,
+   16.14
+  ],
+  [
+   17.86,
+   18.29
+  ],
+  [
+   19.83,
+   24.08
+  ],
+  [
+   27.58,
+   28.23
+  ],
+  [
+   31.57,
+   36.24
+  ],
+  [
+   40.13,
+   60.56
+  ],
+  [
+   64.98,
+   75.33
+  ],
+  [
+   81.67,
+   85.1
+  ]
+ ],
+ "escenas": [
+  {
+   "t0": 2.43,
+   "entrada": "corte",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "inicio limpio: le dicta a Claude que corte los silencios; «subtítulos» se teclea arriba"
+  },
+  {
+   "t0": 7.38,
+   "entrada": "flash",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#070707"
+   },
+   "intencion": "mundo negro: maniquí grabando, «tomas de apoyo» en cian"
+  },
+  {
+   "t0": 10.06,
+   "entrada": "desenfoque",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "vuelve la persona: «colores» en ámbar, punch en «Ahí sí»"
+  },
+  {
+   "t0": 15.54,
+   "entrada": "iris",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#070707"
+   },
+   "intencion": "paso 1 y paso 2 en el mismo negro: la esfera de Claude, luego la carpeta blanca con tus videos"
+  },
+  {
+   "t0": 27.88,
+   "entrada": "corte",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "persona: la pregunta de prueba, «quede bien» en verde"
+  },
+  {
+   "t0": 36.24,
+   "entrada": "invertir",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#070707"
+   },
+   "intencion": "paso 3: maniquí echado, «y les falla» en rojo (cliffhanger)"
+  },
+  {
+   "t0": 60.06,
+   "entrada": "rafaga",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "giro: todos hablan de editar con Claude, nadie muestra «el paso a paso»"
+  },
+  {
+   "t0": 74.98,
+   "entrada": "flash",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#070707"
+   },
+   "intencion": "maniquí con el celular lleno de videos: vuelve el naranja de Claude"
+  },
+  {
+   "t0": 78.4,
+   "entrada": "corte",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "cierre a cámara: «comenta la palabra TALLER» con punch"
+  }
+ ],
+ "punch": [
+  13.24,
+  63.32,
+  80.08
+ ],
+ "empuje": 0.04,
+ "alejar_final": false,
+ "elementos": [
+  {
+   "id": "img_grabar",
+   "tipo": "foto",
+   "src": "arte/3d_grabar.png",
+   "cubrir": true,
+   "x": 540,
+   "y": 960,
+   "ancho": 1080,
+   "rot": 0,
+   "t0": 7.38,
+   "t1": 10.06,
+   "z": "atras",
+   "entra": "fundido",
+   "dur": 0.35,
+   "gris": false,
+   "fusion": "pantalla",
+   "muestra": "monta tomas de apoyo: maniquí grabando",
+   "profundidad": 0.8,
+   "flotar": 20,
+   "acercar": 0.15
+  },
+  {
+   "id": "t_apoyo",
+   "tipo": "texto",
+   "x": 540,
+   "y": 340,
+   "t0": 8.44,
+   "t1": 10.06,
+   "entra": "llega",
+   "dur": 0.35,
+   "profundidad": 0.95,
+   "interlineado": 26,
+   "lineas": [
+    {
+     "texto": "ahora monta",
+     "rol": "display",
+     "tam": 46,
+     "color": "#B8B3AA",
+     "peso": 600
+    },
+    {
+     "texto": "tomas de apoyo",
+     "rol": "display",
+     "tam": 100,
+     "color": "#3FD8FF",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "t_colores",
+   "tipo": "texto",
+   "x": 540,
+   "y": 340,
+   "t0": 11.1,
+   "t1": 15.54,
+   "entra": "sube",
+   "dur": 0.35,
+   "profundidad": 0.7,
+   "interlineado": 26,
+   "lineas": [
+    {
+     "texto": "agregues",
+     "rol": "display",
+     "tam": 46,
+     "color": "#FFFFFF",
+     "peso": 600
+    },
+    {
+     "texto": "colores",
+     "rol": "display",
+     "tam": 124,
+     "color": "#FFB020",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "img_idea",
+   "tipo": "foto",
+   "src": "arte/3d_idea.png",
+   "fundir": 0.55,
+   "x": 540,
+   "y": 930,
+   "ancho": 560,
+   "rot": 0,
+   "t0": 15.54,
+   "t1": 24.72,
+   "z": "atras",
+   "entra": "llega",
+   "dur": 0.45,
+   "gris": false,
+   "fusion": "pantalla",
+   "luz": 0.6,
+   "muestra": "preparas tu computadora con Claude: la esfera naranja",
+   "profundidad": 0.8,
+   "flotar": 20,
+   "acercar": 0.15
+  },
+  {
+   "id": "t_uno",
+   "tipo": "texto",
+   "x": 540,
+   "y": 340,
+   "t0": 16.66,
+   "t1": 24.72,
+   "entra": "cae",
+   "dur": 0.35,
+   "profundidad": 0.95,
+   "interlineado": 26,
+   "lineas": [
+    {
+     "texto": "PASO 1 · tu computadora",
+     "rol": "mono",
+     "tam": 40,
+     "color": "#B8B3AA",
+     "peso": 500
+    },
+    {
+     "texto": "con Claude",
+     "rol": "display",
+     "tam": 120,
+     "color": "#FF8A3D",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "img_carpeta",
+   "tipo": "foto",
+   "src": "arte/3d_carpeta.png",
+   "cubrir": true,
+   "x": 540,
+   "y": 960,
+   "ancho": 1080,
+   "rot": 0,
+   "t0": 24.72,
+   "t1": 27.88,
+   "z": "atras",
+   "entra": "sube",
+   "dur": 0.4,
+   "gris": false,
+   "fusion": "pantalla",
+   "muestra": "abres la carpeta donde guardas tus videos",
+   "profundidad": 0.8,
+   "flotar": 20,
+   "acercar": 0.15
+  },
+  {
+   "id": "t_carpeta",
+   "tipo": "texto",
+   "x": 540,
+   "y": 340,
+   "t0": 24.72,
+   "t1": 27.88,
+   "entra": "izq",
+   "dur": 0.35,
+   "profundidad": 0.95,
+   "interlineado": 26,
+   "lineas": [
+    {
+     "texto": "PASO 2",
+     "rol": "mono",
+     "tam": 40,
+     "color": "#B8B3AA",
+     "peso": 500
+    },
+    {
+     "texto": "tu carpeta",
+     "rol": "display",
+     "tam": 116,
+     "color": "#3FD8FF",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "t_bien",
+   "tipo": "texto",
+   "x": 540,
+   "y": 340,
+   "t0": 30.5,
+   "t1": 36.24,
+   "entra": "fundido",
+   "dur": 0.35,
+   "profundidad": 0.7,
+   "interlineado": 26,
+   "lineas": [
+    {
+     "texto": "comprobar que todo",
+     "rol": "display",
+     "tam": 46,
+     "color": "#FFFFFF",
+     "peso": 600
+    },
+    {
+     "texto": "quede bien",
+     "rol": "display",
+     "tam": 120,
+     "color": "#3DFF8A",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "img_pereza",
+   "tipo": "foto",
+   "src": "arte/3d_pereza.png",
+   "fundir": 0.55,
+   "x": 540,
+   "y": 930,
+   "ancho": 620,
+   "rot": 0,
+   "t0": 36.24,
+   "t1": 60.06,
+   "z": "atras",
+   "entra": "cae",
+   "dur": 0.45,
+   "gris": false,
+   "fusion": "pantalla",
+   "muestra": "casi todos se saltan el tercer paso: maniquí echado",
+   "profundidad": 0.8,
+   "flotar": 20,
+   "acercar": 0.15
+  },
+  {
+   "id": "t_tres",
+   "tipo": "texto",
+   "x": 540,
+   "y": 340,
+   "t0": 37.0,
+   "t1": 60.06,
+   "entra": "smear",
+   "dur": 0.2,
+   "profundidad": 0.35,
+   "lineas": [
+    {
+     "texto": "PASO 3",
+     "rol": "mono",
+     "tam": 40,
+     "color": "#B8B3AA",
+     "peso": 500
+    }
+   ]
+  },
+  {
+   "id": "t_falla",
+   "tipo": "texto",
+   "x": 540,
+   "y": 1330,
+   "t0": 38.28,
+   "t1": 60.06,
+   "entra": "llega",
+   "dur": 0.35,
+   "profundidad": 0.95,
+   "interlineado": 26,
+   "lineas": [
+    {
+     "texto": "casi todos se lo saltan",
+     "rol": "display",
+     "tam": 46,
+     "color": "#B8B3AA",
+     "peso": 600
+    },
+    {
+     "texto": "y les falla",
+     "rol": "display",
+     "tam": 120,
+     "color": "#FF3B30",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "t_paso",
+   "tipo": "texto",
+   "x": 540,
+   "y": 340,
+   "t0": 63.32,
+   "t1": 74.98,
+   "entra": "llega",
+   "dur": 0.35,
+   "profundidad": 0.8,
+   "interlineado": 26,
+   "lineas": [
+    {
+     "texto": "nadie te muestra",
+     "rol": "display",
+     "tam": 46,
+     "color": "#FFFFFF",
+     "peso": 600
+    },
+    {
+     "texto": "el paso a paso",
+     "rol": "display",
+     "tam": 108,
+     "color": "acento",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "img_celular",
+   "tipo": "foto",
+   "src": "arte/3d_celular.png",
+   "fundir": 0.55,
+   "x": 540,
+   "y": 930,
+   "ancho": 560,
+   "rot": 0,
+   "t0": 74.98,
+   "t1": 78.4,
+   "z": "atras",
+   "entra": "llega",
+   "dur": 0.45,
+   "gris": false,
+   "fusion": "pantalla",
+   "luz": 0.5,
+   "tratamiento": "duotono-inverso",
+   "muestra": "aprender a editar vídeos: maniquí con celular lleno de videos",
+   "profundidad": 0.8,
+   "flotar": 20,
+   "acercar": 0.15
+  },
+  {
+   "id": "t_editar",
+   "tipo": "texto",
+   "x": 540,
+   "y": 340,
+   "t0": 77.04,
+   "t1": 78.4,
+   "entra": "der",
+   "dur": 0.3,
+   "profundidad": 0.95,
+   "interlineado": 26,
+   "lineas": [
+    {
+     "texto": "editar vídeos",
+     "rol": "display",
+     "tam": 46,
+     "color": "#B8B3AA",
+     "peso": 600
+    },
+    {
+     "texto": "con Claude",
+     "rol": "display",
+     "tam": 120,
+     "color": "#FF8A3D",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "t_taller",
+   "tipo": "texto",
+   "x": 540,
+   "y": 340,
+   "t0": 79.66,
+   "t1": 81.44,
+   "entra": "pop",
+   "dur": 0.3,
+   "profundidad": 0.9,
+   "interlineado": 22,
+   "lineas": [
+    {
+     "texto": "comenta la palabra",
+     "rol": "display",
+     "tam": 48,
+     "color": "#FFFFFF",
+     "peso": 600
+    },
+    {
+     "texto": "TALLER",
+     "rol": "display",
+     "tam": 150,
+     "color": "acento",
+     "peso": 900
+    }
+   ]
+  }
+ ],
+ "trazos": [],
+ "subtitulos": {
+  "y": 1450,
+  "resaltar": [
+   7,
+   12,
+   17,
+   24,
+   26,
+   30,
+   49,
+   70,
+   84,
+   89,
+   156,
+   157,
+   158,
+   199,
+   208
+  ],
+  "ocultar": [
+   [
+    6.62,
+    7.38
+   ],
+   [
+    8.44,
+    9.08
+   ],
+   [
+    11.1,
+    11.58
+   ],
+   [
+    16.66,
+    17.66
+   ],
+   [
+    24.72,
+    25.18
+   ],
+   [
+    30.5,
+    31.32
+   ],
+   [
+    38.28,
+    39.88
+   ],
+   [
+    63.32,
+    64.78
+   ],
+   [
+    77.04,
+    78.4
+   ],
+   [
+    79.66,
+    81.44
+   ]
+  ]
+ }
+}

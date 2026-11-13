@@ -1,0 +1,30 @@
+/* Vista en vivo (compartida por Personalizar y Edición avanzada): estado de carga y muestra sin video */
+@keyframes gira{to{transform:rotate(360deg)}}
+.cq.carga::after{content:"";position:absolute;top:10px;right:10px;width:18px;height:18px;border-radius:50%;border:2px solid rgba(255,255,255,.45);border-top-color:#fff;animation:gira .8s linear infinite;z-index:2;filter:drop-shadow(0 0 3px rgba(0,0,0,.4))}
+.cq.carga>img{opacity:.78;transition:opacity .2s}
+/* muestra del estilo sin video: los textos dibujados encima de la persona */
+.cq{container-type:inline-size}
+.vf{position:absolute;inset:0}
+.vs{position:absolute;left:6%;right:6%;top:64%;text-align:center;font-size:6cqw;line-height:1.15;color:#fff;text-shadow:0 .05em .2em rgba(0,0,0,.6)}
+.vs.caja{background:rgba(10,10,10,.72);border:.12em solid;border-radius:.3em;padding:.35em .5em;text-shadow:none}
+.vs em{font-style:normal}
+.cq img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cq .nota{position:absolute;left:8%;right:8%;bottom:6%;z-index:1;padding:.5em .7em;border-radius:.5em;background:rgba(10,10,10,.72);color:#fff;font-size:4.2cqw;line-height:1.3;text-align:center}
+.cq:not(:has(img)) .nota{top:42%;bottom:auto;background:none;color:var(--m,#777)}
+/* barra de estado: qué está haciendo la app ahora, con «Detener» (app/actividad.js) */
+/* Va en SU franja, pegada abajo, y la pantalla se encoge para dejarle lugar (--act-h lo pone actividad.js con el alto real): antes
+   flotaba encima y tapaba Exportar y otros botones (Pablo, 12-nov: «están mal puestos porque aparecen sobre varias cosas»). */
+#actividad{position:fixed;left:0;right:0;bottom:0;display:none;flex-direction:column;align-items:center;gap:6px;z-index:40;padding:8px 16px calc(8px + env(safe-area-inset-bottom,0px));background:var(--bg,#fff);border-top:1px solid var(--line,rgba(0,0,0,.1))}
+#actividad.on{display:flex}
+#actividad .act{width:min(560px,100%)}
+.app{height:calc(100vh - var(--act-h,0px));height:calc(100dvh - var(--act-h,0px))}
+body{padding-bottom:var(--act-h,0px)}
+#actividad .act{display:flex;align-items:center;gap:12px;padding:10px 12px 10px 16px;border-radius:16px;background:rgba(20,20,22,.94);color:#fff;font:14px/1.3 -apple-system,BlinkMacSystemFont,"SF Pro Text","Inter",system-ui,sans-serif;}
+#actividad .act-t{flex:1;min-width:0}
+#actividad b{font-weight:600}
+#actividad small{display:block;color:rgba(255,255,255,.65);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#actividad .act-no{min-height:32px;padding:0 14px;border-radius:99px;border:1px solid rgba(255,255,255,.35);background:none;color:#fff;font:inherit;font-size:13px;cursor:pointer}
+#actividad .act-no:hover{background:rgba(255,255,255,.14)}
+#actividad .act-no:disabled{opacity:.4;cursor:default}
+#actividad .giro{width:14px;height:14px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:act-giro .8s linear infinite;flex:none}
+@keyframes act-giro{to{transform:rotate(360deg)}}

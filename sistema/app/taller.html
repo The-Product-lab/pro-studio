@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Taller de referentes · Pro Studio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --f: #0c0c0e; --c: #16161a; --l: #2a2a30; --t: #f2f2f4; --s: #9a9aa3; --ok: #34c759; --top: #ffd60a; --no: #ff453a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--f); color: var(--t); font: 15px/1.45 -apple-system, "Segoe UI", Inter, sans-serif; }
+  header { position: sticky; top: 0; z-index: 3; background: rgba(12,12,14,.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--l); padding: 14px 24px; display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
+  header b { font-size: 17px; margin-right: 8px; }
+  nav button, .chip { background: none; border: 1px solid var(--l); color: var(--s); border-radius: 999px; padding: 6px 14px; margin: 2px; cursor: pointer; font: inherit; }
+  nav button.on, .chip.on { background: var(--t); color: var(--f); border-color: var(--t); }
+  main { padding: 20px 24px 80px; max-width: 1500px; margin: 0 auto; }
+  .ayuda { color: var(--s); margin: 0 0 18px; max-width: 900px; }
+  .ref { background: var(--c); border: 1px solid var(--l); border-radius: 16px; padding: 16px; margin-bottom: 22px; display: grid; grid-template-columns: 240px 1fr; gap: 18px; }
+  .ref video { width: 240px; border-radius: 10px; background: #000; }
+  .ref h2 { margin: 0 0 4px; font-size: 16px; }
+  .meta { color: var(--s); font-size: 13px; margin-bottom: 10px; }
+  .general { width: 100%; background: var(--f); color: var(--t); border: 1px solid var(--l); border-radius: 10px; padding: 8px 10px; font: inherit; margin: 6px 0 12px; }
+  .tira { display: flex; flex-wrap: wrap; gap: 6px; max-height: 440px; overflow: auto; }
+  .cq { position: relative; width: 92px; cursor: pointer; border-radius: 6px; overflow: hidden; border: 3px solid transparent; }
+  .cq img { width: 100%; display: block; }
+  .cq span { position: absolute; left: 3px; top: 2px; font-size: 11px; background: rgba(0,0,0,.6); padding: 0 4px; border-radius: 4px; }
+  .cq.si { border-color: var(--ok); } .cq.top { border-color: var(--top); } .cq.no { border-color: var(--no); }
+  .velo { position: fixed; inset: 0; background: rgba(0,0,0,.75); z-index: 4; display: none; }
+  .velo.on { display: flex; align-items: center; justify-content: center; }
+  .marcar { background: var(--c); border: 1px solid var(--l); border-radius: 18px; padding: 18px; display: grid; grid-template-columns: auto 380px; gap: 20px; max-height: 94vh; }
+  .lienzo { position: relative; height: 86vh; aspect-ratio: 9 / 16; background: #000; border-radius: 10px; overflow: hidden; cursor: crosshair; user-select: none; }
+  .lienzo img { width: 100%; height: 100%; object-fit: contain; pointer-events: none; }
+  .caja { position: absolute; border: 3px solid var(--top); background: rgba(255,214,10,.12); border-radius: 4px; display: none; }
+  .lado h3 { margin: 0 0 4px; } .lado small { color: var(--s); }
+  .grupo { margin: 14px 0 6px; color: var(--s); font-size: 13px; }
+  textarea { width: 100%; background: var(--f); color: var(--t); border: 1px solid var(--l); border-radius: 10px; padding: 10px; font: inherit; }
+  .fila { display: flex; gap: 8px; margin-top: 14px; }
+  .fila button { flex: 1; padding: 11px; border-radius: 10px; border: 0; font: inherit; font-weight: 600; cursor: pointer; }
+  .b-ok { background: var(--t); color: var(--f); } .b-x { background: var(--l); color: var(--t); } .b-del { background: none; color: var(--no); border: 1px solid var(--l) !important; }
+  .vacio { color: var(--s); padding: 40px; text-align: center; }
+  .cuenta { color: var(--s); font-size: 13px; }
+  .nav-t { display: flex; gap: 8px; margin-top: 8px; } .nav-t button { flex: 1; }
+</style>
+</head>
+<body>
+<header><b>Taller de referentes</b><nav id="nav"></nav><span class="cuenta" id="cuenta"></span></header>
+<main>
+  <p class="ayuda">Abre un momento de un referente. <b>Arrastra un recuadro</b> sobre lo que te gusta (una letra, una tarjeta, un color, el lugar de la persona),
+    marca <b>qué aspecto</b> es, <b>cuánto</b> te gusta y escribe <b>por qué</b>. Arriba de cada reel puedes dejar lo que más te gusta de ese reel.
+    Todo lo que marques aquí manda sobre lo que el sistema estudió: el director y el ojo lo ven como imagen.</p>
+  <div id="lista"></div>
+</main>
+<div class="velo" id="velo">
+  <div class="marcar">
+    <div class="lienzo" id="lienzo"><img id="mImg" alt=""><div class="caja" id="caja"></div></div>
+    <div class="lado">
+      <h3 id="mDonde"></h3><small>Arrastra sobre la imagen para encerrar el elemento (opcional).</small>
+      <div class="nav-t"><button class="chip" id="ant">‹ 0,5 s antes</button><button class="chip" id="sig">0,5 s después ›</button></div>
+      <div class="grupo">Cuánto</div>
+      <div id="cuanto"></div>
+      <div class="grupo">Qué aspecto (uno o varios)</div>
+      <div id="aspectos"></div>
+      <div id="terminos" style="max-height:220px;overflow:auto"></div>
+      <div class="grupo">Por qué (con tus palabras)</div>
+      <textarea id="mNota" rows="5" placeholder="Ej.: la palabra es enorme y la cabeza solo tapa la parte de abajo; el rojo es oscuro, no chillón; los tags son chiquitos y blancos"></textarea>
+      <div class="fila"><button class="b-ok" id="guardar">Guardar</button><button class="b-x" id="cerrar">Cerrar</button><button class="b-del" id="borrar">Quitar marca</button></div>
+    </div>
+  </div>
+</div>
+<script>
+const $ = (s) => document.querySelector(s), $$ = (s) => [...document.querySelectorAll(s)];
+const api = (r, b) => fetch(r, b ? { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(b) } : {}).then((x) => x.json());
+const ESTILOS = ["maestro", "luminoso", "swiss", "vox", "pop", "cine", "glass", "imprenta"];
+const CUANTO = [["me encanta", "Me encanta"], ["me gusta", "Me gusta"], ["no me gusta", "No me gusta"]];
+let estilo = new URLSearchParams(location.search).get("estilo") || "maestro", datos = null, sel = null, caja = null, cuanto = "me gusta", aspectos = new Set(), terminos = new Set();
+function nav() {
+  $("#nav").innerHTML = ESTILOS.map((e) => `<button class="${e === estilo ? "on" : ""}" data-e="${e}">${e}</button>`).join("");
+  $$("#nav button").forEach((b) => (b.onclick = () => { estilo = b.dataset.e; history.replaceState(0, "", "?estilo=" + estilo); cargar(); }));
+}
+const marca = (ref, t) => (datos.gustos || []).find((x) => x.ref === ref && Math.abs(x.t - t) < .01);
+async function cargar() {
+  nav();
+  datos = await api(`/api/taller/${estilo}`);
+  const g = datos.gustos || [];
+  $("#cuenta").textContent = `${datos.refs?.length || 0} de ${datos.total || 0} referentes listos · ${g.filter((x) => x.me_gusta).length} momentos que te gustan · ${g.filter((x) => !x.me_gusta).length} que no`;
+  if (!datos.refs?.length) return ($("#lista").innerHTML = `<div class="vacio">Los referentes de ${estilo} se están bajando (${datos.total || 0} en total). Aparecen aquí en unos minutos.</div>`);
+  $("#lista").innerHTML = datos.refs.map((r) => `
+    <div class="ref"><div>${r.video ? `<video src="${r.video}" controls playsinline preload="metadata"></video>` : ""}</div>
+      <div><h2>${r.codigo}${r.duenno ? " · tu referencia" : ""}</h2>
+        <div class="meta">${r.cuenta ? "@" + r.cuenta + " · " : ""}${r.que || ""} · <a href="https://www.instagram.com/reel/${r.codigo}/" target="_blank" style="color:#9ab">ver en Instagram</a></div>
+        <div style="display:flex;gap:8px;align-items:center"><textarea class="general" rows="2" data-g="${r.codigo}" placeholder="Lo que más me gusta (o no) de este reel en general…">${(datos.notas || {})[r.codigo] || ""}</textarea>
+          <button class="chip gg" data-g="${r.codigo}">Guardar</button><span class="cuenta ok" data-ok="${r.codigo}"></span></div>
+        <div class="tira">${r.cuadros.map((c) => { const m = marca(r.codigo, c.t);
+          const cls = m ? (!m.me_gusta ? "no" : m.cuanto === "me encanta" ? "top" : "si") : "";
+          return `<div class="cq ${cls}" data-r="${r.codigo}" data-t="${c.t}" title="${m ? [...(m.aspectos || []), ...(m.terminos || [])].join(", ") + " — " + (m.nota || "") : ""}"><img loading="lazy" src="${c.src}"><span>${c.t.toFixed(1)}s</span></div>`; }).join("")}</div></div></div>`).join("");
+  $$(".cq").forEach((c) => (c.onclick = () => abrir(c.dataset.r, +c.dataset.t)));
+  const guardarGeneral = async (ref) => {
+    const t = document.querySelector(`textarea.general[data-g="${ref}"]`);
+    await api("/api/nota-reel", { estilo, ref, nota: t.value.trim() });
+    const ok = document.querySelector(`[data-ok="${ref}"]`); ok.textContent = "Guardado ✓"; setTimeout(() => (ok.textContent = ""), 2500);
+  };
+  $$(".gg").forEach((b) => (b.onclick = () => guardarGeneral(b.dataset.g)));
+  $$("textarea.general").forEach((i) => (i.onchange = () => guardarGeneral(i.dataset.g)));
+}
+function chips() {
+  $("#cuanto").innerHTML = CUANTO.map(([k, n]) => `<button class="chip${cuanto === k ? " on" : ""}" data-c="${k}">${n}</button>`).join("");
+  $("#aspectos").innerHTML = (datos.aspectos || []).map((a) => `<button class="chip${aspectos.has(a) ? " on" : ""}" data-a="${a}">${a}</button>`).join("");
+  $("#terminos").innerHTML = [...aspectos].map((a) => `<div style="margin:6px 0 2px;font-size:12px;color:var(--s)">${a}</div>` +
+    (datos.vocabulario?.[a] || []).map((t) => `<button class="chip${terminos.has(t) ? " on" : ""}" data-t="${t}">${t}</button>`).join("")).join("");
+  $$("#terminos .chip").forEach((b) => (b.onclick = () => { terminos.has(b.dataset.t) ? terminos.delete(b.dataset.t) : terminos.add(b.dataset.t); chips(); }));
+  $$("#cuanto .chip").forEach((b) => (b.onclick = () => { cuanto = b.dataset.c; chips(); }));
+  $$("#aspectos .chip").forEach((b) => (b.onclick = () => { aspectos.has(b.dataset.a) ? aspectos.delete(b.dataset.a) : aspectos.add(b.dataset.a); chips(); }));
+}
+function pintarCaja() {
+  const k = $("#caja");
+  if (!caja) return (k.style.display = "none");
+  const [x0, y0, x1, y1] = caja;
+  Object.assign(k.style, { display: "block", left: x0 * 100 + "%", top: y0 * 100 + "%", width: (x1 - x0) * 100 + "%", height: (y1 - y0) * 100 + "%" });
+}
+function abrir(ref, t) {
+  const r = datos.refs.find((x) => x.codigo === ref);
+  const c = r.cuadros.reduce((a, b) => (Math.abs(b.t - t) < Math.abs(a.t - t) ? b : a));
+  sel = { ref, t: c.t };
+  const m = marca(ref, c.t);
+  caja = m?.caja || null; cuanto = m ? m.cuanto || (m.me_gusta ? "me gusta" : "no me gusta") : "me gusta"; aspectos = new Set(m?.aspectos || []); terminos = new Set(m?.terminos || []);
+  $("#mImg").src = c.src; $("#mDonde").textContent = `${ref} · segundo ${c.t.toFixed(1)}`; $("#mNota").value = m?.nota || "";
+  chips(); pintarCaja(); $("#velo").classList.add("on");
+}
+let ini = null;
+const pos = (e) => { const b = $("#lienzo").getBoundingClientRect(); return [Math.min(1, Math.max(0, (e.clientX - b.left) / b.width)), Math.min(1, Math.max(0, (e.clientY - b.top) / b.height))]; };
+$("#lienzo").onmousedown = (e) => { ini = pos(e); caja = null; pintarCaja(); };
+window.onmousemove = (e) => { if (!ini) return; const p = pos(e); caja = [Math.min(ini[0], p[0]), Math.min(ini[1], p[1]), Math.max(ini[0], p[0]), Math.max(ini[1], p[1])]; pintarCaja(); };
+window.onmouseup = () => { if (ini && caja && (caja[2] - caja[0] < .02 || caja[3] - caja[1] < .02)) { caja = null; pintarCaja(); } ini = null; };
+$("#ant").onclick = () => abrir(sel.ref, sel.t - .5);
+$("#sig").onclick = () => abrir(sel.ref, sel.t + .5);
+$("#guardar").onclick = async () => {
+  await api("/api/gusto", { estilo, ...sel, nota: $("#mNota").value.trim(), me_gusta: cuanto !== "no me gusta", cuanto, aspectos: [...aspectos], terminos: [...terminos], caja });
+  $("#velo").classList.remove("on"); cargar();
+};
+$("#borrar").onclick = async () => { await api("/api/gusto", { estilo, ...sel, me_gusta: null }); $("#velo").classList.remove("on"); cargar(); };
+$("#cerrar").onclick = () => $("#velo").classList.remove("on");
+document.onkeydown = (e) => { if (e.key === "Escape") $("#velo").classList.remove("on"); };
+cargar();
+</script>
+</body>
+</html>

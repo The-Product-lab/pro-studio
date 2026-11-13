@@ -1,0 +1,152 @@
+{
+ "ref": "DdoVHX5gfP-",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Tipografía neo-grotesca sobre fondo gris claro con guías dashed, flechas rojas de señal y óvalos dibujados; ritmo ágil de microaprendizaje. La parte de pantalla de software no sirve.",
+ "paleta": [
+  {
+   "hex": "#ECEEF1",
+   "rol": "fondo claro",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#121316",
+   "rol": "tinta",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#E51A24",
+   "rol": "rojo señal: flechas, óvalos",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#0B44DE",
+   "rol": "azul eléctrico: texto de demostración",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#0E0E10",
+   "rol": "fondo oscuro de contraste",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "neo-grotesca Black/Bold titulares, Medium/Regular secundarios",
+   "google": "Inter"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   0.4,
+   1.2
+  ],
+  "cortes_por_min": [
+   40,
+   50
+  ],
+  "gancho": "0–1 s: logo con guías dashed y flecha"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "palabra",
+  "y_aprox": 1450,
+  "mayus": true,
+  "clave": "caja gris translúcida redondeada, mayúsculas blancas con pop-in"
+ },
+ "persona": {
+  "tratamiento": "creador a cámara solo al cierre",
+  "encuadre": "busto centrado"
+ },
+ "recursos": [
+  {
+   "nombre": "guías dashed",
+   "por_min": [
+    6,
+    12
+   ],
+   "dur_s": [
+    0.3,
+    0.8
+   ],
+   "cuando": "enfatizar márgenes y alineación",
+   "como": "líneas grises discontinuas"
+  },
+  {
+   "nombre": "flecha/óvalo dibujado",
+   "por_min": [
+    4,
+    8
+   ],
+   "dur_s": [
+    0.2,
+    0.8
+   ],
+   "cuando": "centrar la atención en una palabra",
+   "como": "trazo rojo vectorial"
+  },
+  {
+   "nombre": "ráfaga de pósters",
+   "por_min": [
+    3,
+    8
+   ],
+   "dur_s": [
+    0.3,
+    0.5
+   ],
+   "cuando": "fase de ejemplos",
+   "como": "imágenes centradas a pantalla completa"
+  },
+  {
+   "nombre": "cambio de glifo por icono",
+   "por_min": [
+    2,
+    5
+   ],
+   "dur_s": [
+    0.2,
+    0.2
+   ],
+   "cuando": "metáfora visual",
+   "como": "letra sale y entra icono"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   30,
+   45
+  ],
+  "tipos": [
+   "guías",
+   "flechas",
+   "pósters",
+   "óvalos"
+  ]
+ },
+ "imagenes": {
+  "tipo": "pósters y logos",
+  "tratamiento": "grano 3–5 %, pliegues de papel",
+  "cuantas": 6
+ },
+ "transiciones": [
+  "corte seco",
+  "ease-out rápido sin rebote"
+ ],
+ "camara": [
+  "zoom macro a la tipografía"
+ ],
+ "sonido": [
+  "lo-fi medio",
+  "click de mouse",
+  "thud ligero"
+ ],
+ "si": [
+  "una sola flecha de señal a la vez"
+ ],
+ "no": [
+  "capturas de software",
+  "más de un acento"
+ ]
+}

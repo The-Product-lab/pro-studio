@@ -1,0 +1,307 @@
+{
+ "version": 1,
+ "proyecto": "c8869",
+ "firma": "cf504d97f819",
+ "fuente_s": 85.1,
+ "duracion_s": 16.78,
+ "cortes": [
+  [
+   0.0,
+   4.23
+  ],
+  [
+   5.34,
+   5.54
+  ],
+  [
+   7.45,
+   7.71
+  ],
+  [
+   9.44,
+   9.7
+  ],
+  [
+   11.84,
+   60.71
+  ],
+  [
+   64.785,
+   76.18
+  ],
+  [
+   82.0,
+   85.1
+  ]
+ ],
+ "color": {
+  "entrada": "rec709",
+  "receta": "pablo",
+  "look": "calido-EliteColor200",
+  "fuerza": 0.7
+ },
+ "quitado_s": {
+  "claqueta": 0.0,
+  "apuntador": 31.4,
+  "tomas_repetidas": 0.0,
+  "ia_fuera_de_guion": 12.5,
+  "pausas_y_aire": 24.4
+ },
+ "ia": {
+  "usada": true,
+  "quito": [
+   {
+    "t0": 40.88,
+    "t1": 46.44,
+    "texto": "entonces sería algo más bien, ya vería cloud esto cloud este otro, y esta como que cloud, ",
+    "motivo": "Charla con el director: está ideando cómo decir la línea («entonces sería algo más bien…»). No es parte del guion."
+   },
+   {
+    "t0": 64.78,
+    "t1": 65.28,
+    "texto": "si",
+    "motivo": "Primer intento del cierre, se corta en «acá» sin terminar."
+   },
+   {
+    "t0": 65.28,
+    "t1": 65.48,
+    "texto": "quieres",
+    "motivo": "Primer intento del cierre, se corta en «acá» sin terminar."
+   },
+   {
+    "t0": 65.48,
+    "t1": 65.78,
+    "texto": "aprender",
+    "motivo": "Primer intento del cierre, se corta en «acá» sin terminar."
+   },
+   {
+    "t0": 65.78,
+    "t1": 66.22,
+    "texto": "cómo",
+    "motivo": "Primer intento del cierre, se corta en «acá» sin terminar."
+   },
+   {
+    "t0": 66.22,
+    "t1": 66.66,
+    "texto": "editar",
+    "motivo": "Primer intento del cierre, se corta en «acá» sin terminar."
+   },
+   {
+    "t0": 66.66,
+    "t1": 67.02,
+    "texto": "vídeos",
+    "motivo": "Primer intento del cierre, se corta en «acá» sin terminar."
+   },
+   {
+    "t0": 67.02,
+    "t1": 67.46,
+    "texto": "como",
+    "motivo": "Primer intento del cierre, se corta en «acá» sin terminar."
+   },
+   {
+    "t0": 67.46,
+    "t1": 67.58,
+    "texto": "el",
+    "motivo": "Primer intento del cierre, se corta en «acá» sin terminar."
+   },
+   {
+    "t0": 67.58,
+    "t1": 67.64,
+    "texto": "que",
+    "motivo": "Primer intento del cierre, se corta en «acá» sin terminar."
+   },
+   {
+    "t0": 67.64,
+    "t1": 67.82,
+    "texto": "ves",
+    "motivo": "Primer intento del cierre, se corta en «acá» sin terminar."
+   },
+   {
+    "t0": 67.82,
+    "t1": 68.0,
+    "texto": "acá",
+    "motivo": "Primer intento del cierre, se corta en «acá» sin terminar."
+   },
+   {
+    "t0": 69.54,
+    "t1": 69.8,
+    "texto": "aprender",
+    "motivo": "Segunda versión del cierre (con «comenta cloud»). Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 69.8,
+    "t1": 70.1,
+    "texto": "a",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 70.1,
+    "t1": 70.36,
+    "texto": "editar",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 70.36,
+    "t1": 70.64,
+    "texto": "vídeos",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 70.64,
+    "t1": 70.98,
+    "texto": "como",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 70.98,
+    "t1": 71.12,
+    "texto": "el",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 71.12,
+    "t1": 71.14,
+    "texto": "que",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 71.14,
+    "t1": 71.44,
+    "texto": "tienes",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 71.44,
+    "t1": 71.72,
+    "texto": "aquí",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 71.72,
+    "t1": 72.5,
+    "texto": "comenta",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 72.5,
+    "t1": 72.62,
+    "texto": "la",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 72.62,
+    "t1": 72.96,
+    "texto": "palabra",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 72.96,
+    "t1": 73.36,
+    "texto": "cloud",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 73.36,
+    "t1": 73.64,
+    "texto": "y",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 73.64,
+    "t1": 73.72,
+    "texto": "te",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 73.72,
+    "t1": 74.24,
+    "texto": "explico",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 74.24,
+    "t1": 74.34,
+    "texto": "el",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 74.34,
+    "t1": 74.58,
+    "texto": "paso",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 74.58,
+    "t1": 74.76,
+    "texto": "a",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   },
+   {
+    "t0": 74.76,
+    "t1": 74.98,
+    "texto": "paso",
+    "motivo": "Segunda versión del cierre. Sobra porque la última versión completa es la 71."
+   }
+  ],
+  "restauro": [
+   {
+    "t0": 59.96,
+    "t1": 60.59,
+    "texto": "todos",
+    "motivo": "Es la primera palabra del talento en «todos están hablando de…». Sin ella, la frase arranca cortada en «están»."
+   },
+   {
+    "t0": 74.98,
+    "t1": 76.26,
+    "texto": "si",
+    "motivo": "Es el «si» con que empieza el cierre final: «si quieres aprender…». Sin él, la frase 71 queda coja."
+   }
+  ],
+  "llamadas": 2,
+  "usd_eq": 0.268
+ },
+ "avisos": [
+  {
+   "t": 0,
+   "tipo": "ia",
+   "motivo": "1 palabras marcadas como apuntador quedan como talento: la IA las leyó y las dejó"
+  },
+  {
+   "motivo": "un tramo suelto de 1.23 s se quitó y se llevó «si quieres»",
+   "t": 68.03,
+   "tipo": "pedacito"
+  },
+  {
+   "motivo": "no hay silencio entre estas palabras (vienen pegadas): corte en el punto de menor energía",
+   "t": 64.785,
+   "tipo": "degradado"
+  },
+  {
+   "motivo": "un tramo suelto de 0.76 s se quitó y se llevó «Cloud,»",
+   "t": 2.15,
+   "tipo": "pedacito"
+  },
+  {
+   "motivo": "100 palabras tratadas como apuntador (voz ~15 dB bajo el talento) entre 0.0 y 57.2 s: revisa que no sea el talento hablando bajo",
+   "t": 0.0,
+   "tipo": "apuntador"
+  }
+ ],
+ "residuales": [
+  "montaje: el fin del tramo 60.71–64.78 s corta con voz sonando: mueve el corte a un silencio",
+  "montaje: el tramo 60.71–64.78 s termina 0.00 s después de «paso»: deja al menos 0.08 s para que la palabra termine"
+ ],
+ "render": {
+  "firma": "d23d39cf2592",
+  "ancho": 720,
+  "alto": 1280,
+  "crf": 26,
+  "duracion_s": 16.83,
+  "bytes": 1283292
+ },
+ "revision": {
+  "firma": "d23d39cf2592",
+  "ok": true,
+  "fallas": []
+ }
+}

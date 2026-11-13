@@ -1,0 +1,595 @@
+{
+ "vox": {
+  "nombre": "Vox",
+  "idea": "Collage editorial en papel, frase a frase: recortes de archivo, títulos grandes, una palabra resaltada.",
+  "refs": [
+   [
+    "DceFNdVM-NG",
+    "2kvxkv",
+    "sanji.chien",
+    "Papel rasgado y título serif gigante sobre foto de archivo",
+    "309K"
+   ],
+   [
+    "De9Ps19uKaZ",
+    "8wgs2q",
+    "earn.edits",
+    "Retro sobre papel cuadriculado, lupa y títulos en bloque",
+    "12K"
+   ],
+   [
+    "Da3YpRipHuF",
+    "gsiklt",
+    "chrismoran__",
+    "Título sobre archivo con flecha dibujada a mano",
+    "223K"
+   ],
+   [
+    "DbGP21gqRnm",
+    "vzz42h",
+    "rz_motions",
+    "Recorte B/N con etiquetas rojas en serif",
+    "52K"
+   ],
+   [
+    "DcjSDhcsZM3",
+    "",
+    "johnny.harris",
+    "Recorte de archivo (letrero «Molar City») sobre el cuadro, subtítulo en caja, explicativo frase a frase",
+    "792.1K"
+   ],
+   [
+    "DbvdFAgBHKy",
+    "",
+    "johnny.harris",
+    "Afiche vintage japonés con textura de papel impreso y la frase clave en caja",
+    "55K"
+   ],
+   [
+    "Db-51hmhOlp",
+    "",
+    "johnny.harris",
+    "Mapa plano sobre fondo de color con recortes de cromos pegados encima y titular en caja",
+    "42.4K"
+   ],
+   [
+    "DeswHnkNY73",
+    "",
+    "neva_vision",
+    "Plantilla collage retro (mapas, afiches, TV) con titular grande resaltado en verde neón",
+    "124.5K"
+   ],
+   [
+    "DfCj6H4uSYg",
+    "",
+    "neva_vision",
+    "Mismo collage editorial de papel y objetos con titular-pregunta resaltado y archivo en la TV",
+    "4.8K"
+   ],
+   [
+    "DewjrtNuAVk",
+    "",
+    "neva_vision",
+    "Collage retro con titular de bloque de color y clip de archivo encajado",
+    "9.7K"
+   ],
+   [
+    "DdWb9S4oCnu",
+    "",
+    "prada",
+    "Montaje de collage en stop-motion: mapa antiguo sobre foto de archivo, capas que parpadean y titular grande",
+    "3M"
+   ]
+  ],
+  "estado": {
+   "DceFNdVM-NG": "estudiado",
+   "De9Ps19uKaZ": "estudiado",
+   "Da3YpRipHuF": "estudiado",
+   "DbGP21gqRnm": "estudiado",
+   "DcjSDhcsZM3": "pendiente",
+   "DbvdFAgBHKy": "estudiado",
+   "Db-51hmhOlp": "estudiado",
+   "DeswHnkNY73": "estudiado",
+   "DfCj6H4uSYg": "estudiado",
+   "DewjrtNuAVk": "estudiado",
+   "DdWb9S4oCnu": "pendiente"
+  }
+ },
+ "pop": {
+  "nombre": "Pop",
+  "idea": "Colores saturados, mayúsculas condensadas, stickers, insignias y caricaturas.",
+  "refs": [
+   [
+    "DXO6RAOioMu",
+    "xw5dip",
+    "earnera.co",
+    "Mayúsculas y lista con insignias amarillas numeradas",
+    "9K"
+   ],
+   [
+    "DfEv7DuOgYT",
+    "9pt319",
+    "earn.edits",
+    "Pixel retro en rojo y amarillo",
+    "37K"
+   ],
+   [
+    "DcavlDRAchA",
+    "epic6r",
+    "earnera.co",
+    "Cabeza de caricatura con nombre en bloque",
+    "27K"
+   ],
+   [
+    "Db70QWsA9wd",
+    "nalofl",
+    "earnera.co",
+    "Rayos rojos y recorte de persona",
+    "8K"
+   ],
+   [
+    "Da8T4XeM6pc",
+    "",
+    "pinkpuffy724",
+    "Collage mixed media muy saturado: foto recortada con stickers de corazones con brillo, arcoíris y nubes caricatura, manchas de pintura rosa y naranja",
+    "3.9M"
+   ],
+   [
+    "De9xFeTsC4D",
+    "",
+    "ivl.smm",
+    "Persona hablando a cámara con título en mayúsculas condensadas, sticker de carpa de circo, texto manuscrito encima y una pantalla de la app superpuesta",
+    "288K"
+   ],
+   [
+    "DZkrlYZsEee",
+    "",
+    "ivl.smm",
+    "Bloque rojo con titular en mayúsculas condensadas blancas, antes y después en collage con stickers de recortes, emoji y etiquetas rojas de cifras",
+    "60K"
+   ]
+  ],
+  "estado": {
+   "DXO6RAOioMu": "estudiado",
+   "DfEv7DuOgYT": "estudiado",
+   "DcavlDRAchA": "estudiado",
+   "Db70QWsA9wd": "estudiado",
+   "Da8T4XeM6pc": "pendiente",
+   "De9xFeTsC4D": "pendiente",
+   "DZkrlYZsEee": "pendiente"
+  },
+  "descartados_por_pablo": [
+   "Db3Hxy0MrcK",
+   "DbYnLt3sitP",
+   "Ddb9i2BsQCq"
+  ]
+ },
+ "imprenta": {
+  "nombre": "Imprenta",
+  "idea": "Impreso de época: documentos, serif en rojo, fechas grandes, grano de imprenta.",
+  "refs": [
+   [
+    "DeMdv7NqeL-",
+    "u7qf2e",
+    "rz_motions",
+    "Documento antiguo con serif roja y fecha gigante",
+    "5K"
+   ],
+   [
+    "DdKZ5oBpPCW",
+    "1xh936",
+    "chrismoran__",
+    "Serif grande y flecha roja sobre foto de archivo",
+    "1,4M"
+   ],
+   [
+    "DbSrtDFgti9",
+    "dyw5zc",
+    "earnera.co",
+    "Etiqueta en serif cursiva sobre escena B/N",
+    "17K"
+   ]
+  ],
+  "estado": {
+   "DeMdv7NqeL-": "estudiado",
+   "DdKZ5oBpPCW": "estudiado",
+   "DbSrtDFgti9": "estudiado"
+  }
+ },
+ "maestro": {
+  "nombre": "Maestro",
+  "idea": "Persona a cámara limpia + ráfagas de apoyos B/N; palabra clave gigante detrás.",
+  "refs": [
+   [
+    "Dc_2Y1qI0ZH",
+    "",
+    "byimraaan (tu referencia)",
+    "Capas cósmicas: 1 plano/s al compás, siluetas de luz, CRT, blueprint, espiral áurea, partículas (re-estudiado)",
+    "—"
+   ],
+   [
+    "DfAE8n5ovTR",
+    "",
+    "(tu referencia, te gustó mucho)",
+    "Composición multicapa: sujeto recortado con tipografía y gráficos delante y detrás, ráfagas tipográficas",
+    "—"
+   ],
+   [
+    "DfSOZ1TSJ3k",
+    "pn5g4u",
+    "glazemind",
+    "Podcast oscuro con palabra roja gigante detrás",
+    "78K"
+   ],
+   [
+    "De7D7A6N70v",
+    "t5tc7k",
+    "glazemind",
+    "Dos personas y palabra en verde con cursiva",
+    "361K"
+   ],
+   [
+    "DexAoowTYf1",
+    "44gj16",
+    "aymaned1ts",
+    "Archivo B/N enmarcado en blanco",
+    "10K"
+   ],
+   [
+    "DRUpn6CDHw9",
+    "tqywo8",
+    "aymaned1ts",
+    "Toma de cine en B/N",
+    "12K"
+   ]
+  ],
+  "principal": "Dc_2Y1qI0ZH",
+  "estado": {
+   "Dc_2Y1qI0ZH": "estudiado",
+   "DfSOZ1TSJ3k": "estudiado",
+   "De7D7A6N70v": "estudiado",
+   "DexAoowTYf1": "estudiado",
+   "DRUpn6CDHw9": "estudiado",
+   "DfAE8n5ovTR": "estudiado"
+  }
+ },
+ "swiss": {
+  "nombre": "Swiss",
+  "idea": "Cuadrícula, sans limpia, fondo claro y un solo color de señal.",
+  "refs": [
+   [
+    "De9SYDwhTG0",
+    "",
+    "(tu referencia)",
+    "Retícula azul Klein, ASCII y semitono, línea de pulso, cajas con coordenadas",
+    "—"
+   ],
+   [
+    "DdoVHX5gfP-",
+    "3pa0t7",
+    "chrismoran__",
+    "Guías de cuadrícula y sans negra sobre fondo claro",
+    "104K"
+   ],
+   [
+    "DYjgNQ5ALOA",
+    "cs2uvx",
+    "earnera.co",
+    "Producto con sans fina sobre fondo claro",
+    "20K"
+   ],
+   [
+    "Ddk09yCNf4m",
+    "tpa6nr",
+    "designwithmuzi",
+    "Persona con lista y lámina limpia encima",
+    "959K"
+   ],
+   [
+    "DdfrVcfz3ou",
+    "6bzm6x",
+    "designwithmuzi",
+    "Tarjetas tipográficas sobre la persona",
+    "50K"
+   ]
+  ],
+  "principal": "De9SYDwhTG0",
+  "estado": {
+   "De9SYDwhTG0": "estudiado",
+   "DdoVHX5gfP-": "estudiado",
+   "DYjgNQ5ALOA": "estudiado",
+   "Ddk09yCNf4m": "estudiado",
+   "DdfrVcfz3ou": "estudiado"
+  }
+ },
+ "glass": {
+  "nombre": "Glass",
+  "idea": "Tarjetas de vidrio e interfaz flotando sobre el video.",
+  "refs": [
+   [
+    "DfMf8-3O9Yj",
+    "2o9w8u",
+    "earn.edits",
+    "Tarjetas de interfaz flotantes",
+    "12K"
+   ],
+   [
+    "DX_iGShgfL0",
+    "f5u5iw",
+    "earnera.co",
+    "Cifra gigante y tarjetas sobre degradado oscuro",
+    "29K"
+   ],
+   [
+    "De35LSAOxYG",
+    "6w3v6x",
+    "earn.edits",
+    "Íconos en órbita sobre UI clara",
+    "22K"
+   ],
+   [
+    "DfPJRQciAXX",
+    "",
+    "sebintel",
+    "Tarjetas de reels translúcidas flotando y orbitando alrededor del creador mientras habla",
+    "18.8K"
+   ],
+   [
+    "DfMi_f0jseK",
+    "",
+    "sebintel",
+    "Un mismo clip con widgets de vidrio flotantes y focos de luz sobre el video de él hablando",
+    "26.7K"
+   ],
+   [
+    "DfHpXsEiKFD",
+    "",
+    "sebintel",
+    "Panel de vidrio con una cuadrícula de imágenes flotando frente a él, más títulos grandes con brillo",
+    "79.7K"
+   ],
+   [
+    "Def9pj5TWtA",
+    "",
+    "tenfoldmarc",
+    "Tarjeta de vidrio tipo teléfono flotando frente a él, con listas de interfaz a los lados del video",
+    "714K"
+   ],
+   [
+    "DfHu8VVoSU6",
+    "",
+    "tenfoldmarc",
+    "Píldora de título estilo interfaz y ventana de app con línea de tiempo flotando sobre el video de él hablando",
+    "176"
+   ],
+   [
+    "DfQLBvuzBIy",
+    "",
+    "tenfoldmarc",
+    "Tarjeta de reel con etiqueta de usuario flotando junto a él y titular encima",
+    "10.8K"
+   ],
+   [
+    "Dcb7aXrzmX7",
+    "",
+    "mumtazgazii",
+    "Tarjetas de interfaz (saldo, cifras) flotando sobre el video de alguien hablando, más una palabra con brillo y un botón",
+    "1.5K"
+   ],
+   [
+    "DexINJEym0l",
+    "",
+    "mumtazgazii",
+    "Tres tarjetas de perfil estilo interfaz flotando detrás de la persona recortada",
+    "2.3K"
+   ],
+   [
+    "DcZq3x2vf8l",
+    "",
+    "mumtazgazii",
+    "Recopilación de anuncios: videos de personas hablando con tarjetas de interfaz, iconos y elementos 3D flotando",
+    "1.6K"
+   ]
+  ],
+  "estado": {
+   "DfMf8-3O9Yj": "estudiado",
+   "DX_iGShgfL0": "estudiado",
+   "De35LSAOxYG": "estudiado",
+   "DfPJRQciAXX": "pendiente",
+   "DfMi_f0jseK": "estudiado",
+   "DfHpXsEiKFD": "estudiado",
+   "Def9pj5TWtA": "estudiado",
+   "DfHu8VVoSU6": "estudiado",
+   "DfQLBvuzBIy": "estudiado",
+   "Dcb7aXrzmX7": "estudiado",
+   "DexINJEym0l": "pendiente",
+   "DcZq3x2vf8l": "pendiente"
+  }
+ },
+ "luminoso": {
+  "nombre": "Luminoso",
+  "idea": "Todo emite luz sobre negro: brillo, rayos, texto que resplandece.",
+  "refs": [
+   [
+    "Dbq9awKotYY",
+    "",
+    "(tu referencia)",
+    "Silueta con contorno neón cian, tarjetas 3D sobre la mesa, destellos, títulos con glow",
+    "—"
+   ],
+   [
+    "DfFNu8XAHWL",
+    "nb4thw",
+    "chrismoran__",
+    "Brillo suave amarillo sobre negro",
+    "92K"
+   ],
+   [
+    "DfM7ZyruNRU",
+    "ikn3gx",
+    "earn.edits",
+    "Título dorado con resplandor",
+    "20K"
+   ],
+   [
+    "DfKZ9g_J3x_",
+    "azyllg",
+    "johnbucog",
+    "Rayos de luz detrás de una silueta",
+    "46K"
+   ]
+  ],
+  "principal": "Dbq9awKotYY",
+  "estado": {
+   "Dbq9awKotYY": "estudiado",
+   "DfFNu8XAHWL": "estudiado",
+   "DfM7ZyruNRU": "estudiado",
+   "DfKZ9g_J3x_": "estudiado"
+  }
+ },
+ "cine": {
+  "nombre": "Cine",
+  "idea": "Títulos de película, archivo B/N, profundidad y luz de cine.",
+  "refs": [
+   [
+    "DfC63wopniq",
+    "oamxgu",
+    "chrismoran__",
+    "Secuencia de títulos tipo Netflix",
+    "54K"
+   ],
+   [
+    "DecbrespqWe",
+    "l8p3vw",
+    "chrismoran__",
+    "Negro con cuadrícula y objetos vintage",
+    "474K"
+   ],
+   [
+    "DbqvQrPTPIS",
+    "4a0sil",
+    "aymaned1ts",
+    "Collage cinematográfico con profundidad (El Cairo 1940)",
+    "268K"
+   ],
+   [
+    "DfM5Ce5OQOM",
+    "y1qa82",
+    "johnbucog",
+    "Silueta roja sobre ciudad en B/N",
+    "30K"
+   ],
+   [
+    "Db3rNmlTK6q",
+    "",
+    "joshguvi",
+    "Monólogo con franjas de cine, título en serif pequeño tipo película, retrato con poca profundidad de campo y luz lateral suave",
+    "905.6K"
+   ],
+   [
+    "DfRyjPhTGJq",
+    "",
+    "joshguvi",
+    "Tarjeta de título de película en serif («The Art of… Boredom.») sobre un plano en penumbra con luz dura que viene de arriba",
+    "22K"
+   ],
+   [
+    "DebwdMgzSJP",
+    "",
+    "joshguvi",
+    "Planos en blanco y negro con mucho contraste y aspecto de archivo de documental, encuadre de cine panorámico",
+    "85.3K"
+   ],
+   [
+    "DfPdZbdRMn7",
+    "",
+    "dylanbanks_yt",
+    "Persona hablando con luz baja, sin color y con viñeta oscura, tipo película dramática, con franjas negras",
+    "753.6K"
+   ],
+   [
+    "DfA9-ZYN8Sg",
+    "",
+    "dylanbanks_yt",
+    "Metraje lavado con grano, aspecto de archivo y franjas de cine, subtítulo serif centrado",
+    "1.1M"
+   ]
+  ],
+  "estado": {
+   "DfC63wopniq": "estudiado",
+   "DecbrespqWe": "estudiado",
+   "DbqvQrPTPIS": "estudiado",
+   "DfM5Ce5OQOM": "estudiado",
+   "Db3rNmlTK6q": "estudiado",
+   "DfRyjPhTGJq": "pendiente",
+   "DebwdMgzSJP": "estudiado",
+   "DfPdZbdRMn7": "estudiado",
+   "DfA9-ZYN8Sg": "estudiado"
+  }
+ },
+ "julian-alborna": {
+  "nombre": "Julián Alborna",
+  "idea": "Divulgación con collage editorial: la persona en su toma cálida en penumbra alterna con láminas de papel crema o tarjetas negras con grabados B/N, un solo acento rojo-óxido, rotulador a mano y texto palabra a palabra.",
+  "refs": [
+   [
+    "YFSYO5SR4rs",
+    "",
+    "julianealborna",
+    "PRINCIPAL · papel crema arrugado, grabados B/N, tarjeta negra con marco, rotulador rojo, 12 cps",
+    "60.8K"
+   ],
+   [
+    "AjgB1yoozIE",
+    "",
+    "julianealborna",
+    "papel claro con diagrama de líneas finas y grabados; insertos negros con luz",
+    "57.5K"
+   ],
+   [
+    "P-wnbH2g7zc",
+    "",
+    "julianealborna",
+    "negro: figuras blancas emisivas, semitono de archivo, cerebro con calor",
+    "54.3K"
+   ],
+   [
+    "qxL_N3YtJxg",
+    "",
+    "julianealborna",
+    "short ene-2025",
+    "41K"
+   ],
+   [
+    "v4zQeDfzJQw",
+    "",
+    "julianealborna",
+    "maniquíes 3D blancos sobre negro, un color por metáfora",
+    "51.3K"
+   ],
+   [
+    "GklJPR8o9rA",
+    "",
+    "julianealborna",
+    "época temprana live-action, foley",
+    "82.9K"
+   ],
+   [
+    "0O1uk82fsSk",
+    "",
+    "julianealborna",
+    "largo 8:47, 2.1M vistas",
+    "2.1M"
+   ]
+  ],
+  "principal": "YFSYO5SR4rs",
+  "estado": {
+   "YFSYO5SR4rs": "estudiado",
+   "AjgB1yoozIE": "estudiado",
+   "P-wnbH2g7zc": "estudiado",
+   "v4zQeDfzJQw": "estudiado",
+   "GklJPR8o9rA": "estudiado",
+   "0O1uk82fsSk": "estudiado"
+  },
+  "canal": "youtube.com/channel/UCClMN4G9PpOIGrYqnTkSSag"
+ }
+}

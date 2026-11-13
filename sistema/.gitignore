@@ -1,0 +1,56 @@
+# Todo lo que instala el instalador vive aquí
+.tps/
+.venv/
+node_modules/
+navegador-lemo/
+.navegador-ok
+proyectos/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Referencias de estilo: se versionan las notas, no los videos
+referencias-estilos/**/*.mp4
+referencias-estilos/**/*.mov
+referencias-estilos/**/*.webm
+
+# Material con licencia de suscripción o sin redistribución
+privadas/
+
+# Banco de pruebas: los clips no van a git (se describen en banco/LEEME.md)
+banco/**/*.mp4
+banco/**/*.mov
+costos.jsonl
+
+# Banco de SFX grabados (CC0): no va a git; `estudio sfx traer` lo llena (en el PC es un enlace al banco de captions)
+librerias/sonido/sfx
+referencias-estilos/**/*.jpg
+# Muestras del seleccionador: se regeneran con `uv run estudio muestras` (por la cola pesado.sh)
+app/muestras/sel/
+
+# --- Regla de limpieza de Pablo (07-nov): el repo guarda SOLO lo necesario para producir ---
+# Videos y archivos de cámara, en mayúscula y minúscula, en cualquier carpeta
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[mM][xX][fF]
+*.[mM]4[vV]
+*.[mM][kK][vV]
+*.[aA][vV][iI]
+# Metadatos XML de cámara Sony (C8866M01.XML)
+*M[0-9][0-9].[xX][mM][lL]
+# Banco: los videos crudos y sus transcripciones brutas viven fuera de git
+banco/**/*.[xX][mM][lL]
+banco/transcripciones/
+# Intentos, copias «por si acaso» y salidas temporales: no se guardan
+.intentos/
+_antes/
+*.bak
+*.orig
+*.rej
+*.tmp
+*~
+salidas/
+# Salida generada (se regenera con el script de la galería)
+librerias/estilos/db/galeria.html
+librerias/sonido/organico

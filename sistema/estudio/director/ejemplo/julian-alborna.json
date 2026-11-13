@@ -1,0 +1,3090 @@
+{
+ "estilo": {
+  "id": "julian-alborna",
+  "base": "pantalla",
+  "acento": "#E2531F",
+  "acento2": "#E6DFD2",
+  "tinta": "#171614",
+  "papel": "#DCD4C6",
+  "persona": "color",
+  "fuente": "Inter Tight",
+  "fuente_script": "Covered By Your Grace",
+  "fuente_mono": "Courier Prime",
+  "subtitulo": "hud",
+  "crt": 0,
+  "grano": 16,
+  "flotar": 5,
+  "flotar_elementos": 2,
+  "bloom": 0,
+  "sonido_paleta": "papel",
+  "color": {
+   "receta": "pablo",
+   "look": "calido-EliteColor200",
+   "fuerza": 0.7
+  }
+ },
+ "cortes": [
+  [
+   0,
+   20.45
+  ],
+  [
+   26.25,
+   92.05
+  ],
+  [
+   96.25,
+   150.3
+  ],
+  [
+   161.25,
+   230.1
+  ],
+  [
+   235.25,
+   238.2
+  ]
+ ],
+ "escenas": [
+  {
+   "t0": 20.5,
+   "intencion": "gancho: la persona en su toma, subtítulo chico blanco en dos tonos («tu celular está»)"
+  },
+  {
+   "t0": 21.68,
+   "entrada": "corte",
+   "persona": {
+    "modo": "completa",
+    "fondo": "#1B1A18"
+   },
+   "intencion": "lámina de papel: grabado de una mano con el celular lleno de videos; «lleno de / videos», luego «que nunca / publicaste» subrayado en rojo"
+  },
+  {
+   "t0": 23.45,
+   "entrada": "desenfoque",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#1B1A18"
+   },
+   "intencion": "lámina de papel: grabado de una mano con el celular lleno de videos; «lleno de / videos», luego «que nunca / publicaste» subrayado en rojo"
+  },
+  {
+   "t0": 23.62,
+   "entrada": "desenfoque",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#1B1A18"
+   },
+   "intencion": "tarjeta negra con marco fino y disco beige: grabado de un rollo de película; «tu problema / no es grabar»"
+  },
+  {
+   "t0": 25.14,
+   "entrada": "invertir",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#1B1A18"
+   },
+   "intencion": "giro de la idea (negativo de 2 cuadros): bloque de rotulador rojo «EDITARLO SÍ» + grabado de tijeras cortando película"
+  },
+  {
+   "t0": 92.1,
+   "entrada": "corte",
+   "intencion": "vuelve la persona: «grabas un video»"
+  },
+  {
+   "t0": 93.12,
+   "entrada": "zoom",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#1B1A18"
+   },
+   "intencion": "lámina: grabado de un hombre dormido en el sillón; «te da / pereza»"
+  },
+  {
+   "t0": 94.38,
+   "entrada": "corte",
+   "intencion": "persona: «y se queda ahí»"
+  },
+  {
+   "t0": 95.24,
+   "entrada": "flash",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#1B1A18"
+   },
+   "intencion": "tarjeta negra: «ya no sirve» y una raya roja que tacha «sirve»"
+  },
+  {
+   "t0": 150.35,
+   "entrada": "corte",
+   "intencion": "revelación: persona, riser que revienta en «Claude» (punch), «claude» en rojo en el subtítulo"
+  },
+  {
+   "t0": 151.72,
+   "entrada": "desenfoque",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#1B1A18"
+   },
+   "intencion": "lámina: foto de archivo en semitono de un hombre en el archivero; «subo el video a una / carpeta»"
+  },
+  {
+   "t0": 153.5,
+   "entrada": "corte",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#1B1A18"
+   },
+   "intencion": "diagrama de enciclopedia (AjgB): rollo de película al centro, líneas finas a tres nodos «edita · subtítulos · corta»"
+  },
+  {
+   "t0": 155.74,
+   "entrada": "zoom",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#1B1A18"
+   },
+   "intencion": "tarjeta negra: tijeras en línea crema (grabado invertido) y corte rojo; «corta las partes / que no sirven»"
+  },
+  {
+   "t0": 157.76,
+   "entrada": "desenfoque",
+   "intencion": "persona: «y me lo descarga directamente»"
+  },
+  {
+   "t0": 159.06,
+   "entrada": "desenfoque",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#1B1A18"
+   },
+   "intencion": "lámina: archivo de hombres con carpetas; «en una / carpeta» y bloque rojo «PARA PUBLICARLO»"
+  },
+  {
+   "t0": 230.1,
+   "entrada": "corte",
+   "intencion": "cierre a cámara: subtítulo chico y bloque de rotulador «WORKSHOP» en el pecho (punch)"
+  }
+ ],
+ "punch": [
+  151.44,
+  233.0
+ ],
+ "empuje": 0.04,
+ "alejar_final": false,
+ "elementos": [
+  {
+   "id": "fondo18",
+   "tipo": "foto",
+   "src": "arte/tarjeta_disco.png",
+   "cubrir": true,
+   "gris": false,
+   "x": 540,
+   "y": 960,
+   "ancho": 1080,
+   "t0": 23.62,
+   "t1": 25.14,
+   "z": "atras",
+   "entra": "fundido",
+   "dur": 0.01,
+   "profundidad": 0,
+   "acercar": 0.04,
+   "muestra": "grabar"
+  },
+  {
+   "id": "a19",
+   "tipo": "foto",
+   "src": "arte/arch_videos_3.jpg",
+   "ancho": 540,
+   "x": 540,
+   "y": 1070,
+   "rot": 0,
+   "t0": 24.0,
+   "t1": 25.14,
+   "z": "atras",
+   "entra": "llega",
+   "dur": 0.22,
+   "gris": false,
+   "tratamiento": "bn",
+   "fusion": "multiplicar",
+   "muestra": "grabar",
+   "profundidad": 0.4,
+   "acercar": 0.06,
+   "fundir": 0.35
+  },
+  {
+   "id": "w20",
+   "tipo": "texto",
+   "x": 387,
+   "y": 430,
+   "t0": 23.62,
+   "t1": 23.88,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "tu",
+     "rol": "display",
+     "tam": 66,
+     "color": "#6F6A62",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "p21",
+   "tipo": "texto",
+   "x": 387,
+   "y": 430,
+   "t0": 23.88,
+   "t1": 24.16,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "tu",
+     "rol": "display",
+     "tam": 66,
+     "color": "#E6DFD2",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "w22",
+   "tipo": "texto",
+   "x": 578,
+   "y": 430,
+   "t0": 23.88,
+   "t1": 24.16,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "problema",
+     "rol": "display",
+     "tam": 66,
+     "color": "#6F6A62",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "f23",
+   "tipo": "texto",
+   "x": 540,
+   "y": 430,
+   "t0": 24.16,
+   "t1": 25.14,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "tu problema",
+     "rol": "display",
+     "tam": 66,
+     "color": "#E6DFD2",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "g24",
+   "tipo": "texto",
+   "x": 540,
+   "y": 570,
+   "t0": 24.28,
+   "t1": 25.14,
+   "entra": "llega",
+   "dur": 0.18,
+   "sombra": false,
+   "interlineado": -14,
+   "profundidad": 0.7,
+   "lineas": [
+    {
+     "texto": "no es grabar",
+     "rol": "display",
+     "tam": 130,
+     "color": "#E0BEA2",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "fondo25",
+   "tipo": "foto",
+   "src": "arte/papel_b.png",
+   "cubrir": true,
+   "gris": false,
+   "x": 540,
+   "y": 960,
+   "ancho": 1080,
+   "t0": 25.14,
+   "t1": 26.25,
+   "z": "atras",
+   "entra": "fundido",
+   "dur": 0.01,
+   "profundidad": 0,
+   "acercar": 0.04,
+   "muestra": "editarlo"
+  },
+  {
+   "id": "a26",
+   "tipo": "foto",
+   "src": "arte/hf_tijeras.png",
+   "ancho": 600,
+   "x": 520,
+   "y": 1120,
+   "rot": 4,
+   "t0": 25.2,
+   "t1": 26.25,
+   "z": "atras",
+   "entra": "sube",
+   "dur": 0.22,
+   "gris": false,
+   "tratamiento": "bn",
+   "fusion": "multiplicar",
+   "muestra": "editarlo",
+   "profundidad": 0.4,
+   "acercar": 0.06,
+   "fundir": 0.35
+  },
+  {
+   "id": "b27",
+   "tipo": "etiqueta",
+   "lineas": [
+    [
+     "EDITARLO SÍ",
+     104,
+     false,
+     400
+    ]
+   ],
+   "fondo": "#E2531F",
+   "letra": "#171614",
+   "rol": "script",
+   "radio": 0,
+   "sombra": false,
+   "pad": [
+    26,
+    12
+   ],
+   "rot": -2,
+   "x": 540,
+   "y": 560,
+   "t0": 25.16,
+   "t1": 26.25,
+   "entra": "barrido",
+   "profundidad": 0.8
+  },
+  {
+   "id": "w28",
+   "tipo": "texto",
+   "x": 428,
+   "y": 1130,
+   "t0": 92.18,
+   "t1": 92.62,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "grabas",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p29",
+   "tipo": "texto",
+   "x": 428,
+   "y": 1130,
+   "t0": 92.62,
+   "t1": 92.72,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "grabas",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w30",
+   "tipo": "texto",
+   "x": 557,
+   "y": 1130,
+   "t0": 92.62,
+   "t1": 92.72,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "un",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p31",
+   "tipo": "texto",
+   "x": 466,
+   "y": 1130,
+   "t0": 92.72,
+   "t1": 93.0,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "grabas un",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w32",
+   "tipo": "texto",
+   "x": 668,
+   "y": 1130,
+   "t0": 92.72,
+   "t1": 93.0,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "video",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "f33",
+   "tipo": "texto",
+   "x": 540,
+   "y": 1130,
+   "t0": 93.0,
+   "t1": 93.12,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "grabas un video",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "fondo34",
+   "tipo": "foto",
+   "src": "arte/papel_a.png",
+   "cubrir": true,
+   "gris": false,
+   "x": 540,
+   "y": 960,
+   "ancho": 1080,
+   "t0": 93.12,
+   "t1": 94.38,
+   "z": "atras",
+   "entra": "fundido",
+   "dur": 0.01,
+   "profundidad": 0,
+   "acercar": 0.04,
+   "muestra": "pereza"
+  },
+  {
+   "id": "a35",
+   "tipo": "foto",
+   "src": "arte/hf_pereza.png",
+   "ancho": 640,
+   "x": 560,
+   "y": 1110,
+   "rot": 0,
+   "t0": 93.15,
+   "t1": 94.38,
+   "z": "atras",
+   "entra": "cae",
+   "dur": 0.22,
+   "gris": false,
+   "tratamiento": "bn",
+   "fusion": "multiplicar",
+   "muestra": "pereza",
+   "profundidad": 0.4,
+   "acercar": 0.06,
+   "fundir": 0.35
+  },
+  {
+   "id": "w36",
+   "tipo": "texto",
+   "x": 495,
+   "y": 430,
+   "t0": 93.12,
+   "t1": 93.34,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "te",
+     "rol": "display",
+     "tam": 66,
+     "color": "#9E978B",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "p37",
+   "tipo": "texto",
+   "x": 495,
+   "y": 430,
+   "t0": 93.34,
+   "t1": 93.62,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "te",
+     "rol": "display",
+     "tam": 66,
+     "color": "#171614",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "w38",
+   "tipo": "texto",
+   "x": 576,
+   "y": 430,
+   "t0": 93.34,
+   "t1": 93.62,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "da",
+     "rol": "display",
+     "tam": 66,
+     "color": "#9E978B",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "f39",
+   "tipo": "texto",
+   "x": 540,
+   "y": 430,
+   "t0": 93.62,
+   "t1": 94.38,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "te da",
+     "rol": "display",
+     "tam": 66,
+     "color": "#171614",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "g40",
+   "tipo": "texto",
+   "x": 540,
+   "y": 560,
+   "t0": 93.5,
+   "t1": 94.38,
+   "entra": "enfoque",
+   "dur": 0.18,
+   "sombra": false,
+   "interlineado": -14,
+   "profundidad": 0.7,
+   "lineas": [
+    {
+     "texto": "pereza",
+     "rol": "display",
+     "tam": 170,
+     "color": "#171614",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "w41",
+   "tipo": "texto",
+   "x": 377,
+   "y": 1130,
+   "t0": 94.38,
+   "t1": 94.62,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p42",
+   "tipo": "texto",
+   "x": 377,
+   "y": 1130,
+   "t0": 94.62,
+   "t1": 94.74,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w43",
+   "tipo": "texto",
+   "x": 432,
+   "y": 1130,
+   "t0": 94.62,
+   "t1": 94.74,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "se",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p44",
+   "tipo": "texto",
+   "x": 412,
+   "y": 1130,
+   "t0": 94.74,
+   "t1": 95.02,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y se",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w45",
+   "tipo": "texto",
+   "x": 551,
+   "y": 1130,
+   "t0": 94.74,
+   "t1": 95.02,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "queda",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p46",
+   "tipo": "texto",
+   "x": 495,
+   "y": 1130,
+   "t0": 95.02,
+   "t1": 95.24,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y se queda",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w47",
+   "tipo": "texto",
+   "x": 679,
+   "y": 1130,
+   "t0": 95.02,
+   "t1": 95.24,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "ahí",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "g48",
+   "tipo": "texto",
+   "x": 540,
+   "y": 600,
+   "t0": 95.42,
+   "t1": 96.25,
+   "entra": "golpe",
+   "dur": 0.18,
+   "sombra": false,
+   "interlineado": -14,
+   "profundidad": 0.7,
+   "lineas": [
+    {
+     "texto": "ya no sirve",
+     "rol": "display",
+     "tam": 150,
+     "color": "#E6DFD2",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "w49",
+   "tipo": "texto",
+   "x": 480,
+   "y": 1130,
+   "t0": 150.42,
+   "t1": 150.98,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "resolví",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p50",
+   "tipo": "texto",
+   "x": 480,
+   "y": 1130,
+   "t0": 150.98,
+   "t1": 151.2,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "resolví",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w51",
+   "tipo": "texto",
+   "x": 628,
+   "y": 1130,
+   "t0": 150.98,
+   "t1": 151.2,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "esto",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w52",
+   "tipo": "texto",
+   "x": 451,
+   "y": 1130,
+   "t0": 151.2,
+   "t1": 151.44,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "con",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p53",
+   "tipo": "texto",
+   "x": 451,
+   "y": 1130,
+   "t0": 151.44,
+   "t1": 151.72,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "con",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w54",
+   "tipo": "texto",
+   "x": 591,
+   "y": 1130,
+   "t0": 151.44,
+   "t1": 151.72,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "claude",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "fondo55",
+   "tipo": "foto",
+   "src": "arte/papel_b.png",
+   "cubrir": true,
+   "gris": false,
+   "x": 540,
+   "y": 960,
+   "ancho": 1080,
+   "t0": 151.72,
+   "t1": 153.5,
+   "z": "atras",
+   "entra": "fundido",
+   "dur": 0.01,
+   "profundidad": 0,
+   "acercar": 0.04,
+   "muestra": "carpeta"
+  },
+  {
+   "id": "a56",
+   "tipo": "foto",
+   "src": "arte/arch_videos_1.jpg",
+   "ancho": 640,
+   "x": 560,
+   "y": 1120,
+   "rot": -2,
+   "t0": 152.4,
+   "t1": 153.5,
+   "z": "atras",
+   "entra": "izq",
+   "dur": 0.22,
+   "gris": false,
+   "tratamiento": "halftone",
+   "fusion": "multiplicar",
+   "muestra": "carpeta",
+   "profundidad": 0.4,
+   "acercar": 0.06,
+   "caja": true
+  },
+  {
+   "id": "w57",
+   "tipo": "texto",
+   "x": 338,
+   "y": 430,
+   "t0": 151.72,
+   "t1": 152.48,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "subo",
+     "rol": "display",
+     "tam": 62,
+     "color": "#9E978B",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "p58",
+   "tipo": "texto",
+   "x": 338,
+   "y": 430,
+   "t0": 152.48,
+   "t1": 152.54,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "subo",
+     "rol": "display",
+     "tam": 62,
+     "color": "#171614",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "w59",
+   "tipo": "texto",
+   "x": 448,
+   "y": 430,
+   "t0": 152.48,
+   "t1": 152.54,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "el",
+     "rol": "display",
+     "tam": 62,
+     "color": "#9E978B",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "p60",
+   "tipo": "texto",
+   "x": 369,
+   "y": 430,
+   "t0": 152.54,
+   "t1": 152.7,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "subo el",
+     "rol": "display",
+     "tam": 62,
+     "color": "#171614",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "w61",
+   "tipo": "texto",
+   "x": 566,
+   "y": 430,
+   "t0": 152.54,
+   "t1": 152.7,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "video",
+     "rol": "display",
+     "tam": 62,
+     "color": "#9E978B",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "p62",
+   "tipo": "texto",
+   "x": 455,
+   "y": 430,
+   "t0": 152.7,
+   "t1": 152.86,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "subo el video",
+     "rol": "display",
+     "tam": 62,
+     "color": "#171614",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "w63",
+   "tipo": "texto",
+   "x": 675,
+   "y": 430,
+   "t0": 152.7,
+   "t1": 152.86,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "a",
+     "rol": "display",
+     "tam": 62,
+     "color": "#9E978B",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "p64",
+   "tipo": "texto",
+   "x": 478,
+   "y": 430,
+   "t0": 152.86,
+   "t1": 153.14000000000001,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "subo el video a",
+     "rol": "display",
+     "tam": 62,
+     "color": "#171614",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "w65",
+   "tipo": "texto",
+   "x": 759,
+   "y": 430,
+   "t0": 152.86,
+   "t1": 153.14000000000001,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "una",
+     "rol": "display",
+     "tam": 62,
+     "color": "#9E978B",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "f66",
+   "tipo": "texto",
+   "x": 540,
+   "y": 430,
+   "t0": 153.14000000000001,
+   "t1": 153.5,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "subo el video a una",
+     "rol": "display",
+     "tam": 62,
+     "color": "#171614",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "g67",
+   "tipo": "texto",
+   "x": 540,
+   "y": 570,
+   "t0": 153.0,
+   "t1": 153.5,
+   "entra": "smear",
+   "dur": 0.18,
+   "sombra": false,
+   "interlineado": -14,
+   "profundidad": 0.7,
+   "lineas": [
+    {
+     "texto": "carpeta",
+     "rol": "display",
+     "tam": 170,
+     "color": "#171614",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "fondo68",
+   "tipo": "foto",
+   "src": "arte/papel_a.png",
+   "cubrir": true,
+   "gris": false,
+   "x": 540,
+   "y": 960,
+   "ancho": 1080,
+   "t0": 153.5,
+   "t1": 155.74,
+   "z": "atras",
+   "entra": "fundido",
+   "dur": 0.01,
+   "profundidad": 0,
+   "acercar": 0.04,
+   "muestra": "edita"
+  },
+  {
+   "id": "a69",
+   "tipo": "foto",
+   "src": "arte/arch_videos_3.jpg",
+   "ancho": 560,
+   "x": 540,
+   "y": 900,
+   "rot": 0,
+   "t0": 153.5,
+   "t1": 155.74,
+   "z": "atras",
+   "entra": "fundido",
+   "dur": 0.22,
+   "gris": false,
+   "tratamiento": "bn",
+   "fusion": "multiplicar",
+   "muestra": "video",
+   "profundidad": 0.4,
+   "acercar": 0.04,
+   "fundir": 0.35
+  },
+  {
+   "id": "w70",
+   "tipo": "texto",
+   "x": 508,
+   "y": 400,
+   "t0": 153.58,
+   "t1": 153.88,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "claude",
+     "rol": "display",
+     "tam": 62,
+     "color": "#9E978B",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "p71",
+   "tipo": "texto",
+   "x": 508,
+   "y": 400,
+   "t0": 153.88,
+   "t1": 154.16,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "claude",
+     "rol": "display",
+     "tam": 62,
+     "color": "#171614",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "w72",
+   "tipo": "texto",
+   "x": 643,
+   "y": 400,
+   "t0": 153.88,
+   "t1": 154.16,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "lo",
+     "rol": "display",
+     "tam": 62,
+     "color": "#9E978B",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "f73",
+   "tipo": "texto",
+   "x": 540,
+   "y": 400,
+   "t0": 154.16,
+   "t1": 154.54,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "claude lo",
+     "rol": "display",
+     "tam": 62,
+     "color": "#171614",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "w74",
+   "tipo": "texto",
+   "x": 540,
+   "y": 400,
+   "t0": 154.54,
+   "t1": 154.82,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "pone",
+     "rol": "display",
+     "tam": 62,
+     "color": "#9E978B",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "f75",
+   "tipo": "texto",
+   "x": 540,
+   "y": 400,
+   "t0": 154.82,
+   "t1": 155.74,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "pone",
+     "rol": "display",
+     "tam": 62,
+     "color": "#171614",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "g76",
+   "tipo": "texto",
+   "x": 540,
+   "y": 530,
+   "t0": 154.06,
+   "t1": 154.54,
+   "entra": "fundido",
+   "dur": 0.18,
+   "sombra": false,
+   "interlineado": -14,
+   "profundidad": 0.7,
+   "lineas": [
+    {
+     "texto": "edita",
+     "rol": "display",
+     "tam": 150,
+     "color": "#171614",
+     "peso": 800
+    }
+   ],
+   "tecleo": 14,
+   "cursor": false
+  },
+  {
+   "id": "g77",
+   "tipo": "texto",
+   "x": 540,
+   "y": 530,
+   "t0": 155.02,
+   "t1": 155.74,
+   "entra": "enfoque",
+   "dur": 0.18,
+   "sombra": false,
+   "interlineado": -14,
+   "profundidad": 0.7,
+   "lineas": [
+    {
+     "texto": "subtítulos",
+     "rol": "display",
+     "tam": 140,
+     "color": "#171614",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "m78",
+   "tipo": "texto",
+   "x": 230,
+   "y": 1350,
+   "t0": 154.06,
+   "t1": 155.74,
+   "entra": "fundido",
+   "dur": 0.1,
+   "sombra": false,
+   "tecleo": 16,
+   "cursor": false,
+   "lineas": [
+    {
+     "texto": "edita",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#171614",
+     "peso": 400
+    }
+   ]
+  },
+  {
+   "id": "m79",
+   "tipo": "texto",
+   "x": 540,
+   "y": 1440,
+   "t0": 155.02,
+   "t1": 155.74,
+   "entra": "fundido",
+   "dur": 0.1,
+   "sombra": false,
+   "tecleo": 16,
+   "cursor": false,
+   "lineas": [
+    {
+     "texto": "subtítulos",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#171614",
+     "peso": 400
+    }
+   ]
+  },
+  {
+   "id": "m80",
+   "tipo": "texto",
+   "x": 850,
+   "y": 1350,
+   "t0": 155.5,
+   "t1": 155.74,
+   "entra": "fundido",
+   "dur": 0.1,
+   "sombra": false,
+   "tecleo": 16,
+   "cursor": false,
+   "lineas": [
+    {
+     "texto": "corta",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#171614",
+     "peso": 400
+    }
+   ]
+  },
+  {
+   "id": "a81",
+   "tipo": "foto",
+   "src": "arte/hf_tijeras.png",
+   "ancho": 600,
+   "x": 540,
+   "y": 1100,
+   "rot": -6,
+   "t0": 155.8,
+   "t1": 157.76,
+   "z": "atras",
+   "entra": "llega",
+   "dur": 0.22,
+   "gris": false,
+   "tratamiento": "duotono-inverso",
+   "fusion": "pantalla",
+   "muestra": "corta",
+   "profundidad": 0.4,
+   "acercar": 0.06,
+   "fundir": 0.35
+  },
+  {
+   "id": "w82",
+   "tipo": "texto",
+   "x": 391,
+   "y": 430,
+   "t0": 155.74,
+   "t1": 156.52,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "corta",
+     "rol": "display",
+     "tam": 62,
+     "color": "#6F6A62",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "p83",
+   "tipo": "texto",
+   "x": 391,
+   "y": 430,
+   "t0": 156.52,
+   "t1": 156.6,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "corta",
+     "rol": "display",
+     "tam": 62,
+     "color": "#E6DFD2",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "w84",
+   "tipo": "texto",
+   "x": 522,
+   "y": 430,
+   "t0": 156.52,
+   "t1": 156.6,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "las",
+     "rol": "display",
+     "tam": 62,
+     "color": "#6F6A62",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "p85",
+   "tipo": "texto",
+   "x": 439,
+   "y": 430,
+   "t0": 156.6,
+   "t1": 156.88,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "corta las",
+     "rol": "display",
+     "tam": 62,
+     "color": "#E6DFD2",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "w86",
+   "tipo": "texto",
+   "x": 670,
+   "y": 430,
+   "t0": 156.6,
+   "t1": 156.88,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "partes",
+     "rol": "display",
+     "tam": 62,
+     "color": "#6F6A62",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "f87",
+   "tipo": "texto",
+   "x": 540,
+   "y": 430,
+   "t0": 156.88,
+   "t1": 157.76,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "corta las partes",
+     "rol": "display",
+     "tam": 62,
+     "color": "#E6DFD2",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "g88",
+   "tipo": "texto",
+   "x": 540,
+   "y": 570,
+   "t0": 156.96,
+   "t1": 157.76,
+   "entra": "smear",
+   "dur": 0.18,
+   "sombra": false,
+   "interlineado": -14,
+   "profundidad": 0.7,
+   "lineas": [
+    {
+     "texto": "que no sirven",
+     "rol": "display",
+     "tam": 120,
+     "color": "#E0BEA2",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "w89",
+   "tipo": "texto",
+   "x": 346,
+   "y": 1130,
+   "t0": 157.76,
+   "t1": 157.96,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p90",
+   "tipo": "texto",
+   "x": 346,
+   "y": 1130,
+   "t0": 157.96,
+   "t1": 158.16,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w91",
+   "tipo": "texto",
+   "x": 411,
+   "y": 1130,
+   "t0": 157.96,
+   "t1": 158.16,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "me",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p92",
+   "tipo": "texto",
+   "x": 391,
+   "y": 1130,
+   "t0": 158.16,
+   "t1": 158.3,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y me",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w93",
+   "tipo": "texto",
+   "x": 483,
+   "y": 1130,
+   "t0": 158.16,
+   "t1": 158.3,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "lo",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p94",
+   "tipo": "texto",
+   "x": 418,
+   "y": 1130,
+   "t0": 158.3,
+   "t1": 158.58,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y me lo",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w95",
+   "tipo": "texto",
+   "x": 632,
+   "y": 1130,
+   "t0": 158.3,
+   "t1": 158.58,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "descarga",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "f96",
+   "tipo": "texto",
+   "x": 540,
+   "y": 1130,
+   "t0": 158.58,
+   "t1": 159.06,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y me lo descarga",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "fondo97",
+   "tipo": "foto",
+   "src": "arte/papel_b.png",
+   "cubrir": true,
+   "gris": false,
+   "x": 540,
+   "y": 960,
+   "ancho": 1080,
+   "t0": 159.06,
+   "t1": 161.25,
+   "z": "atras",
+   "entra": "fundido",
+   "dur": 0.01,
+   "profundidad": 0,
+   "acercar": 0.04,
+   "muestra": "carpeta"
+  },
+  {
+   "id": "a98",
+   "tipo": "foto",
+   "src": "arte/arch_carpeta_3.jpg",
+   "ancho": 720,
+   "x": 470,
+   "y": 1200,
+   "rot": 2,
+   "t0": 159.2,
+   "t1": 161.25,
+   "z": "atras",
+   "entra": "der",
+   "dur": 0.22,
+   "gris": false,
+   "tratamiento": "bn",
+   "fusion": "multiplicar",
+   "muestra": "carpeta",
+   "profundidad": 0.4,
+   "acercar": 0.06,
+   "fundir": 0.35
+  },
+  {
+   "id": "w99",
+   "tipo": "texto",
+   "x": 475,
+   "y": 430,
+   "t0": 159.06,
+   "t1": 159.54,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "en",
+     "rol": "display",
+     "tam": 66,
+     "color": "#9E978B",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "p100",
+   "tipo": "texto",
+   "x": 475,
+   "y": 430,
+   "t0": 159.54,
+   "t1": 159.82,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "en",
+     "rol": "display",
+     "tam": 66,
+     "color": "#171614",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "w101",
+   "tipo": "texto",
+   "x": 584,
+   "y": 430,
+   "t0": 159.54,
+   "t1": 159.82,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "una",
+     "rol": "display",
+     "tam": 66,
+     "color": "#9E978B",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "f102",
+   "tipo": "texto",
+   "x": 540,
+   "y": 430,
+   "t0": 159.82,
+   "t1": 161.25,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": false,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "en una",
+     "rol": "display",
+     "tam": 66,
+     "color": "#171614",
+     "peso": 760
+    }
+   ]
+  },
+  {
+   "id": "g103",
+   "tipo": "texto",
+   "x": 540,
+   "y": 560,
+   "t0": 159.68,
+   "t1": 161.25,
+   "entra": "llega",
+   "dur": 0.18,
+   "sombra": false,
+   "interlineado": -14,
+   "profundidad": 0.7,
+   "lineas": [
+    {
+     "texto": "carpeta",
+     "rol": "display",
+     "tam": 170,
+     "color": "#171614",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "b104",
+   "tipo": "etiqueta",
+   "lineas": [
+    [
+     "PARA PUBLICARLO",
+     90,
+     false,
+     400
+    ]
+   ],
+   "fondo": "#E2531F",
+   "letra": "#171614",
+   "rol": "script",
+   "radio": 0,
+   "sombra": false,
+   "pad": [
+    26,
+    12
+   ],
+   "rot": -3,
+   "x": 540,
+   "y": 800,
+   "t0": 160.2,
+   "t1": 161.25,
+   "entra": "barrido",
+   "profundidad": 0.8
+  },
+  {
+   "id": "a105",
+   "tipo": "foto",
+   "src": "arte/hf_celular.png",
+   "ancho": 340,
+   "x": 860,
+   "y": 1200,
+   "rot": 9,
+   "t0": 160.25,
+   "t1": 161.25,
+   "z": "atras",
+   "entra": "pop",
+   "dur": 0.22,
+   "gris": false,
+   "tratamiento": "halftone",
+   "fusion": "multiplicar",
+   "muestra": "publicarlo",
+   "profundidad": 0.4,
+   "acercar": 0.03,
+   "fundir": 0.35
+  },
+  {
+   "id": "w106",
+   "tipo": "texto",
+   "x": 421,
+   "y": 1130,
+   "t0": 230.25,
+   "t1": 230.47,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "quieres",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p107",
+   "tipo": "texto",
+   "x": 421,
+   "y": 1130,
+   "t0": 230.47,
+   "t1": 230.75,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "quieres",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w108",
+   "tipo": "texto",
+   "x": 637,
+   "y": 1130,
+   "t0": 230.47,
+   "t1": 230.75,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "aprender",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "f109",
+   "tipo": "texto",
+   "x": 540,
+   "y": 1130,
+   "t0": 230.75,
+   "t1": 230.93,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "quieres aprender",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w110",
+   "tipo": "texto",
+   "x": 253,
+   "y": 1130,
+   "t0": 230.71,
+   "t1": 230.93,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "a",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p111",
+   "tipo": "texto",
+   "x": 253,
+   "y": 1130,
+   "t0": 230.93,
+   "t1": 231.25,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "a",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w112",
+   "tipo": "texto",
+   "x": 351,
+   "y": 1130,
+   "t0": 230.93,
+   "t1": 231.25,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "editar",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p113",
+   "tipo": "texto",
+   "x": 330,
+   "y": 1130,
+   "t0": 231.25,
+   "t1": 231.45,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "a editar",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w114",
+   "tipo": "texto",
+   "x": 505,
+   "y": 1130,
+   "t0": 231.25,
+   "t1": 231.45,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "como",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p115",
+   "tipo": "texto",
+   "x": 406,
+   "y": 1130,
+   "t0": 231.45,
+   "t1": 231.6,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "a editar como",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w116",
+   "tipo": "texto",
+   "x": 639,
+   "y": 1130,
+   "t0": 231.45,
+   "t1": 231.6,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "este",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p117",
+   "tipo": "texto",
+   "x": 466,
+   "y": 1130,
+   "t0": 231.6,
+   "t1": 231.88,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "a editar como este",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w118",
+   "tipo": "texto",
+   "x": 773,
+   "y": 1130,
+   "t0": 231.6,
+   "t1": 231.88,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "video",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "f119",
+   "tipo": "texto",
+   "x": 540,
+   "y": 1130,
+   "t0": 231.88,
+   "t1": 232.14,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "a editar como este video",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w120",
+   "tipo": "texto",
+   "x": 414,
+   "y": 1130,
+   "t0": 232.14,
+   "t1": 232.58,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "comenta",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p121",
+   "tipo": "texto",
+   "x": 414,
+   "y": 1130,
+   "t0": 232.58,
+   "t1": 232.68,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "comenta",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w122",
+   "tipo": "texto",
+   "x": 557,
+   "y": 1130,
+   "t0": 232.58,
+   "t1": 232.68,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "la",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p123",
+   "tipo": "texto",
+   "x": 441,
+   "y": 1130,
+   "t0": 232.68,
+   "t1": 232.96,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "comenta la",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w124",
+   "tipo": "texto",
+   "x": 682,
+   "y": 1130,
+   "t0": 232.68,
+   "t1": 232.96,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "palabra",
+     "rol": "display",
+     "tam": 54,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "f125",
+   "tipo": "texto",
+   "x": 540,
+   "y": 1130,
+   "t0": 232.96,
+   "t1": 233.0,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "comenta la palabra",
+     "rol": "display",
+     "tam": 54,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "b126",
+   "tipo": "etiqueta",
+   "lineas": [
+    [
+     "WORKSHOP",
+     120,
+     false,
+     400
+    ]
+   ],
+   "fondo": "#E2531F",
+   "letra": "#171614",
+   "rol": "script",
+   "radio": 0,
+   "sombra": false,
+   "pad": [
+    26,
+    12
+   ],
+   "rot": -2,
+   "x": 540,
+   "y": 1120,
+   "t0": 233.0,
+   "t1": 234.95,
+   "entra": "barrido",
+   "profundidad": 0.8
+  },
+  {
+   "id": "w127",
+   "tipo": "texto",
+   "x": 197,
+   "y": 1130,
+   "t0": 233.6,
+   "t1": 233.76,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y",
+     "rol": "display",
+     "tam": 51,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p128",
+   "tipo": "texto",
+   "x": 197,
+   "y": 1130,
+   "t0": 233.76,
+   "t1": 233.88,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y",
+     "rol": "display",
+     "tam": 51,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w129",
+   "tipo": "texto",
+   "x": 244,
+   "y": 1130,
+   "t0": 233.76,
+   "t1": 233.88,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "te",
+     "rol": "display",
+     "tam": 51,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p130",
+   "tipo": "texto",
+   "x": 225,
+   "y": 1130,
+   "t0": 233.88,
+   "t1": 234.28,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y te",
+     "rol": "display",
+     "tam": 51,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w131",
+   "tipo": "texto",
+   "x": 359,
+   "y": 1130,
+   "t0": 233.88,
+   "t1": 234.28,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "mando",
+     "rol": "display",
+     "tam": 51,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p132",
+   "tipo": "texto",
+   "x": 312,
+   "y": 1130,
+   "t0": 234.28,
+   "t1": 234.46,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y te mando",
+     "rol": "display",
+     "tam": 51,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w133",
+   "tipo": "texto",
+   "x": 502,
+   "y": 1130,
+   "t0": 234.28,
+   "t1": 234.46,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "toda",
+     "rol": "display",
+     "tam": 51,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p134",
+   "tipo": "texto",
+   "x": 370,
+   "y": 1130,
+   "t0": 234.46,
+   "t1": 234.6,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y te mando toda",
+     "rol": "display",
+     "tam": 51,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w135",
+   "tipo": "texto",
+   "x": 586,
+   "y": 1130,
+   "t0": 234.46,
+   "t1": 234.6,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "la",
+     "rol": "display",
+     "tam": 51,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p136",
+   "tipo": "texto",
+   "x": 394,
+   "y": 1130,
+   "t0": 234.6,
+   "t1": 234.88,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y te mando toda la",
+     "rol": "display",
+     "tam": 51,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "w137",
+   "tipo": "texto",
+   "x": 756,
+   "y": 1130,
+   "t0": 234.6,
+   "t1": 234.88,
+   "entra": "enfoque",
+   "dur": 0.1,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "información",
+     "rol": "display",
+     "tam": 51,
+     "color": "#B7B0A6",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "f138",
+   "tipo": "texto",
+   "x": 540,
+   "y": 1130,
+   "t0": 234.88,
+   "t1": 234.95,
+   "entra": "fundido",
+   "dur": 0.01,
+   "sombra": true,
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "y te mando toda la información",
+     "rol": "display",
+     "tam": 51,
+     "color": "#FFFFFF",
+     "peso": 700
+    }
+   ]
+  }
+ ],
+ "trazos": [
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     70,
+     260
+    ],
+    [
+     1010,
+     260
+    ],
+    [
+     1010,
+     1520
+    ],
+    [
+     70,
+     1520
+    ],
+    [
+     70,
+     260
+    ]
+   ],
+   "t0": 95.24,
+   "dur": 0.4,
+   "t1": 96.25,
+   "grosor": 3,
+   "color": "#D6CBBC",
+   "z": "atras"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     560,
+     612
+    ],
+    [
+     960,
+     596
+    ]
+   ],
+   "t0": 95.78,
+   "dur": 0.18,
+   "t1": 96.25,
+   "grosor": 12,
+   "color": "#E2531F",
+   "z": "frente"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     540,
+     1010
+    ],
+    [
+     230,
+     1170
+    ]
+   ],
+   "t0": 153.96,
+   "dur": 0.25,
+   "t1": 155.74,
+   "grosor": 2,
+   "color": "#171614",
+   "z": "frente"
+  },
+  {
+   "tipo": "elipse",
+   "centro": [
+    230,
+    1240
+   ],
+   "radio": [
+    70,
+    70
+   ],
+   "t0": 154.06,
+   "dur": 0.3,
+   "t1": 155.74,
+   "grosor": 3,
+   "color": "#171614"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     540,
+     1010
+    ],
+    [
+     540,
+     1260
+    ]
+   ],
+   "t0": 154.92000000000002,
+   "dur": 0.25,
+   "t1": 155.74,
+   "grosor": 2,
+   "color": "#171614",
+   "z": "frente"
+  },
+  {
+   "tipo": "elipse",
+   "centro": [
+    540,
+    1330
+   ],
+   "radio": [
+    70,
+    70
+   ],
+   "t0": 155.02,
+   "dur": 0.3,
+   "t1": 155.74,
+   "grosor": 3,
+   "color": "#171614"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     540,
+     1010
+    ],
+    [
+     850,
+     1170
+    ]
+   ],
+   "t0": 155.4,
+   "dur": 0.25,
+   "t1": 155.74,
+   "grosor": 2,
+   "color": "#171614",
+   "z": "frente"
+  },
+  {
+   "tipo": "elipse",
+   "centro": [
+    850,
+    1240
+   ],
+   "radio": [
+    70,
+    70
+   ],
+   "t0": 155.5,
+   "dur": 0.3,
+   "t1": 155.74,
+   "grosor": 3,
+   "color": "#171614"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     70,
+     260
+    ],
+    [
+     1010,
+     260
+    ],
+    [
+     1010,
+     1520
+    ],
+    [
+     70,
+     1520
+    ],
+    [
+     70,
+     260
+    ]
+   ],
+   "t0": 155.74,
+   "dur": 0.4,
+   "t1": 157.76,
+   "grosor": 3,
+   "color": "#D6CBBC",
+   "z": "atras"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     300,
+     1180
+    ],
+    [
+     820,
+     980
+    ]
+   ],
+   "t0": 156.6,
+   "dur": 0.2,
+   "t1": 157.76,
+   "grosor": 7,
+   "color": "#E2531F",
+   "z": "frente"
+  }
+ ],
+ "sonido": [
+  {
+   "t": 21.68,
+   "tipo": "corte"
+  },
+  {
+   "t": 22.12,
+   "tipo": "texto"
+  },
+  {
+   "t": 22.88,
+   "tipo": "texto"
+  },
+  {
+   "t": 23.62,
+   "tipo": "corte"
+  },
+  {
+   "t": 24.0,
+   "tipo": "apoyo"
+  },
+  {
+   "t": 24.28,
+   "tipo": "texto"
+  },
+  {
+   "t": 25.14,
+   "tipo": "corte"
+  },
+  {
+   "t": 92.1,
+   "tipo": "corte"
+  },
+  {
+   "t": 93.12,
+   "tipo": "corte"
+  },
+  {
+   "t": 93.5,
+   "tipo": "texto"
+  },
+  {
+   "t": 94.38,
+   "tipo": "corte"
+  },
+  {
+   "t": 95.24,
+   "tipo": "corte"
+  },
+  {
+   "t": 95.42,
+   "tipo": "texto"
+  },
+  {
+   "t": 95.78,
+   "tipo": "trazo"
+  },
+  {
+   "t": 150.35,
+   "tipo": "corte"
+  },
+  {
+   "t": 151.44,
+   "tipo": "golpe"
+  },
+  {
+   "t": 151.46,
+   "tipo": "whoosh",
+   "ganancia": 0.5
+  },
+  {
+   "t": 151.72,
+   "tipo": "corte"
+  },
+  {
+   "t": 152.4,
+   "tipo": "apoyo"
+  },
+  {
+   "t": 153.0,
+   "tipo": "texto"
+  },
+  {
+   "t": 153.5,
+   "tipo": "corte"
+  },
+  {
+   "t": 154.06,
+   "tipo": "texto"
+  },
+  {
+   "t": 155.02,
+   "tipo": "texto"
+  },
+  {
+   "t": 155.74,
+   "tipo": "corte"
+  },
+  {
+   "t": 156.6,
+   "tipo": "trazo"
+  },
+  {
+   "t": 156.96,
+   "tipo": "texto"
+  },
+  {
+   "t": 157.76,
+   "tipo": "corte"
+  },
+  {
+   "t": 159.06,
+   "tipo": "corte"
+  },
+  {
+   "t": 159.68,
+   "tipo": "texto"
+  },
+  {
+   "t": 160.2,
+   "tipo": "texto"
+  },
+  {
+   "t": 230.1,
+   "tipo": "corte"
+  },
+  {
+   "t": 233.0,
+   "tipo": "texto"
+  },
+  {
+   "t": 233.0,
+   "tipo": "golpe"
+  },
+  {
+   "t": 233.02,
+   "tipo": "whoosh",
+   "ganancia": 0.5
+  }
+ ],
+ "subtitulos": {
+  "y": 1130,
+  "ocultar": [
+   [
+    0,
+    240
+   ]
+  ]
+ }
+}

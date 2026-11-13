@@ -1,0 +1,700 @@
+{
+ "estilo": {
+  "id": "cine",
+  "base": "pantalla",
+  "acento": "#A00E0D",
+  "acento2": "#F2EBDA",
+  "tinta": "#060707",
+  "papel": "#F2EBDA",
+  "borde": "#F2EBDA",
+  "tono": [
+   1.0,
+   0.93,
+   0.8
+  ],
+  "persona": "color",
+  "fuente": "EB Garamond",
+  "fuente_script": "EB Garamond",
+  "fuente_mono": "Courier Prime",
+  "subtitulo": "hud",
+  "grano": 24,
+  "transicion": "corte",
+  "flotar": 0,
+  "flotar_elementos": 0,
+  "bloom": 0.35,
+  "sonido_paleta": "cine",
+  "color": {
+   "entrada": "rec709",
+   "receta": "pablo",
+   "look": "calido-EliteColor200",
+   "fuerza": 0.7
+  }
+ },
+ "cortes": [
+  [
+   0.0,
+   3.98
+  ],
+  [
+   5.81,
+   8.54
+  ],
+  [
+   10.19,
+   10.34
+  ],
+  [
+   11.19,
+   11.54
+  ],
+  [
+   13.09,
+   13.64
+  ],
+  [
+   14.99,
+   16.09
+  ],
+  [
+   16.87,
+   24.7
+  ],
+  [
+   35.39,
+   37.7
+  ],
+  [
+   39.64,
+   85.96
+  ],
+  [
+   92.41,
+   185.0
+  ],
+  [
+   191.37,
+   195.2
+  ]
+ ],
+ "escenas": [
+  {
+   "t0": 4.08,
+   "intencion": "abre limpio: solo él lanzando la pregunta con subtítulo de película; «un editor de planta» sigue sin nada encima"
+  },
+  {
+   "t0": 11.94,
+   "intencion": "rack focus sobre su toma: en «entrenas» llega «lo entrenas» en itálica sobre su cabeza; luego CORTE · ESTILO · RITMO como título de crédito",
+   "entrada": "desenfoque"
+  },
+  {
+   "t0": 24.7,
+   "intencion": "destello de cambio de rollo, segunda secuencia: rótulo ESC. 02 tecleado; en «tipografía» la palabra en itálica de película con filete rojo",
+   "entrada": "flash"
+  },
+  {
+   "t0": 29.08,
+   "intencion": "negativo de dos cuadros al archivo de unas tijeras que se acercan lentas: «tu estilo» en itálica y QUÉ CORTAR en versales rojas",
+   "entrada": "invertir",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#060707"
+   }
+  },
+  {
+   "t0": 32.24,
+   "intencion": "corte de vuelta a él: el giro, ENTRENANDO en rojo con punch pausado y «cada vez» chico encima",
+   "entrada": "corte"
+  },
+  {
+   "t0": 37.32,
+   "intencion": "tercera secuencia que abre en iris: TU CARPETA barrida en la palabra; al «además» queda «en segundo plano» fino sobre su cabeza",
+   "entrada": "iris"
+  },
+  {
+   "t0": 88.28,
+   "intencion": "rack focus al archivo de un proyector que corre solo en la sala (trabaja mientras haces otra cosa); al final «listos para» y PUBLICAR en rojo",
+   "entrada": "desenfoque",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#060707"
+   }
+  },
+  {
+   "t0": 149.33,
+   "intencion": "destello de rollo a un aula de archivo en sepia: EL WORKSHOP en versales y «tu propio editor» en itálica",
+   "entrada": "flash",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#060707"
+   }
+  },
+  {
+   "t0": 185.07,
+   "intencion": "corte de vuelta a él para el cierre: rótulo final tecleado y «aprender» grande en itálica de película",
+   "entrada": "corte"
+  },
+  {
+   "t0": 188.52,
+   "intencion": "cierre: «comenta la palabra» y TALLER en rojo con filete, punch pausado",
+   "entrada": "desenfoque"
+  }
+ ],
+ "punch": [
+  32.64,
+  189.44
+ ],
+ "empuje": 0.02,
+ "alejar_final": false,
+ "elementos": [
+  {
+   "id": "k1",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 360,
+   "t0": 12.5,
+   "t1": 14.2,
+   "entra": "llega",
+   "dur": 0.9,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "lo entrenas",
+     "rol": "script",
+     "tam": 120,
+     "color": "#F2EBDA",
+     "italica": true,
+     "peso": 400
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 380,
+   "t0": 14.2,
+   "t1": 16.66,
+   "entra": "fundido",
+   "dur": 0.7,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "CORTE · ESTILO · RITMO",
+     "rol": "display",
+     "tam": 50,
+     "color": "#F2EBDA",
+     "peso": 420
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 262,
+   "t0": 24.8,
+   "t1": 27.8,
+   "entra": "fundido",
+   "dur": 0.1,
+   "tecleo": 22,
+   "cursor": false,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "ESC. 02 — EL EDITOR DE PLANTA",
+     "rol": "mono",
+     "tam": 28,
+     "color": "#F2EBDA"
+    }
+   ]
+  },
+  {
+   "id": "k4",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 340,
+   "t0": 27.8,
+   "t1": 29.08,
+   "entra": "sube",
+   "dur": 0.6,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "tipografía",
+     "rol": "script",
+     "tam": 150,
+     "color": "#F2EBDA",
+     "italica": true,
+     "peso": 400
+    }
+   ]
+  },
+  {
+   "id": "a5",
+   "tipo": "foto",
+   "src": "arte/tijeras.png",
+   "muestra": "qué cortar (tijeras de montaje)",
+   "gris": true,
+   "cubrir": true,
+   "x": 540,
+   "y": 960,
+   "t0": 29.08,
+   "t1": 32.24,
+   "z": "atras",
+   "entra": "fundido",
+   "dur": 0.2,
+   "acercar": 0.15,
+   "flotar": 20,
+   "profundidad": 0.8,
+   "tratamiento": "bn",
+   "grupo": "tijeras"
+  },
+  {
+   "id": "u6",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 560,
+   "t0": 29.46,
+   "t1": 32.24,
+   "entra": "fundido",
+   "dur": 0.6,
+   "sombra": true,
+   "grupo": "tijeras",
+   "profundidad": 0.3,
+   "lineas": [
+    {
+     "texto": "tu estilo",
+     "rol": "script",
+     "tam": 72,
+     "color": "#F2EBDA",
+     "italica": true,
+     "peso": 500
+    }
+   ]
+  },
+  {
+   "id": "k7",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 700,
+   "t0": 30.28,
+   "t1": 32.24,
+   "entra": "llega",
+   "dur": 0.7,
+   "sombra": true,
+   "grupo": "tijeras",
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "QUÉ CORTAR",
+     "rol": "display",
+     "tam": 120,
+     "color": "#A00E0D",
+     "peso": 540
+    }
+   ]
+  },
+  {
+   "id": "k8",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 370,
+   "t0": 32.64,
+   "t1": 35.08,
+   "entra": "llega",
+   "dur": 1.0,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "ENTRENANDO",
+     "rol": "display",
+     "tam": 100,
+     "color": "#A00E0D",
+     "peso": 520
+    }
+   ]
+  },
+  {
+   "id": "u9",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 262,
+   "t0": 33.24,
+   "t1": 35.08,
+   "entra": "fundido",
+   "dur": 0.5,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "cada vez",
+     "rol": "script",
+     "tam": 56,
+     "color": "#F2EBDA",
+     "italica": true,
+     "peso": 500
+    }
+   ]
+  },
+  {
+   "id": "k10",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 370,
+   "t0": 38.72,
+   "t1": 39.44,
+   "entra": "barrido",
+   "dur": 0.5,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "TU CARPETA",
+     "rol": "display",
+     "tam": 110,
+     "color": "#F2EBDA",
+     "peso": 520
+    }
+   ]
+  },
+  {
+   "id": "u11",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 370,
+   "t0": 87.32,
+   "t1": 88.28,
+   "entra": "smear",
+   "dur": 0.3,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "en segundo plano",
+     "rol": "script",
+     "tam": 70,
+     "color": "#F2EBDA",
+     "italica": true,
+     "peso": 500
+    }
+   ]
+  },
+  {
+   "id": "a12",
+   "tipo": "foto",
+   "src": "arte/proyector.png",
+   "muestra": "proyector que corre solo: trabaja en segundo plano y entrega la película",
+   "gris": true,
+   "cubrir": true,
+   "x": 540,
+   "y": 960,
+   "t0": 88.28,
+   "t1": 92.16,
+   "z": "atras",
+   "entra": "fundido",
+   "dur": 0.3,
+   "acercar": 0.15,
+   "flotar": 20,
+   "profundidad": 0.8,
+   "tratamiento": "duotono",
+   "grupo": "estreno"
+  },
+  {
+   "id": "u13",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 820,
+   "t0": 90.86,
+   "t1": 92.16,
+   "entra": "fundido",
+   "dur": 0.4,
+   "sombra": true,
+   "grupo": "estreno",
+   "profundidad": 0.3,
+   "lineas": [
+    {
+     "texto": "listos para",
+     "rol": "script",
+     "tam": 64,
+     "color": "#F2EBDA",
+     "italica": true,
+     "peso": 500
+    }
+   ]
+  },
+  {
+   "id": "k14",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 960,
+   "t0": 91.56,
+   "t1": 92.16,
+   "entra": "pop",
+   "dur": 0.4,
+   "sombra": true,
+   "grupo": "estreno",
+   "profundidad": 0.6,
+   "lineas": [
+    {
+     "texto": "PUBLICAR",
+     "rol": "display",
+     "tam": 130,
+     "color": "#A00E0D",
+     "peso": 540
+    }
+   ]
+  },
+  {
+   "id": "a15",
+   "tipo": "foto",
+   "src": "arte/arch_aprender_2.png",
+   "muestra": "el workshop (un aula)",
+   "gris": false,
+   "cubrir": true,
+   "x": 540,
+   "y": 960,
+   "t0": 149.33,
+   "t1": 152.51,
+   "z": "atras",
+   "entra": "fundido",
+   "dur": 0.3,
+   "acercar": 0.15,
+   "flotar": 20,
+   "profundidad": 0.8,
+   "grupo": "aula"
+  },
+  {
+   "id": "k16",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 700,
+   "t0": 149.6,
+   "t1": 152.51,
+   "entra": "llega",
+   "dur": 0.9,
+   "sombra": true,
+   "grupo": "aula",
+   "profundidad": 0.4,
+   "lineas": [
+    {
+     "texto": "EL WORKSHOP",
+     "rol": "display",
+     "tam": 96,
+     "color": "#F2EBDA",
+     "peso": 480
+    }
+   ]
+  },
+  {
+   "id": "u17",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 830,
+   "t0": 151.29,
+   "t1": 152.51,
+   "entra": "fundido",
+   "dur": 0.4,
+   "sombra": true,
+   "grupo": "aula",
+   "profundidad": 0.7,
+   "lineas": [
+    {
+     "texto": "tu propio editor",
+     "rol": "script",
+     "tam": 70,
+     "color": "#F2EBDA",
+     "italica": true,
+     "peso": 500
+    }
+   ]
+  },
+  {
+   "id": "m18",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 262,
+   "t0": 185.2,
+   "t1": 188.52,
+   "entra": "fundido",
+   "dur": 0.1,
+   "tecleo": 20,
+   "cursor": false,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "ESC. FINAL — CON CLAUDE",
+     "rol": "mono",
+     "tam": 28,
+     "color": "#F2EBDA"
+    }
+   ]
+  },
+  {
+   "id": "k19",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 370,
+   "t0": 186.26,
+   "t1": 188.52,
+   "entra": "sube",
+   "dur": 0.8,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "aprender",
+     "rol": "script",
+     "tam": 150,
+     "color": "#F2EBDA",
+     "italica": true,
+     "peso": 400
+    }
+   ]
+  },
+  {
+   "id": "u20",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 262,
+   "t0": 188.52,
+   "t1": 191.16,
+   "entra": "fundido",
+   "dur": 0.4,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "comenta la palabra",
+     "rol": "script",
+     "tam": 60,
+     "color": "#F2EBDA",
+     "italica": true,
+     "peso": 500
+    }
+   ]
+  },
+  {
+   "id": "k21",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 385,
+   "t0": 189.44,
+   "t1": 191.16,
+   "entra": "barrido",
+   "dur": 0.6,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "TALLER",
+     "rol": "display",
+     "tam": 140,
+     "color": "#A00E0D",
+     "peso": 560
+    }
+   ]
+  }
+ ],
+ "trazos": [
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     330,
+     425
+    ],
+    [
+     750,
+     425
+    ]
+   ],
+   "t0": 28.46,
+   "dur": 0.6,
+   "t1": 29.08
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     300,
+     462
+    ],
+    [
+     780,
+     462
+    ]
+   ],
+   "t0": 189.7,
+   "dur": 0.5,
+   "t1": 191.16
+  }
+ ],
+ "subtitulos": {
+  "y": 1440,
+  "resaltar": [
+   13,
+   29,
+   87,
+   99,
+   201,
+   214,
+   343,
+   428,
+   432
+  ],
+  "ocultar": [
+   [
+    12.5,
+    13.14
+   ],
+   [
+    14.2,
+    15.44
+   ],
+   [
+    27.8,
+    28.96
+   ],
+   [
+    30.28,
+    30.62
+   ],
+   [
+    32.64,
+    33.24
+   ],
+   [
+    38.84,
+    39.44
+   ],
+   [
+    91.56,
+    92.16
+   ],
+   [
+    151.29,
+    152.11
+   ],
+   [
+    186.26,
+    186.54
+   ],
+   [
+    189.14,
+    189.78
+   ]
+  ]
+ }
+}
