@@ -1,0 +1,139 @@
+{
+ "ref": "DfFNu8XAHWL",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Texto amarillo con halation (halo rojizo), grano de película y desenfoque suave sobre negro: es el «texto que resplandece» del estilo. Lo que no sirve es la parte de capturas de After Effects.",
+ "paleta": [
+  {
+   "hex": "#111111",
+   "rol": "fondo negro granulado",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#FFE800",
+   "rol": "texto con halation",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#FF4D00",
+   "rol": "halo naranja-rojo en bordes",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#FFFFFF",
+   "rol": "subtítulos y flechas",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "sans geométrica ultragruesa de bordes redondeados",
+   "google": "Anton"
+  },
+  {
+   "rol": "script",
+   "como_es": "manuscrita tipo tiza para anotaciones",
+   "google": "Permanent Marker"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.0,
+   2.5
+  ],
+  "cortes_por_min": [
+   25,
+   25
+  ],
+  "gancho": "0–4 s: zoom a texto amarillo con lupa"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "palabra",
+  "y_aprox": 1400,
+  "mayus": true,
+  "clave": "blanco sobre caja negra redondeada, karaoke"
+ },
+ "persona": {
+  "tratamiento": "creador a cámara breve al inicio y al final",
+  "encuadre": "plano medio"
+ },
+ "recursos": [
+  {
+   "nombre": "texto con halation",
+   "por_min": [
+    6,
+    12
+   ],
+   "dur_s": [
+    1.0,
+    3.0
+   ],
+   "cuando": "título protagonista",
+   "como": "amarillo con inner+outer glow rojizo, blur 4 px"
+  },
+  {
+   "nombre": "lupa analítica",
+   "por_min": [
+    2,
+    4
+   ],
+   "dur_s": [
+    1.0,
+    2.0
+   ],
+   "cuando": "ampliar un detalle",
+   "como": "círculo con zoom"
+  },
+  {
+   "nombre": "grano animado continuo",
+   "por_min": [
+    0,
+    0
+   ],
+   "dur_s": [
+    0,
+    0
+   ],
+   "cuando": "todo el video",
+   "como": "overlay 16/35 mm"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   10,
+   16
+  ],
+  "tipos": [
+   "lupa",
+   "flechas dibujadas",
+   "títulos retro"
+  ]
+ },
+ "imagenes": {
+  "tipo": "archivo analógico B/N y títulos de películas",
+  "tratamiento": "polvo, rayas, aberración",
+  "cuantas": 3
+ },
+ "transiciones": [
+  "corte directo",
+  "match cut en escala",
+  "punch-in"
+ ],
+ "camara": [
+  "punch-in"
+ ],
+ "sonido": [
+  "lo-fi suave",
+  "clicks",
+  "whoosh en zoom"
+ ],
+ "si": [
+  "halo cálido en bordes",
+  "grano constante"
+ ],
+ "no": [
+  "capturas de interfaz de software (tutorial)"
+ ]
+}

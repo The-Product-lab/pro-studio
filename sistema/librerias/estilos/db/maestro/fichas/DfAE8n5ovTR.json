@@ -1,0 +1,159 @@
+{
+ "ref": "DfAE8n5ovTR",
+ "fuente": "dueño",
+ "sirve": true,
+ "por_que": "Persona recortada a color con palabras gigantes detrás, tags redondeados que brotan, escenas B-roll 3D entre medias; es el modelo del estilo.",
+ "paleta": [
+  {
+   "hex": "#B21E27",
+   "rol": "palabra clave / luz de fondo",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#1B4332",
+   "rol": "verde esmeralda oscuro: fondo y texto secundario",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#F3C68F",
+   "rol": "luces cálidas y fuente secundaria",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#EFEFEF",
+   "rol": "tipografía principal",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#121212",
+   "rol": "sombras, viñeta",
+   "cuanto": "dominante"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "sans condensada pesada en mayúsculas, con extrusión o sombra",
+   "google": "Anton"
+  },
+  {
+   "rol": "script",
+   "como_es": "serif/cursiva elegante para sellos y etiquetas",
+   "google": "Playfair Display"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.5,
+   2.5
+  ],
+  "cortes_por_min": [
+   25,
+   35
+  ],
+  "gancho": "0–2 s: palabra gigante emerge detrás del sujeto, luego tarjetas flotantes a los lados"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "palabra",
+  "y_aprox": 1000,
+  "mayus": true,
+  "clave": "frases clave detrás del sujeto con deformación/glitch"
+ },
+ "persona": {
+  "tratamiento": "color natural con luz cálida y contraluz rojo, recortada con sombra proyectada",
+  "encuadre": "plano medio centrado"
+ },
+ "recursos": [
+  {
+   "nombre": "palabra gigante detrás de la cabeza",
+   "por_min": [
+    10,
+    20
+   ],
+   "dur_s": [
+    1.0,
+    1.5
+   ],
+   "cuando": "palabras clave estructurales",
+   "como": "texto z atrás, entra de golpe"
+  },
+  {
+   "nombre": "tags redondeados que brotan",
+   "por_min": [
+    6,
+    14
+   ],
+   "dur_s": [
+    0.5,
+    1.5
+   ],
+   "cuando": "enumerar componentes que nombra",
+   "como": "etiqueta blanca radio alto, pop elástico, alrededor del torso"
+  },
+  {
+   "nombre": "escena B-roll 3D / collage",
+   "por_min": [
+    3,
+    6
+   ],
+   "dur_s": [
+    1.5,
+    2.5
+   ],
+   "cuando": "metáfora o ejemplo narrativo",
+   "como": "fondo completo con recortes; persona fuera"
+  },
+  {
+   "nombre": "bloques de píxeles junto al texto",
+   "por_min": [
+    4,
+    10
+   ],
+   "dur_s": [
+    0.3,
+    0.5
+   ],
+   "cuando": "acompañar entrada de fuentes",
+   "como": "mosaico de color que se arma"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   12,
+   24
+  ],
+  "tipos": [
+   "tarjetas flotantes con foto",
+   "tags",
+   "B-roll 3D",
+   "pixeles"
+  ]
+ },
+ "imagenes": {
+  "tipo": "stock/3D estilizado",
+  "tratamiento": "grano fino, profundidad de campo, esquinas 20–30 px",
+  "cuantas": 3
+ },
+ "transiciones": [
+  "corte seco al golpe de batería",
+  "whip zoom"
+ ],
+ "camara": [
+  "zoom-ins cinéticos",
+  "micro-temblor en palabra clave"
+ ],
+ "sonido": [
+  "whoosh grave en transiciones",
+  "pop en entradas",
+  "lo-fi downtempo"
+ ],
+ "si": [
+  "texto detrás del sujeto",
+  "tags en cascada",
+  "B-roll cada 3–4 s"
+ ],
+ "no": [
+  "tapar la cara con texto"
+ ]
+}

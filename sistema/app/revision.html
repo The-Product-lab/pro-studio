@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Revisión de estilos · Pro Studio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --f: #0c0c0e; --c: #16161a; --l: #2a2a30; --t: #f2f2f4; --s: #9a9aa3; --ok: #34c759; --top: #ffd60a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--f); color: var(--t); font: 15px/1.45 -apple-system, "Segoe UI", Inter, sans-serif; }
+  header { position: sticky; top: 0; z-index: 3; background: rgba(12,12,14,.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--l); padding: 12px 24px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  header b { font-size: 17px; margin-right: 10px; }
+  header a { color: var(--s); text-decoration: none; border: 1px solid var(--l); border-radius: 999px; padding: 5px 13px; font-size: 14px; }
+  header a.ok { border-color: var(--ok); color: var(--ok); }
+  main { padding: 20px 24px 80px; max-width: 1600px; margin: 0 auto; }
+  .ayuda { color: var(--s); margin: 0 0 18px; }
+  .estilo { background: var(--c); border: 1px solid var(--l); border-radius: 18px; padding: 18px; margin-bottom: 26px; display: grid; grid-template-columns: 340px 1fr; gap: 22px; scroll-margin-top: 70px; }
+  .estilo video { width: 340px; border-radius: 12px; background: #000; display: block; }
+  h2 { margin: 0; font-size: 22px; text-transform: capitalize; }
+  .meta { color: var(--s); font-size: 13px; margin: 2px 0 12px; }
+  .imgs { display: flex; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+  .imgs figure { margin: 0; cursor: zoom-in; }
+  .imgs img { height: 150px; border-radius: 8px; border: 1px solid var(--l); display: block; }
+  .imgs figcaption { color: var(--s); font-size: 12px; margin-top: 3px; }
+  textarea { width: 100%; min-height: 110px; background: var(--f); color: var(--t); border: 1px solid var(--l); border-radius: 12px; padding: 10px 12px; font: inherit; resize: vertical; }
+  .botones { display: flex; gap: 8px; margin: 8px 0 12px; flex-wrap: wrap; align-items: center; }
+  button { background: var(--t); color: var(--f); border: 0; border-radius: 999px; padding: 8px 16px; font: inherit; font-weight: 600; cursor: pointer; }
+  button.sec { background: none; color: var(--t); border: 1px solid var(--l); font-weight: 400; }
+  button.aprueba { background: var(--ok); color: #000; }
+  .estado { color: var(--ok); font-size: 13px; }
+  .nota { border-left: 3px solid var(--l); padding: 4px 10px; margin: 6px 0; color: var(--s); font-size: 14px; }
+  .nota.ap { border-color: var(--ok); color: var(--t); }
+  .nota time { font-size: 12px; margin-right: 6px; }
+  .velo { position: fixed; inset: 0; background: rgba(0,0,0,.88); z-index: 5; display: none; overflow: auto; cursor: zoom-out; }
+  .velo.on { display: block; }
+  .velo img { display: block; margin: 20px auto; max-width: 96vw; }
+</style>
+</head>
+<body>
+<header><b>Revisión de estilos</b><span id="nav"></span><a href="/seleccionador" style="margin-left:auto">Seleccionador</a></header>
+<main>
+  <p class="ayuda">Mira el video y las imágenes de cada estilo (clic para agrandar). Para hablar de un momento, pausa el video y toca «Marcar el segundo»: queda anotado con tu nota. «Corregir con este texto» aplica tu nota a la copia, la vuelve a renderizar y te deja aquí el video nuevo (el anterior queda guardado); «Solo guardar nota» la anota sin tocar nada; «Apruebo» deja el estilo aprobado.</p>
+  <div id="lista"></div>
+</main>
+<div class="velo" id="velo" onclick="this.classList.remove('on')"><img id="grande"></div>
+<script>
+const $ = s => document.querySelector(s);
+const esc = t => String(t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt = s => s == null ? '' : `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+let datos = [];
+
+function notasHTML(ns) {
+  return ns.slice().reverse().map(n => `<div class="nota ${n.aprueba ? 'ap' : ''}"><time>${esc(n.fecha)}${n.segundo != null ? ' · seg ' + fmt(n.segundo) : ''}</time>${n.aprueba ? '✅ Aprobado. ' : ''}${n.hecho ? '✓ ' : ''}${esc(n.texto)}${n.resumen ? `<br><i>→ ${esc(n.resumen)}</i>` : ''}</div>`).join('');
+}
+
+function pintar() {
+  $('#nav').innerHTML = datos.map(e => `<a href="#${e.estilo}" class="${e.notas.some(n => n.aprueba) ? 'ok' : ''}">${e.estilo}</a>`).join(' ');
+  $('#lista').innerHTML = datos.map(e => `
+    <section class="estilo" id="${e.estilo}">
+      <div>${e.video ? `<video id="v-${e.estilo}" src="${e.video}" controls preload="metadata" playsinline></video>` : '<p class="meta">Sin video todavía</p>'}</div>
+      <div>
+        <h2>${e.estilo}</h2>
+        <div class="meta">Copia del referente ${esc(e.referente)}</div>
+        <div class="imgs">
+          ${[['storyboard', 'Storyboard'], ['lado', 'Lado a lado'], ['ficha', 'Ficha (lo que aprendí)']].filter(([k]) => e[k]).map(([k, t]) =>
+            `<figure onclick="agrandar('${e[k]}')"><img src="${e[k]}" loading="lazy"><figcaption>${t}</figcaption></figure>`).join('')}
+        </div>
+        <textarea id="t-${e.estilo}" placeholder="Tu feedback de ${e.estilo}: qué no te gusta, qué cambiar, en qué escena o segundo…"></textarea>
+        <div class="botones">
+          <button class="sec" onclick="marcar('${e.estilo}')">Marcar el segundo</button>
+          <button onclick="corregir('${e.estilo}')">Corregir con este texto</button>
+          <button class="sec" onclick="guardar('${e.estilo}', false)">Solo guardar nota</button>
+          <button class="aprueba" onclick="guardar('${e.estilo}', true)">Apruebo ${e.estilo}</button>
+          <span class="estado" id="s-${e.estilo}"></span>
+        </div>
+        <div id="n-${e.estilo}">${notasHTML(e.notas)}</div>
+      </div>
+    </section>`).join('');
+}
+
+function agrandar(src) { $('#grande').src = src; $('#velo').classList.add('on'); }
+
+function marcar(e) {
+  const v = $(`#v-${e}`), t = $(`#t-${e}`);
+  if (!v) return;
+  v.pause();
+  t.dataset.segundo = v.currentTime.toFixed(1);
+  t.value = (t.value ? t.value + '\n' : '') + `[seg ${fmt(v.currentTime)}] `;
+  t.focus();
+}
+
+async function guardar(e, aprueba) {
+  const t = $(`#t-${e}`);
+  if (!t.value.trim() && !aprueba) { t.focus(); return; }
+  const r = await fetch('/api/revision', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ estilo: e, texto: t.value, aprueba, segundo: t.dataset.segundo ? +t.dataset.segundo : null }) }).then(r => r.json());
+  if (!r.ok) { $(`#s-${e}`).textContent = 'No se guardó: ' + r.error; return; }
+  t.value = ''; delete t.dataset.segundo;
+  $(`#n-${e}`).innerHTML = notasHTML(r.notas);
+  $(`#s-${e}`).textContent = aprueba ? 'Aprobado ✓' : 'Guardado ✓';
+  datos.find(x => x.estilo === e).notas = r.notas;
+  $('#nav').innerHTML = datos.map(x => `<a href="#${x.estilo}" class="${x.notas.some(n => n.aprueba) ? 'ok' : ''}">${x.estilo}</a>`).join(' ');
+}
+
+async function corregir(e) {
+  const t = $(`#t-${e}`), st = $(`#s-${e}`);
+  if (!t.value.trim()) { t.focus(); return; }
+  const r = await fetch('/api/revision-corregir', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ estilo: e, texto: t.value, segundo: t.dataset.segundo ? +t.dataset.segundo : null }) }).then(r => r.json());
+  if (!r.ok) { st.textContent = 'No arrancó: ' + r.error; return; }
+  const enviado = t.value; t.value = ''; delete t.dataset.segundo;
+  st.textContent = 'Corrigiendo… (un agente aplica tu nota y se vuelve a renderizar; toma varios minutos)';
+  const n = $(`#n-${e}`); n.innerHTML = `<div class="nota">⏳ ${esc(enviado)}</div>` + n.innerHTML;
+  const vigilar = async () => {
+    const j = await fetch('/api/trabajo/' + r.trabajo).then(r => r.json());
+    const ultimo = (j.log || []).filter(l => !l.startsWith('Traceback')).slice(-1)[0] || '';
+    if (j.estado === 'corriendo') { st.textContent = 'Corrigiendo… ' + ultimo.slice(0, 140); return setTimeout(vigilar, 4000); }
+    if (j.estado === 'error') { st.textContent = 'Falló: ' + ultimo.slice(0, 200); return; }
+    st.textContent = '✓ Corregido: ' + ((j.resultado || {}).resumen || '');
+    const v = $(`#v-${e}`); if (v) { v.src = v.src.split('?')[0] + '?v=' + Date.now(); v.load(); }
+    const d = await fetch('/api/revision').then(r => r.json());
+    datos = d.estilos; n.innerHTML = notasHTML(datos.find(x => x.estilo === e).notas);
+  };
+  setTimeout(vigilar, 3000);
+}
+
+fetch('/api/revision').then(r => r.json()).then(r => { datos = r.estilos; pintar(); });
+</script>
+</body>
+</html>

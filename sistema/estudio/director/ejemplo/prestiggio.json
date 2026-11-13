@@ -1,0 +1,1840 @@
+{
+ "estilo": {
+  "id": "prestiggio",
+  "nombre": "Prestiggio",
+  "base": "pantalla",
+  "acento": "#A8323F",
+  "acento2": "#C9505C",
+  "tinta": "#0D0A0A",
+  "papel": "#0D0A0A",
+  "borde": "#F7F1EE",
+  "tono": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "persona": "color",
+  "fuente": "Inter",
+  "fuente_script": "Playfair Itálica",
+  "fuente_mono": "JetBrains Mono",
+  "subtitulo": "hud",
+  "grano": 8,
+  "crt": 0,
+  "flotar": 6,
+  "flotar_elementos": 0,
+  "transicion": "corte",
+  "bloom": 0,
+  "sfx": 0.26,
+  "color": {
+   "receta": "pablo",
+   "look": "calido-EliteColor200",
+   "fuerza": 0.7
+  }
+ },
+ "cortes": [
+  [
+   0,
+   20.45
+  ],
+  [
+   26.25,
+   92.05
+  ],
+  [
+   96.25,
+   150.3
+  ],
+  [
+   161.25,
+   230.1
+  ],
+  [
+   235.25,
+   238.2
+  ]
+ ],
+ "escenas": [
+  {
+   "t0": 20.45,
+   "intencion": "toma de Pablo con la CAJA DEL HOOK de la app sobre el pecho (blanca, franja roja en el dolor); sin subtítulos mientras está"
+  },
+  {
+   "t0": 92.1,
+   "intencion": "toma: tarjeta de vidrio con el celular (graba), luego «te da pereza» en word_frame con esquinas rojas, subtítulo «y se queda ahí»",
+   "entrada": "corte"
+  },
+  {
+   "t0": 95.24,
+   "intencion": "BLACK_CUT de la app: negro cálido con grano, «y ya» en mono y NO SIRVE con glow rojo",
+   "entrada": "iris",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#0D0A0A"
+   }
+  },
+  {
+   "t0": 150.35,
+   "intencion": "toma: kinetic «la solución · RESOLVÍ ESTO · con Claude» con elipse roja; carpeta en vidrio; checklist de lo que hace; barra de descarga; subtítulos",
+   "entrada": "desenfoque"
+  },
+  {
+   "t0": 230.1,
+   "intencion": "toma: subtítulos de la app con la clave en Playfair roja («aprender»)",
+   "entrada": "corte"
+  },
+  {
+   "t0": 232.14,
+   "intencion": "OUTRO a negro: «comenta la palabra» + WORKSHOP con glow rojo",
+   "entrada": "iris",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#0D0A0A"
+   }
+  },
+  {
+   "t0": 233.6,
+   "intencion": "toma: «y te mando toda la información» en subtítulo, clave roja",
+   "entrada": "desenfoque"
+  }
+ ],
+ "golpe": false,
+ "empuje": 0,
+ "alejar_final": false,
+ "punch": [],
+ "elementos": [
+  {
+   "id": "v3",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1130,
+   "ancho": 880,
+   "alto": 300,
+   "radio": 18,
+   "desenfoque": 20,
+   "velo": 0.55,
+   "color": "#0D0A0A",
+   "t0": 23.62,
+   "t1": 26.04,
+   "dur": 0.3,
+   "grupo": "sw"
+  },
+  {
+   "id": "p4",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 420,
+   "y": 1018,
+   "t0": 23.62,
+   "t1": 26.04,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "•",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#C9505C"
+    }
+   ]
+  },
+  {
+   "id": "k5",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1018,
+   "t0": 23.62,
+   "t1": 26.04,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "TU PROBLEMA",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "k6",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 320,
+   "y": 1080,
+   "t0": 23.7,
+   "t1": 26.04,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "NO ES",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 320,
+   "y": 1160,
+   "t0": 23.88,
+   "t1": 26.04,
+   "entra": "fundido",
+   "dur": 0.25,
+   "sombra": true,
+   "interlineado": -6,
+   "lineas": [
+    {
+     "texto": "grabar",
+     "rol": "display",
+     "tam": 92,
+     "color": "#F7F1EE",
+     "mayus": true,
+     "peso": 900
+    }
+   ],
+   "grupo": "sw"
+  },
+  {
+   "id": "v8",
+   "tipo": "vidrio",
+   "x": 760,
+   "y": 1148,
+   "ancho": 400,
+   "alto": 236,
+   "radio": 18,
+   "desenfoque": 20,
+   "velo": 0.62,
+   "color": "#A8323F",
+   "t0": 25.14,
+   "t1": 26.04,
+   "dur": 0.2,
+   "grupo": "sw"
+  },
+  {
+   "id": "k9",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 760,
+   "y": 1080,
+   "t0": 25.14,
+   "t1": 26.04,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "SÍ ES",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#F7F1EE"
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 760,
+   "y": 1160,
+   "t0": 25.14,
+   "t1": 26.04,
+   "entra": "fundido",
+   "dur": 0.15,
+   "sombra": true,
+   "interlineado": -6,
+   "lineas": [
+    {
+     "texto": "editarlo",
+     "rol": "display",
+     "tam": 70,
+     "color": "#F7F1EE",
+     "mayus": true,
+     "peso": 900
+    }
+   ],
+   "grupo": "sw"
+  },
+  {
+   "id": "v11",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1120,
+   "ancho": 460,
+   "alto": 460,
+   "radio": 18,
+   "desenfoque": 20,
+   "velo": 0.55,
+   "color": "#0D0A0A",
+   "t0": 92.18,
+   "t1": 93.12,
+   "dur": 0.3,
+   "grupo": "cel"
+  },
+  {
+   "id": "a12",
+   "tipo": "foto",
+   "src": "arte/celular.png",
+   "ancho": 440,
+   "gris": false,
+   "x": 540,
+   "y": 1075,
+   "rot": 0,
+   "t0": 92.18,
+   "t1": 93.12,
+   "z": "frente",
+   "entra": "fundido",
+   "dur": 0.3,
+   "muestra": "video",
+   "fusion": "pantalla",
+   "fundir": 0.8,
+   "grupo": "cel"
+  },
+  {
+   "id": "p13",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 384,
+   "y": 1310,
+   "t0": 92.3,
+   "t1": 93.12,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "•",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#C9505C"
+    }
+   ]
+  },
+  {
+   "id": "k14",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1310,
+   "t0": 92.3,
+   "t1": 93.12,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "GRABAS UN VIDEO",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#F7F1EE"
+    }
+   ]
+  },
+  {
+   "id": "v15",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1120,
+   "ancho": 640,
+   "alto": 260,
+   "radio": 18,
+   "desenfoque": 20,
+   "velo": 0.55,
+   "color": "#0D0A0A",
+   "t0": 93.12,
+   "t1": 94.38,
+   "dur": 0.3,
+   "grupo": "wf"
+  },
+  {
+   "id": "t16",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1120,
+   "t0": 93.2,
+   "t1": 94.38,
+   "entra": "barrido",
+   "dur": 0.3,
+   "sombra": true,
+   "interlineado": 18,
+   "lineas": [
+    {
+     "texto": "te da",
+     "rol": "display",
+     "tam": 64,
+     "color": "#CBBFBA",
+     "mayus": true,
+     "peso": 800
+    },
+    {
+     "texto": "pereza",
+     "rol": "display",
+     "tam": 120,
+     "color": "#F7F1EE",
+     "mayus": true,
+     "peso": 900
+    }
+   ],
+   "grupo": "wf"
+  },
+  {
+   "id": "s17",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 334,
+   "y": 1163,
+   "t0": 94.35,
+   "t1": 95.24,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "y",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 404,
+   "y": 1156,
+   "t0": 94.59,
+   "t1": 95.24,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "se",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 547,
+   "y": 1156,
+   "t0": 94.71,
+   "t1": 95.24,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "queda",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 713,
+   "y": 1141,
+   "t0": 94.99,
+   "t1": 95.24,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "ahí",
+     "rol": "script",
+     "tam": 74,
+     "color": "#C9505C",
+     "peso": 700,
+     "italica": true
+    }
+   ]
+  },
+  {
+   "id": "p21",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 472,
+   "y": 960,
+   "t0": 95.3,
+   "t1": 96.25,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "•",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#C9505C"
+    }
+   ]
+  },
+  {
+   "id": "k22",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 960,
+   "t0": 95.3,
+   "t1": 96.25,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "Y YA",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "t23",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1070,
+   "t0": 95.55,
+   "t1": 96.25,
+   "entra": "enfoque",
+   "dur": 0.3,
+   "sombra": true,
+   "interlineado": -6,
+   "lineas": [
+    {
+     "texto": "no sirve",
+     "rol": "display",
+     "tam": 180,
+     "color": "#F7F1EE",
+     "mayus": true,
+     "peso": 900
+    }
+   ],
+   "luz": 0.45,
+   "color_luz": "#C9505C"
+  },
+  {
+   "id": "p24",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 420,
+   "y": 990,
+   "t0": 150.42,
+   "t1": 151.72,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "•",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#C9505C"
+    }
+   ]
+  },
+  {
+   "id": "k25",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 990,
+   "t0": 150.42,
+   "t1": 151.72,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "LA SOLUCIÓN",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "t26",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1090,
+   "t0": 150.5,
+   "t1": 151.72,
+   "entra": "llega",
+   "dur": 0.4,
+   "sombra": true,
+   "interlineado": -6,
+   "lineas": [
+    {
+     "texto": "resolví esto",
+     "rol": "display",
+     "tam": 112,
+     "color": "#F7F1EE",
+     "mayus": true,
+     "peso": 900
+    }
+   ]
+  },
+  {
+   "id": "t27",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1215,
+   "t0": 151.2,
+   "t1": 151.72,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": true,
+   "interlineado": -6,
+   "lineas": [
+    {
+     "texto": "con Claude",
+     "rol": "script",
+     "tam": 112,
+     "color": "#C9505C",
+     "peso": 700,
+     "italica": true
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 505,
+   "y": 1150,
+   "t0": 151.69,
+   "t1": 152.52,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "Subo",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 626,
+   "y": 1150,
+   "t0": 152.45,
+   "t1": 152.52,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "el",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "v30",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1110,
+   "ancho": 420,
+   "alto": 430,
+   "radio": 18,
+   "desenfoque": 20,
+   "velo": 0.55,
+   "color": "#0D0A0A",
+   "t0": 152.52,
+   "t1": 153.58,
+   "dur": 0.3,
+   "grupo": "cp"
+  },
+  {
+   "id": "a31",
+   "tipo": "foto",
+   "src": "arte/carpeta.png",
+   "ancho": 330,
+   "gris": false,
+   "x": 540,
+   "y": 1070,
+   "rot": 0,
+   "t0": 152.55,
+   "t1": 153.58,
+   "z": "frente",
+   "entra": "fundido",
+   "dur": 0.3,
+   "muestra": "carpeta",
+   "fusion": "pantalla",
+   "fundir": 0.8,
+   "grupo": "cp"
+  },
+  {
+   "id": "p32",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 402,
+   "y": 1285,
+   "t0": 152.7,
+   "t1": 153.58,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "•",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#C9505C"
+    }
+   ]
+  },
+  {
+   "id": "k33",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1285,
+   "t0": 152.7,
+   "t1": 153.58,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "A UNA CARPETA",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#F7F1EE"
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 414,
+   "y": 1142,
+   "t0": 153.55,
+   "t1": 154.54,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "Claude",
+     "rol": "script",
+     "tam": 74,
+     "color": "#C9505C",
+     "peso": 700,
+     "italica": true
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 575,
+   "y": 1150,
+   "t0": 153.85,
+   "t1": 154.54,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "lo",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 702,
+   "y": 1154,
+   "t0": 154.03,
+   "t1": 154.54,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "edita,",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "v37",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1130,
+   "ancho": 820,
+   "alto": 380,
+   "radio": 18,
+   "desenfoque": 20,
+   "velo": 0.55,
+   "color": "#0D0A0A",
+   "t0": 154.54,
+   "t1": 157.76,
+   "dur": 0.3,
+   "grupo": "ck"
+  },
+  {
+   "id": "p38",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 149,
+   "y": 1000,
+   "t0": 154.54,
+   "t1": 157.76,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "•",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#C9505C"
+    }
+   ]
+  },
+  {
+   "id": "k39",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 377,
+   "y": 1000,
+   "t0": 154.54,
+   "t1": 157.76,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "LO QUE HACE CLAUDE",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "t40",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 196,
+   "y": 1100,
+   "t0": 155.02,
+   "t1": 157.76,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": true,
+   "interlineado": -6,
+   "lineas": [
+    {
+     "texto": "01",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#C9505C",
+     "peso": 500
+    }
+   ]
+  },
+  {
+   "id": "t41",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 449,
+   "y": 1100,
+   "t0": 155.02,
+   "t1": 157.76,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": true,
+   "interlineado": -6,
+   "lineas": [
+    {
+     "texto": "Pone subtítulos",
+     "rol": "display",
+     "tam": 54,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "t42",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 196,
+   "y": 1200,
+   "t0": 155.74,
+   "t1": 157.76,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": true,
+   "interlineado": -6,
+   "lineas": [
+    {
+     "texto": "02",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#C9505C",
+     "peso": 500
+    }
+   ]
+  },
+  {
+   "id": "t43",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 511,
+   "y": 1200,
+   "t0": 155.74,
+   "t1": 157.76,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": true,
+   "interlineado": -6,
+   "lineas": [
+    {
+     "texto": "Corta lo que no sirve",
+     "rol": "display",
+     "tam": 54,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "v44",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1120,
+   "ancho": 760,
+   "alto": 240,
+   "radio": 18,
+   "desenfoque": 20,
+   "velo": 0.55,
+   "color": "#0D0A0A",
+   "t0": 157.76,
+   "t1": 159.06,
+   "dur": 0.3,
+   "grupo": "dl"
+  },
+  {
+   "id": "p45",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 169,
+   "y": 1050,
+   "t0": 157.8,
+   "t1": 159.06,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "•",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#C9505C"
+    }
+   ]
+  },
+  {
+   "id": "k46",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 316,
+   "y": 1050,
+   "t0": 157.8,
+   "t1": 159.06,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "ME LO DESCARGA",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "n47",
+   "tipo": "contador",
+   "x": 790,
+   "y": 1050,
+   "t0": 157.85,
+   "t1": 159.06,
+   "desde": 0,
+   "hasta": 100,
+   "sufijo": "%",
+   "cuenta_s": 0.9,
+   "tam": 64,
+   "color": "#F7F1EE",
+   "rol": "display"
+  },
+  {
+   "id": "b48",
+   "tipo": "barra",
+   "direccion": "horizontal",
+   "x": 540,
+   "y": 1165,
+   "ancho": 660,
+   "alto": 14,
+   "color": "acento",
+   "contorno": false,
+   "crece_s": 0.9,
+   "t0": 157.85,
+   "t1": 159.06
+  },
+  {
+   "id": "s49",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 431,
+   "y": 1115,
+   "t0": 158.81,
+   "t1": 160.2,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "directamente",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s50",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 684,
+   "y": 1122,
+   "t0": 159.03,
+   "t1": 160.2,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "en",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s51",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 792,
+   "y": 1122,
+   "t0": 159.51,
+   "t1": 160.2,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "una",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s52",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1188,
+   "t0": 159.65,
+   "t1": 160.2,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "carpeta",
+     "rol": "script",
+     "tam": 74,
+     "color": "#C9505C",
+     "peso": 700,
+     "italica": true
+    }
+   ]
+  },
+  {
+   "id": "s53",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 348,
+   "y": 1150,
+   "t0": 160.17,
+   "t1": 160.98,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "Para",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s54",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 612,
+   "y": 1149,
+   "t0": 160.31,
+   "t1": 160.98,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "publicarlo.",
+     "rol": "script",
+     "tam": 74,
+     "color": "#C9505C",
+     "peso": 700,
+     "italica": true
+    }
+   ]
+  },
+  {
+   "id": "s55",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 258,
+   "y": 1150,
+   "t0": 230.12,
+   "t1": 230.71,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "Si",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s56",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 414,
+   "y": 1156,
+   "t0": 230.22,
+   "t1": 230.71,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "quieres",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s57",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 697,
+   "y": 1149,
+   "t0": 230.44,
+   "t1": 230.71,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "aprender",
+     "rol": "script",
+     "tam": 74,
+     "color": "#C9505C",
+     "peso": 700,
+     "italica": true
+    }
+   ]
+  },
+  {
+   "id": "s58",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 444,
+   "y": 1156,
+   "t0": 230.68,
+   "t1": 231.25,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "a",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s59",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 566,
+   "y": 1150,
+   "t0": 230.9,
+   "t1": 231.25,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "editar",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s60",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 358,
+   "y": 1156,
+   "t0": 231.22,
+   "t1": 232.14,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "como",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s61",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 522,
+   "y": 1152,
+   "t0": 231.42,
+   "t1": 232.14,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "este",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s62",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 704,
+   "y": 1147,
+   "t0": 231.57,
+   "t1": 232.14,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "video,",
+     "rol": "script",
+     "tam": 74,
+     "color": "#C9505C",
+     "peso": 700,
+     "italica": true
+    }
+   ]
+  },
+  {
+   "id": "p63",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 320,
+   "y": 960,
+   "t0": 232.2,
+   "t1": 233.6,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "•",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#C9505C"
+    }
+   ]
+  },
+  {
+   "id": "k64",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 960,
+   "t0": 232.2,
+   "t1": 233.6,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "COMENTA LA PALABRA",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "t65",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1065,
+   "t0": 232.4,
+   "t1": 233.6,
+   "entra": "enfoque",
+   "dur": 0.3,
+   "sombra": true,
+   "interlineado": -6,
+   "lineas": [
+    {
+     "texto": "workshop",
+     "rol": "display",
+     "tam": 128,
+     "color": "#F7F1EE",
+     "mayus": true,
+     "peso": 900
+    }
+   ],
+   "luz": 0.45,
+   "color_luz": "#C9505C"
+  },
+  {
+   "id": "s66",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 392,
+   "y": 1163,
+   "t0": 233.57,
+   "t1": 234.28,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "y",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s67",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 456,
+   "y": 1152,
+   "t0": 233.73,
+   "t1": 234.28,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "te",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s68",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 605,
+   "y": 1150,
+   "t0": 233.85,
+   "t1": 234.28,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "mando",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s69",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 280,
+   "y": 1150,
+   "t0": 234.25,
+   "t1": 235.2,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "toda",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s70",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 389,
+   "y": 1150,
+   "t0": 234.43,
+   "t1": 235.2,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "la",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "s71",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 650,
+   "y": 1148,
+   "t0": 234.57,
+   "t1": 235.2,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": true,
+   "luz": 0.16,
+   "color_luz": "#6E1F25",
+   "lineas": [
+    {
+     "texto": "información.",
+     "rol": "script",
+     "tam": 74,
+     "color": "#C9505C",
+     "peso": 700,
+     "italica": true
+    }
+   ]
+  }
+ ],
+ "trazos": [
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     160,
+     1160
+    ],
+    [
+     480,
+     1160
+    ]
+   ],
+   "t0": 24.9,
+   "dur": 0.25,
+   "t1": 26.04,
+   "grosor": 6,
+   "color": "#C9505C"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     195.0,
+     965.0
+    ],
+    [
+     241.0,
+     965.0
+    ]
+   ],
+   "t0": 93.3,
+   "dur": 0.2,
+   "t1": 94.38,
+   "grosor": 5,
+   "color": "#C9505C"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     195.0,
+     965.0
+    ],
+    [
+     195.0,
+     1011.0
+    ]
+   ],
+   "t0": 93.3,
+   "dur": 0.2,
+   "t1": 94.38,
+   "grosor": 5,
+   "color": "#C9505C"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     195.0,
+     1275.0
+    ],
+    [
+     241.0,
+     1275.0
+    ]
+   ],
+   "t0": 93.3,
+   "dur": 0.2,
+   "t1": 94.38,
+   "grosor": 5,
+   "color": "#C9505C"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     195.0,
+     1275.0
+    ],
+    [
+     195.0,
+     1229.0
+    ]
+   ],
+   "t0": 93.3,
+   "dur": 0.2,
+   "t1": 94.38,
+   "grosor": 5,
+   "color": "#C9505C"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     885.0,
+     965.0
+    ],
+    [
+     839.0,
+     965.0
+    ]
+   ],
+   "t0": 93.3,
+   "dur": 0.2,
+   "t1": 94.38,
+   "grosor": 5,
+   "color": "#C9505C"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     885.0,
+     965.0
+    ],
+    [
+     885.0,
+     1011.0
+    ]
+   ],
+   "t0": 93.3,
+   "dur": 0.2,
+   "t1": 94.38,
+   "grosor": 5,
+   "color": "#C9505C"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     885.0,
+     1275.0
+    ],
+    [
+     839.0,
+     1275.0
+    ]
+   ],
+   "t0": 93.3,
+   "dur": 0.2,
+   "t1": 94.38,
+   "grosor": 5,
+   "color": "#C9505C"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     885.0,
+     1275.0
+    ],
+    [
+     885.0,
+     1229.0
+    ]
+   ],
+   "t0": 93.3,
+   "dur": 0.2,
+   "t1": 94.38,
+   "grosor": 5,
+   "color": "#C9505C"
+  },
+  {
+   "tipo": "elipse",
+   "sobre": "t27",
+   "centro": [
+    313.0,
+    76.0
+   ],
+   "radio": [
+    327.0,
+    72.0
+   ],
+   "t0": 151.3,
+   "dur": 0.35,
+   "t1": 151.72,
+   "color": "#C9505C",
+   "grosor": 4
+  }
+ ],
+ "sonido": [
+  {
+   "t": 20.5,
+   "tipo": "pop",
+   "ganancia": 0.45
+  },
+  {
+   "t": 23.62,
+   "tipo": "click",
+   "ganancia": 0.5
+  },
+  {
+   "t": 24.9,
+   "tipo": "marcador",
+   "ganancia": 0.5
+  },
+  {
+   "t": 25.14,
+   "tipo": "click",
+   "ganancia": 0.55
+  },
+  {
+   "t": 92.18,
+   "tipo": "click",
+   "ganancia": 0.5
+  },
+  {
+   "t": 93.12,
+   "tipo": "whoosh-corto",
+   "ganancia": 0.4
+  },
+  {
+   "t": 95.24,
+   "tipo": "golpe",
+   "ganancia": 0.5
+  },
+  {
+   "t": 151.3,
+   "tipo": "marcador",
+   "ganancia": 0.45
+  },
+  {
+   "t": 152.52,
+   "tipo": "click",
+   "ganancia": 0.5
+  },
+  {
+   "t": 155.02,
+   "tipo": "click",
+   "ganancia": 0.4
+  },
+  {
+   "t": 155.74,
+   "tipo": "click",
+   "ganancia": 0.4
+  },
+  {
+   "t": 157.76,
+   "tipo": "whoosh-corto",
+   "ganancia": 0.4
+  },
+  {
+   "t": 232.14,
+   "tipo": "golpe",
+   "ganancia": 0.5
+  }
+ ],
+ "subtitulos": {
+  "y": 1450,
+  "ocultar": [
+   [
+    0,
+    240
+   ]
+  ]
+ }
+}

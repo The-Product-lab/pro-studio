@@ -1,0 +1,19 @@
+{
+ "slug": "lowpoly-island",
+ "num": "81",
+ "en": "Low-poly Isometric Island",
+ "cn": "低多边形等距",
+ "category_en": "3D & Miniature",
+ "category_cn": "立体微缩",
+ "film": "The Island That Grew",
+ "film_cn": "长出来的岛",
+ "line": "An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.",
+ "line_cn": "空海里一格格长出小岛和村庄，每放一块响一个音符，直到星空。",
+ "uses": [
+  "Game trailers",
+  "World building",
+  "Calm content"
+ ],
+ "frame_sec": 21.2,
+ "dur": 53.0
+}

@@ -1,0 +1,170 @@
+{
+ "version": 1,
+ "proyecto": "glass-nuevo-10nov",
+ "firma": "a4a27350519a",
+ "fuente_s": 68.37,
+ "duracion_s": 46.7,
+ "cortes": [
+  [
+   0.0,
+   5.205
+  ],
+  [
+   6.905,
+   7.275
+  ],
+  [
+   9.645,
+   10.125
+  ],
+  [
+   15.245,
+   15.475
+  ],
+  [
+   17.685,
+   17.865
+  ],
+  [
+   19.965,
+   20.495
+  ],
+  [
+   22.315,
+   22.485
+  ],
+  [
+   24.015,
+   24.235
+  ],
+  [
+   25.765,
+   26.85
+  ],
+  [
+   29.435,
+   29.615
+  ],
+  [
+   30.905,
+   32.075
+  ],
+  [
+   33.455,
+   37.315
+  ],
+  [
+   38.525,
+   38.665
+  ],
+  [
+   40.015,
+   40.505
+  ],
+  [
+   41.765,
+   42.125
+  ],
+  [
+   43.505,
+   45.645
+  ],
+  [
+   48.985,
+   49.415
+  ],
+  [
+   51.115,
+   51.375
+  ],
+  [
+   53.795,
+   56.105
+  ],
+  [
+   60.405,
+   60.665
+  ],
+  [
+   62.995,
+   63.325
+  ],
+  [
+   64.815,
+   65.325
+  ],
+  [
+   66.775,
+   67.535
+  ]
+ ],
+ "color": null,
+ "quitado_s": {
+  "claqueta": 0.0,
+  "apuntador": 0.0,
+  "tomas_repetidas": 0.0,
+  "ia_fuera_de_guion": 0.5,
+  "pausas_y_aire": 21.2
+ },
+ "ia": {
+  "usada": true,
+  "quito": [
+   {
+    "t0": 31.185,
+    "t1": 31.695,
+    "texto": "",
+    "motivo": "tramo vacío, sin voz"
+   },
+   {
+    "t0": 38.39,
+    "t1": 38.525,
+    "texto": "un",
+    "motivo": "«un» se dice dos veces seguidas («hubo un | un momento»); queda el del tramo 13"
+   }
+  ],
+  "restauro": [
+   {
+    "t0": 39.64,
+    "t1": 40.72,
+    "texto": "básicamente",
+    "motivo": "«un momento que básicamente partió…»: es del talento y sin ella la frase queda incompleta"
+   },
+   {
+    "t0": 41.52,
+    "t1": 42.26,
+    "texto": "mi",
+    "motivo": "«partió mi historia de vida en dos»: sin el «mi» la frase queda coja"
+   },
+   {
+    "t0": 43.22,
+    "t1": 44.36,
+    "texto": "Y",
+    "motivo": "«Y hubo un tiempo en que yo me enamoré…»: une las dos ideas, es del talento"
+   },
+   {
+    "t0": 44.36,
+    "t1": 45.84,
+    "texto": "hubo",
+    "motivo": "«hubo un tiempo»: sin ella «un tiempo en que yo me enamoré» queda sin verbo"
+   }
+  ],
+  "llamadas": 2,
+  "usd_eq": 0.299
+ },
+ "avisos": [
+  {
+   "t": 37.31,
+   "tipo": "ia",
+   "motivo": "el arquitecto quería quitar «realmente», que es guion único: se dejó (revísalo en el guion)"
+  },
+  {
+   "t": 38.39,
+   "tipo": "ia",
+   "motivo": "no se quitó «un»: no hay silencio donde cortar sin mochar una palabra"
+  }
+ ],
+ "residuales": [
+  "montaje: hay 0.22 s de silencio en el video final (en 18.3 s del editado, 25.7 s del original): máx. 0.2 s"
+ ],
+ "necesita_ia": []
+}

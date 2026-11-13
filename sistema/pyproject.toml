@@ -1,0 +1,34 @@
+[project]
+name = "estudio"
+version = "0.1.0"
+description = "Pro Studio: motor de edición de reels con Agente Editor"
+requires-python = "==3.11.*"
+dependencies = [
+    "faster-whisper==1.2.1",
+    "onnxruntime==1.23.2; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    "onnxruntime==1.31.1; sys_platform != 'darwin' or platform_machine != 'x86_64'",
+    "static-ffmpeg==3.0",
+    "pillow==12.3.0",
+    "numpy>=2,<3",
+    "opencolorio==2.6.0",
+    # GPU de Whisper (estudio/asr.py): cuBLAS y cuDNN 9 para ctranslate2 (CUDA 12). No existen para Mac.
+    "nvidia-cublas-cu12>=12.4,<13; sys_platform != 'darwin'",
+    "nvidia-cudnn-cu12>=9.1,<10; sys_platform != 'darwin'",
+    "pywebview>=6,<7 ; sys_platform == 'darwin'",
+]
+
+[project.scripts]
+estudio = "estudio.cli:main"
+
+[dependency-groups]
+dev = ["pytest==9.2.0"]
+
+[build-system]
+requires = ["uv_build>=0.12,<0.14"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = ""
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

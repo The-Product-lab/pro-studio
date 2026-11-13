@@ -1,0 +1,220 @@
+{
+ "estilo": "pop",
+ "identidad": "Collage editorial vivo: fondo rojo sangre con viñeta, muchos recortes chicos de foto con semitono y borde de pegatina que entran en cascada, una frase corta por idea con UNA palabra gritada, y todo flotando siempre (cámara, fondo e imágenes) sin tocar el color de la toma.",
+ "referencias": [
+  "Db70QWsA9wd (Pablo: favorito, «muchísimas imágenes al tiempo, todo flota, sutil»)",
+  "DcavlDRAchA (busqueda)",
+  "DfEv7DuOgYT (busqueda)",
+  "DXO6RAOioMu (busqueda)",
+  "De9xFeTsC4D (busqueda)",
+  "DZkrlYZsEee (busqueda)"
+ ],
+ "descartadas": [
+  {
+   "ref": "Da8T4XeM6pc",
+   "por": "Pablo lo marcó «no me gusta» en el taller (04-nov)"
+  },
+  {
+   "ref": "Ddb9i2BsQCq",
+   "por": "Pablo: «estos no» al ver la ficha POP (04-nov)"
+  },
+  {
+   "ref": "DbYnLt3sitP",
+   "por": "Pablo: «estos no» al ver la ficha POP (04-nov)"
+  },
+  {
+   "ref": "Db3Hxy0MrcK",
+   "por": "Pablo: «estos no» al ver la ficha POP (04-nov)"
+  }
+ ],
+ "paleta": [
+  {
+   "hex": "#80111D",
+   "rol": "rojo sangre: fondo principal detrás de la persona y de los recortes (Db70, Dcav)"
+  },
+  {
+   "hex": "#AE0E1E",
+   "rol": "rojo vivo: palabra gritada, caja de la palabra clave, centro iluminado del fondo"
+  },
+  {
+   "hex": "#54141A",
+   "rol": "rojo oscuro: viñeta de esquinas y fondo «apagado» de cambio de idea"
+  },
+  {
+   "hex": "#1D1A1C",
+   "rol": "negro: cajas de frase tipo rótulo, texto sobre rojo claro, placas de idea abstracta"
+  },
+  {
+   "hex": "#D7D6D0",
+   "rol": "blanco hueso: frase narrativa, borde de pegatina, papel de recortes"
+  },
+  {
+   "hex": "#41445E",
+   "rol": "azul pizarra: único contraste frío (cielos, placas, franjas), un objeto a la vez"
+  }
+ ],
+ "colores_extra_permitidos": [
+  "#FFFFFF",
+  "#121212",
+  "#948F89",
+  "#AF5C12",
+  "#6AABAA",
+  "#E8D84A"
+ ],
+ "tipografia": {
+  "display": "Archivo Black",
+  "clave": "Anton",
+  "serif": "Playfair Display",
+  "script": "Gochi Hand",
+  "cuerpo": "Roboto"
+ },
+ "ritmo": {
+  "cambio_cada_s": [
+   0.6,
+   2.5
+  ],
+  "gancho_cambio_cada_s": [
+   0.3,
+   1.2
+  ]
+ },
+ "subtitulos": {
+  "modo": "frase",
+  "y": [
+   1380,
+   1500
+  ]
+ },
+ "recursos_firma": [
+  {
+   "nombre": "recorte chico de foto con borde de pegatina, en cascada",
+   "motor": {
+    "tipo": "recorte"
+   },
+   "por_min": [
+    8,
+    18
+   ]
+  },
+  {
+   "nombre": "apoyo sutil: foto chica fundida con el fondo",
+   "motor": {
+    "tipo": "foto",
+    "fundir": true
+   },
+   "por_min": [
+    3,
+    8
+   ]
+  },
+  {
+   "nombre": "frase editorial en caja (negra o roja) con la palabra clave aparte",
+   "motor": {
+    "tipo": "etiqueta"
+   },
+   "por_min": [
+    6,
+    14
+   ]
+  },
+  {
+   "nombre": "palabra gritada enorme delante",
+   "motor": {
+    "tipo": "texto",
+    "z": "frente"
+   },
+   "por_min": [
+    6,
+    14
+   ]
+  },
+  {
+   "nombre": "trazo a mano (óvalo, línea, rayos) cada 5–8 s",
+   "motor": {
+    "en": "trazos"
+   },
+   "por_min": [
+    7,
+    12
+   ]
+  },
+  {
+   "nombre": "rayos blancos que irradian desde la persona",
+   "motor": {
+    "en": "trazos",
+    "tipo": "rayos"
+   },
+   "por_min": [
+    1,
+    4
+   ]
+  },
+  {
+   "nombre": "golpe de semitono de archivo (≤ 1,5 s)",
+   "motor": {
+    "en": "escenas",
+    "filtro": "halftone"
+   },
+   "por_min": [
+    1,
+    3
+   ]
+  },
+  {
+   "nombre": "parpadeo de cambio de idea (negativo de 2 cuadros)",
+   "motor": {
+    "en": "escenas",
+    "entrada": "invertir"
+   },
+   "por_min": [
+    1,
+    3
+   ]
+  }
+ ],
+ "apoyos_por_min": [
+  18,
+  40
+ ],
+ "imagenes_max": 20,
+ "transiciones": [
+  "corte seco a fondo rojo y entra el objeto nuevo",
+  "desenfoque que enfoca (rack focus)",
+  "parpadeo de inversión de 2 cuadros",
+  "whip zoom (solo en el gancho)",
+  "empuje lateral del plano"
+ ],
+ "si": [
+  "fondo rojo con viñeta detrás de los recortes; un solo color fuerte por plano",
+  "cada idea dicha tiene su objeto literal, armado por capas en cascada (0,17–0,3 s entre capas)",
+  "varias imágenes chicas a la vez (2–4), fundidas o con borde de pegatina, sangrando por un borde",
+  "nada queda quieto: push-in lento en cada plano, cámara flotante y objetos que derivan, siempre sutil",
+  "una frase corta por plano con UNA palabra clave cambiada de tamaño, color, caja o familia",
+  "entradas secas con un poco de giro desde un borde; salidas por corte o deslizamiento",
+  "un trazo a mano cada 5–8 s (óvalo, subrayado, hilo, rayos)"
+ ],
+ "no": [
+  "cambiar el color de la toma de Pablo (filtro solo como golpe ≤ 1,5 s)",
+  "imágenes gigantes o muñecos que llenen la pantalla",
+  "rosa, magenta o pastel; neón y degradados de marca",
+  "glow, bloom, light leak, aberración o scanlines",
+  "dos frases a la vez o bloques de texto largos",
+  "fundidos lentos o transiciones de plantilla (rotación 3D, glitch RGB)",
+  "sujeto recortado o texto detrás de la persona (Pablo, 04-nov: «nunca nunca»)"
+ ],
+ "falta_en_motor": [
+  "textura del fondo rojo: viñeta + retícula fina + grano animado constante",
+  "semitono por elemento (en cada recorte), no solo como filtro de escena",
+  "borde «calco» rojo o blanco desplazado que sigue la silueta del recorte",
+  "barrido de resaltador rojo letra a letra sobre un titular",
+  "cifra que rueda como contador (604 → 2023)",
+  "transición de papel rasgado que barre el cuadro y empuje lateral entre planos",
+  "flotar por elemento: cada recorte con su propia deriva y giro lento",
+  "texto que se arma palabra por palabra con desenfoque (Dcav, DXO6) y por disolución de píxeles (DfEv)",
+  "capa a mano que «hierve» a 5 cuadros/s con crayón y stickers de brillo que cambian de sitio (Ddb9, DbYn)",
+  "muro de capturas semitransparentes detrás de la persona (De9x)"
+ ],
+ "retirados_por_pablo": [
+  "palabra detrás de la persona"
+ ]
+}

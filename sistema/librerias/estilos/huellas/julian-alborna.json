@@ -1,0 +1,88 @@
+{
+ "estilo": "julian-alborna",
+ "identidad": "Divulgación con collage editorial: la persona habla en SU toma cálida en penumbra y el video salta a láminas impresas (papel crema arrugado con grabado B/N, o tarjeta carbón con marco fino crema) donde la frase se arma palabra por palabra saliendo de un desenfoque; monocromo tierra con UN solo acento bermellón de rotulador; cortes secos.",
+ "referencias": [
+  "YFSYO5SR4rs (principal: papel crema arrugado, foto B/N en fotocopia, tarjeta negra con marco, rotulador bermellón, texto que se enfoca palabra a palabra)",
+  "AjgB1yoozIE (papel con diagrama de líneas finas que se dibujan, titular heavy + línea thin, tarjetas negras con trazos de luz)",
+  "P-wnbH2g7zc (mundo negro: texto gris en minúsculas que se prende palabra a palabra, archivo en semitono sepia, destello a blanco al cambiar de mundo)",
+  "qxL_N3YtJxg (solo medidas: confirma 37 cortes/min, plano de 1,6 s y la paleta marrón-ámbar)"
+ ],
+ "descartadas": [],
+ "paleta": [
+  {"hex": "#D6CBBC", "rol": "papel crema: fondo de lámina clara; también texto y marco sobre negro"},
+  {"hex": "#171614", "rol": "tinta: texto editorial, flechas, líneas de diagrama"},
+  {"hex": "#E2531F", "rol": "ÚNICO acento: rotulador bermellón (caja, brochazo, subrayado, tachado, franja en los ojos)"},
+  {"hex": "#1C1C1C", "rol": "carbón: fondo de la tarjeta negra (negro levantado, no puro)"},
+  {"hex": "#8B8481", "rol": "gris papel: palabra que todavía no se dice, segunda línea fantasma"},
+  {"hex": "#825645", "rol": "sepia: grabados de cerebro/anatomía"},
+  {"hex": "#E6DFD2", "rol": "crema claro: marco fino y trazos sobre la tarjeta negra"},
+  {"hex": "#E0BEA2", "rol": "beige: palabra clave sobre la tarjeta negra, disco detrás del objeto"}
+ ],
+ "colores_extra_permitidos": [
+  "#090705", "#050401", "#050605", "#101212", "#1B1A18", "#24190E", "#35140B", "#2B2A27",
+  "#575450", "#53524E", "#B7B0A6", "#CDCFD0", "#D0C9BE", "#DCD4C6", "#FFFFFF", "#FFE9A8", "#FF9A2A"
+ ],
+ "tipografia": {
+  "display": "Inter Tight",
+  "cuerpo": "Inter",
+  "script": "Covered By Your Grace",
+  "mono": "Courier Prime"
+ },
+ "ritmo": {
+  "cambio_cada_s": [1.0, 2.6],
+  "gancho_cambio_cada_s": [0.4, 1.5]
+ },
+ "subtitulos": {
+  "modo": "palabra",
+  "y": [1030, 1500]
+ },
+ "recursos_firma": [
+  {"nombre": "texto editorial que entra desenfocado y gris y se pone nítido al decirse", "motor": {"tipo": "texto", "entra": "enfoque"}, "por_min": [8, 20]},
+  {"nombre": "lámina de papel crema a pantalla completa", "motor": {"tipo": "foto", "cubrir": true}, "por_min": [2, 6]},
+  {"nombre": "grabado o foto de archivo impresa en el papel (blanco borrado)", "motor": {"tipo": "foto", "fusion": "multiplicar"}, "por_min": [2, 6]},
+  {"nombre": "palabra clave a mano sobre rotulador bermellón", "motor": {"tipo": "etiqueta", "rol": "script"}, "por_min": [2, 6]},
+  {"nombre": "trazo a mano: flecha, subrayado, tachado o línea de diagrama", "motor": {"en": "trazos", "tipo": "linea"}, "por_min": [2, 8]},
+  {"nombre": "tarjeta negra carbón con marco fino", "motor": {"en": "escenas", "persona.fondo": "#1B1A18"}, "por_min": [1, 3]}
+ ],
+ "apoyos_por_min": [8, 24],
+ "imagenes_max": 10,
+ "transiciones": [
+  "corte seco a cuadro exacto (la gran mayoría), cortado en el movimiento",
+  "ida y vuelta entre toma y lámina (persona → papel → negro → persona)",
+  "ráfaga de cortes de 0,16–0,3 s solo en la frase de tensión o en el clímax",
+  "destello a blanco de 1–2 cuadros al cambiar de mundo (toma ↔ archivo), poco",
+  "invertir (negativo de 2 cuadros) en un giro de idea, una vez por reel"
+ ],
+ "si": [
+  "dos mundos que no se mezclan: la toma de Pablo a su color, o la lámina editorial a pantalla completa; sobre la persona solo va el subtítulo",
+  "solo dos fondos de lámina: papel crema arrugado o tarjeta carbón con marco fino crema a ~10 % del borde",
+  "la frase de la lámina se arma palabra por palabra: entra gris y borrosa y se enfoca a tinta cuando se dice; grotesca 800 minúscula apilada en escalera, línea grande + línea chica",
+  "la palabra clave pasa a letra a mano en MAYÚSCULAS sobre caja o brochazo bermellón, con flecha, subrayado o tachado que se dibuja",
+  "personas y objetos de la lámina en B/N de fotocopia o grabado sepia, impresos en el papel, chicos y con aire (≤ 70 % del ancho)",
+  "subtítulo de la toma chico (1–5 palabras, minúscula, blanco con halo cálido), al pecho, palabra por palabra; en la lámina el texto ES el subtítulo",
+  "una pieza nueva a la vez dentro de la lámina; las piezas deslizan desde un borde con ease-out o se dibujan, sin rebote"
+ ],
+ "no": [
+  "cambiar el color de la toma de Pablo salvo golpes de ≤ 1,5 s",
+  "imágenes que llenen el cuadro (maniquíes gigantes, muñecos, caras a pantalla completa): los apoyos van chicos y fundidos con el papel",
+  "un segundo acento de color, rosa/magenta, degradados, neón o vidrio",
+  "sujeto recortado, en silueta, clonado o con texto detrás de la cabeza",
+  "subtítulos grandes o en MAYÚSCULAS, cajas detrás del subtítulo, subtítulo y lámina a la vez",
+  "transiciones de efecto (whip, glitch, barridos, fundidos largos), temblor añadido o animaciones elásticas"
+ ],
+ "falta_en_motor": [
+  "fondo de papel nativo con textura (hoy es una foto a pantalla completa que debe declarar su muestra)",
+  "subtítulo «cara»: chico, minúscula, palabra por palabra en dos tonos (por decir gris / dicho blanco) con halo cálido",
+  "tracking negativo por línea (−3 a −4 %) para la grotesca apretada",
+  "texto en escalera automático (cada línea empujada a la derecha) y palabra cortada a propósito por el borde",
+  "brochazo de pincel seco con bordes deshilachados detrás de la palabra (hoy solo caja plana)",
+  "franja translúcida del acento sobre los ojos de una foto de archivo (multiplicar en zona)",
+  "flecha curva con punta que se dibuja (hoy solo líneas rectas por puntos)",
+  "lámina más ancha que el cuadro recorrida en paneo lateral continuo (AjgB)",
+  "sombra difusa de objeto recortado sobre el papel; bloque negro que crece como pedestal o mate de revelado",
+  "rayas horizontales de fotocopia y bordes de tóner en fotos de archivo",
+  "grabado que rota en 3D lento; animación a 12 cuadros por segundo (on twos) para recortes y trazos",
+  "gráfico de pastel recortado a mano con cifra al centro",
+  "burbuja de mensaje con borde negro y piquito, saliendo de una cara de fotocopia"
+ ]
+}

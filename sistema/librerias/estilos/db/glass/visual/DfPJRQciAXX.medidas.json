@@ -1,0 +1,52 @@
+{
+ "duracion_s": 12.77,
+ "cortes_s": [
+  3.47,
+  8.9,
+  10.73,
+  10.93
+ ],
+ "cortes_por_min": 18.8,
+ "plano_medio_s": 2.55,
+ "plano_min_max_s": [
+  0.2,
+  5.43
+ ],
+ "luz_media": 0.48,
+ "contraste": 0.23,
+ "saturacion": 0.21,
+ "paleta": [
+  {
+   "hex": "#4C4F2A",
+   "pct": 15.3
+  },
+  {
+   "hex": "#1B191E",
+   "pct": 13.7
+  },
+  {
+   "hex": "#6E8DC6",
+   "pct": 13.7
+  },
+  {
+   "hex": "#837365",
+   "pct": 13.3
+  },
+  {
+   "hex": "#4C65A9",
+   "pct": 13.1
+  },
+  {
+   "hex": "#9CC0DE",
+   "pct": 12.4
+  },
+  {
+   "hex": "#D1DDE4",
+   "pct": 11.1
+  },
+  {
+   "hex": "#B1A195",
+   "pct": 7.3
+  }
+ ]
+}

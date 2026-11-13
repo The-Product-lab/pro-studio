@@ -1,0 +1,823 @@
+{
+ "familias": {
+  "Graphic & Type": "Gráfico y tipografía",
+  "Evidence Films": "Cine de evidencia",
+  "Cinema & Eras": "Cine y épocas",
+  "Materials & 3D": "Materiales y 3D",
+  "Edit & Documentary": "Edición y documental",
+  "Cartoon & Anime": "Dibujos animados y anime",
+  "Information & Keynote": "Información y presentación",
+  "Hand-drawn & Painting": "Dibujo a mano y pintura",
+  "Games": "Videojuegos",
+  "Print & Printmaking": "Impresión y grabado",
+  "East Asian Traditions": "Tradiciones de Asia oriental",
+  "3D & Miniature": "3D y miniatura",
+  "Cartoons": "Caricatura",
+  "Data & Maps": "Datos y mapas",
+  "Film & Tape": "Película y cinta",
+  "Instruments & Evidence": "Instrumentos y evidencia",
+  "Light & Lines": "Luz y líneas",
+  "Line Diagrams": "Diagramas de línea",
+  "Painting & Illustration": "Pintura e ilustración",
+  "Screens & Interfaces": "Pantallas e interfaces",
+  "Sketch & Board": "Boceto y tablero",
+  "Traditional Crafts": "Oficios tradicionales"
+ },
+ "riesgos": {
+  "art-deco": "El título del estilo trae un destello (prohibido): la revisión de cuadros lo vigila."
+ },
+ "estilos": {
+  "archive-lighttable": {
+   "nombre": "Mesa de archivo",
+   "temas": [
+    "Historia de marca",
+    "Archivo y memoria",
+    "Museos"
+   ]
+  },
+  "art-deco": {
+   "nombre": "Art déco",
+   "temas": [
+    "Lujo y hotelería",
+    "Eventos de gala",
+    "Invitaciones"
+   ]
+  },
+  "ascii-crt": {
+   "nombre": "Terminal de texto",
+   "temas": [
+    "Herramientas para desarrolladores",
+    "Ciencia ficción",
+    "Marcas de tecnología"
+   ]
+  },
+  "assembly-line-diagram": {
+   "nombre": "Diagrama de línea de ensamble",
+   "temas": [
+    "Cómo funciona un proceso",
+    "Biología y medicina",
+    "Cadenas de suministro"
+   ]
+  },
+  "backrooms": {
+   "nombre": "Cinta encontrada",
+   "temas": [
+    "Terror y misterio",
+    "Teasers de juegos",
+    "Intriga"
+   ]
+  },
+  "bauhaus-shapes": {
+   "nombre": "Formas Bauhaus",
+   "temas": [
+    "Finanzas y economía",
+    "Mecanismos y principios",
+    "Títulos y cortinillas de capítulo"
+   ]
+  },
+  "blueprint": {
+   "nombre": "Plano técnico",
+   "temas": [
+    "Ingeniería",
+    "Lanzamientos de producto físico",
+    "Explicar tecnología"
+   ]
+  },
+  "brick-toy": {
+   "nombre": "Bloques de juguete",
+   "temas": [
+    "Juguetes e infancia",
+    "Cómo se construye algo",
+    "Espacio"
+   ]
+  },
+  "briefing-board": {
+   "nombre": "Tablero de ingeniería",
+   "temas": [
+    "Ingeniería",
+    "Comparar opciones",
+    "Resúmenes técnicos"
+   ]
+  },
+  "caption-news": {
+   "nombre": "Noticia en subtítulos",
+   "temas": [
+    "Noticias en redes",
+    "Explicar un informe",
+    "Datos rápidos"
+   ]
+  },
+  "cel-anime-80s": {
+   "nombre": "Anime de los 80",
+   "temas": [
+    "Videoclips",
+    "Tráilers de juegos",
+    "Nostalgia"
+   ]
+  },
+  "chalkboard": {
+   "nombre": "Pizarrón",
+   "temas": [
+    "Origen de las palabras",
+    "Desmentir mitos",
+    "Lecciones"
+   ]
+  },
+  "circuit-board": {
+   "nombre": "Circuito impreso",
+   "temas": [
+    "Energía",
+    "Cadenas de suministro",
+    "Dispositivos"
+   ]
+  },
+  "city-symphony": {
+   "nombre": "Sinfonía de ciudad",
+   "temas": [
+    "Películas de ciudad",
+    "Montajes con música",
+    "Aperturas"
+   ]
+  },
+  "colored-pencil": {
+   "nombre": "Lápiz de color científico",
+   "temas": [
+    "Cortes de ciencias naturales",
+    "Explicaciones tipo libro ilustrado",
+    "Estructuras y procesos ocultos"
+   ]
+  },
+  "comic-history": {
+   "nombre": "Caricatura de historia",
+   "temas": [
+    "Cambios de territorio en la historia",
+    "Geopolítica explicada fácil",
+    "Peleas por mercado"
+   ]
+  },
+  "countdown": {
+   "nombre": "Cuenta regresiva en vivo",
+   "temas": [
+    "Lanzamientos",
+    "Cuentas regresivas",
+    "Eventos en vivo"
+   ]
+  },
+  "crayon-book": {
+   "nombre": "Libro de crayones",
+   "temas": [
+    "Cuentos infantiles",
+    "Historias para dormir",
+    "Aprendizaje de niños"
+   ]
+  },
+  "crayon-world": {
+   "nombre": "Mundo de crayola 3D",
+   "temas": [
+    "Cuentos cortos",
+    "Homenajes",
+    "Viajes"
+   ]
+  },
+  "dark-documentary": {
+   "nombre": "Documental de radar",
+   "temas": [
+    "Historia de la ciencia",
+    "Arqueología y reconstrucciones",
+    "Astronomía y espacio"
+   ]
+  },
+  "dark-keynote": {
+   "nombre": "Keynote oscuro",
+   "temas": [
+    "Lanzamiento de productos",
+    "Software (SaaS)",
+    "Presentaciones"
+   ]
+  },
+  "data-physical": {
+   "nombre": "Datos hechos objeto",
+   "temas": [
+    "Informes anuales",
+    "Presentaciones a inversores",
+    "Datos de energía"
+   ]
+  },
+  "dataviz": {
+   "nombre": "Historia con datos",
+   "temas": [
+    "Periodismo de datos",
+    "Informes",
+    "Ciencia y clima"
+   ]
+  },
+  "desktop-flythrough": {
+   "nombre": "Vuelo por el escritorio",
+   "temas": [
+    "Explicar una app",
+    "Flujos de trabajo",
+    "Productos digitales"
+   ]
+  },
+  "double-exposure": {
+   "nombre": "Doble exposición",
+   "temas": [
+    "Películas de marca y ciudad",
+    "Aperturas de documental y serie",
+    "Intros de video musical"
+   ]
+  },
+  "engraving": {
+   "nombre": "Grabado en cobre",
+   "temas": [
+    "Explicar ciencia",
+    "Herencia de marca",
+    "Etiquetas de museo"
+   ]
+  },
+  "firefly-pointillism": {
+   "nombre": "Puntillismo de luciérnagas",
+   "temas": [
+    "Cuentos ilustrados",
+    "Muchos que se vuelven uno",
+    "Noche y naturaleza"
+   ]
+  },
+  "flat-space-explainer": {
+   "nombre": "Zoom de escala",
+   "temas": [
+    "Explicaciones de ciencia",
+    "Escala y tamaño",
+    "Clases"
+   ]
+  },
+  "flow-field": {
+   "nombre": "Líneas de viento",
+   "temas": [
+    "Clima y tormentas",
+    "Corrientes y crecientes",
+    "Flujos frente a un límite"
+   ]
+  },
+  "game-show": {
+   "nombre": "Concurso de TV",
+   "temas": [
+    "Líneas de tiempo",
+    "Resumen del año",
+    "Programas de variedades"
+   ]
+  },
+  "gilded-illumination": {
+   "nombre": "Iluminación dorada",
+   "temas": [
+    "Fábulas y cuentos ilustrados",
+    "Fiestas y festivales",
+    "Historias de origen de marca"
+   ]
+  },
+  "glass-product": {
+   "nombre": "Producto de vidrio",
+   "temas": [
+    "Lanzamientos de producto",
+    "Tecnología de consumo",
+    "Belleza"
+   ]
+  },
+  "halftone-dossier": {
+   "nombre": "Dossier de tramas",
+   "temas": [
+    "Humor",
+    "Mascotas",
+    "Cortos para redes"
+   ]
+  },
+  "hardcore-info": {
+   "nombre": "Corte en línea",
+   "temas": [
+    "Hardware explicado",
+    "Ingeniería de producto",
+    "Educación científica"
+   ]
+  },
+  "hd-2d": {
+   "nombre": "Videojuego HD-2D",
+   "temas": [
+    "Tráilers de juegos",
+    "Fantasía",
+    "Historias"
+   ]
+  },
+  "hologram-hud": {
+   "nombre": "Holograma futurista",
+   "temas": [
+    "Explicar especificaciones",
+    "Videos de lanzamiento",
+    "Ferias"
+   ]
+  },
+  "impasto": {
+   "nombre": "Óleo con empaste",
+   "temas": [
+    "Videoclips",
+    "Arte y cultura",
+    "Anuncios emotivos"
+   ]
+  },
+  "ink-wash": {
+   "nombre": "Tinta china",
+   "temas": [
+    "Artes marciales",
+    "Marcas culturales",
+    "Poesía"
+   ]
+  },
+  "instruction-manual": {
+   "nombre": "Manual de instrucciones",
+   "temas": [
+    "Guías de armado e instalación",
+    "Instrucciones de seguridad",
+    "Primeros pasos de un producto"
+   ]
+  },
+  "ipad-sketch": {
+   "nombre": "Boceto en tableta",
+   "temas": [
+    "Comida y bebida explicadas",
+    "Oficios y cómo se hace",
+    "Ciencia del día a día"
+   ]
+  },
+  "iso-infographic": {
+   "nombre": "Infografía isométrica",
+   "temas": [
+    "Explicar procesos",
+    "Cadenas de suministro",
+    "Informes anuales"
+   ]
+  },
+  "isometric-picture-book": {
+   "nombre": "Libro isométrico",
+   "temas": [
+    "Reglas cotidianas",
+    "Filas y esperas",
+    "Comparaciones"
+   ]
+  },
+  "kino-montage": {
+   "nombre": "Montaje constructivista",
+   "temas": [
+    "Historia de industrias",
+    "Hitos",
+    "Esfuerzo colectivo"
+   ]
+  },
+  "lidar-survey": {
+   "nombre": "Escaneo láser 3D",
+   "temas": [
+    "Patrimonio",
+    "Medio ambiente",
+    "Levantamientos de sitios"
+   ]
+  },
+  "living-screencast": {
+   "nombre": "Pantalla en vivo",
+   "temas": [
+    "Tutoriales de producto",
+    "Nuevas funciones",
+    "Incorporación de usuarios"
+   ]
+  },
+  "lowpoly-island": {
+   "nombre": "Isla de pocos polígonos",
+   "temas": [
+    "Tráilers de juegos",
+    "Mundos imaginarios",
+    "Contenido tranquilo"
+   ]
+  },
+  "manga-panels": {
+   "nombre": "Viñetas de manga",
+   "temas": [
+    "Videos musicales",
+    "Lanzamientos de producto",
+    "Aperturas estilo anime"
+   ]
+  },
+  "map-explainer": {
+   "nombre": "Mapa 3D explicativo",
+   "temas": [
+    "Noticias y geopolítica",
+    "Energía, comercio y transporte",
+    "Ríos, fronteras y terreno"
+   ]
+  },
+  "marker-paper": {
+   "nombre": "Marcador sobre papel",
+   "temas": [
+    "Problemas resueltos paso a paso",
+    "Explicaciones de ciencia",
+    "Clases"
+   ]
+  },
+  "memphis-diorama": {
+   "nombre": "Diorama Memphis",
+   "temas": [
+    "Portadas web",
+    "Fondos animados",
+    "Estaciones del año"
+   ]
+  },
+  "microgame": {
+   "nombre": "Microjuegos frenéticos",
+   "temas": [
+    "Tráilers de juegos",
+    "Incorporación de usuarios",
+    "Cortos para redes"
+   ]
+  },
+  "microscope": {
+   "nombre": "Bajo el microscopio",
+   "temas": [
+    "Biomedicina",
+    "Ciencia de materiales",
+    "Ciencia del cuidado de la piel"
+   ]
+  },
+  "midcentury-toon": {
+   "nombre": "Dibujo de mediados de siglo",
+   "temas": [
+    "Guías de instalación",
+    "Centros de ayuda",
+    "Cómo hacer algo"
+   ]
+  },
+  "neon-tubes": {
+   "nombre": "Tubos de neón",
+   "temas": [
+    "Aperturas de tienda y mascotas",
+    "Vida nocturna y música",
+    "Identidades de ciudad y festival"
+   ]
+  },
+  "news-package": {
+   "nombre": "Noticiero de TV",
+   "temas": [
+    "Resúmenes de noticias",
+    "Boletines",
+    "Actualización de mercados"
+   ]
+  },
+  "newsreel": {
+   "nombre": "Noticiero de los años 20",
+   "temas": [
+    "Historias de historia",
+    "Modas y épocas",
+    "Aniversarios"
+   ]
+  },
+  "one-bit-dither": {
+   "nombre": "Tramado de 1 bit",
+   "temas": [
+    "Historia contada por medios",
+    "Impresión, escaneo y señales",
+    "Noche y espacio"
+   ]
+  },
+  "one-line": {
+   "nombre": "Dibujo de una sola línea",
+   "temas": [
+    "Historias de marca",
+    "Hitos de vida",
+    "Anuncios minimalistas"
+   ]
+  },
+  "oscilloscope-math": {
+   "nombre": "Matemática de osciloscopio",
+   "temas": [
+    "Clases de matemáticas y física",
+    "Señales y electrónica",
+    "Explicaciones de ciencia"
+   ]
+  },
+  "paper-lantern": {
+   "nombre": "Linterna de papel",
+   "temas": [
+    "Viajes",
+    "Despedidas y aniversarios",
+    "Historias de lugares"
+   ]
+  },
+  "paper-popup": {
+   "nombre": "Libro desplegable",
+   "temas": [
+    "Libros infantiles",
+    "Tráilers de juegos",
+    "Historias"
+   ]
+  },
+  "papercut-red": {
+   "nombre": "Papel recortado rojo",
+   "temas": [
+    "Año Nuevo lunar",
+    "Saludos festivos",
+    "Cuentos populares"
+   ]
+  },
+  "pen-plotter": {
+   "nombre": "Plóter de pluma",
+   "temas": [
+    "Mapas y terreno",
+    "Medidas y récords",
+    "Dibujos generativos con datos"
+   ]
+  },
+  "pictogram-motion": {
+   "nombre": "Pictogramas animados",
+   "temas": [
+    "Servicios públicos y ciudad",
+    "Identidad de marca o evento",
+    "Explicar con señales"
+   ]
+  },
+  "pip-simulation": {
+   "nombre": "Simulación de criaturas",
+   "temas": [
+    "Evolución y selección natural",
+    "Teoría de juegos",
+    "Epidemias, filas y mercados"
+   ]
+  },
+  "pixel-rpg": {
+   "nombre": "Rol de 16 bits",
+   "temas": [
+    "Tráilers de juegos",
+    "Resúmenes",
+    "Nostalgia"
+   ]
+  },
+  "pop-art": {
+   "nombre": "Arte pop",
+   "temas": [
+    "Objetos cotidianos explicados",
+    "Pósters de marca y producto",
+    "Historias cortas con datos"
+   ]
+  },
+  "precise-mechanism": {
+   "nombre": "Mecanismo por colores",
+   "temas": [
+    "Cómo funcionan las máquinas",
+    "Producto e ingeniería explicados",
+    "Enseñanza de ciencia"
+   ]
+  },
+  "printed-long-take": {
+   "nombre": "Plano largo impreso",
+   "temas": [
+    "Viajes",
+    "Fauna",
+    "Paisajes"
+   ]
+  },
+  "risograph": {
+   "nombre": "Risografía",
+   "temas": [
+    "Marcas independientes",
+    "Revistas independientes",
+    "Estilo de vida"
+   ]
+  },
+  "rubber-hose": {
+   "nombre": "Dibujo de los años 30",
+   "temas": [
+    "Comida y bebida",
+    "Publicidad retro",
+    "Infantil"
+   ]
+  },
+  "satellite-briefing": {
+   "nombre": "Informe satelital",
+   "temas": [
+    "Clima",
+    "Explicar noticias",
+    "Geografía"
+   ]
+  },
+  "scifi-toon": {
+   "nombre": "Comedia espacial animada",
+   "temas": [
+    "Comedia",
+    "Marcas de tecnología",
+    "Cortos para redes"
+   ]
+  },
+  "scratch-film": {
+   "nombre": "Película rayada",
+   "temas": [
+    "Lo que pasa en la oscuridad",
+    "De una marca a todo un sistema",
+    "Aventuras de luz y sombra"
+   ]
+  },
+  "security-xray": {
+   "nombre": "Rayos X de seguridad",
+   "temas": [
+    "Control en aeropuerto y aduana",
+    "Inspección de paquetes",
+    "Por dentro de un producto"
+   ]
+  },
+  "shadow-puppet": {
+   "nombre": "Teatro de sombras",
+   "temas": [
+    "Mitos y leyendas",
+    "Patrimonio",
+    "Festivales"
+   ]
+  },
+  "silent-film": {
+   "nombre": "Cine mudo",
+   "temas": [
+    "Comedia",
+    "Marcas retro",
+    "Historias sin palabras"
+   ]
+  },
+  "silhouette-rhythm": {
+   "nombre": "Siluetas al ritmo",
+   "temas": [
+    "Videos musicales",
+    "Deporte y equipos",
+    "Aperturas de naturaleza y festival"
+   ]
+  },
+  "silkscreen-poster": {
+   "nombre": "Cartel serigrafiado",
+   "temas": [
+    "Guías de destino",
+    "Turismo",
+    "Carteles de eventos"
+   ]
+  },
+  "sketchnote": {
+   "nombre": "Apuntes ilustrados",
+   "temas": [
+    "Notas de clase",
+    "Explicaciones de ciencia",
+    "Resúmenes en una página"
+   ]
+  },
+  "spreadsheet": {
+   "nombre": "Película de hoja de cálculo",
+   "temas": [
+    "Educación en datos",
+    "Finanzas y costos",
+    "Analítica explicada"
+   ]
+  },
+  "spy-titles": {
+   "nombre": "Créditos de espías de los 60",
+   "temas": [
+    "Créditos de apertura",
+    "Aperturas de eventos",
+    "Tráilers"
+   ]
+  },
+  "stained-glass": {
+   "nombre": "Vitral",
+   "temas": [
+    "Leyendas",
+    "Patrimonio",
+    "Historias de fiestas"
+   ]
+  },
+  "stick-explainer": {
+   "nombre": "Explicación con palitos",
+   "temas": [
+    "Explicaciones de ciencia",
+    "Redes e ideas sociales",
+    "Comparaciones con datos"
+   ]
+  },
+  "swiss-motion": {
+   "nombre": "Gráficos suizos",
+   "temas": [
+    "Identidad de marca",
+    "Eventos",
+    "Educación en diseño"
+   ]
+  },
+  "teardown": {
+   "nombre": "Pieza por pieza",
+   "temas": [
+    "Lanzamientos de hardware",
+    "Páginas de producto",
+    "Explicar especificaciones"
+   ]
+  },
+  "telestrator": {
+   "nombre": "Pizarra de deportes",
+   "temas": [
+    "Análisis deportivo",
+    "Resúmenes de partidos",
+    "Entrenamiento"
+   ]
+  },
+  "text-flash-cuts": {
+   "nombre": "Cortes de texto",
+   "temas": [
+    "Tráileres de suspenso y drama",
+    "Secuencias de título",
+    "Manifiestos"
+   ]
+  },
+  "thermal-camera": {
+   "nombre": "Cámara térmica",
+   "temas": [
+    "Inspección de edificios y energía",
+    "Fauna nocturna",
+    "Máquinas y electricidad"
+   ]
+  },
+  "tilt-shift": {
+   "nombre": "Ciudad en miniatura",
+   "temas": [
+    "Promos de ciudades",
+    "Bienes raíces",
+    "Transporte"
+   ]
+  },
+  "transit-map": {
+   "nombre": "Mapa de metro",
+   "temas": [
+    "Transporte",
+    "Crecimiento en el tiempo",
+    "Redes"
+   ]
+  },
+  "ukiyoe": {
+   "nombre": "Estampa japonesa",
+   "temas": [
+    "Viajes",
+    "Cultura japonesa",
+    "Poesía"
+   ]
+  },
+  "urban-sketch": {
+   "nombre": "Boceto urbano",
+   "temas": [
+    "Ciudad y viajes",
+    "Arquitectura",
+    "Marcas de estilo de vida"
+   ]
+  },
+  "vintage-collage": {
+   "nombre": "Collage de grabado antiguo",
+   "temas": [
+    "Historia de un objeto",
+    "Ideas y sociedad estilo revista",
+    "Archivo y colección"
+   ]
+  },
+  "visual-investigation": {
+   "nombre": "Investigación visual",
+   "temas": [
+    "Reconstrucciones",
+    "Verificación de datos",
+    "Informes de incidentes"
+   ]
+  },
+  "watercolor": {
+   "nombre": "Acuarela",
+   "temas": [
+    "Documentales de naturaleza",
+    "Viajes",
+    "Explicar ciencia"
+   ]
+  },
+  "white-model": {
+   "nombre": "Maqueta blanca",
+   "temas": [
+    "Urbanismo",
+    "Exposiciones",
+    "Datos de ciudad"
+   ]
+  },
+  "whiteboard": {
+   "nombre": "Pizarra blanca",
+   "temas": [
+    "Explicaciones",
+    "Cursos en línea",
+    "Ciencia"
+   ]
+  },
+  "woodcut": {
+   "nombre": "Xilografía",
+   "temas": [
+    "Cuentos populares",
+    "Marcas artesanales",
+    "Tráilers de libros"
+   ]
+  }
+ }
+}

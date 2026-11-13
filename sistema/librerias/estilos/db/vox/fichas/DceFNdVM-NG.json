@@ -1,0 +1,147 @@
+{
+ "ref": "DceFNdVM-NG",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Portada y gancho son Vox puro: logo serif gigante sobre foto de archivo con borde de papel rasgado en fondo de periódico. La mitad es tutorial de IA (pantallas), eso no se toma.",
+ "paleta": [
+  {
+   "hex": "#E8DEC8",
+   "rol": "papel periódico",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#1C1C1A",
+   "rol": "tinta/siluetas",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#2C5EB5",
+   "rol": "azul editorial (cielo/fondo)",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#F2B824",
+   "rol": "círculo de énfasis",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#FFFFFF",
+   "rol": "borde rasgado y texto",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "serif de alto contraste gigante, blanca, sobre la foto",
+   "google": "Bodoni Moda"
+  },
+  {
+   "rol": "cuerpo",
+   "como_es": "sans negrita en mayúsculas, centrada",
+   "google": "Inter"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.5,
+   2.5
+  ],
+  "cortes_por_min": [
+   24,
+   40
+  ],
+  "gancho": "0-2 s: título serif gigante sobre foto de archivo con papel rasgado"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "palabra",
+  "y_aprox": 1450,
+  "mayus": true,
+  "clave": "resaltado temporal sincronizado con la voz"
+ },
+ "persona": {
+  "tratamiento": "recorte sin fondo sobre papel / talking head en estudio",
+  "encuadre": "tercio central"
+ },
+ "recursos": [
+  {
+   "nombre": "máscara de papel rasgado que revela foto",
+   "por_min": [
+    6,
+    12
+   ],
+   "dur_s": [
+    0.3,
+    0.5
+   ],
+   "cuando": "cambio de escena",
+   "como": "borde con flecos blancos horizontal"
+  },
+  {
+   "nombre": "círculo amarillo a mano",
+   "por_min": [
+    3,
+    6
+   ],
+   "dur_s": [
+    0.4,
+    1.0
+   ],
+   "cuando": "énfasis en un punto",
+   "como": "trazo de marcador imperfecto"
+  },
+  {
+   "nombre": "capas que caen con sombra dura",
+   "por_min": [
+    6,
+    12
+   ],
+   "dur_s": [
+    0.2,
+    0.4
+   ],
+   "cuando": "montaje acumulativo",
+   "como": "sombra paralela dura"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   18,
+   30
+  ],
+  "tipos": [
+   "foto de archivo",
+   "grabado",
+   "silueta negra plana",
+   "círculo a mano"
+  ]
+ },
+ "imagenes": {
+  "tipo": "archivo, grabados siglo XIX, siluetas planas",
+  "tratamiento": "recorte rugoso, borde blanco, sombra dura, grano 35 mm",
+  "cuantas": 6
+ },
+ "transiciones": [
+  "push vertical",
+  "rasgado de capa",
+  "corte seco"
+ ],
+ "camara": [
+  "micro-zoom por plano"
+ ],
+ "sonido": [
+  "papel rasgado",
+  "clic UI",
+  "whoosh"
+ ],
+ "si": [
+  "textura de papel periódico siempre",
+  "recortes de borde irregular",
+  "una sola idea por plano"
+ ],
+ "no": [
+  "fondos lisos sin textura",
+  "bordes de recorte limpios y digitales"
+ ]
+}

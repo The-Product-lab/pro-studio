@@ -1,0 +1,158 @@
+{
+ "ref": "DcavlDRAchA",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Portada: cabeza de caricatura sobre cuerpo, palabras en bloque amarillo y rojo extruidas. Pop caricaturesco con sunburst, stickers y mayúsculas condensadas.",
+ "paleta": [
+  {
+   "hex": "#E50914",
+   "rol": "palabra clave roja",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#F4A900",
+   "rol": "amarillo/naranja sunburst",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#00C4CC",
+   "rol": "cian de contraste",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#121212",
+   "rol": "negro de fondo y extrusión",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#FFFFFF",
+   "rol": "contorno de sticker",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "sans ultracondensada extra pesada en mayúsculas con extrusión y sombra negra",
+   "google": "Bebas Neue"
+  },
+  {
+   "rol": "script",
+   "como_es": "marcador en minúsculas dentro de sticker blanco",
+   "google": "Permanent Marker"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.0,
+   1.8
+  ],
+  "cortes_por_min": [
+   45,
+   55
+  ],
+  "gancho": "0-2 s: cabeza caricatura con nombre en bloque amarillo/rojo"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "frase",
+  "y_aprox": 1000,
+  "mayus": true,
+  "clave": "blanco neutro, rojo o amarillo en la palabra clave"
+ },
+ "persona": {
+  "tratamiento": "cabeza gigante de caricatura sobre cuerpo recortado",
+  "encuadre": "cuerpo completo centrado"
+ },
+ "recursos": [
+  {
+   "nombre": "sunburst cómic",
+   "por_min": [
+    4,
+    10
+   ],
+   "dur_s": [
+    1.5,
+    2.5
+   ],
+   "cuando": "presentar invento o personaje",
+   "como": "rayos giratorios ~20°/s"
+  },
+  {
+   "nombre": "sticker con borde blanco",
+   "por_min": [
+    6,
+    12
+   ],
+   "dur_s": [
+    1.0,
+    1.5
+   ],
+   "cuando": "palabra de remate",
+   "como": "rotado -5°, cae con rebote"
+  },
+  {
+   "nombre": "texto extruido 3D con warp",
+   "por_min": [
+    4,
+    8
+   ],
+   "dur_s": [
+    1.0,
+    2.0
+   ],
+   "cuando": "término clave",
+   "como": "extrusión, bulge, sombra negra"
+  },
+  {
+   "nombre": "cabeza de caricatura",
+   "por_min": [
+    2,
+    5
+   ],
+   "dur_s": [
+    2.0,
+    3.0
+   ],
+   "cuando": "figura histórica",
+   "como": "escala + parpadeo"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   30,
+   45
+  ],
+  "tipos": [
+   "sunburst",
+   "stickers",
+   "mapa con relieve",
+   "objetos flotantes en patrón"
+  ]
+ },
+ "imagenes": {
+  "tipo": "recortes y objetos, caricaturas",
+  "tratamiento": "contorno blanco grueso, sombra negra",
+  "cuantas": 6
+ },
+ "transiciones": [
+  "whip zoom",
+  "corte en ritmo",
+  "objeto que cruza"
+ ],
+ "camara": [
+  "fast zoom-in constante",
+  "sacudida en golpe"
+ ],
+ "sonido": [
+  "golpe en cada entrada"
+ ],
+ "si": [
+  "colores saturados contrastados",
+  "mayúsculas condensadas con sombra"
+ ],
+ "no": [
+  "tonos pastel",
+  "tipografía fina"
+ ]
+}

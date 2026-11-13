@@ -1,0 +1,168 @@
+{
+ "ref": "De9SYDwhTG0",
+ "fuente": "dueño",
+ "sirve": true,
+ "por_que": "Referencia del dueño: fondo claro con retícula punteada azul Klein, una línea de pulso continua, fotos en ASCII/semitono, cajas de detección con coordenadas y sans con detalle en cursiva; es el modelo del estilo.",
+ "paleta": [
+  {
+   "hex": "#F5F5F7",
+   "rol": "fondo blanco roto",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#111111",
+   "rol": "texto, ASCII, semitonos",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#002FA7",
+   "rol": "azul Klein: señal, línea de pulso, bloques",
+   "cuanto": "acento"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "sans geométrica regular y bold",
+   "google": "Inter"
+  },
+  {
+   "rol": "script",
+   "como_es": "cursiva caligráfica para contrastes clave",
+   "google": "Playfair Display"
+  },
+  {
+   "rol": "mono",
+   "como_es": "datos y coordenadas",
+   "google": "JetBrains Mono"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.0,
+   1.8
+  ],
+  "cortes_por_min": [
+   33,
+   60
+  ],
+  "gancho": "0–4 s: concepto en módulo tipográfico sobre la retícula"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "frase",
+  "y_aprox": 1300,
+  "mayus": false,
+  "clave": "módulos tipográficos fijos alineados a la izquierda con jerarquía de tamaño; no karaoke"
+ },
+ "persona": {
+  "tratamiento": "sin persona a cámara; imágenes a ASCII/semitono monocromo",
+  "encuadre": "máscaras rectangulares con cruces y coordenadas"
+ },
+ "recursos": [
+  {
+   "nombre": "retícula punteada modular",
+   "por_min": [
+    0,
+    0
+   ],
+   "dur_s": [
+    0,
+    0
+   ],
+   "cuando": "todo el video",
+   "como": "líneas dashed que dividen en tercios/módulos"
+  },
+  {
+   "nombre": "línea de pulso continua",
+   "por_min": [
+    0,
+    0
+   ],
+   "dur_s": [
+    0,
+    0
+   ],
+   "cuando": "hilo conductor",
+   "como": "trazo azul Klein que cruza escenas"
+  },
+  {
+   "nombre": "foto a semitono o ASCII",
+   "por_min": [
+    6,
+    12
+   ],
+   "dur_s": [
+    1.0,
+    1.8
+   ],
+   "cuando": "ilustrar el concepto",
+   "como": "imagen monocroma con máscara rectangular"
+  },
+  {
+   "nombre": "caja de detección con coordenadas",
+   "por_min": [
+    3,
+    8
+   ],
+   "dur_s": [
+    1.0,
+    1.8
+   ],
+   "cuando": "señalar algo en la imagen",
+   "como": "caja + coordenadas mono"
+  },
+  {
+   "nombre": "módulo de texto en sans pesada",
+   "por_min": [
+    12,
+    25
+   ],
+   "dur_s": [
+    1.0,
+    1.8
+   ],
+   "cuando": "frase corta",
+   "como": "alineado a la izquierda, detalle en cursiva"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   30,
+   45
+  ],
+  "tipos": [
+   "semitono",
+   "ASCII",
+   "cajas",
+   "diagramas botánicos/médicos"
+  ]
+ },
+ "imagenes": {
+  "tipo": "fotos convertidas a ASCII/semitono",
+  "tratamiento": "monocromo negro o azul Klein",
+  "cuantas": 6
+ },
+ "transiciones": [
+  "corte seco",
+  "barrido a lo largo de la línea",
+  "dispersión de caracteres"
+ ],
+ "camara": [
+  "morphing de trazos"
+ ],
+ "sonido": [
+  "tics de reloj",
+  "foley de papel",
+  "bips",
+  "crescendo rítmico"
+ ],
+ "si": [
+  "un solo color de señal",
+  "retícula visible"
+ ],
+ "no": [
+  "más de un color de acento",
+  "adornos"
+ ]
+}

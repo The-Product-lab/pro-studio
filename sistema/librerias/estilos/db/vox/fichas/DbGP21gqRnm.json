@@ -1,0 +1,167 @@
+{
+ "ref": "DbGP21gqRnm",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "El mejor ejemplo: papel beige con grano, recorte B/N de persona, etiquetas rojas con palabra en serif itálica amarilla, grabados y lupa. Collage editorial frase a frase.",
+ "paleta": [
+  {
+   "hex": "#D8CCB5",
+   "rol": "papel kraft",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#2B1E1A",
+   "rol": "tinta marrón",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#8B1E1E",
+   "rol": "etiqueta carmín",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#F5D033",
+   "rol": "texto mostaza sobre etiqueta",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#F2EFE9",
+   "rol": "blanco roto",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "serif clásica itálica en etiqueta roja para la palabra clave",
+   "google": "Playfair Display"
+  },
+  {
+   "rol": "cuerpo",
+   "como_es": "sans negra geométrica para carteles y números",
+   "google": "Inter"
+  },
+  {
+   "rol": "mono",
+   "como_es": "máquina de escribir en documentos",
+   "google": "Special Elite"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.2,
+   2.0
+  ],
+  "cortes_por_min": [
+   35,
+   40
+  ],
+  "gancho": "0-2 s: corchetes enmarcan el año, luego recorte del personaje"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "frase",
+  "y_aprox": 1400,
+  "mayus": false,
+  "clave": "palabra crítica amarilla sobre caja roja con textura de papel"
+ },
+ "persona": {
+  "tratamiento": "recorte B/N desaturado con halftone, borde blanco fino",
+  "encuadre": "cuerpo completo sentado/de pie sobre escritorio de papel"
+ },
+ "recursos": [
+  {
+   "nombre": "etiqueta roja con palabra clave",
+   "por_min": [
+    10,
+    18
+   ],
+   "dur_s": [
+    0.5,
+    1.2
+   ],
+   "cuando": "palabra de impacto",
+   "como": "serif itálica amarilla sobre rojo carmín, pop-in 2-3 cuadros"
+  },
+  {
+   "nombre": "lupa con aumento",
+   "por_min": [
+    2,
+    4
+   ],
+   "dur_s": [
+    1.0,
+    2.0
+   ],
+   "cuando": "revelar un detalle",
+   "como": "círculo con distorsión interior"
+  },
+  {
+   "nombre": "corchetes editoriales",
+   "por_min": [
+    2,
+    4
+   ],
+   "dur_s": [
+    0.5,
+    1.0
+   ],
+   "cuando": "fechas y cifras",
+   "como": "[ ] alrededor del dato"
+  },
+  {
+   "nombre": "trazo rojo sobre palabra",
+   "por_min": [
+    2,
+    4
+   ],
+   "dur_s": [
+    0.4,
+    0.8
+   ],
+   "cuando": "palabra clave",
+   "como": "trazo de rotulador"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   20,
+   32
+  ],
+  "tipos": [
+   "recorte B/N",
+   "grabado anatómico",
+   "TV vintage",
+   "carpeta mecanografiada",
+   "pines"
+  ]
+ },
+ "imagenes": {
+  "tipo": "archivo B/N y grabados",
+  "tratamiento": "60% desaturado, halftone, sombra dura 40%, polvo a 12 fps",
+  "cuantas": 6
+ },
+ "transiciones": [
+  "corte seco",
+  "whip vertical",
+  "zoom escalonado tipo lupa"
+ ],
+ "camara": [
+  "zoom a palabra clave"
+ ],
+ "sonido": [
+  "clic proyector",
+  "tecleo",
+  "cinta adhesiva",
+  "contrabajo"
+ ],
+ "si": [
+  "etiqueta roja serif para la palabra clave",
+  "recorte B/N sobre papel",
+  "objetos de época"
+ ],
+ "no": [
+  "colores saturados fuera de rojo y mostaza",
+  "fondos digitales limpios"
+ ]
+}

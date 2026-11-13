@@ -1,0 +1,9 @@
+Pro Studio - editor de reels.
+Windows: clic derecho en el ZIP -> Extraer todo; luego doble clic en "Instalar Pro Studio (Windows).bat".
+Mac: doble clic en el ZIP; luego doble clic en "Instalar Pro Studio (Mac).command".
+  Si la Mac no lo deja abrir: clic derecho -> Abrir. Si aun asi lo bloquea (macOS 15 o mas nuevo): Ajustes del Sistema ->
+  Privacidad y seguridad -> baja hasta "Abrir igualmente", y abre el instalador otra vez.
+La primera vez tarda entre 15 y 40 minutos segun tu internet (baja ~3 GB). Al terminar queda el icono "Pro Studio" en el Escritorio.
+Necesitas una cuenta de Claude con suscripcion. Para que los videos lleven imagenes hechas a medida, conecta Higgsfield en
+claude.ai -> Ajustes -> Conectores (sin eso los videos salen completos, pero sin esas imagenes).
+Si algo falla, abre la carpeta "sistema" con Claude Code y pidele ayuda.

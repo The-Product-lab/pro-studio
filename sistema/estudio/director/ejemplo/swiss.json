@@ -1,0 +1,3547 @@
+{
+ "estilo": {
+  "id": "swiss",
+  "nombre": "Swiss",
+  "base": "pantalla",
+  "acento": "#002FA7",
+  "acento2": "#B9C0D2",
+  "tinta": "#111111",
+  "papel": "#F6F4F6",
+  "persona": "color",
+  "fuente": "Inter",
+  "fuente_script": "Playfair Display",
+  "fuente_mono": "JetBrains Mono",
+  "subtitulo": "hud",
+  "crt": 0,
+  "grano": 5,
+  "transicion": "corte",
+  "flotar": 3,
+  "bloom": 0,
+  "flotar_elementos": 0,
+  "color": {
+   "receta": "pablo",
+   "look": "calido-EliteColor200",
+   "fuerza": 0.7
+  }
+ },
+ "cortes": [
+  [
+   0,
+   20.45
+  ],
+  [
+   26.25,
+   92.05
+  ],
+  [
+   96.25,
+   150.3
+  ],
+  [
+   161.25,
+   230.1
+  ],
+  [
+   235.25,
+   238.2
+  ]
+ ],
+ "escenas": [
+  {
+   "t0": 20.45,
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "gancho en su toma limpia (nada encima de él): «tu» chico y luego «celular.» en banda azul de borde a borde"
+  },
+  {
+   "t0": 21.68,
+   "entrada": "wipe",
+   "persona": {
+    "modo": "completa",
+    "fondo": "acento"
+   },
+   "intencion": "campo azul (PUL/SE): retícula quieta, «videos.» gigante; cuando se asienta crecen las barras (lleno de videos); luego «publicaste.» lo reemplaza"
+  },
+  {
+   "t0": 23.45,
+   "entrada": "wipe",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "acento"
+   },
+   "intencion": "campo azul (PUL/SE): retícula quieta, «videos.» gigante; cuando se asienta crecen las barras (lleno de videos); luego «publicaste.» lo reemplaza"
+  },
+  {
+   "t0": 23.54,
+   "entrada": "pixel",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#F6F4F6"
+   },
+   "intencion": "lámina clara: «problema.» grande a la izquierda, a la derecha el grabado del rollo de cine multiplicado en la hoja (sin caja); «grabar,» y una línea azul lo tacha"
+  },
+  {
+   "t0": 25.14,
+   "entrada": "invertir",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "vuelve él (cambio de idea con inversión de 2 cuadros): banda azul de borde a borde con «editarlo» y «sí.» en caja blanca"
+  },
+  {
+   "t0": 92.05,
+   "entrada": "corte",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#F6F4F6"
+   },
+   "intencion": "«grabas un video»: el celular en puntos azules se funde en la hoja, «grabas» grande y la línea con nodos abajo"
+  },
+  {
+   "t0": 93.12,
+   "entrada": "flash",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "acento"
+   },
+   "intencion": "«pereza.»: el gato dormido ES el fondo (duotono azul a pantalla completa), retícula fina encima y la palabra gigante"
+  },
+  {
+   "t0": 94.38,
+   "entrada": "corte",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "su toma limpia: «y se queda» y «ahí.» gigante"
+  },
+  {
+   "t0": 95.24,
+   "entrada": "flash",
+   "filtro": "halftone",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "golpe de semitono de 0,3 s sobre su toma (punch «Listen.» del referente)"
+  },
+  {
+   "t0": 95.54,
+   "entrada": "corte",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "su toma limpia: «no sirve.» y la etiqueta «0 VISTAS»"
+  },
+  {
+   "t0": 150.3,
+   "entrada": "wipe",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "revelación (plano Zimmer): su toma limpia, bajada y «Claude.» en banda azul"
+  },
+  {
+   "t0": 151.72,
+   "entrada": "corte",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#F6F4F6"
+   },
+   "intencion": "diagrama Dunkirk: la carpeta (grabado, multiplicada en la hoja) arriba a la derecha, pistas VOZ/CORTES/SUBS/CARPETA abajo, «carpeta.» azul"
+  },
+  {
+   "t0": 153.58,
+   "entrada": "pixel",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#F6F4F6"
+   },
+   "intencion": "la misma lámina se vuelve línea de tiempo: «edita.» / «subtítulos.» gigantes, barras de la edición y cabezal"
+  },
+  {
+   "t0": 155.74,
+   "entrada": "invertir",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "acento"
+   },
+   "intencion": "diagrama «runs» en negativo: tijeras claras flotando en el azul (pantalla), «CORTA» fantasma detrás, «corta.» y la caja «que no sirven.»"
+  },
+  {
+   "t0": 157.76,
+   "entrada": "bloques",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "su toma limpia: «descarga.» en banda azul"
+  },
+  {
+   "t0": 159.06,
+   "entrada": "corte",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "acento"
+   },
+   "intencion": "campo azul: la carpeta en línea clara sobre el azul (pantalla), la línea de pulso y «carpeta.»"
+  },
+  {
+   "t0": 160.2,
+   "entrada": "flash",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#F6F4F6"
+   },
+   "intencion": "lámina clara: retícula, el celular grabado multiplicado en la hoja y «publicarlo.» en cursiva azul"
+  },
+  {
+   "t0": 230.1,
+   "entrada": "pixel",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "cierre en su toma limpia: banda azul con «aprender» y luego «este video,»"
+  },
+  {
+   "t0": 232.14,
+   "entrada": "corte",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "CTA en su toma: tarjeta de comentario mono y «WORKSHOP.» en caja azul"
+  },
+  {
+   "t0": 233.6,
+   "entrada": "wipe",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#F6F4F6"
+   },
+   "intencion": "salida mínima (41 s): retícula fina, la línea sola, «información.» grande y firma mono"
+  }
+ ],
+ "empuje": 0,
+ "alejar_final": false,
+ "elementos": [
+  {
+   "id": "t13",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 159,
+   "y": 560,
+   "t0": 23.62,
+   "t1": 25.14,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "tu",
+     "rol": "display",
+     "tam": 56,
+     "color": "#111111"
+    }
+   ]
+  },
+  {
+   "id": "t14",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 510,
+   "y": 700,
+   "t0": 23.88,
+   "t1": 25.14,
+   "entra": "enfoque",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "problema.",
+     "rol": "display",
+     "tam": 168,
+     "color": "#111111",
+     "peso": 600
+    }
+   ]
+  },
+  {
+   "id": "f15",
+   "tipo": "foto",
+   "src": "arte/arch_rollo.jpg",
+   "muestra": "grabar",
+   "x": 640,
+   "y": 1320,
+   "t0": 24.28,
+   "t1": 25.14,
+   "z": "frente",
+   "entra": "fundido",
+   "dur": 0.16,
+   "gris": false,
+   "ancho": 660,
+   "tratamiento": "bn",
+   "fusion": "multiplicar",
+   "fundir": 0.18
+  },
+  {
+   "id": "t16",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 799,
+   "y": 1150,
+   "t0": 24.28,
+   "t1": 25.14,
+   "entra": "fundido",
+   "dur": 0.05,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "CAM 01 · 24 FPS",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#8C96B5"
+    }
+   ]
+  },
+  {
+   "id": "t17",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 407,
+   "y": 1000,
+   "t0": 24.7,
+   "t1": 25.14,
+   "entra": "golpe",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "grabar,",
+     "rol": "display",
+     "tam": 160,
+     "color": "#111111"
+    }
+   ]
+  },
+  {
+   "id": "b18",
+   "tipo": "etiqueta",
+   "rol": "display",
+   "fondo": "acento",
+   "letra": "blanco",
+   "radio": 0,
+   "pad": [
+    537,
+    125
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     " ",
+     48,
+     false,
+     700
+    ]
+   ],
+   "x": 540,
+   "y": 1180,
+   "t0": 25.14,
+   "t1": 26.25,
+   "entra": "barrido",
+   "dur": 0.1
+  },
+  {
+   "id": "t19",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 511,
+   "y": 1170,
+   "t0": 25.26,
+   "t1": 26.25,
+   "entra": "barrido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "editarlo",
+     "rol": "display",
+     "tam": 200,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "b20",
+   "tipo": "etiqueta",
+   "rol": "display",
+   "fondo": "#F6F4F6",
+   "letra": "acento",
+   "radio": 0,
+   "pad": [
+    47,
+    24
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     "sí.",
+     150,
+     false,
+     900
+    ]
+   ],
+   "x": 760,
+   "y": 1360,
+   "t0": 25.78,
+   "t1": 26.25,
+   "entra": "pop",
+   "dur": 0.08
+  },
+  {
+   "id": "f21",
+   "tipo": "foto",
+   "src": "arte/celular-lamina.png",
+   "muestra": "video",
+   "x": 800,
+   "y": 1040,
+   "t0": 92.05,
+   "t1": 93.12,
+   "z": "frente",
+   "entra": "fundido",
+   "dur": 0.1,
+   "gris": false,
+   "ancho": 500,
+   "fundir": 0.12
+  },
+  {
+   "id": "t22",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 470,
+   "y": 480,
+   "t0": 92.18,
+   "t1": 93.12,
+   "entra": "llega",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "grabas",
+     "rol": "display",
+     "tam": 200,
+     "color": "#111111"
+    }
+   ]
+  },
+  {
+   "id": "t23",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 252,
+   "y": 620,
+   "t0": 92.62,
+   "t1": 93.12,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "un video,",
+     "rol": "display",
+     "tam": 56,
+     "color": "#002FA7"
+    }
+   ]
+  },
+  {
+   "id": "f24",
+   "tipo": "foto",
+   "src": "arte/arch_pereza_5.jpg",
+   "muestra": "pereza",
+   "x": 540,
+   "y": 900,
+   "t0": 93.12,
+   "t1": 94.38,
+   "z": "frente",
+   "entra": "fundido",
+   "dur": 0.06,
+   "gris": false,
+   "cubrir": true,
+   "tratamiento": "duotono"
+  },
+  {
+   "id": "t25",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 197,
+   "y": 670,
+   "t0": 93.12,
+   "t1": 94.38,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "te da",
+     "rol": "display",
+     "tam": 56,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "t26",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 506,
+   "y": 830,
+   "t0": 93.5,
+   "t1": 94.38,
+   "entra": "smear",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "pereza.",
+     "rol": "display",
+     "tam": 210,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "t27",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 274,
+   "y": 990,
+   "t0": 94.38,
+   "t1": 95.24,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "y se queda",
+     "rol": "display",
+     "tam": 56,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "t28",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 322,
+   "y": 1150,
+   "t0": 94.62,
+   "t1": 95.24,
+   "entra": "enfoque",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "ahí.",
+     "rol": "display",
+     "tam": 220,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "t29",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 184,
+   "y": 1110,
+   "t0": 95.24,
+   "t1": 96.25,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "y ya",
+     "rol": "display",
+     "tam": 56,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "t30",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 520,
+   "y": 1270,
+   "t0": 95.58,
+   "t1": 96.25,
+   "entra": "golpe",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "no sirve.",
+     "rol": "display",
+     "tam": 190,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "b31",
+   "tipo": "etiqueta",
+   "rol": "mono",
+   "fondo": "acento",
+   "letra": "blanco",
+   "radio": 0,
+   "pad": [
+    68,
+    22
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     "0 VISTAS",
+     48,
+     false,
+     500
+    ]
+   ],
+   "x": 809,
+   "y": 960,
+   "t0": 95.92,
+   "t1": 96.25,
+   "entra": "smear",
+   "dur": 0.1
+  },
+  {
+   "id": "t32",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 345,
+   "y": 1130,
+   "t0": 150.42,
+   "t1": 151.72,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "resolví esto con",
+     "rol": "display",
+     "tam": 56,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "b33",
+   "tipo": "etiqueta",
+   "rol": "display",
+   "fondo": "acento",
+   "letra": "blanco",
+   "radio": 0,
+   "pad": [
+    180,
+    44
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     "Claude.",
+     200,
+     false,
+     800
+    ]
+   ],
+   "x": 540,
+   "y": 1300,
+   "t0": 151.44,
+   "t1": 151.72,
+   "entra": "barrido",
+   "dur": 0.08
+  },
+  {
+   "id": "f34",
+   "tipo": "foto",
+   "src": "arte/carpeta-sobre.png",
+   "muestra": "carpeta",
+   "x": 800,
+   "y": 560,
+   "t0": 151.72,
+   "t1": 153.58,
+   "z": "frente",
+   "entra": "fundido",
+   "dur": 0.12,
+   "gris": false,
+   "ancho": 400,
+   "tratamiento": "bn",
+   "fusion": "multiplicar",
+   "fundir": 0.18
+  },
+  {
+   "id": "t35",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 328,
+   "y": 800,
+   "t0": 151.72,
+   "t1": 153.58,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "subo el video a",
+     "rol": "display",
+     "tam": 56,
+     "color": "#111111"
+    }
+   ]
+  },
+  {
+   "id": "t36",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 160,
+   "y": 1188,
+   "t0": 151.72,
+   "t1": 153.58,
+   "entra": "fundido",
+   "dur": 0.05,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "VOZ",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#111111"
+    }
+   ]
+  },
+  {
+   "id": "t37",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 204,
+   "y": 1258,
+   "t0": 151.72,
+   "t1": 153.58,
+   "entra": "fundido",
+   "dur": 0.05,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "CORTES",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#111111"
+    }
+   ]
+  },
+  {
+   "id": "t38",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 175,
+   "y": 1328,
+   "t0": 151.72,
+   "t1": 153.58,
+   "entra": "fundido",
+   "dur": 0.05,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "SUBS",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#111111"
+    }
+   ]
+  },
+  {
+   "id": "t39",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 218,
+   "y": 1398,
+   "t0": 151.72,
+   "t1": 153.58,
+   "entra": "fundido",
+   "dur": 0.05,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "CARPETA",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#002FA7"
+    }
+   ]
+  },
+  {
+   "id": "t40",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 518,
+   "y": 950,
+   "t0": 152.86,
+   "t1": 153.58,
+   "entra": "barrido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "carpeta.",
+     "rol": "display",
+     "tam": 190,
+     "color": "#002FA7"
+    }
+   ]
+  },
+  {
+   "id": "t41",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 251,
+   "y": 540,
+   "t0": 153.58,
+   "t1": 154.54,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "claude lo",
+     "rol": "display",
+     "tam": 56,
+     "color": "#111111"
+    }
+   ]
+  },
+  {
+   "id": "t42",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 434,
+   "y": 700,
+   "t0": 153.88,
+   "t1": 154.54,
+   "entra": "llega",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "edita.",
+     "rol": "display",
+     "tam": 220,
+     "color": "#002FA7"
+    }
+   ]
+  },
+  {
+   "id": "r43",
+   "tipo": "barra",
+   "x": 150,
+   "y": 1288,
+   "ancho": 70,
+   "alto": 90,
+   "color": "#B9C0D2",
+   "crece_s": 0.3,
+   "contorno": false,
+   "t0": 154.12,
+   "t1": 155.74
+  },
+  {
+   "id": "r44",
+   "tipo": "barra",
+   "x": 248,
+   "y": 1288,
+   "ancho": 70,
+   "alto": 160,
+   "color": "#002FA7",
+   "crece_s": 0.3,
+   "contorno": false,
+   "t0": 154.12,
+   "t1": 155.74
+  },
+  {
+   "id": "r45",
+   "tipo": "barra",
+   "x": 346,
+   "y": 1288,
+   "ancho": 70,
+   "alto": 60,
+   "color": "#B9C0D2",
+   "crece_s": 0.3,
+   "contorno": false,
+   "t0": 154.12,
+   "t1": 155.74
+  },
+  {
+   "id": "r46",
+   "tipo": "barra",
+   "x": 444,
+   "y": 1288,
+   "ancho": 70,
+   "alto": 200,
+   "color": "#B9C0D2",
+   "crece_s": 0.3,
+   "contorno": false,
+   "t0": 154.12,
+   "t1": 155.74
+  },
+  {
+   "id": "r47",
+   "tipo": "barra",
+   "x": 542,
+   "y": 1288,
+   "ancho": 70,
+   "alto": 120,
+   "color": "#002FA7",
+   "crece_s": 0.3,
+   "contorno": false,
+   "t0": 154.12,
+   "t1": 155.74
+  },
+  {
+   "id": "r48",
+   "tipo": "barra",
+   "x": 640,
+   "y": 1288,
+   "ancho": 70,
+   "alto": 240,
+   "color": "#B9C0D2",
+   "crece_s": 0.3,
+   "contorno": false,
+   "t0": 154.12,
+   "t1": 155.74
+  },
+  {
+   "id": "r49",
+   "tipo": "barra",
+   "x": 738,
+   "y": 1288,
+   "ancho": 70,
+   "alto": 80,
+   "color": "#B9C0D2",
+   "crece_s": 0.3,
+   "contorno": false,
+   "t0": 154.12,
+   "t1": 155.74
+  },
+  {
+   "id": "r50",
+   "tipo": "barra",
+   "x": 836,
+   "y": 1288,
+   "ancho": 70,
+   "alto": 180,
+   "color": "#002FA7",
+   "crece_s": 0.3,
+   "contorno": false,
+   "t0": 154.12,
+   "t1": 155.74
+  },
+  {
+   "id": "r51",
+   "tipo": "barra",
+   "x": 934,
+   "y": 1288,
+   "ancho": 70,
+   "alto": 140,
+   "color": "#B9C0D2",
+   "crece_s": 0.3,
+   "contorno": false,
+   "t0": 154.12,
+   "t1": 155.74
+  },
+  {
+   "id": "t52",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 198,
+   "y": 540,
+   "t0": 154.54,
+   "t1": 155.74,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "pone",
+     "rol": "display",
+     "tam": 56,
+     "color": "#111111"
+    }
+   ]
+  },
+  {
+   "id": "t53",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 517,
+   "y": 700,
+   "t0": 154.54,
+   "t1": 155.74,
+   "entra": "smear",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "subtítulos.",
+     "rol": "display",
+     "tam": 164,
+     "color": "#111111",
+     "peso": 600
+    }
+   ]
+  },
+  {
+   "id": "t54",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 630,
+   "y": 1340,
+   "t0": 155.1,
+   "t1": 155.74,
+   "entra": "fundido",
+   "dur": 0.05,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "00:12.4",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#002FA7"
+    }
+   ]
+  },
+  {
+   "id": "t55",
+   "tipo": "texto",
+   "z": "atras",
+   "x": 540,
+   "y": 1000,
+   "t0": 155.74,
+   "t1": 157.76,
+   "entra": "fundido",
+   "dur": 0.06,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "CORTA",
+     "rol": "display",
+     "tam": 232,
+     "color": "#2445B0",
+     "peso": 600
+    }
+   ]
+  },
+  {
+   "id": "f56",
+   "tipo": "foto",
+   "src": "arte/arch_tijeras_4.jpg",
+   "muestra": "corta",
+   "x": 640,
+   "y": 1060,
+   "t0": 155.74,
+   "t1": 157.76,
+   "z": "frente",
+   "entra": "fundido",
+   "dur": 0.1,
+   "gris": false,
+   "ancho": 620,
+   "tratamiento": "duotono-inverso",
+   "fusion": "pantalla",
+   "fundir": 0.18
+  },
+  {
+   "id": "t57",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 449,
+   "y": 700,
+   "t0": 155.86,
+   "t1": 157.76,
+   "entra": "enfoque",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "corta.",
+     "rol": "display",
+     "tam": 220,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "t58",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 274,
+   "y": 1180,
+   "t0": 155.74,
+   "t1": 157.76,
+   "entra": "fundido",
+   "dur": 0.05,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "IN 00:03:12",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#B9C0D2"
+    }
+   ]
+  },
+  {
+   "id": "b59",
+   "tipo": "etiqueta",
+   "rol": "display",
+   "fondo": "blanco",
+   "letra": "acento",
+   "radio": 0,
+   "pad": [
+    115,
+    35
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     "las partes",
+     64,
+     false,
+     700
+    ]
+   ],
+   "x": 420,
+   "y": 1370,
+   "t0": 156.52,
+   "t1": 156.96,
+   "entra": "barrido",
+   "dur": 0.1
+  },
+  {
+   "id": "b60",
+   "tipo": "etiqueta",
+   "rol": "display",
+   "fondo": "blanco",
+   "letra": "acento",
+   "radio": 0,
+   "pad": [
+    144,
+    35
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     "que no sirven.",
+     64,
+     false,
+     700
+    ]
+   ],
+   "x": 480,
+   "y": 1370,
+   "t0": 156.96,
+   "t1": 157.76,
+   "entra": "fundido",
+   "dur": 0.04
+  },
+  {
+   "id": "t61",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 224,
+   "y": 830,
+   "t0": 157.76,
+   "t1": 159.06,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "y me lo",
+     "rol": "display",
+     "tam": 56,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "b62",
+   "tipo": "etiqueta",
+   "rol": "display",
+   "fondo": "acento",
+   "letra": "blanco",
+   "radio": 0,
+   "pad": [
+    94,
+    26
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     "descarga.",
+     190,
+     false,
+     800
+    ]
+   ],
+   "x": 540,
+   "y": 1000,
+   "t0": 158.3,
+   "t1": 159.06,
+   "entra": "barrido",
+   "dur": 0.08
+  },
+  {
+   "id": "f63",
+   "tipo": "foto",
+   "src": "arte/carpeta-sobre.png",
+   "muestra": "carpeta",
+   "x": 740,
+   "y": 620,
+   "t0": 159.06,
+   "t1": 160.2,
+   "z": "frente",
+   "entra": "fundido",
+   "dur": 0.12,
+   "gris": false,
+   "ancho": 540,
+   "tratamiento": "duotono-inverso",
+   "fusion": "pantalla",
+   "fundir": 0.18
+  },
+  {
+   "id": "t64",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 390,
+   "y": 1170,
+   "t0": 159.06,
+   "t1": 160.2,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "directamente en una",
+     "rol": "display",
+     "tam": 52,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "t65",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 513,
+   "y": 1300,
+   "t0": 159.54,
+   "t1": 160.2,
+   "entra": "golpe",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "carpeta.",
+     "rol": "display",
+     "tam": 200,
+     "color": "blanco",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "f66",
+   "tipo": "foto",
+   "src": "arte/celular-grabado.png",
+   "muestra": "publicarlo",
+   "x": 800,
+   "y": 740,
+   "t0": 160.2,
+   "t1": 161.25,
+   "z": "frente",
+   "entra": "fundido",
+   "dur": 0.1,
+   "gris": false,
+   "ancho": 340,
+   "tratamiento": "bn",
+   "fusion": "multiplicar",
+   "fundir": 0.18
+  },
+  {
+   "id": "t67",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 222,
+   "y": 330,
+   "t0": 160.2,
+   "t1": 161.25,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "para",
+     "rol": "display",
+     "tam": 56,
+     "color": "#111111"
+    }
+   ]
+  },
+  {
+   "id": "t68",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 539,
+   "y": 1260,
+   "t0": 160.34,
+   "t1": 161.25,
+   "entra": "barrido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "publicarlo.",
+     "rol": "display",
+     "tam": 164,
+     "color": "#002FA7",
+     "italica": true,
+     "peso": 500
+    }
+   ]
+  },
+  {
+   "id": "t69",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 298,
+   "y": 1420,
+   "t0": 160.2,
+   "t1": 161.25,
+   "entra": "fundido",
+   "dur": 0.05,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "LIKES 1.200",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#8C96B5"
+    }
+   ]
+  },
+  {
+   "id": "b70",
+   "tipo": "etiqueta",
+   "rol": "display",
+   "fondo": "acento",
+   "letra": "blanco",
+   "radio": 0,
+   "pad": [
+    537,
+    120
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     " ",
+     48,
+     false,
+     700
+    ]
+   ],
+   "x": 540,
+   "y": 1270,
+   "t0": 230.1,
+   "t1": 232.14,
+   "entra": "barrido",
+   "dur": 0.1
+  },
+  {
+   "id": "t71",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 301,
+   "y": 1090,
+   "t0": 230.15,
+   "t1": 230.94,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "si quieres",
+     "rol": "display",
+     "tam": 56,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "t72",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 555,
+   "y": 1260,
+   "t0": 230.25,
+   "t1": 230.94,
+   "entra": "llega",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "aprender",
+     "rol": "display",
+     "tam": 188,
+     "color": "blanco",
+     "peso": 600
+    }
+   ]
+  },
+  {
+   "id": "t73",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 354,
+   "y": 1090,
+   "t0": 230.94,
+   "t1": 232.14,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "a editar como",
+     "rol": "display",
+     "tam": 56,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "t74",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 557,
+   "y": 1260,
+   "t0": 231.25,
+   "t1": 232.14,
+   "entra": "smear",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "este video,",
+     "rol": "display",
+     "tam": 158,
+     "color": "blanco",
+     "peso": 600
+    }
+   ]
+  },
+  {
+   "id": "t75",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 429,
+   "y": 1040,
+   "t0": 232.14,
+   "t1": 233.6,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "comenta la palabra",
+     "rol": "display",
+     "tam": 56,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "b76",
+   "tipo": "etiqueta",
+   "rol": "mono",
+   "fondo": "blanco",
+   "letra": "acento",
+   "radio": 0,
+   "pad": [
+    96,
+    24
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     "@tu_cuenta: WORKSHOP",
+     48,
+     false,
+     500
+    ]
+   ],
+   "x": 540,
+   "y": 1420,
+   "t0": 232.4,
+   "t1": 233.6,
+   "entra": "fundido",
+   "dur": 0.1
+  },
+  {
+   "id": "b77",
+   "tipo": "etiqueta",
+   "rol": "display",
+   "fondo": "acento",
+   "letra": "blanco",
+   "radio": 0,
+   "pad": [
+    29,
+    56
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     "WORKSHOP.",
+     116,
+     false,
+     800
+    ]
+   ],
+   "x": 540,
+   "y": 1220,
+   "t0": 233.0,
+   "t1": 233.6,
+   "entra": "smear",
+   "dur": 0.08
+  },
+  {
+   "id": "t78",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 434,
+   "y": 900,
+   "t0": 233.6,
+   "t1": 235.25,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "y te mando toda la",
+     "rol": "display",
+     "tam": 56,
+     "color": "#111111"
+    }
+   ]
+  },
+  {
+   "id": "t79",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1080,
+   "t0": 234.28,
+   "t1": 235.25,
+   "entra": "enfoque",
+   "dur": 0.12,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "información.",
+     "rol": "display",
+     "tam": 124,
+     "color": "#111111",
+     "peso": 600
+    }
+   ]
+  },
+  {
+   "id": "t80",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1420,
+   "t0": 233.6,
+   "t1": 235.25,
+   "entra": "fundido",
+   "dur": 0.05,
+   "sombra": false,
+   "interlineado": -8,
+   "lineas": [
+    {
+     "texto": "THE PRODUCT LAB",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#002FA7"
+    },
+    {
+     "texto": "WORKSHOP",
+     "rol": "mono",
+     "tam": 48,
+     "color": "#002FA7"
+    }
+   ]
+  }
+ ],
+ "trazos": [
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     -20,
+     1110
+    ],
+    [
+     20,
+     1110
+    ],
+    [
+     60,
+     1110
+    ],
+    [
+     100,
+     1110
+    ],
+    [
+     140,
+     1110
+    ],
+    [
+     180,
+     1110
+    ],
+    [
+     220,
+     1110
+    ],
+    [
+     260,
+     1110
+    ],
+    [
+     300,
+     1110
+    ],
+    [
+     340,
+     1110
+    ],
+    [
+     380,
+     1110
+    ],
+    [
+     420,
+     1110
+    ],
+    [
+     460,
+     1110
+    ],
+    [
+     500,
+     1110
+    ],
+    [
+     540,
+     1110
+    ],
+    [
+     580,
+     1110
+    ],
+    [
+     620,
+     1110
+    ],
+    [
+     660,
+     1110
+    ],
+    [
+     700,
+     1110
+    ],
+    [
+     740,
+     1110
+    ],
+    [
+     780,
+     1110
+    ],
+    [
+     820,
+     1110
+    ],
+    [
+     860,
+     1110
+    ],
+    [
+     900,
+     1110
+    ],
+    [
+     940,
+     1110
+    ],
+    [
+     980,
+     1110
+    ],
+    [
+     1020,
+     1110
+    ],
+    [
+     1060,
+     1110
+    ],
+    [
+     1100,
+     1110
+    ]
+   ],
+   "t0": 23.54,
+   "dur": 0.06,
+   "t1": 25.14,
+   "grosor": 4,
+   "color": "#002FA7"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     120,
+     1005
+    ],
+    [
+     730,
+     1005
+    ]
+   ],
+   "t0": 24.92,
+   "dur": 0.1,
+   "t1": 25.14,
+   "grosor": 10,
+   "color": "#002FA7"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     -20,
+     1440
+    ],
+    [
+     1100,
+     1440
+    ]
+   ],
+   "t0": 92.05,
+   "dur": 0.06,
+   "t1": 93.12,
+   "grosor": 3,
+   "color": "#002FA7",
+   "nodos": 5
+  },
+  {
+   "tipo": "reticula",
+   "cols": 3,
+   "filas": 4,
+   "cruces": 10,
+   "color": "#B9C0D2",
+   "t0": 93.12,
+   "dur": 0.06,
+   "t1": 94.38
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     -20,
+     1110
+    ],
+    [
+     20,
+     1110
+    ],
+    [
+     60,
+     1110
+    ],
+    [
+     100,
+     1110
+    ],
+    [
+     140,
+     1110
+    ],
+    [
+     180,
+     1110
+    ],
+    [
+     220,
+     1110
+    ],
+    [
+     260,
+     1110
+    ],
+    [
+     300,
+     1110
+    ],
+    [
+     340,
+     1110
+    ],
+    [
+     380,
+     1110
+    ],
+    [
+     420,
+     1110
+    ],
+    [
+     460,
+     1110
+    ],
+    [
+     500,
+     1110
+    ],
+    [
+     540,
+     1110
+    ],
+    [
+     580,
+     1110
+    ],
+    [
+     620,
+     1110
+    ],
+    [
+     660,
+     1110
+    ],
+    [
+     700,
+     1110
+    ],
+    [
+     740,
+     1110
+    ],
+    [
+     780,
+     1110
+    ],
+    [
+     820,
+     1110
+    ],
+    [
+     860,
+     1110
+    ],
+    [
+     900,
+     1110
+    ],
+    [
+     940,
+     1110
+    ],
+    [
+     980,
+     1110
+    ],
+    [
+     1020,
+     1110
+    ],
+    [
+     1060,
+     1110
+    ],
+    [
+     1100,
+     1110
+    ]
+   ],
+   "t0": 151.72,
+   "dur": 0.06,
+   "t1": 153.58,
+   "grosor": 4,
+   "color": "#002FA7"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     330,
+     1200
+    ],
+    [
+     339,
+     1204
+    ],
+    [
+     348,
+     1198
+    ],
+    [
+     357,
+     1190
+    ],
+    [
+     366,
+     1207
+    ],
+    [
+     375,
+     1211
+    ],
+    [
+     384,
+     1191
+    ],
+    [
+     393,
+     1193
+    ],
+    [
+     402,
+     1207
+    ],
+    [
+     411,
+     1202
+    ],
+    [
+     420,
+     1199
+    ],
+    [
+     429,
+     1201
+    ],
+    [
+     438,
+     1192
+    ],
+    [
+     447,
+     1201
+    ],
+    [
+     456,
+     1213
+    ],
+    [
+     465,
+     1195
+    ],
+    [
+     474,
+     1188
+    ],
+    [
+     483,
+     1207
+    ],
+    [
+     492,
+     1207
+    ],
+    [
+     501,
+     1196
+    ],
+    [
+     510,
+     1199
+    ],
+    [
+     519,
+     1197
+    ],
+    [
+     528,
+     1198
+    ],
+    [
+     537,
+     1210
+    ],
+    [
+     546,
+     1201
+    ],
+    [
+     555,
+     1186
+    ],
+    [
+     564,
+     1203
+    ],
+    [
+     573,
+     1211
+    ],
+    [
+     582,
+     1196
+    ],
+    [
+     591,
+     1195
+    ],
+    [
+     600,
+     1201
+    ],
+    [
+     609,
+     1198
+    ],
+    [
+     618,
+     1206
+    ],
+    [
+     627,
+     1204
+    ],
+    [
+     636,
+     1188
+    ],
+    [
+     644,
+     1197
+    ],
+    [
+     653,
+     1214
+    ],
+    [
+     662,
+     1199
+    ],
+    [
+     671,
+     1190
+    ],
+    [
+     680,
+     1202
+    ],
+    [
+     689,
+     1202
+    ],
+    [
+     698,
+     1201
+    ],
+    [
+     707,
+     1205
+    ],
+    [
+     716,
+     1193
+    ],
+    [
+     725,
+     1193
+    ],
+    [
+     734,
+     1212
+    ],
+    [
+     743,
+     1205
+    ],
+    [
+     752,
+     1188
+    ],
+    [
+     761,
+     1199
+    ],
+    [
+     770,
+     1207
+    ],
+    [
+     779,
+     1199
+    ],
+    [
+     788,
+     1201
+    ],
+    [
+     797,
+     1198
+    ],
+    [
+     806,
+     1192
+    ],
+    [
+     815,
+     1208
+    ],
+    [
+     824,
+     1209
+    ],
+    [
+     833,
+     1189
+    ],
+    [
+     842,
+     1194
+    ],
+    [
+     851,
+     1210
+    ],
+    [
+     860,
+     1202
+    ],
+    [
+     869,
+     1197
+    ],
+    [
+     878,
+     1200
+    ],
+    [
+     887,
+     1195
+    ],
+    [
+     896,
+     1202
+    ],
+    [
+     905,
+     1211
+    ],
+    [
+     914,
+     1193
+    ],
+    [
+     923,
+     1189
+    ],
+    [
+     932,
+     1209
+    ],
+    [
+     941,
+     1207
+    ],
+    [
+     950,
+     1193
+    ]
+   ],
+   "t0": 151.72,
+   "dur": 0.06,
+   "t1": 153.58,
+   "grosor": 2,
+   "color": "#111111"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     330,
+     1281
+    ],
+    [
+     339,
+     1274
+    ],
+    [
+     348,
+     1263
+    ],
+    [
+     357,
+     1269
+    ],
+    [
+     366,
+     1269
+    ],
+    [
+     375,
+     1270
+    ],
+    [
+     384,
+     1279
+    ],
+    [
+     393,
+     1266
+    ],
+    [
+     402,
+     1258
+    ],
+    [
+     411,
+     1278
+    ],
+    [
+     420,
+     1280
+    ],
+    [
+     429,
+     1262
+    ],
+    [
+     438,
+     1266
+    ],
+    [
+     447,
+     1273
+    ],
+    [
+     456,
+     1270
+    ],
+    [
+     465,
+     1275
+    ],
+    [
+     474,
+     1271
+    ],
+    [
+     483,
+     1258
+    ],
+    [
+     492,
+     1272
+    ],
+    [
+     501,
+     1283
+    ],
+    [
+     510,
+     1264
+    ],
+    [
+     519,
+     1261
+    ],
+    [
+     528,
+     1275
+    ],
+    [
+     537,
+     1273
+    ],
+    [
+     546,
+     1270
+    ],
+    [
+     555,
+     1272
+    ],
+    [
+     564,
+     1262
+    ],
+    [
+     573,
+     1267
+    ],
+    [
+     582,
+     1283
+    ],
+    [
+     591,
+     1270
+    ],
+    [
+     600,
+     1257
+    ],
+    [
+     609,
+     1273
+    ],
+    [
+     618,
+     1278
+    ],
+    [
+     627,
+     1268
+    ],
+    [
+     636,
+     1270
+    ],
+    [
+     644,
+     1267
+    ],
+    [
+     653,
+     1265
+    ],
+    [
+     662,
+     1280
+    ],
+    [
+     671,
+     1275
+    ],
+    [
+     680,
+     1256
+    ],
+    [
+     689,
+     1268
+    ],
+    [
+     698,
+     1282
+    ],
+    [
+     707,
+     1269
+    ],
+    [
+     716,
+     1265
+    ],
+    [
+     725,
+     1270
+    ],
+    [
+     734,
+     1267
+    ],
+    [
+     743,
+     1275
+    ],
+    [
+     752,
+     1277
+    ],
+    [
+     761,
+     1260
+    ],
+    [
+     770,
+     1263
+    ],
+    [
+     779,
+     1283
+    ],
+    [
+     788,
+     1273
+    ],
+    [
+     797,
+     1261
+    ],
+    [
+     806,
+     1270
+    ],
+    [
+     815,
+     1272
+    ],
+    [
+     824,
+     1271
+    ],
+    [
+     833,
+     1276
+    ],
+    [
+     842,
+     1265
+    ],
+    [
+     851,
+     1260
+    ],
+    [
+     860,
+     1280
+    ],
+    [
+     869,
+     1279
+    ],
+    [
+     878,
+     1259
+    ],
+    [
+     887,
+     1266
+    ],
+    [
+     896,
+     1276
+    ],
+    [
+     905,
+     1270
+    ],
+    [
+     914,
+     1272
+    ],
+    [
+     923,
+     1269
+    ],
+    [
+     932,
+     1260
+    ],
+    [
+     941,
+     1274
+    ],
+    [
+     950,
+     1282
+    ]
+   ],
+   "t0": 151.72,
+   "dur": 0.06,
+   "t1": 153.58,
+   "grosor": 2,
+   "color": "#111111"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     330,
+     1330
+    ],
+    [
+     339,
+     1347
+    ],
+    [
+     348,
+     1351
+    ],
+    [
+     357,
+     1330
+    ],
+    [
+     366,
+     1333
+    ],
+    [
+     375,
+     1348
+    ],
+    [
+     384,
+     1342
+    ],
+    [
+     393,
+     1338
+    ],
+    [
+     402,
+     1340
+    ],
+    [
+     411,
+     1333
+    ],
+    [
+     420,
+     1342
+    ],
+    [
+     429,
+     1352
+    ],
+    [
+     438,
+     1334
+    ],
+    [
+     447,
+     1328
+    ],
+    [
+     456,
+     1348
+    ],
+    [
+     465,
+     1347
+    ],
+    [
+     474,
+     1335
+    ],
+    [
+     483,
+     1339
+    ],
+    [
+     492,
+     1338
+    ],
+    [
+     501,
+     1338
+    ],
+    [
+     510,
+     1350
+    ],
+    [
+     519,
+     1340
+    ],
+    [
+     528,
+     1326
+    ],
+    [
+     537,
+     1344
+    ],
+    [
+     546,
+     1352
+    ],
+    [
+     555,
+     1335
+    ],
+    [
+     564,
+     1335
+    ],
+    [
+     573,
+     1342
+    ],
+    [
+     582,
+     1339
+    ],
+    [
+     591,
+     1345
+    ],
+    [
+     600,
+     1344
+    ],
+    [
+     609,
+     1328
+    ],
+    [
+     618,
+     1338
+    ],
+    [
+     627,
+     1354
+    ],
+    [
+     636,
+     1339
+    ],
+    [
+     644,
+     1330
+    ],
+    [
+     653,
+     1343
+    ],
+    [
+     662,
+     1343
+    ],
+    [
+     671,
+     1341
+    ],
+    [
+     680,
+     1344
+    ],
+    [
+     689,
+     1333
+    ],
+    [
+     698,
+     1334
+    ],
+    [
+     707,
+     1352
+    ],
+    [
+     716,
+     1344
+    ],
+    [
+     725,
+     1327
+    ],
+    [
+     734,
+     1340
+    ],
+    [
+     743,
+     1348
+    ],
+    [
+     752,
+     1339
+    ],
+    [
+     761,
+     1340
+    ],
+    [
+     770,
+     1338
+    ],
+    [
+     779,
+     1333
+    ],
+    [
+     788,
+     1348
+    ],
+    [
+     797,
+     1349
+    ],
+    [
+     806,
+     1328
+    ],
+    [
+     815,
+     1334
+    ],
+    [
+     824,
+     1351
+    ],
+    [
+     833,
+     1342
+    ],
+    [
+     842,
+     1336
+    ],
+    [
+     851,
+     1340
+    ],
+    [
+     860,
+     1336
+    ],
+    [
+     869,
+     1343
+    ],
+    [
+     878,
+     1350
+    ],
+    [
+     887,
+     1333
+    ],
+    [
+     896,
+     1329
+    ],
+    [
+     905,
+     1350
+    ],
+    [
+     914,
+     1347
+    ],
+    [
+     923,
+     1332
+    ],
+    [
+     932,
+     1338
+    ],
+    [
+     941,
+     1341
+    ],
+    [
+     950,
+     1340
+    ]
+   ],
+   "t0": 151.72,
+   "dur": 0.06,
+   "t1": 153.58,
+   "grosor": 2,
+   "color": "#111111"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     330,
+     1409
+    ],
+    [
+     339,
+     1410
+    ],
+    [
+     348,
+     1411
+    ],
+    [
+     357,
+     1418
+    ],
+    [
+     366,
+     1406
+    ],
+    [
+     375,
+     1398
+    ],
+    [
+     384,
+     1418
+    ],
+    [
+     393,
+     1420
+    ],
+    [
+     402,
+     1401
+    ],
+    [
+     411,
+     1406
+    ],
+    [
+     420,
+     1414
+    ],
+    [
+     429,
+     1410
+    ],
+    [
+     438,
+     1414
+    ],
+    [
+     447,
+     1410
+    ],
+    [
+     456,
+     1399
+    ],
+    [
+     465,
+     1413
+    ],
+    [
+     474,
+     1423
+    ],
+    [
+     483,
+     1404
+    ],
+    [
+     492,
+     1400
+    ],
+    [
+     501,
+     1416
+    ],
+    [
+     510,
+     1413
+    ],
+    [
+     519,
+     1409
+    ],
+    [
+     528,
+     1411
+    ],
+    [
+     537,
+     1403
+    ],
+    [
+     546,
+     1408
+    ],
+    [
+     555,
+     1423
+    ],
+    [
+     564,
+     1409
+    ],
+    [
+     573,
+     1397
+    ],
+    [
+     582,
+     1414
+    ],
+    [
+     591,
+     1418
+    ],
+    [
+     600,
+     1407
+    ],
+    [
+     609,
+     1409
+    ],
+    [
+     618,
+     1408
+    ],
+    [
+     627,
+     1406
+    ],
+    [
+     636,
+     1419
+    ],
+    [
+     644,
+     1414
+    ],
+    [
+     653,
+     1396
+    ],
+    [
+     662,
+     1409
+    ],
+    [
+     671,
+     1422
+    ],
+    [
+     680,
+     1408
+    ],
+    [
+     689,
+     1404
+    ],
+    [
+     698,
+     1411
+    ],
+    [
+     707,
+     1408
+    ],
+    [
+     716,
+     1414
+    ],
+    [
+     725,
+     1417
+    ],
+    [
+     734,
+     1400
+    ],
+    [
+     743,
+     1404
+    ],
+    [
+     752,
+     1423
+    ],
+    [
+     761,
+     1413
+    ],
+    [
+     770,
+     1400
+    ],
+    [
+     779,
+     1410
+    ],
+    [
+     788,
+     1412
+    ],
+    [
+     797,
+     1411
+    ],
+    [
+     806,
+     1415
+    ],
+    [
+     815,
+     1405
+    ],
+    [
+     824,
+     1401
+    ],
+    [
+     833,
+     1420
+    ],
+    [
+     842,
+     1418
+    ],
+    [
+     851,
+     1399
+    ],
+    [
+     860,
+     1406
+    ],
+    [
+     869,
+     1417
+    ],
+    [
+     878,
+     1410
+    ],
+    [
+     887,
+     1411
+    ],
+    [
+     896,
+     1409
+    ],
+    [
+     905,
+     1401
+    ],
+    [
+     914,
+     1415
+    ],
+    [
+     923,
+     1422
+    ],
+    [
+     932,
+     1401
+    ],
+    [
+     941,
+     1401
+    ],
+    [
+     950,
+     1419
+    ]
+   ],
+   "t0": 151.72,
+   "dur": 0.06,
+   "t1": 153.58,
+   "grosor": 2,
+   "color": "#002FA7"
+  },
+  {
+   "tipo": "reticula",
+   "cols": 4,
+   "filas": 3,
+   "cruces": 10,
+   "color": "#E1E3E8",
+   "t0": 153.58,
+   "dur": 0.06,
+   "t1": 155.74
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     80,
+     1290
+    ],
+    [
+     1000,
+     1290
+    ]
+   ],
+   "t0": 153.58,
+   "dur": 0.06,
+   "t1": 155.74,
+   "grosor": 2,
+   "color": "#111111"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     560,
+     980
+    ],
+    [
+     560,
+     1310
+    ]
+   ],
+   "t0": 155.1,
+   "dur": 0.08,
+   "t1": 155.74,
+   "grosor": 4,
+   "color": "#002FA7"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     -20,
+     850
+    ],
+    [
+     20,
+     850
+    ],
+    [
+     60,
+     850
+    ],
+    [
+     100,
+     850
+    ],
+    [
+     140,
+     850
+    ],
+    [
+     180,
+     850
+    ],
+    [
+     220,
+     850
+    ],
+    [
+     260,
+     850
+    ],
+    [
+     300,
+     850
+    ],
+    [
+     340,
+     850
+    ],
+    [
+     380,
+     850
+    ],
+    [
+     420,
+     850
+    ],
+    [
+     460,
+     850
+    ],
+    [
+     500,
+     850
+    ],
+    [
+     540,
+     850
+    ],
+    [
+     580,
+     850
+    ],
+    [
+     620,
+     850
+    ],
+    [
+     660,
+     850
+    ],
+    [
+     700,
+     850
+    ],
+    [
+     740,
+     850
+    ],
+    [
+     780,
+     850
+    ],
+    [
+     820,
+     850
+    ],
+    [
+     860,
+     850
+    ],
+    [
+     900,
+     850
+    ],
+    [
+     940,
+     850
+    ],
+    [
+     980,
+     850
+    ],
+    [
+     1020,
+     850
+    ],
+    [
+     1060,
+     850
+    ],
+    [
+     1100,
+     850
+    ]
+   ],
+   "t0": 155.74,
+   "dur": 0.06,
+   "t1": 157.76,
+   "grosor": 4,
+   "color": "blanco"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     -20,
+     1060
+    ],
+    [
+     20,
+     1060
+    ],
+    [
+     60,
+     1060
+    ],
+    [
+     100,
+     1060
+    ],
+    [
+     140,
+     1060
+    ],
+    [
+     180,
+     1060
+    ],
+    [
+     220,
+     1060
+    ],
+    [
+     260,
+     1060
+    ],
+    [
+     300,
+     1060
+    ],
+    [
+     340,
+     1060
+    ],
+    [
+     380,
+     1060
+    ],
+    [
+     420,
+     1060
+    ],
+    [
+     460,
+     1060
+    ],
+    [
+     500,
+     1060
+    ],
+    [
+     540,
+     1060
+    ],
+    [
+     580,
+     1060
+    ],
+    [
+     620,
+     1060
+    ],
+    [
+     660,
+     1060
+    ],
+    [
+     700,
+     1060
+    ],
+    [
+     740,
+     1060
+    ],
+    [
+     780,
+     1060
+    ],
+    [
+     820,
+     1060
+    ],
+    [
+     860,
+     1060
+    ],
+    [
+     900,
+     1060
+    ],
+    [
+     940,
+     1060
+    ],
+    [
+     980,
+     1060
+    ],
+    [
+     1020,
+     1060
+    ],
+    [
+     1060,
+     1060
+    ],
+    [
+     1100,
+     1060
+    ]
+   ],
+   "t0": 159.06,
+   "dur": 0.06,
+   "t1": 160.2,
+   "grosor": 4,
+   "color": "blanco"
+  },
+  {
+   "tipo": "reticula",
+   "cols": 3,
+   "filas": 4,
+   "cruces": 14,
+   "color": "#E1E3E8",
+   "t0": 160.2,
+   "dur": 0.06,
+   "t1": 161.25
+  },
+  {
+   "tipo": "reticula",
+   "cols": 3,
+   "filas": 4,
+   "cruces": 10,
+   "color": "#E1E3E8",
+   "t0": 233.6,
+   "dur": 0.06,
+   "t1": 235.25
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     -20,
+     960
+    ],
+    [
+     20,
+     960
+    ],
+    [
+     60,
+     960
+    ],
+    [
+     100,
+     960
+    ],
+    [
+     140,
+     960
+    ],
+    [
+     180,
+     960
+    ],
+    [
+     220,
+     960
+    ],
+    [
+     260,
+     960
+    ],
+    [
+     300,
+     960
+    ],
+    [
+     340,
+     960
+    ],
+    [
+     380,
+     960
+    ],
+    [
+     420,
+     960
+    ],
+    [
+     460,
+     960
+    ],
+    [
+     500,
+     960
+    ],
+    [
+     540,
+     960
+    ],
+    [
+     580,
+     960
+    ],
+    [
+     620,
+     960
+    ],
+    [
+     660,
+     960
+    ],
+    [
+     700,
+     960
+    ],
+    [
+     740,
+     960
+    ],
+    [
+     780,
+     960
+    ],
+    [
+     820,
+     960
+    ],
+    [
+     860,
+     960
+    ],
+    [
+     900,
+     960
+    ],
+    [
+     940,
+     960
+    ],
+    [
+     980,
+     960
+    ],
+    [
+     1020,
+     960
+    ],
+    [
+     1060,
+     960
+    ],
+    [
+     1100,
+     960
+    ]
+   ],
+   "t0": 233.6,
+   "dur": 0.06,
+   "t1": 235.25,
+   "grosor": 4,
+   "color": "#002FA7"
+  }
+ ],
+ "cajas": [],
+ "subtitulos": {
+  "y": 1450,
+  "ocultar": [
+   [
+    0,
+    240
+   ]
+  ]
+ }
+}

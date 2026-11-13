@@ -1,0 +1,166 @@
+{
+ "ref": "DeMdv7NqeL-",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Es el estilo puro: grabados litográficos recortados con sombra corta, fechas gigantes en rojo de imprenta (1893, 1923), cintas de papel con serif, mesa de madera, grano y viñeta. Único del trío con «Sí» pleno.",
+ "paleta": [
+  {
+   "hex": "#E8D8B8",
+   "rol": "papel/pergamino de etiquetas y fondo",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#2A2118",
+   "rol": "tinta negra, texto",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#9E2A2B",
+   "rol": "fechas y palabras de impacto",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#4A3728",
+   "rol": "madera/cuero de fondo y sombras",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#D4AF37",
+   "rol": "marcos y placas de latón",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "serif victoriana/Didone de alto contraste, cifras antiguas, enorme (hasta 50% del cuadro)",
+   "google": "Bodoni Moda"
+  },
+  {
+   "rol": "cuerpo",
+   "como_es": "serif tipo Garamond/Caslon con leve sangrado de tinta",
+   "google": "Libre Caslon Text"
+  },
+  {
+   "rol": "mono",
+   "como_es": "máquina de escribir desgastada para rótulos",
+   "google": "Special Elite"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.2,
+   2.5
+  ],
+  "cortes_por_min": [
+   20,
+   24
+  ],
+  "gancho": "objeto central + fecha escrita a mano + cifra contraintuitiva en grande (0-4 s)"
+ },
+ "subtitulos": {
+  "hay": false,
+  "modo": "frase",
+  "y_aprox": 960,
+  "mayus": false,
+  "clave": "fechas/sustantivos clave gigantes en rojo; frases en etiqueta de papel con revelado tipo máquina de escribir"
+ },
+ "persona": {
+  "tratamiento": "no hay persona a cámara: grabados y fotos sepia recortados",
+  "encuadre": "retrato en plano medio sobre mesa o libro"
+ },
+ "recursos": [
+  {
+   "nombre": "fecha gigante en rojo",
+   "por_min": [
+    4,
+    8
+   ],
+   "dur_s": [
+    0.8,
+    1.5
+   ],
+   "cuando": "cada cambio de época",
+   "como": "serif roja que escala con bounce, golpe grave"
+  },
+  {
+   "nombre": "cinta/etiqueta de papel",
+   "por_min": [
+    8,
+    14
+   ],
+   "dur_s": [
+    1.0,
+    2.0
+   ],
+   "cuando": "nombrar personas o marcas",
+   "como": "tira de papel rasgado con texto revelado en línea"
+  },
+  {
+   "nombre": "recorte con paralaje 2.5D",
+   "por_min": [
+    6,
+    10
+   ],
+   "dur_s": [
+    1.5,
+    2.5
+   ],
+   "cuando": "retratar protagonistas",
+   "como": "personaje/mesa/fondo en capas Z con empuje lento"
+  },
+  {
+   "nombre": "tablero de archivo con chinchetas e hilo",
+   "por_min": [
+    2,
+    4
+   ],
+   "dur_s": [
+    1.5,
+    2.0
+   ],
+   "cuando": "sintetizar prensa o pruebas",
+   "como": "hojas con chinchetas rojas unidas por hilo"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   14,
+   22
+  ],
+  "tipos": [
+   "etiquetas de papel",
+   "grabados",
+   "sellos y esquemas de patente",
+   "chinchetas"
+  ]
+ },
+ "imagenes": {
+  "tipo": "grabados del siglo XIX, fotos sepia, objetos fotorreales",
+  "tratamiento": "bordes deshilachados, sombra corta, grano 35 mm, viñeta cálida, semitono",
+  "cuantas": 4
+ },
+ "transiciones": [
+  "whip pan tipo paso de página",
+  "corte en golpe de voz"
+ ],
+ "camara": [
+  "push-in lento en eje Z"
+ ],
+ "sonido": [
+  "paso de hoja",
+  "sello de tinta",
+  "tictac",
+  "sub-boom en cada fecha"
+ ],
+ "si": [
+  "una fecha gigante por hito",
+  "papel + grano + viñeta constantes",
+  "rojo como único acento"
+ ],
+ "no": [
+  "amarillo neón",
+  "sans moderna en el titular",
+  "fondos limpios sin textura"
+ ]
+}

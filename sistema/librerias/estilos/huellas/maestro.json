@@ -1,0 +1,181 @@
+{
+ "estilo": "maestro",
+ "identidad": "Persona a cámara con el color de su toma intacto, metida en un universo editorial retro: fondos amplios (noche petróleo o papel), apoyos chicos que se funden con el fondo, líneas orgánicas, píxeles cuadrados y paso entre imágenes con transiciones mezcladas (pixelado, whip zoom, flash, zoom de golpe) cada menos de 2 s.",
+ "referencias": [
+  "DRUpn6CDHw9 (Pablo: «todo lo de este me gusta»; collage B/N + acento ámbar, pixelado, cuadrados)",
+  "DexAoowTYf1 (Pablo: movimiento entre imágenes, rápido, editorial, mezcla de efectos y recortes)",
+  "Dc_2Y1qI0ZH (Pablo: líneas orgánicas, paleta retro, imágenes que son parte del fondo)",
+  "DfAE8n5ovTR (Pablo: paleta cálida, cámara, volumen, speed ramp, texto camuflado con el fondo)",
+  "DfSOZ1TSJ3k (búsqueda: palabra detrás de la cabeza, un acento por frase)",
+  "De7D7A6N70v (búsqueda: pareja script + condensada en la palabra clave)"
+ ],
+ "descartadas": [],
+ "paleta": [
+  {
+   "hex": "#D99325",
+   "rol": "ámbar: acento único del collage (cuadrados, rótulos, flash, dato)"
+  },
+  {
+   "hex": "#852C1E",
+   "rol": "vino: palabra clave, tensión, problema"
+  },
+  {
+   "hex": "#D0BD87",
+   "rol": "crema: letra principal y papel cálido"
+  },
+  {
+   "hex": "#237663",
+   "rol": "verde petróleo: acento frío, lo que se gana, cierre"
+  },
+  {
+   "hex": "#19252E",
+   "rol": "noche petróleo: fondo amplio del universo"
+  }
+ ],
+ "colores_extra_permitidos": [
+  "#FFFFFF",
+  "#F6F8F5",
+  "#D7D5CF",
+  "#999C83",
+  "#100C0C",
+  "#121212",
+  "#3FA06A",
+  "#CED423"
+ ],
+ "tipografia": {
+  "display": "Anton",
+  "script": "Playfair Display",
+  "mono": "JetBrains Mono"
+ },
+ "ritmo": {
+  "cambio_cada_s": [
+   0.3,
+   1.8
+  ],
+  "gancho_cambio_cada_s": [
+   0.2,
+   0.9
+  ]
+ },
+ "subtitulos": {
+  "modo": "palabra",
+  "y": [
+   1400,
+   1480
+  ]
+ },
+ "recursos_firma": [
+  {
+   "nombre": "paso entre imágenes con pixelado en bloques",
+   "motor": {
+    "en": "escenas",
+    "entrada": "pixel"
+   },
+   "por_min": [
+    3,
+    10
+   ]
+  },
+  {
+   "nombre": "whip zoom con desenfoque al cambiar de imagen",
+   "motor": {
+    "en": "escenas",
+    "entrada": "zoom"
+   },
+   "por_min": [
+    3,
+    10
+   ]
+  },
+  {
+   "nombre": "flash de 1–2 cuadros en el cambio fuerte",
+   "motor": {
+    "en": "escenas",
+    "entrada": "flash"
+   },
+   "por_min": [
+    1,
+    6
+   ]
+  },
+  {
+   "nombre": "cuadrados de píxeles junto al texto",
+   "motor": {
+    "tipo": "pixeles"
+   },
+   "por_min": [
+    3,
+    10
+   ]
+  },
+  {
+   "nombre": "línea orgánica / subrayado que se dibuja",
+   "motor": {
+    "en": "trazos",
+    "tipo": "linea"
+   },
+   "por_min": [
+    2,
+    8
+   ]
+  },
+  {
+   "nombre": "tags que brotan en cascada (listas)",
+   "motor": {
+    "tipo": "etiqueta"
+   },
+   "por_min": [
+    2,
+    8
+   ]
+  }
+ ],
+ "apoyos_por_min": [
+  20,
+  45
+ ],
+ "imagenes_max": 20,
+ "transiciones": [
+  "pixelado en bloques (3–6 cuadros)",
+  "whip zoom con desenfoque radial",
+  "flash blanco o ámbar de 1–2 cuadros",
+  "zoom de golpe en el corte",
+  "corte seco en ráfagas de 0,2 s"
+ ],
+ "si": [
+  "fondos grandes y planos con elementos chicos; las imágenes se ven parte del fondo, no pegadas encima",
+  "mezclar 2–3 transiciones distintas en cada tramo, nunca solo corte simple",
+  "ráfagas de 3 cambios a ~0,2 s en los momentos fuertes y respiro de 1,5–2 s cuando hay que leer",
+  "un acento de color por escena (ámbar, vino o verde petróleo) sobre base oscura o crema",
+  "cuadrados de píxeles y líneas orgánicas al lado del texto, nunca sobre la cara",
+  "el texto toma el color y la textura del fondo para camuflarse con la imagen",
+  "conector en cursiva serif pegado a la palabra condensada"
+ ],
+ "no": [
+  "imágenes generadas que llenen la pantalla o un muñeco protagonista: chicas y fundidas",
+  "filtro de color sobre la toma de Pablo más de 1,5 s",
+  "rosa o magenta, ni en flashes",
+  "tapar la cara con texto, tags o píxeles",
+  "fundidos cruzados largos o rebotes elásticos",
+  "más de un acento saturado en la misma escena",
+  "sujeto recortado o texto detrás de la persona (Pablo, 04-nov: «nunca nunca»)"
+ ],
+ "falta_en_motor": [
+  "speed ramp (cámara que acelera y frena dentro del apoyo)",
+  "cámara flotante con giro y push-in sobre las imágenes de apoyo (volumen, parallax 2,5D)",
+  "foto sin borde ni sombra fundida con el fondo (bordes en degradado, modo multiplicar/pantalla)",
+  "subtítulo con el estilo y la textura del fondo (camuflado), palabra por palabra",
+  "líneas orgánicas dibujadas a mano y diagramas (espiral, círculos) en modo pantalla",
+  "glitch de bloques horizontales (datamosh) de 3–4 cuadros",
+  "tarjeta de imagen que desliza y cubre la anterior; collage en franjas o damero",
+  "inversión de color de 1 cuadro (positivo/negativo)",
+  "cifra que cuenta número a número en serif didona",
+  "textura retro: grano de papel, viñeta, scanlines finas, aberración en bordes",
+  "fuente manuscrita (Caveat Brush) y mezcla de fuentes letra a letra",
+  "cápsula de vidrio y lupa que agranda una parte de la imagen"
+ ],
+ "retirados_por_pablo": [
+  "imagen chica fundida con el fondo, detrás de la persona",
+  "palabra clave detrás de la cabeza"
+ ]
+}

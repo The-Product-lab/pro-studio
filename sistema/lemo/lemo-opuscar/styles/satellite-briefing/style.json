@@ -1,0 +1,19 @@
+{
+ "slug": "satellite-briefing",
+ "num": "86",
+ "en": "Satellite Briefing",
+ "cn": "卫星简报",
+ "category_en": "Instruments & Evidence",
+ "category_cn": "仪器实证",
+ "film": "The Map Still Says Sea",
+ "film_cn": "地图上还写着海",
+ "line": "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.",
+ "line_cn": "卫星照着地图去找咸海，找到的是沙漠；只有筑了坝的那一块回来了。",
+ "uses": [
+  "Climate",
+  "News explainers",
+  "Geography"
+ ],
+ "frame_sec": 37.4,
+ "dur": 37.8
+}
