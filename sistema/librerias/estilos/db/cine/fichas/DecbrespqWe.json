@@ -1,0 +1,142 @@
+{
+ "ref": "DecbrespqWe",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Portada: fondo negro con cuadrícula tenue, título amarillo eléctrico grande, subtítulo en serif, gramófono y mezcladora vintage. Es un spot de Adobe Stock (partner) pero el look oscuro con objetos vintage sí es del estilo. Pantallas de software descartadas.",
+ "paleta": [
+  {
+   "hex": "#0D0D0F",
+   "rol": "negro grafito con cuadrícula",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#E9F938",
+   "rol": "amarillo eléctrico en títulos",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#FF4A5A",
+   "rol": "coral de tensión",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#2065D6",
+   "rol": "cobalto de fondo de recorte",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#FFFFFF",
+   "rol": "texto",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "sans negra extra pesada mayúsculas amarilla",
+   "google": "Inter"
+  },
+  {
+   "rol": "script",
+   "como_es": "serif itálica en anotaciones",
+   "google": "Playfair Display"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.0,
+   2.5
+  ],
+  "cortes_por_min": [
+   25,
+   30
+  ],
+  "gancho": "0-2 s: palabra amarilla grande sobre objetos vintage"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "bloque",
+  "y_aprox": 1450,
+  "mayus": false,
+  "clave": "caja gris translúcida en la palabra clave"
+ },
+ "persona": {
+  "tratamiento": "no hay persona principal",
+  "encuadre": "objeto centrado"
+ },
+ "recursos": [
+  {
+   "nombre": "osciloscopio de onda",
+   "por_min": [
+    4,
+    8
+   ],
+   "dur_s": [
+    2.0,
+    6.0
+   ],
+   "cuando": "hablar de sonido",
+   "como": "línea animada que pulsa"
+  },
+  {
+   "nombre": "flecha sketch con nota serif",
+   "por_min": [
+    3,
+    6
+   ],
+   "dur_s": [
+    1.0,
+    2.0
+   ],
+   "cuando": "dirigir mirada",
+   "como": "flecha blanca tiza"
+  },
+  {
+   "nombre": "parallax de arte clásico",
+   "por_min": [
+    2,
+    4
+   ],
+   "dur_s": [
+    3.0,
+    4.0
+   ],
+   "cuando": "ejemplificar",
+   "como": "3 capas con fondo tintado"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   10,
+   20
+  ],
+  "tipos": [
+   "ondas",
+   "notas musicales",
+   "flechas",
+   "marco dorado"
+  ]
+ },
+ "imagenes": {
+  "tipo": "objetos vintage recortados, pintura clásica",
+  "tratamiento": "sobre fondo oscuro con cuadrícula",
+  "cuantas": 4
+ },
+ "transiciones": [
+  "corte en transitorio",
+  "whip suave"
+ ],
+ "camara": [
+  "slow push-in"
+ ],
+ "sonido": [
+  "sincronía con transitorios"
+ ],
+ "si": [
+  "fondo negro con cuadrícula",
+  "un acento amarillo"
+ ],
+ "no": [
+  "fondos claros"
+ ]
+}

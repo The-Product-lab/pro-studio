@@ -1,0 +1,140 @@
+node_modules/
+.venv/
+.lemo-deps.lock/
+__pycache__/
+.DS_Store
+# Models and large assets (the docs say where to download them)
+core/tts/*.onnx
+core/tts/*.bin
+core/assets/polyhaven/*.hdr
+# Render intermediates
+styles/*/demo/out/
+styles/*/demo/voices/*.wav
+styles/*/demo/music/*.mp3
+styles/*/demo/music/*.wav
+styles/*/demo/music/*.npy
+styles/*/demo/mix.wav
+# Finished films are published on GitHub Releases
+styles/*/*.mp4
+# More render intermediates
+styles/*/demo/out_*/
+styles/*/demo/chk/
+styles/*/demo/node_modules
+styles/*/demo/assets/*.hdr
+styles/*/demo/tts/*.onnx
+styles/*/demo/tts/*.bin
+styles/*/demo/music.wav
+*.log
+# The game show's shouted words are source material (only roughly rebuildable on macOS): committed
+!styles/game-show/demo/voices/*.wav
+styles/*/demo/music/src/
+
+# Maintainer's working files
+/promo/
+/batch/
+/TODO.md
+/STYLES.md
+styles/*/HANDOFF.md
+# Score stems, mixes and foley: build.sh writes them again
+styles/*/demo/**/stems*/
+styles/*/demo/**/music_stems/
+styles/*/demo/**/mix*.wav
+styles/*/demo/audio/*.wav
+core/audio/*.wav
+# Large assets come as Release packs: sh tools/fetch.sh downloads them (list in tools/assets.json)
+core/audio/instruments/
+# Demo fonts are not in git: they are free (mostly Google Fonts, OFL); each demo's CREDITS names them
+styles/*/demo/fonts/**/*.ttf
+styles/*/demo/fonts/**/*.otf
+# Release staging and the built site
+/.release/
+/_site/
+/_media/
+
+# Demo folders keep code and CREDITS for agents to read; renders, media and process notes stay local
+styles/*/storyboard/
+styles/*/demo/TREATMENT.md
+styles/*/demo/**/*.wav
+styles/*/demo/**/*.mp3
+styles/*/demo/**/*.ogg
+styles/*/demo/**/*.flac
+styles/*/demo/**/*.mp4
+styles/*/demo/**/*.woff
+styles/*/demo/**/*.woff2
+styles/*/demo/**/*.part
+styles/*/demo/**/*.gltf
+styles/*/demo/**/*.glb
+styles/*/demo/**/*.bin
+styles/*/demo/**/*.hdr
+styles/*/demo/**/*.exr
+styles/*/demo/**/*.jpg
+styles/*/demo/**/*.jpeg
+styles/*/demo/**/*.png
+styles/*/demo/**/*.webp
+styles/*/demo/**/*.svg
+# Stills: only the review frames docs point to are committed; everything else in stills/ is a debug frame.
+# Name review frames styleframe.jpg, frame_*.jpg, alt_*.jpg or engine*.jpg and they are tracked with no extra line here.
+styles/*/demo/stills/*
+!styles/*/demo/stills/styleframe.jpg
+!styles/*/demo/stills/frame_*.jpg
+!styles/*/demo/stills/alt_*.jpg
+!styles/*/demo/stills/engine*.jpg
+# Illustrative plates a demo's build needs (AI-generated, credited in CREDITS) are committed, not re-fetched
+!styles/news-package/demo/assets/plates/*.jpg
+
+# The user's own films (what the agent makes)
+/films/
+
+
+# Production logs are internal: they stay local
+styles/*/PRODUCTION_LOG*
+styles/*/demo/PRODUCTION_LOG*
+
+# Promotional material (posters, trailers, tutorials) stays local
+/docs/social/
+
+
+# Source photos, imagery caches and fonts anywhere in a demo stay local (CREDITS names them; build scripts re-fetch)
+styles/*/demo/**/*.ttf
+styles/*/demo/**/*.otf
+styles/*/demo/**/*.tif
+styles/*/demo/**/*.tiff
+styles/*/demo/**/*.npz
+styles/*/demo/assets/raw/
+# Downloaded archive sources (footage, scans, PDFs) and edit caches stay local; each demo's build.sh re-fetches them from SOURCES.jsonl
+styles/*/demo/raw/
+styles/*/demo/work/
+styles/*/demo/**/*.webm
+styles/*/demo/**/*.mpeg
+styles/*/demo/**/*.ogv
+styles/*/demo/**/*.mov
+styles/*/demo/**/*.pdf
+
+# ---- Process notes and drafts stay local, anywhere in the repo ----
+**/TREATMENT.md
+**/PRODUCTION_LOG*
+**/HANDOFF*.md
+**/NOTES.md
+**/进度*.md
+**/TODO*.md
+*.bak
+*.orig
+*~
+*_old.*
+*_bak.*
+*_draft.*
+**/tmp/
+**/scratch/
+# Self-check reports the music scripts rewrite on every build
+styles/*/demo/music/check.txt
+styles/*/demo/music/check.json
+styles/*/demo/music/*report*.txt
+# Partial outputs and try-out helpers
+styles/*/demo/**/*_partial.json
+styles/*/demo/**/*_try.py
+# Superseded first-round review frames; only those a doc or CREDITS names are re-included
+styles/*/demo/stills/*_v1*
+!styles/art-deco/demo/stills/kit.jpg
+
+# isometric-picture-book: the character list its font subset step writes
+styles/isometric-picture-book/demo/tools/chars.txt

@@ -1,0 +1,1152 @@
+{
+ "estilo": {
+  "id": "prestiggio",
+  "base": "pantalla",
+  "acento": "#A8323F",
+  "acento2": "#C9505C",
+  "tinta": "#0D0A0A",
+  "papel": "#0D0A0A",
+  "borde": "#F7F1EE",
+  "tono": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "persona": "color",
+  "fuente": "Inter",
+  "fuente_script": "Playfair Itálica",
+  "fuente_mono": "JetBrains Mono",
+  "subtitulo": "hud",
+  "grano": 8,
+  "crt": 0,
+  "flotar": 40,
+  "flotar_elementos": 0,
+  "transicion": "corte",
+  "bloom": 0,
+  "sfx": 0.26,
+  "imagenes": false,
+  "tope_imagenes": 2,
+  "aberracion_corte": 0,
+  "sonido_paleta": "digital",
+  "camara_apagar": [],
+  "sin_director": false,
+  "color": {
+   "entrada": "rec709",
+   "receta": "pablo",
+   "look": "calido-EliteColor200",
+   "fuerza": 0.7
+  }
+ },
+ "cortes": [
+  [
+   0.0,
+   17.6
+  ],
+  [
+   27.855,
+   49.285
+  ],
+  [
+   52.515,
+   52.675
+  ],
+  [
+   55.745,
+   55.845
+  ],
+  [
+   58.435,
+   85.475
+  ],
+  [
+   87.915,
+   87.945
+  ],
+  [
+   89.475,
+   99.165
+  ],
+  [
+   104.61,
+   109.1
+  ]
+ ],
+ "escenas": [
+  {
+   "t0": 17.6,
+   "intencion": "HOOK palabra gigante desde el cuadro 0: «$10–20» enorme sobre el pecho, rótulo mono arriba y el dolor «POR CADA VIDEO» en franja roja; sin subtítulos"
+  },
+  {
+   "t0": 21.1,
+   "intencion": "toma: tarjeta de vidrio que multiplica — «$20 ×», luego «todos los videos» y «del mes» en Playfair roja",
+   "entrada": "corte"
+  },
+  {
+   "t0": 24.58,
+   "intencion": "CORTE A NEGRO: «dejan de» + PUBLICAR con brillo rojo, tachado en rojo al decir «publicar»",
+   "entrada": "iris",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#0D0A0A"
+   }
+  },
+  {
+   "t0": 27.855,
+   "intencion": "toma: vuelve la persona; la cuenta en cifras — 15 videos, $20 × 15, suscripción, centavos",
+   "entrada": "corte"
+  },
+  {
+   "t0": 49.285,
+   "intencion": "toma: «peor aún» en subtítulo; tarjeta SUELDO con «mes a mes» en mono rojo",
+   "entrada": "desenfoque"
+  },
+  {
+   "t0": 52.74,
+   "intencion": "toma: comparación en un solo vidrio — «sueldo mensual» tachado, «solo pagas» y SUSCRIPCIÓN subrayada en rojo; luego tecleo mono «todos los videos que quieras» y «automática» en Playfair roja con luz; único punch",
+   "entrada": "corte"
+  },
+  {
+   "t0": 85.54,
+   "intencion": "toma: «lo mejor de todo» en subtítulo; vidrio ENTRENANDO con tres barras que crecen con «más videos hace»",
+   "entrada": "desenfoque"
+  },
+  {
+   "t0": 99.165,
+   "intencion": "toma: «quieres aprender a editar videos como este» en subtítulos, «editar» en rojo",
+   "entrada": "desenfoque"
+  },
+  {
+   "t0": 101.7,
+   "intencion": "OUTRO a negro: «comenta la palabra» + TALLER en Playfair roja con brillo, y «te mando la información» en mono",
+   "entrada": "iris",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#0D0A0A"
+   }
+  }
+ ],
+ "golpe": false,
+ "empuje": 0,
+ "alejar_final": false,
+ "punch": [
+  57.52
+ ],
+ "elementos": [
+  {
+   "id": "h1",
+   "tipo": "texto",
+   "gancho": true,
+   "grupo": "gancho",
+   "entra": "fundido",
+   "dur": 0.05,
+   "z": "frente",
+   "x": 540,
+   "y": 905,
+   "t0": 17.6,
+   "t1": 21.1,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "• UN EDITOR TE COBRA",
+     "rol": "mono",
+     "tam": 34,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "tipo": "texto",
+   "gancho": true,
+   "grupo": "gancho",
+   "entra": "fundido",
+   "dur": 0.05,
+   "z": "frente",
+   "x": 540,
+   "y": 1065,
+   "t0": 17.6,
+   "t1": 21.1,
+   "sombra": true,
+   "interlineado": -6,
+   "lineas": [
+    {
+     "texto": "$10–20",
+     "rol": "display",
+     "tam": 185,
+     "color": "#F7F1EE",
+     "peso": 900
+    }
+   ]
+  },
+  {
+   "id": "h3",
+   "tipo": "etiqueta",
+   "gancho": true,
+   "grupo": "gancho",
+   "entra": "fundido",
+   "dur": 0.05,
+   "fondo": "acento",
+   "letra": "blanco",
+   "rol": "mono",
+   "radio": 6,
+   "sombra": false,
+   "lineas": [
+    [
+     "POR CADA VIDEO",
+     40,
+     false,
+     700
+    ]
+   ],
+   "rot": 0,
+   "x": 540,
+   "y": 1240,
+   "t0": 17.6,
+   "t1": 21.1
+  },
+  {
+   "id": "v1",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1150,
+   "ancho": 840,
+   "alto": 420,
+   "radio": 18,
+   "desenfoque": 20,
+   "velo": 0.55,
+   "color": "#0D0A0A",
+   "t0": 21.48,
+   "t1": 24.58,
+   "dur": 0.3,
+   "grupo": "mul"
+  },
+  {
+   "id": "m1",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1000,
+   "t0": 21.5,
+   "t1": 24.58,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "grupo": "mul",
+   "lineas": [
+    {
+     "texto": "• MULTIPLICA",
+     "rol": "mono",
+     "tam": 30,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1095,
+   "t0": 22.46,
+   "t1": 24.58,
+   "entra": "llega",
+   "dur": 0.4,
+   "sombra": true,
+   "grupo": "mul",
+   "lineas": [
+    {
+     "texto": "$20 ×",
+     "rol": "display",
+     "tam": 120,
+     "color": "#F7F1EE",
+     "peso": 900
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1205,
+   "t0": 22.96,
+   "t1": 24.58,
+   "entra": "barrido",
+   "dur": 0.3,
+   "sombra": true,
+   "grupo": "mul",
+   "lineas": [
+    {
+     "texto": "todos los videos",
+     "rol": "display",
+     "tam": 64,
+     "color": "#F7F1EE",
+     "mayus": true,
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1295,
+   "t0": 24.42,
+   "t1": 24.58,
+   "entra": "fundido",
+   "dur": 0.12,
+   "sombra": true,
+   "grupo": "mul",
+   "lineas": [
+    {
+     "texto": "del mes",
+     "rol": "script",
+     "tam": 80,
+     "color": "#C9505C",
+     "peso": 700,
+     "italica": true
+    }
+   ]
+  },
+  {
+   "id": "n1",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 880,
+   "t0": 24.62,
+   "t1": 27.855,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "• POR ESO LAS PERSONAS",
+     "rol": "mono",
+     "tam": 42,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "tipo": "texto",
+   "grupo": "pub",
+   "z": "frente",
+   "x": 540,
+   "y": 985,
+   "t0": 26.02,
+   "t1": 27.855,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "dejan de",
+     "rol": "display",
+     "tam": 80,
+     "color": "#CBBFBA",
+     "mayus": true,
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "n3",
+   "tipo": "texto",
+   "grupo": "pub",
+   "z": "frente",
+   "x": 540,
+   "y": 1125,
+   "t0": 26.68,
+   "t1": 27.855,
+   "entra": "enfoque",
+   "dur": 0.3,
+   "sombra": true,
+   "interlineado": -6,
+   "luz": 0.45,
+   "color_luz": "#C9505C",
+   "lineas": [
+    {
+     "texto": "publicar",
+     "rol": "display",
+     "tam": 165,
+     "color": "#F7F1EE",
+     "mayus": true,
+     "peso": 900
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1120,
+   "ancho": 760,
+   "alto": 320,
+   "radio": 18,
+   "desenfoque": 20,
+   "velo": 0.55,
+   "color": "#0D0A0A",
+   "t0": 50.08,
+   "t1": 52.515,
+   "dur": 0.3,
+   "grupo": "sue"
+  },
+  {
+   "id": "u1",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1010,
+   "t0": 50.1,
+   "t1": 52.515,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "grupo": "sue",
+   "lineas": [
+    {
+     "texto": "• SI PAGAS EL",
+     "rol": "mono",
+     "tam": 30,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1110,
+   "t0": 50.62,
+   "t1": 52.515,
+   "entra": "llega",
+   "dur": 0.4,
+   "sombra": true,
+   "grupo": "sue",
+   "lineas": [
+    {
+     "texto": "sueldo",
+     "rol": "display",
+     "tam": 120,
+     "color": "#F7F1EE",
+     "mayus": true,
+     "peso": 900
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1225,
+   "t0": 51.42,
+   "t1": 52.515,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "grupo": "sue",
+   "lineas": [
+    {
+     "texto": "MES A MES",
+     "rol": "mono",
+     "tam": 38,
+     "color": "#C9505C",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1120,
+   "ancho": 840,
+   "alto": 360,
+   "radio": 18,
+   "desenfoque": 20,
+   "velo": 0.55,
+   "color": "#0D0A0A",
+   "t0": 52.74,
+   "t1": 55.745,
+   "dur": 0.3,
+   "grupo": "sus"
+  },
+  {
+   "id": "c1",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1015,
+   "t0": 52.74,
+   "t1": 55.745,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "grupo": "sus",
+   "lineas": [
+    {
+     "texto": "sueldo mensual",
+     "rol": "display",
+     "tam": 50,
+     "color": "#8C817C",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1090,
+   "t0": 53.2,
+   "t1": 55.745,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "grupo": "sus",
+   "lineas": [
+    {
+     "texto": "• SOLO PAGAS LA",
+     "rol": "mono",
+     "tam": 30,
+     "color": "#C9505C"
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1175,
+   "t0": 53.76,
+   "t1": 55.745,
+   "entra": "enfoque",
+   "dur": 0.3,
+   "sombra": true,
+   "grupo": "sus",
+   "lineas": [
+    {
+     "texto": "suscripción",
+     "rol": "display",
+     "tam": 96,
+     "color": "#F7F1EE",
+     "mayus": true,
+     "peso": 900
+    }
+   ]
+  },
+  {
+   "id": "a1",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1000,
+   "t0": 56.44,
+   "t1": 58.435,
+   "entra": "fundido",
+   "dur": 0.15,
+   "sombra": false,
+   "tecleo": 22,
+   "cursor": false,
+   "lineas": [
+    {
+     "texto": "TODOS LOS VIDEOS QUE QUIERAS",
+     "rol": "mono",
+     "tam": 34,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "a2",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1095,
+   "t0": 57.12,
+   "t1": 58.435,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "de forma",
+     "rol": "display",
+     "tam": 62,
+     "color": "#F7F1EE",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "a3",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1215,
+   "t0": 57.52,
+   "t1": 58.435,
+   "entra": "llega",
+   "dur": 0.4,
+   "sombra": true,
+   "luz": 0.35,
+   "color_luz": "#C9505C",
+   "lineas": [
+    {
+     "texto": "automática",
+     "rol": "script",
+     "tam": 140,
+     "color": "#C9505C",
+     "peso": 700,
+     "italica": true
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1140,
+   "ancho": 800,
+   "alto": 420,
+   "radio": 18,
+   "desenfoque": 20,
+   "velo": 0.55,
+   "color": "#0D0A0A",
+   "t0": 86.68,
+   "t1": 89.475,
+   "dur": 0.3,
+   "grupo": "ent"
+  },
+  {
+   "id": "e1",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 985,
+   "t0": 86.7,
+   "t1": 89.475,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "grupo": "ent",
+   "lineas": [
+    {
+     "texto": "• CLAUDE SE SIGUE",
+     "rol": "mono",
+     "tam": 30,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1070,
+   "t0": 87.1,
+   "t1": 89.475,
+   "entra": "enfoque",
+   "dur": 0.3,
+   "sombra": true,
+   "grupo": "ent",
+   "lineas": [
+    {
+     "texto": "entrenando",
+     "rol": "display",
+     "tam": 92,
+     "color": "#F7F1EE",
+     "mayus": true,
+     "peso": 900
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "tipo": "barra",
+   "x": 400,
+   "y": 1315,
+   "ancho": 90,
+   "alto": 60,
+   "color": "#8C817C",
+   "contorno": false,
+   "crece_s": 0.3,
+   "t0": 88.12,
+   "t1": 89.475,
+   "grupo": "ent"
+  },
+  {
+   "id": "b2",
+   "tipo": "barra",
+   "x": 540,
+   "y": 1315,
+   "ancho": 90,
+   "alto": 110,
+   "color": "#CBBFBA",
+   "contorno": false,
+   "crece_s": 0.3,
+   "t0": 88.52,
+   "t1": 89.475,
+   "grupo": "ent"
+  },
+  {
+   "id": "b3",
+   "tipo": "barra",
+   "x": 680,
+   "y": 1315,
+   "ancho": 90,
+   "alto": 165,
+   "color": "acento",
+   "contorno": false,
+   "crece_s": 0.3,
+   "t0": 88.84,
+   "t1": 89.475,
+   "grupo": "ent"
+  },
+  {
+   "id": "d1",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1100,
+   "t0": 100.26,
+   "t1": 101.7,
+   "entra": "barrido",
+   "dur": 0.3,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "editar videos",
+     "rol": "display",
+     "tam": 82,
+     "color": "#F7F1EE",
+     "mayus": true,
+     "peso": 900
+    }
+   ]
+  },
+  {
+   "id": "o1",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 900,
+   "t0": 101.72,
+   "t1": 104.61,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "• COMENTA LA PALABRA",
+     "rol": "mono",
+     "tam": 36,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "o2",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1060,
+   "t0": 102.54,
+   "t1": 104.61,
+   "entra": "enfoque",
+   "dur": 0.3,
+   "sombra": true,
+   "luz": 0.45,
+   "color_luz": "#C9505C",
+   "lineas": [
+    {
+     "texto": "taller",
+     "rol": "script",
+     "tam": 210,
+     "color": "#C9505C",
+     "peso": 700,
+     "italica": true
+    }
+   ]
+  },
+  {
+   "id": "o3",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1225,
+   "t0": 103.22,
+   "t1": 104.61,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "Y TE MANDO LA INFORMACIÓN",
+     "rol": "mono",
+     "tam": 32,
+     "color": "#F7F1EE"
+    }
+   ]
+  },
+  {
+   "id": "k1",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1000,
+   "t0": 30.2,
+   "t1": 34.68,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "• CON 15 VIDEOS",
+     "rol": "mono",
+     "tam": 34,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "k2",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1095,
+   "t0": 31.6,
+   "t1": 34.68,
+   "entra": "barrido",
+   "dur": 0.3,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "a la semana",
+     "rol": "display",
+     "tam": 90,
+     "color": "#F7F1EE",
+     "mayus": true,
+     "peso": 900
+    }
+   ]
+  },
+  {
+   "id": "k3",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1080,
+   "t0": 34.68,
+   "t1": 39.2,
+   "entra": "llega",
+   "dur": 0.4,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "$20 × 15",
+     "rol": "display",
+     "tam": 150,
+     "color": "#F7F1EE",
+     "peso": 900
+    }
+   ]
+  },
+  {
+   "id": "k4",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1000,
+   "t0": 41.18,
+   "t1": 44.28,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "• CON CLAUDE CODE PAGO LA",
+     "rol": "mono",
+     "tam": 32,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "k5",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1100,
+   "t0": 43.22,
+   "t1": 44.28,
+   "entra": "enfoque",
+   "dur": 0.3,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "suscripción",
+     "rol": "display",
+     "tam": 100,
+     "color": "#F7F1EE",
+     "mayus": true,
+     "peso": 900
+    }
+   ]
+  },
+  {
+   "id": "k6",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1000,
+   "t0": 44.28,
+   "t1": 49.285,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "• MI COSTO POR VIDEO",
+     "rol": "mono",
+     "tam": 34,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "k7",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1110,
+   "t0": 46.56,
+   "t1": 49.285,
+   "entra": "llega",
+   "dur": 0.4,
+   "sombra": true,
+   "luz": 0.35,
+   "color_luz": "#C9505C",
+   "lineas": [
+    {
+     "texto": "centavos",
+     "rol": "script",
+     "tam": 150,
+     "color": "#C9505C",
+     "peso": 700,
+     "italica": true
+    }
+   ]
+  },
+  {
+   "id": "w1",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1000,
+   "t0": 91.36,
+   "t1": 99.165,
+   "entra": "fundido",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "• EN EL WORKSHOP",
+     "rol": "mono",
+     "tam": 34,
+     "color": "#CBBFBA"
+    }
+   ]
+  },
+  {
+   "id": "w2",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1100,
+   "t0": 94.26,
+   "t1": 99.165,
+   "entra": "llega",
+   "dur": 0.4,
+   "sombra": true,
+   "lineas": [
+    {
+     "texto": "te enseño a montarlo",
+     "rol": "script",
+     "tam": 85,
+     "color": "#C9505C",
+     "peso": 700,
+     "italica": true
+    }
+   ]
+  }
+ ],
+ "trazos": [
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     150,
+     1125
+    ],
+    [
+     930,
+     1125
+    ]
+   ],
+   "t0": 27.16,
+   "dur": 0.3,
+   "t1": 27.855,
+   "grosor": 10,
+   "color": "#C9505C"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     355,
+     1018
+    ],
+    [
+     725,
+     1018
+    ]
+   ],
+   "t0": 52.95,
+   "dur": 0.25,
+   "t1": 55.745,
+   "grosor": 5,
+   "color": "#C9505C"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     225,
+     1245
+    ],
+    [
+     855,
+     1245
+    ]
+   ],
+   "t0": 54.0,
+   "dur": 0.25,
+   "t1": 55.745,
+   "grosor": 6,
+   "color": "#C9505C"
+  }
+ ],
+ "subtitulos": {
+  "y": 1450,
+  "resaltar": [
+   130,
+   145,
+   159,
+   214,
+   222,
+   254
+  ],
+  "ocultar": [
+   [
+    17.6,
+    21.1
+   ],
+   [
+    21.1,
+    22.46
+   ],
+   [
+    21.48,
+    24.58
+   ],
+   [
+    24.58,
+    27.855
+   ],
+   [
+    30.2,
+    39.2
+   ],
+   [
+    41.18,
+    49.285
+   ],
+   [
+    49.86,
+    50.62
+   ],
+   [
+    50.08,
+    52.515
+   ],
+   [
+    52.74,
+    55.745
+   ],
+   [
+    56.2,
+    56.74
+   ],
+   [
+    56.44,
+    58.435
+   ],
+   [
+    59.82,
+    60.54
+   ],
+   [
+    60.38,
+    62.74
+   ],
+   [
+    64.62,
+    67.68
+   ],
+   [
+    67.9,
+    77.0
+   ],
+   [
+    79.52,
+    85.475
+   ],
+   [
+    86.46,
+    87.1
+   ],
+   [
+    86.68,
+    89.475
+   ],
+   [
+    91.36,
+    99.165
+   ],
+   [
+    99.84,
+    100.88
+   ],
+   [
+    100.2,
+    101.7
+   ],
+   [
+    101.7,
+    104.61
+   ]
+  ]
+ },
+ "camara_apagar": [
+  "encuadre"
+ ]
+}

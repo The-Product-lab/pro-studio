@@ -1,0 +1,177 @@
+{
+ "ref": "Dc_2Y1qI0ZH",
+ "fuente": "dueño",
+ "sirve": true,
+ "por_que": "Referencia del dueño «maestro-2 Capas cósmicas»: ritmo de 1 plano/s al compás, siluetas de luz, blueprint, CRT, remate serif; sin persona a cámara pero fija la variante de ráfagas y siluetas.",
+ "paleta": [
+  {
+   "hex": "#0B0D0E",
+   "rol": "fondo negro espacial",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#E63946",
+   "rol": "rojo relámpagos/flores",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#FFF35C",
+   "rol": "amarillo fósforo: siluetas",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#4DEEEA",
+   "rol": "cian diagramas y scanlines",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#1A3E72",
+   "rol": "azul blueprint",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#FFFFFF",
+   "rol": "trazos con glow",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "mono",
+   "como_es": "OCR-A/Consolas para etiquetas y coordenadas",
+   "google": "JetBrains Mono"
+  },
+  {
+   "rol": "script",
+   "como_es": "serif retro desgastada con halo para el remate",
+   "google": "Playfair Display"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   0.8,
+   1.2
+  ],
+  "cortes_por_min": [
+   55,
+   60
+  ],
+  "gancho": "0–1 s: flor roja con aberración RGB, luego espiral"
+ },
+ "subtitulos": {
+  "hay": false,
+  "modo": "ninguno",
+  "y_aprox": 1450,
+  "mayus": false,
+  "clave": "solo etiquetas «Stage_03» y título de cierre"
+ },
+ "persona": {
+  "tratamiento": "silueta de luz plana amarilla/blanca con glow, desintegración en partículas",
+  "encuadre": "figura completa o busto"
+ },
+ "recursos": [
+  {
+   "nombre": "silueta de luz",
+   "por_min": [
+    6,
+    12
+   ],
+   "dur_s": [
+    0.8,
+    1.0
+   ],
+   "cuando": "vacío, desconexión, caída",
+   "como": "relleno amarillo neón/blanco con glow, fondo oscuro"
+  },
+  {
+   "nombre": "blueprint con rejilla",
+   "por_min": [
+    3,
+    6
+   ],
+   "dur_s": [
+    1.0,
+    1.0
+   ],
+   "cuando": "lo anatómico/biológico",
+   "como": "filtro blueprint azul + etiqueta mono"
+  },
+  {
+   "nombre": "líneas guía/espiral en Screen",
+   "por_min": [
+    4,
+    8
+   ],
+   "dur_s": [
+    1.0,
+    1.0
+   ],
+   "cuando": "planos conceptuales",
+   "como": "trazo blanco con glow al 80 %"
+  },
+  {
+   "nombre": "overlay CRT constante",
+   "por_min": [
+    0,
+    0
+   ],
+   "dur_s": [
+    0,
+    0
+   ],
+   "cuando": "todo el video",
+   "como": "scanlines, viñeta, ruido 15 %"
+  },
+  {
+   "nombre": "remate serif con parpadeo",
+   "por_min": [
+    1,
+    1
+   ],
+   "dur_s": [
+    1.0,
+    1.5
+   ],
+   "cuando": "último segundo",
+   "como": "título «THE END» sobre negro verdoso"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   40,
+   55
+  ],
+  "tipos": [
+   "siluetas",
+   "blueprint",
+   "diagramas",
+   "partículas"
+  ]
+ },
+ "imagenes": {
+  "tipo": "ilustración científica/siluetas/ecografía",
+  "tratamiento": "grano denso, negros levantados teñidos, aberración extrema",
+  "cuantas": 12
+ },
+ "transiciones": [
+  "corte duro con pico de aberración",
+  "whip zoom 100→120 %",
+  "nunca fundido"
+ ],
+ "camara": [
+  "micro-zoom 100→105 % por plano"
+ ],
+ "sonido": [
+  "trip-hop atmosférico",
+  "hiss de cinta",
+  "glitches en cortes"
+ ],
+ "si": [
+  "cortar al compás",
+  "alternar escalas micro→macro"
+ ],
+ "no": [
+  "fundidos",
+  "imágenes sin glow"
+ ]
+}

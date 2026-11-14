@@ -1,0 +1,1384 @@
+{
+ "estilo": {
+  "id": "glass",
+  "base": "pantalla",
+  "acento": "#D97757",
+  "acento2": "#8B5CF6",
+  "tinta": "#111111",
+  "papel": "#FEFFFB",
+  "borde": "#F4F2EA",
+  "persona": "color",
+  "fuente": "Inter",
+  "fuente_script": "Playfair Itálica",
+  "fuente_mono": "JetBrains Mono",
+  "grano": 0,
+  "flotar": 8,
+  "flotar_elementos": 0,
+  "imagenes": true
+ },
+ "cortes": [
+  [
+   0.0,
+   5.205
+  ],
+  [
+   6.905,
+   7.275
+  ],
+  [
+   9.645,
+   10.125
+  ],
+  [
+   15.245,
+   15.475
+  ],
+  [
+   17.685,
+   17.865
+  ],
+  [
+   19.965,
+   20.495
+  ],
+  [
+   22.315,
+   22.485
+  ],
+  [
+   24.015,
+   24.235
+  ],
+  [
+   25.765,
+   26.905
+  ],
+  [
+   29.435,
+   29.615
+  ],
+  [
+   30.905,
+   32.075
+  ],
+  [
+   33.455,
+   37.315
+  ],
+  [
+   38.525,
+   38.665
+  ],
+  [
+   40.015,
+   40.505
+  ],
+  [
+   41.765,
+   42.125
+  ],
+  [
+   43.505,
+   45.645
+  ],
+  [
+   48.985,
+   49.415
+  ],
+  [
+   51.115,
+   51.375
+  ],
+  [
+   53.795,
+   56.105
+  ],
+  [
+   60.405,
+   60.665
+  ],
+  [
+   62.995,
+   63.325
+  ],
+  [
+   64.815,
+   65.325
+  ],
+  [
+   66.775,
+   67.535
+  ]
+ ],
+ "escenas": [
+  {
+   "t0": 5.205,
+   "intencion": "Gancho: 3 s solo él hablando; en «invisible» una tarjeta de vidrio claro sobre el pecho con «invisible» en serif itálica y «para las mujeres», con un glitch de píxeles que lo borra",
+   "persona": {
+    "modo": "completa"
+   }
+  },
+  {
+   "t0": 10.26,
+   "intencion": "Infancia como notificación: píldora «desde chiquito», luego notificación de vidrio oscuro «Solicitud rechazada · todas · siempre»; arriba de la cabeza «¿por qué?» que se teclea",
+   "persona": {
+    "modo": "completa"
+   },
+   "entrada": "desenfoque"
+  },
+  {
+   "t0": 15.24,
+   "intencion": "Pantalla blanca de app: «No solo con las mujeres» y una lista de vidrio que se marca en rojo al decirlo: Mujeres ✕ … Trabajo ✕",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#FEFFFB"
+   },
+   "entrada": "flash",
+   "camara_mov": "suave"
+  },
+  {
+   "t0": 20.76,
+   "intencion": "El aislamiento como interfaz: notificación oscura «Grupo Todos · Te eliminaron del grupo»; en «solo» la palabra en serif luminosa",
+   "persona": {
+    "modo": "completa"
+   },
+   "entrada": "pixel"
+  },
+  {
+   "t0": 26.39,
+   "intencion": "La revelación como búsqueda: barra de búsqueda de vidrio donde se teclea «cómo relacionarme»",
+   "persona": {
+    "modo": "completa"
+   },
+   "entrada": "iris"
+  },
+  {
+   "t0": 29.74,
+   "intencion": "Solo en casa: píldora «mi casa» y un contador de horas en casa; en «hubo un problema» el contador se vuelve notificación de error",
+   "persona": {
+    "modo": "completa"
+   },
+   "entrada": "corte"
+  },
+  {
+   "t0": 38.88,
+   "intencion": "Pantalla gris perla: la línea de su vida como barra naranja que crece («un momento»), «Mi historia de vida» y en «dos» un trazo la parte con «en dos.» en serif",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#EBEAED"
+   },
+   "entrada": "zoom",
+   "camara_mov": "continuo"
+  },
+  {
+   "t0": 45.84,
+   "intencion": "Enamorado: tarjeta de vidrio claro «me enamoré / profundamente», arriba un contador de amor que se pasa de 100 % en «demasiado»",
+   "persona": {
+    "modo": "completa"
+   },
+   "entrada": "desenfoque"
+  },
+  {
+   "t0": 49.88,
+   "intencion": "Su perfil en pantalla blanca: tarjeta de perfil «@ella», contador «día 1 → día 47» en «todos los días» y chip naranja «historia vista · 23:47» en «revisaba»",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#FEFFFB"
+   },
+   "entrada": "flash",
+   "camara_mov": "suave"
+  },
+  {
+   "t0": 56.58,
+   "intencion": "Las citas: tarjeta de vidrio que cuenta «2 citas»; en «jugando» la palabra en serif naranja arriba con píxeles de juego",
+   "persona": {
+    "modo": "completa"
+   },
+   "entrada": "iris"
+  },
+  {
+   "t0": 60.68,
+   "intencion": "El giro: notificación oscura «Partido · hoy / Fútbol en el barrio» y la píldora de ubicación «cancha del barrio»",
+   "persona": {
+    "modo": "completa"
+   },
+   "entrada": "pixel"
+  },
+  {
+   "t0": 64.54,
+   "intencion": "Cierre en suspenso: etiqueta «tribuna» arriba y, en «está ella», la frase luminosa sobre el pecho; corte en seco",
+   "persona": {
+    "modo": "completa"
+   },
+   "entrada": "corte"
+  }
+ ],
+ "punch": [
+  11.56,
+  25.04,
+  32.96,
+  43.06,
+  47.06,
+  59.22,
+  67.86
+ ],
+ "camara": [
+  {
+   "t": 5.205,
+   "zoom": 1.02,
+   "x": 0,
+   "y": 0,
+   "rot": 0
+  },
+  {
+   "t": 12.0,
+   "zoom": 1.045,
+   "x": -10,
+   "y": -4,
+   "rot": 0
+  },
+  {
+   "t": 19.0,
+   "zoom": 1.065,
+   "x": -18,
+   "y": -8,
+   "rot": 0
+  },
+  {
+   "t": 26.0,
+   "zoom": 1.08,
+   "x": -6,
+   "y": -10,
+   "rot": 0
+  },
+  {
+   "t": 33.0,
+   "zoom": 1.06,
+   "x": 10,
+   "y": -6,
+   "rot": 0
+  },
+  {
+   "t": 40.0,
+   "zoom": 1.04,
+   "x": 20,
+   "y": 0,
+   "rot": 0
+  },
+  {
+   "t": 47.0,
+   "zoom": 1.055,
+   "x": 14,
+   "y": 6,
+   "rot": 0
+  },
+  {
+   "t": 54.0,
+   "zoom": 1.07,
+   "x": 0,
+   "y": 8,
+   "rot": 0
+  },
+  {
+   "t": 61.0,
+   "zoom": 1.085,
+   "x": -12,
+   "y": 4,
+   "rot": 0
+  },
+  {
+   "t": 64.5,
+   "zoom": 1.065,
+   "x": -18,
+   "y": 2,
+   "rot": 0
+  },
+  {
+   "t": 68.37,
+   "zoom": 1.05,
+   "x": -20,
+   "y": 0,
+   "rot": 0
+  }
+ ],
+ "empuje": 0.03,
+ "alejar_final": false,
+ "elementos": [
+  {
+   "id": "v1",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1130,
+   "ancho": 760,
+   "alto": 300,
+   "radio": 40,
+   "desenfoque": 26,
+   "velo": 0.3,
+   "color": "blanco",
+   "t0": 8.6,
+   "t1": 10.26,
+   "dur": 0.3,
+   "grupo": "g1",
+   "z": "frente",
+   "profundidad": 0.4
+  },
+  {
+   "id": "t1",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1120,
+   "t0": 8.6,
+   "t1": 10.26,
+   "entra": "llega",
+   "dur": 0.4,
+   "profundidad": 0.7,
+   "sombra": false,
+   "grupo": "g1",
+   "interlineado": 22,
+   "lineas": [
+    {
+     "texto": "invisible",
+     "rol": "script",
+     "tam": 130,
+     "color": "#111111"
+    },
+    {
+     "texto": "para las mujeres",
+     "rol": "display",
+     "tam": 48,
+     "color": "#111111",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "tipo": "pixeles",
+   "x": 860,
+   "y": 990,
+   "ancho": 110,
+   "alto": 90,
+   "celda": 22,
+   "colores": [
+    "#D97757",
+    "#8B5CF6",
+    "#FFFFFF"
+   ],
+   "t0": 9.0,
+   "t1": 9.9
+  },
+  {
+   "id": "e2",
+   "tipo": "etiqueta",
+   "lineas": [
+    [
+     "DESDE CHIQUITO",
+     34,
+     false,
+     700
+    ]
+   ],
+   "rol": "mono",
+   "fondo": "blanco",
+   "letra": "#111111",
+   "radio": 30,
+   "x": 540,
+   "y": 1000,
+   "t0": 10.26,
+   "t1": 11.56,
+   "entra": "pop",
+   "profundidad": 0.8,
+   "sombra": false
+  },
+  {
+   "id": "v2",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1170,
+   "ancho": 840,
+   "alto": 190,
+   "radio": 40,
+   "desenfoque": 26,
+   "velo": 0.3,
+   "color": "negro",
+   "t0": 11.56,
+   "t1": 15.24,
+   "dur": 0.3,
+   "grupo": "n2",
+   "z": "frente",
+   "profundidad": 0.4
+  },
+  {
+   "id": "t2",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1165,
+   "t0": 11.56,
+   "t1": 15.24,
+   "entra": "fundido",
+   "dur": 0.2,
+   "profundidad": 0.7,
+   "sombra": false,
+   "grupo": "n2",
+   "interlineado": 22,
+   "lineas": [
+    {
+     "texto": "Solicitud rechazada",
+     "rol": "display",
+     "tam": 54,
+     "color": "blanco",
+     "peso": 800
+    },
+    {
+     "texto": "todas · siempre",
+     "rol": "mono",
+     "tam": 30,
+     "color": "#B8B8B8"
+    }
+   ]
+  },
+  {
+   "id": "t2b",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 740,
+   "t0": 13.58,
+   "t1": 15.24,
+   "entra": "fundido",
+   "tecleo": 10,
+   "profundidad": 0.9,
+   "lineas": [
+    {
+     "texto": "¿por qué?",
+     "rol": "script",
+     "tam": 110,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 560,
+   "t0": 15.56,
+   "t1": 20.76,
+   "entra": "llega",
+   "dur": 0.4,
+   "profundidad": 0.8,
+   "sombra": false,
+   "grupo": "l3",
+   "interlineado": -6,
+   "lineas": [
+    {
+     "texto": "No solo",
+     "rol": "script",
+     "tam": 120,
+     "color": "acento"
+    },
+    {
+     "texto": "con las mujeres",
+     "rol": "display",
+     "tam": 64,
+     "color": "#111111",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1050,
+   "ancho": 860,
+   "alto": 380,
+   "radio": 36,
+   "desenfoque": 22,
+   "velo": 0.35,
+   "color": "blanco",
+   "t0": 15.56,
+   "t1": 20.76,
+   "dur": 0.3,
+   "grupo": "l3",
+   "z": "frente",
+   "profundidad": 0.4
+  },
+  {
+   "id": "t3a",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 380,
+   "y": 960,
+   "t0": 15.56,
+   "t1": 20.76,
+   "entra": "fundido",
+   "dur": 0.2,
+   "profundidad": 0.6,
+   "sombra": false,
+   "grupo": "l3",
+   "lineas": [
+    {
+     "texto": "Mujeres",
+     "rol": "display",
+     "tam": 54,
+     "color": "#111111",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "t3b",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 380,
+   "y": 1140,
+   "t0": 15.56,
+   "t1": 20.76,
+   "entra": "fundido",
+   "dur": 0.2,
+   "profundidad": 0.6,
+   "sombra": false,
+   "grupo": "l3",
+   "lineas": [
+    {
+     "texto": "Trabajo",
+     "rol": "display",
+     "tam": 54,
+     "color": "#111111",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "e3a",
+   "tipo": "etiqueta",
+   "lineas": [
+    [
+     "aislado",
+     38,
+     false,
+     700
+    ]
+   ],
+   "rol": "mono",
+   "fondo": "acento",
+   "letra": "blanco",
+   "radio": 26,
+   "x": 790,
+   "y": 960,
+   "t0": 16.98,
+   "t1": 20.76,
+   "entra": "pop",
+   "profundidad": 0.8,
+   "sombra": false,
+   "grupo": "l3"
+  },
+  {
+   "id": "e3b",
+   "tipo": "etiqueta",
+   "lineas": [
+    [
+     "aislado",
+     38,
+     false,
+     700
+    ]
+   ],
+   "rol": "mono",
+   "fondo": "acento",
+   "letra": "blanco",
+   "radio": 26,
+   "x": 790,
+   "y": 1140,
+   "t0": 19.24,
+   "t1": 20.76,
+   "entra": "pop",
+   "profundidad": 0.8,
+   "sombra": false,
+   "grupo": "l3"
+  },
+  {
+   "id": "v4",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1110,
+   "ancho": 860,
+   "alto": 200,
+   "radio": 40,
+   "desenfoque": 26,
+   "velo": 0.3,
+   "color": "negro",
+   "t0": 22.26,
+   "t1": 25.0,
+   "dur": 0.3,
+   "grupo": "n4",
+   "z": "frente",
+   "profundidad": 0.4
+  },
+  {
+   "id": "t4",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1105,
+   "t0": 22.26,
+   "t1": 25.0,
+   "entra": "fundido",
+   "dur": 0.2,
+   "profundidad": 0.7,
+   "sombra": false,
+   "grupo": "n4",
+   "interlineado": 22,
+   "lineas": [
+    {
+     "texto": "Grupo «Todos»",
+     "rol": "mono",
+     "tam": 30,
+     "color": "#B8B8B8"
+    },
+    {
+     "texto": "Te eliminaron del grupo",
+     "rol": "display",
+     "tam": 52,
+     "color": "blanco",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "t4b",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1180,
+   "t0": 25.04,
+   "t1": 26.39,
+   "entra": "enfoque",
+   "dur": 0.4,
+   "profundidad": 0.9,
+   "luz": 0.6,
+   "lineas": [
+    {
+     "texto": "solo.",
+     "rol": "script",
+     "tam": 160,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1150,
+   "ancho": 720,
+   "alto": 150,
+   "radio": 75,
+   "desenfoque": 26,
+   "velo": 0.35,
+   "color": "blanco",
+   "t0": 27.34,
+   "t1": 29.74,
+   "dur": 0.3,
+   "grupo": "b5",
+   "z": "frente",
+   "profundidad": 0.4
+  },
+  {
+   "id": "t5",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1150,
+   "t0": 28.04,
+   "t1": 29.74,
+   "entra": "fundido",
+   "tecleo": 12,
+   "profundidad": 0.7,
+   "sombra": false,
+   "grupo": "b5",
+   "lineas": [
+    {
+     "texto": "cómo relacionarme",
+     "rol": "mono",
+     "tam": 46,
+     "color": "#111111"
+    }
+   ]
+  },
+  {
+   "id": "e6b",
+   "tipo": "etiqueta",
+   "lineas": [
+    [
+     "CASI SIEMPRE",
+     34,
+     false,
+     700
+    ]
+   ],
+   "rol": "mono",
+   "fondo": "blanco",
+   "letra": "#111111",
+   "radio": 30,
+   "x": 540,
+   "y": 1050,
+   "t0": 30.22,
+   "t1": 32.96,
+   "entra": "pop",
+   "profundidad": 0.8,
+   "sombra": false
+  },
+  {
+   "id": "e6",
+   "tipo": "etiqueta",
+   "lineas": [
+    [
+     "MI CASA",
+     34,
+     false,
+     700
+    ]
+   ],
+   "rol": "mono",
+   "fondo": "blanco",
+   "letra": "#111111",
+   "radio": 30,
+   "x": 540,
+   "y": 380,
+   "t0": 32.96,
+   "t1": 38.29,
+   "entra": "pop",
+   "profundidad": 0.8,
+   "sombra": false
+  },
+  {
+   "id": "n6",
+   "tipo": "contador",
+   "x": 540,
+   "y": 1150,
+   "t0": 32.96,
+   "t1": 38.29,
+   "desde": 0,
+   "hasta": 24,
+   "prefijo": "",
+   "sufijo": " h en casa",
+   "cuenta_s": 1.2,
+   "tam": 72,
+   "color": "blanco",
+   "rol": "mono",
+   "sombra": false
+  },
+  {
+   "id": "v6",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1130,
+   "ancho": 840,
+   "alto": 200,
+   "radio": 40,
+   "desenfoque": 26,
+   "velo": 0.3,
+   "color": "negro",
+   "t0": 38.29,
+   "t1": 38.88,
+   "dur": 0.2,
+   "grupo": "n6g",
+   "z": "frente",
+   "profundidad": 0.4
+  },
+  {
+   "id": "t6",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1125,
+   "t0": 38.29,
+   "t1": 38.88,
+   "entra": "fundido",
+   "dur": 0.15,
+   "profundidad": 0.7,
+   "sombra": false,
+   "grupo": "n6g",
+   "interlineado": 22,
+   "lineas": [
+    {
+     "texto": "error",
+     "rol": "mono",
+     "tam": 30,
+     "color": "acento"
+    },
+    {
+     "texto": "Hubo un problema",
+     "rol": "display",
+     "tam": 54,
+     "color": "blanco",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "t7a",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 860,
+   "t0": 38.98,
+   "t1": 41.52,
+   "entra": "fundido",
+   "tecleo": 10,
+   "profundidad": 0.6,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "un momento",
+     "rol": "mono",
+     "tam": 60,
+     "color": "#555555"
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "tipo": "barra",
+   "direccion": "horizontal",
+   "x": 540,
+   "y": 1000,
+   "ancho": 820,
+   "alto": 24,
+   "color": "acento",
+   "crece_s": 1.2,
+   "t0": 38.98,
+   "t1": 45.84,
+   "profundidad": 0.5
+  },
+  {
+   "id": "t7",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 760,
+   "t0": 41.52,
+   "t1": 45.84,
+   "entra": "sube",
+   "dur": 0.4,
+   "profundidad": 0.8,
+   "sombra": false,
+   "interlineado": 14,
+   "lineas": [
+    {
+     "texto": "Mi historia",
+     "rol": "display",
+     "tam": 96,
+     "color": "#111111",
+     "peso": 900
+    },
+    {
+     "texto": "de vida",
+     "rol": "script",
+     "tam": 96,
+     "color": "acento"
+    }
+   ]
+  },
+  {
+   "id": "t7b",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1140,
+   "t0": 43.06,
+   "t1": 45.84,
+   "entra": "golpe",
+   "dur": 0.4,
+   "profundidad": 0.9,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "en dos.",
+     "rol": "script",
+     "tam": 150,
+     "color": "acento"
+    }
+   ]
+  },
+  {
+   "id": "v8",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1140,
+   "ancho": 780,
+   "alto": 300,
+   "radio": 40,
+   "desenfoque": 26,
+   "velo": 0.3,
+   "color": "blanco",
+   "t0": 46.72,
+   "t1": 49.88,
+   "dur": 0.3,
+   "grupo": "h8",
+   "z": "frente",
+   "profundidad": 0.4
+  },
+  {
+   "id": "t8",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1130,
+   "t0": 46.72,
+   "t1": 49.88,
+   "entra": "llega",
+   "dur": 0.4,
+   "profundidad": 0.7,
+   "sombra": false,
+   "grupo": "h8",
+   "interlineado": 22,
+   "lineas": [
+    {
+     "texto": "me enamoré",
+     "rol": "display",
+     "tam": 60,
+     "color": "#111111",
+     "peso": 800
+    },
+    {
+     "texto": "profundamente",
+     "rol": "script",
+     "tam": 96,
+     "color": "acento"
+    }
+   ]
+  },
+  {
+   "id": "n8",
+   "tipo": "contador",
+   "x": 540,
+   "y": 370,
+   "t0": 48.66,
+   "t1": 49.88,
+   "desde": 0,
+   "hasta": 120,
+   "prefijo": "",
+   "sufijo": " %",
+   "cuenta_s": 0.9,
+   "tam": 90,
+   "color": "blanco",
+   "rol": "mono",
+   "sombra": false
+  },
+  {
+   "id": "v9",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 800,
+   "ancho": 820,
+   "alto": 560,
+   "radio": 44,
+   "desenfoque": 22,
+   "velo": 0.35,
+   "color": "blanco",
+   "t0": 49.88,
+   "t1": 56.58,
+   "dur": 0.3,
+   "grupo": "p9",
+   "z": "frente",
+   "profundidad": 0.4
+  },
+  {
+   "id": "t9",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 610,
+   "t0": 49.88,
+   "interlineado": 22,
+   "t1": 56.58,
+   "entra": "llega",
+   "dur": 0.4,
+   "profundidad": 0.7,
+   "sombra": false,
+   "grupo": "p9",
+   "lineas": [
+    {
+     "texto": "@ella",
+     "rol": "display",
+     "tam": 72,
+     "color": "#111111",
+     "peso": 900
+    },
+    {
+     "texto": "perfil · historias",
+     "rol": "mono",
+     "tam": 30,
+     "color": "#666666"
+    }
+   ]
+  },
+  {
+   "id": "n9",
+   "tipo": "contador",
+   "x": 540,
+   "y": 800,
+   "t0": 50.62,
+   "t1": 56.58,
+   "desde": 1,
+   "hasta": 47,
+   "prefijo": "día ",
+   "sufijo": "",
+   "cuenta_s": 1.4,
+   "tam": 110,
+   "color": "#111111",
+   "rol": "display",
+   "sombra": false,
+   "grupo": "p9"
+  },
+  {
+   "id": "e9",
+   "tipo": "etiqueta",
+   "lineas": [
+    [
+     "historia vista · 23:47",
+     32,
+     false,
+     700
+    ]
+   ],
+   "rol": "mono",
+   "fondo": "acento",
+   "letra": "blanco",
+   "radio": 28,
+   "x": 540,
+   "y": 990,
+   "t0": 52.02,
+   "t1": 56.58,
+   "entra": "pop",
+   "profundidad": 0.8,
+   "sombra": false,
+   "grupo": "p9"
+  },
+  {
+   "id": "v10",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1130,
+   "ancho": 600,
+   "alto": 170,
+   "radio": 40,
+   "desenfoque": 26,
+   "velo": 0.3,
+   "color": "blanco",
+   "t0": 57.2,
+   "t1": 60.68,
+   "dur": 0.3,
+   "grupo": "c10",
+   "z": "frente",
+   "profundidad": 0.4
+  },
+  {
+   "id": "n10",
+   "tipo": "contador",
+   "x": 540,
+   "y": 1130,
+   "t0": 57.2,
+   "t1": 60.68,
+   "desde": 0,
+   "hasta": 2,
+   "prefijo": "",
+   "sufijo": " citas",
+   "cuenta_s": 0.6,
+   "tam": 64,
+   "color": "#111111",
+   "rol": "display",
+   "sombra": false,
+   "grupo": "c10"
+  },
+  {
+   "id": "t10",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 330,
+   "t0": 59.22,
+   "t1": 60.68,
+   "entra": "cae",
+   "dur": 0.4,
+   "profundidad": 0.9,
+   "lineas": [
+    {
+     "texto": "jugando",
+     "rol": "script",
+     "tam": 130,
+     "color": "acento"
+    }
+   ]
+  },
+  {
+   "id": "p10",
+   "tipo": "pixeles",
+   "x": 830,
+   "y": 250,
+   "ancho": 100,
+   "alto": 80,
+   "celda": 20,
+   "colores": [
+    "#D97757",
+    "#8B5CF6",
+    "#FFFFFF"
+   ],
+   "t0": 59.62,
+   "t1": 60.5
+  },
+  {
+   "id": "v11",
+   "tipo": "vidrio",
+   "x": 540,
+   "y": 1150,
+   "ancho": 840,
+   "alto": 200,
+   "radio": 40,
+   "desenfoque": 26,
+   "velo": 0.3,
+   "color": "negro",
+   "t0": 61.68,
+   "t1": 64.54,
+   "dur": 0.3,
+   "grupo": "n11",
+   "z": "frente",
+   "profundidad": 0.4
+  },
+  {
+   "id": "t11",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1145,
+   "t0": 61.68,
+   "t1": 64.54,
+   "entra": "fundido",
+   "dur": 0.2,
+   "profundidad": 0.7,
+   "sombra": false,
+   "grupo": "n11",
+   "interlineado": 22,
+   "lineas": [
+    {
+     "texto": "Partido · hoy",
+     "rol": "mono",
+     "tam": 30,
+     "color": "#B8B8B8"
+    },
+    {
+     "texto": "Fútbol en el barrio",
+     "rol": "display",
+     "tam": 54,
+     "color": "blanco",
+     "peso": 800
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "etiqueta",
+   "lineas": [
+    [
+     "CANCHA DEL BARRIO",
+     32,
+     false,
+     700
+    ]
+   ],
+   "rol": "mono",
+   "fondo": "blanco",
+   "letra": "#111111",
+   "radio": 30,
+   "x": 540,
+   "y": 990,
+   "t0": 63.4,
+   "t1": 64.54,
+   "entra": "pop",
+   "profundidad": 0.8,
+   "sombra": false
+  },
+  {
+   "id": "e12",
+   "tipo": "etiqueta",
+   "lineas": [
+    [
+     "TRIBUNA",
+     34,
+     false,
+     700
+    ]
+   ],
+   "rol": "mono",
+   "fondo": "blanco",
+   "letra": "#111111",
+   "radio": 30,
+   "x": 540,
+   "y": 380,
+   "t0": 65.84,
+   "t1": 68.37,
+   "entra": "pop",
+   "profundidad": 0.8,
+   "sombra": false
+  },
+  {
+   "id": "t12",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1180,
+   "t0": 67.58,
+   "t1": 68.37,
+   "entra": "llega",
+   "dur": 0.35,
+   "profundidad": 0.9,
+   "luz": 0.6,
+   "lineas": [
+    {
+     "texto": "y está ella.",
+     "rol": "script",
+     "tam": 130,
+     "color": "blanco"
+    }
+   ]
+  }
+ ],
+ "trazos": [
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     540,
+     940
+    ],
+    [
+     540,
+     1060
+    ]
+   ],
+   "t0": 43.06,
+   "dur": 0.3,
+   "t1": 45.84
+  }
+ ],
+ "subtitulos": {
+  "y": 1450,
+  "resaltar": [
+   8,
+   16,
+   23,
+   50,
+   60,
+   65,
+   85,
+   95,
+   104,
+   119,
+   126,
+   142
+  ],
+  "ocultar": [
+   [
+    8.36,
+    9.96
+   ],
+   [
+    8.6,
+    10.26
+   ],
+   [
+    11.56,
+    12.5
+   ],
+   [
+    13.78,
+    14.42
+   ],
+   [
+    16.78,
+    17.54
+   ],
+   [
+    22.26,
+    24.0
+   ],
+   [
+    25.04,
+    26.39
+   ],
+   [
+    28.04,
+    29.74
+   ],
+   [
+    32.84,
+    36.76
+   ],
+   [
+    36.76,
+    38.29
+   ],
+   [
+    38.29,
+    38.88
+   ],
+   [
+    38.88,
+    39.64
+   ],
+   [
+    41.52,
+    45.84
+   ],
+   [
+    46.6,
+    47.76
+   ],
+   [
+    47.06,
+    48.66
+   ],
+   [
+    59.0,
+    60.14
+   ],
+   [
+    59.22,
+    60.68
+   ],
+   [
+    61.06,
+    62.1
+   ],
+   [
+    61.68,
+    62.5
+   ],
+   [
+    62.84,
+    63.94
+   ],
+   [
+    63.94,
+    64.54
+   ],
+   [
+    65.84,
+    67.86
+   ],
+   [
+    67.58,
+    68.37
+   ]
+  ]
+ },
+ "camara_apagar": [
+  "encuadre"
+ ]
+}

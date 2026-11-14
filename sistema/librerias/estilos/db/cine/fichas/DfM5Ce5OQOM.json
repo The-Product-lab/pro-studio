@@ -1,0 +1,160 @@
+{
+ "ref": "DfM5Ce5OQOM",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Portada: persona en silueta roja plana sobre estación de metro en B/N con desenfoque, micro texto en esquinas tipo créditos de festival. Cartel de cine.",
+ "paleta": [
+  {
+   "hex": "#000000",
+   "rol": "negro de siluetas y fondos",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#E50914",
+   "rol": "silueta roja",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#FFFFFF",
+   "rol": "texto y fondos de póster",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#D8A24A",
+   "rol": "luz cálida",
+   "cuanto": "detalle"
+  },
+  {
+   "hex": "#1B2E3C",
+   "rol": "azul medianoche",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "sans ultra gruesa de perspectiva 3D",
+   "google": "Anton"
+  },
+  {
+   "rol": "cuerpo",
+   "como_es": "sans suiza fina con tracking abierto en esquinas",
+   "google": "Inter"
+  },
+  {
+   "rol": "script",
+   "como_es": "pincel o tiza para frases introspectivas",
+   "google": "Permanent Marker"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   1.0,
+   1.8
+  ],
+  "cortes_por_min": [
+   25,
+   30
+  ],
+  "gancho": "0-2 s: silueta roja sobre archivo B/N"
+ },
+ "subtitulos": {
+  "hay": true,
+  "modo": "frase",
+  "y_aprox": 1450,
+  "mayus": false,
+  "clave": "palabras gigantes detrás o delante del sujeto"
+ },
+ "persona": {
+  "tratamiento": "silueta roja plana / recorte B/N",
+  "encuadre": "cuerpo completo centrado"
+ },
+ "recursos": [
+  {
+   "nombre": "silueta roja",
+   "por_min": [
+    4,
+    8
+   ],
+   "dur_s": [
+    1.0,
+    1.5
+   ],
+   "cuando": "hook y reflexión",
+   "como": "relleno rojo plano"
+  },
+  {
+   "nombre": "créditos en esquinas",
+   "por_min": [
+    10,
+    20
+   ],
+   "dur_s": [
+    2.0,
+    10.0
+   ],
+   "cuando": "permanente",
+   "como": "micro texto en las 4 esquinas"
+  },
+  {
+   "nombre": "póster suizo",
+   "por_min": [
+    2,
+    4
+   ],
+   "dur_s": [
+    1.0,
+    2.5
+   ],
+   "cuando": "conclusión",
+   "como": "fondo blanco, sujeto B/N, vectores"
+  },
+  {
+   "nombre": "papel rasgado",
+   "por_min": [
+    3,
+    6
+   ],
+   "dur_s": [
+    0.4,
+    0.8
+   ],
+   "cuando": "cambio de tono",
+   "como": "división de pantalla"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   12,
+   20
+  ],
+  "tipos": [
+   "asteriscos",
+   "estrellas de 4 puntas",
+   "calendario marcado"
+  ]
+ },
+ "imagenes": {
+  "tipo": "archivo B/N de calle",
+  "tratamiento": "alto contraste, motion blur",
+  "cuantas": 4
+ },
+ "transiciones": [
+  "whip pan",
+  "jump cut",
+  "rasgado de papel"
+ ],
+ "camara": [
+  "máscara por movimiento"
+ ],
+ "sonido": [
+  "golpes de batería lo-fi"
+ ],
+ "si": [
+  "un solo color rojo contra B/N",
+  "micro texto de créditos"
+ ],
+ "no": [
+  "paleta multicolor"
+ ]
+}

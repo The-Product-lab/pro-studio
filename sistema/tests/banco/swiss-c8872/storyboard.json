@@ -1,0 +1,781 @@
+{
+ "estilo": {
+  "id": "swiss",
+  "base": "pantalla",
+  "acento": "#002FA7",
+  "acento2": "#B9C0D2",
+  "tinta": "#111111",
+  "papel": "#F6F4F6",
+  "persona": "color",
+  "fuente": "Inter",
+  "fuente_script": "Playfair Display",
+  "fuente_mono": "JetBrains Mono",
+  "subtitulo": "hud",
+  "crt": 0,
+  "grano": 5,
+  "transicion": "corte",
+  "flotar": 3,
+  "bloom": 0,
+  "flotar_elementos": 0,
+  "imagenes": true,
+  "color": {
+   "entrada": "rec709",
+   "receta": "pablo",
+   "look": "calido-EliteColor200",
+   "fuerza": 0.7
+  }
+ },
+ "cortes": [
+  [
+   0.0,
+   4.7
+  ],
+  [
+   10.37,
+   49.3
+  ],
+  [
+   55.81,
+   66.47
+  ],
+  [
+   76.07,
+   86.39
+  ],
+  [
+   89.46,
+   90.07
+  ],
+  [
+   96.03,
+   98.6
+  ]
+ ],
+ "escenas": [
+  {
+   "t0": 4.7,
+   "entrada": "corte",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "gancho en su toma limpia: habla sin nada encima; en «automática» una banda azul de borde a borde y la palabra cambia a «apruebo.»"
+  },
+  {
+   "t0": 49.3,
+   "entrada": "invertir",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#F6F4F6"
+   },
+   "intencion": "el antes como lámina: rollo de película grabado, un contador de horas que corre y cae «días.» en cursiva azul"
+  },
+  {
+   "t0": 52.18,
+   "entrada": "wipe",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "acento"
+   },
+   "intencion": "campo azul: el celular claro flota y «publicar.» queda tachado por una línea blanca"
+  },
+  {
+   "t0": 65.82,
+   "entrada": "iris",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "giro al hoy en su toma: «Hoy.» grande sobre el pecho y dos tags mono en cascada 01 grabo / 02 carpeta"
+  },
+  {
+   "t0": 69.0,
+   "entrada": "bloques",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "acento"
+   },
+   "intencion": "campo azul como timeline: «editarlos» se teclea y dos pistas de edición crecen solas"
+  },
+  {
+   "t0": 71.76,
+   "entrada": "pixel",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#F6F4F6"
+   },
+   "intencion": "lámina clara: «subtítulos,» en tinta, las tijeras grabadas cortan y «silencios.» en azul"
+  },
+  {
+   "t0": 85.02,
+   "entrada": "desenfoque",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "vuelve a su toma: «el editor.» sobre el pecho, una línea lo tacha y cierra la caja blanca «importantes.»"
+  },
+  {
+   "t0": 90.14,
+   "entrada": "flash",
+   "persona": {
+    "modo": "oculta",
+    "fondo": "#F6F4F6"
+   },
+   "intencion": "lámina clara: la cámara de cine grabada y «como este.» gigante"
+  },
+  {
+   "t0": 92.96,
+   "entrada": "corte",
+   "persona": {
+    "modo": "completa"
+   },
+   "intencion": "CTA en su toma: caja azul «TALLER.» y tag mono de comentario; él cierra hablando"
+  }
+ ],
+ "punch": [],
+ "empuje": 0,
+ "alejar_final": false,
+ "elementos": [
+  {
+   "id": "b1",
+   "grupo": "banda1",
+   "tipo": "etiqueta",
+   "rol": "display",
+   "fondo": "acento",
+   "letra": "blanco",
+   "radio": 0,
+   "pad": [
+    537,
+    110
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     " ",
+     20,
+     false,
+     700
+    ]
+   ],
+   "x": 540,
+   "y": 1200,
+   "t0": 8.24,
+   "t1": 10.12,
+   "entra": "barrido",
+   "dur": 0.12
+  },
+  {
+   "id": "t1",
+   "grupo": "banda1",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1195,
+   "t0": 8.26,
+   "t1": 9.6,
+   "entra": "llega",
+   "dur": 0.16,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "automática.",
+     "rol": "display",
+     "tam": 150,
+     "color": "blanco",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "grupo": "banda1",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1195,
+   "t0": 9.6,
+   "t1": 10.12,
+   "entra": "smear",
+   "dur": 0.12,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "apruebo.",
+     "rol": "display",
+     "tam": 190,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "f1",
+   "grupo": "antes",
+   "tipo": "foto",
+   "src": "arte/arch_rollo.png",
+   "muestra": "editar (rollo de película)",
+   "x": 720,
+   "y": 1160,
+   "ancho": 540,
+   "t0": 49.4,
+   "t1": 52.18,
+   "z": "frente",
+   "entra": "llega",
+   "dur": 0.4,
+   "gris": false,
+   "tratamiento": "bn",
+   "fusion": "multiplicar",
+   "fundir": 0.18,
+   "acercar": 0.15,
+   "flotar": 20,
+   "profundidad": 0.8
+  },
+  {
+   "id": "c1",
+   "grupo": "antes",
+   "tipo": "contador",
+   "x": 400,
+   "y": 700,
+   "desde": 0,
+   "hasta": 48,
+   "sufijo": " h",
+   "cuenta_s": 0.7,
+   "tam": 200,
+   "color": "acento",
+   "rol": "mono",
+   "t0": 50.92,
+   "t1": 51.68
+  },
+  {
+   "id": "t3",
+   "grupo": "antes",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 400,
+   "y": 700,
+   "t0": 51.68,
+   "t1": 52.18,
+   "entra": "golpe",
+   "dur": 0.1,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "días.",
+     "rol": "script",
+     "tam": 230,
+     "color": "acento",
+     "italica": true,
+     "peso": 500
+    }
+   ]
+  },
+  {
+   "id": "f2",
+   "grupo": "publicar",
+   "tipo": "foto",
+   "src": "arte/celular-lamina.png",
+   "muestra": "publicar (celular)",
+   "x": 540,
+   "y": 860,
+   "ancho": 560,
+   "t0": 53.36,
+   "t1": 55.46,
+   "z": "frente",
+   "entra": "llega",
+   "dur": 0.4,
+   "gris": false,
+   "tratamiento": "duotono-inverso",
+   "fusion": "pantalla",
+   "acercar": 0.15,
+   "flotar": 20,
+   "profundidad": 0.8
+  },
+  {
+   "id": "t4",
+   "grupo": "publicar",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1000,
+   "t0": 53.36,
+   "t1": 55.46,
+   "entra": "llega",
+   "dur": 0.2,
+   "interlineado": -12,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "dejan de",
+     "rol": "display",
+     "tam": 96,
+     "color": "blanco",
+     "peso": 600
+    },
+    {
+     "texto": "publicar.",
+     "rol": "display",
+     "tam": 160,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 334,
+   "y": 1090,
+   "t0": 65.86,
+   "t1": 69.0,
+   "entra": "enfoque",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "Hoy.",
+     "rol": "display",
+     "tam": 230,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "g1",
+   "tipo": "etiqueta",
+   "rol": "mono",
+   "fondo": "blanco",
+   "letra": "acento",
+   "radio": 0,
+   "pad": [
+    26,
+    14
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     "01  grabo",
+     34,
+     false,
+     600
+    ]
+   ],
+   "x": 820,
+   "y": 1020,
+   "t0": 66.9,
+   "t1": 69.0,
+   "entra": "pop",
+   "dur": 0.16
+  },
+  {
+   "id": "g2",
+   "tipo": "etiqueta",
+   "rol": "mono",
+   "fondo": "acento",
+   "letra": "blanco",
+   "radio": 0,
+   "pad": [
+    26,
+    14
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     "02  carpeta",
+     34,
+     false,
+     600
+    ]
+   ],
+   "x": 820,
+   "y": 1110,
+   "t0": 68.1,
+   "t1": 69.0,
+   "entra": "pop",
+   "dur": 0.16
+  },
+  {
+   "id": "t6",
+   "grupo": "pistas",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 860,
+   "t0": 69.3,
+   "t1": 71.76,
+   "entra": "fundido",
+   "tecleo": 14,
+   "cursor": false,
+   "dur": 0.1,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "editarlos",
+     "rol": "display",
+     "tam": 190,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "r1",
+   "grupo": "pistas",
+   "tipo": "barra",
+   "direccion": "horizontal",
+   "x": 600,
+   "y": 1060,
+   "ancho": 800,
+   "alto": 34,
+   "color": "blanco",
+   "crece_s": 0.6,
+   "contorno": false,
+   "t0": 70.24,
+   "t1": 71.76
+  },
+  {
+   "id": "r2",
+   "grupo": "pistas",
+   "tipo": "barra",
+   "direccion": "horizontal",
+   "x": 560,
+   "y": 1140,
+   "ancho": 720,
+   "alto": 34,
+   "color": "acento2",
+   "crece_s": 0.6,
+   "contorno": false,
+   "t0": 70.78,
+   "t1": 71.76
+  },
+  {
+   "id": "t7",
+   "grupo": "lista",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 520,
+   "y": 560,
+   "t0": 72.18,
+   "t1": 75.82,
+   "entra": "llega",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "subtítulos,",
+     "rol": "display",
+     "tam": 130,
+     "color": "#111111",
+     "peso": 600
+    }
+   ]
+  },
+  {
+   "id": "f3",
+   "grupo": "lista",
+   "tipo": "foto",
+   "src": "arte/arch_tijeras_4.png",
+   "muestra": "cortar los silencios (tijeras)",
+   "x": 720,
+   "y": 1120,
+   "ancho": 520,
+   "t0": 73.7,
+   "t1": 75.82,
+   "z": "frente",
+   "entra": "llega",
+   "dur": 0.4,
+   "gris": false,
+   "tratamiento": "halftone",
+   "fusion": "multiplicar",
+   "fundir": 0.18,
+   "acercar": 0.15,
+   "flotar": 20,
+   "profundidad": 0.8
+  },
+  {
+   "id": "t8",
+   "grupo": "lista",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 500,
+   "y": 780,
+   "t0": 74.26,
+   "t1": 75.82,
+   "entra": "barrido",
+   "dur": 0.12,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "silencios.",
+     "rol": "display",
+     "tam": 130,
+     "color": "acento",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 1170,
+   "t0": 85.74,
+   "t1": 89.02,
+   "entra": "golpe",
+   "dur": 0.1,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "el editor.",
+     "rol": "display",
+     "tam": 170,
+     "color": "blanco"
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "tipo": "etiqueta",
+   "rol": "display",
+   "fondo": "blanco",
+   "letra": "acento",
+   "radio": 0,
+   "pad": [
+    40,
+    22
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     "importantes.",
+     110,
+     true,
+     600
+    ]
+   ],
+   "x": 540,
+   "y": 1180,
+   "t0": 89.02,
+   "t1": 89.52,
+   "entra": "llega",
+   "dur": 0.2
+  },
+  {
+   "id": "t10",
+   "grupo": "cierre",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 400,
+   "t0": 90.18,
+   "t1": 92.96,
+   "entra": "fundido",
+   "dur": 0.14,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "si quieres aprender a editar videos",
+     "rol": "mono",
+     "tam": 37,
+     "color": "#111111"
+    }
+   ]
+  },
+  {
+   "id": "f4",
+   "grupo": "cierre",
+   "tipo": "foto",
+   "src": "arte/arch_video_1.png",
+   "muestra": "videos (cámara de cine)",
+   "x": 560,
+   "y": 1080,
+   "ancho": 560,
+   "t0": 90.2,
+   "t1": 92.96,
+   "z": "frente",
+   "entra": "llega",
+   "dur": 0.4,
+   "gris": false,
+   "tratamiento": "duotono",
+   "fusion": "multiplicar",
+   "fundir": 0.3,
+   "acercar": 0.15,
+   "flotar": 20,
+   "profundidad": 0.8
+  },
+  {
+   "id": "t11",
+   "grupo": "cierre",
+   "tipo": "texto",
+   "z": "frente",
+   "x": 540,
+   "y": 840,
+   "t0": 91.74,
+   "t1": 92.96,
+   "entra": "enfoque",
+   "dur": 0.2,
+   "sombra": false,
+   "lineas": [
+    {
+     "texto": "como este.",
+     "rol": "display",
+     "tam": 153,
+     "color": "acento",
+     "peso": 700
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "tipo": "etiqueta",
+   "rol": "display",
+   "fondo": "acento",
+   "letra": "blanco",
+   "radio": 0,
+   "pad": [
+    44,
+    50
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     "TALLER.",
+     140,
+     false,
+     800
+    ]
+   ],
+   "x": 540,
+   "y": 1150,
+   "t0": 93.94,
+   "t1": 95.68,
+   "entra": "barrido",
+   "dur": 0.12
+  },
+  {
+   "id": "b4",
+   "tipo": "etiqueta",
+   "rol": "mono",
+   "fondo": "blanco",
+   "letra": "acento",
+   "radio": 0,
+   "pad": [
+    40,
+    18
+   ],
+   "sombra": false,
+   "lineas": [
+    [
+     "comenta la palabra",
+     32,
+     false,
+     500
+    ]
+   ],
+   "x": 540,
+   "y": 1310,
+   "t0": 94.3,
+   "t1": 95.68,
+   "entra": "fundido",
+   "dur": 0.1
+  }
+ ],
+ "trazos": [
+  {
+   "tipo": "reticula",
+   "cols": 3,
+   "filas": 4,
+   "cruces": 10,
+   "color": "#E1E3E8",
+   "t0": 49.3,
+   "dur": 0.08,
+   "t1": 52.18
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     60,
+     1085
+    ],
+    [
+     1020,
+     1085
+    ]
+   ],
+   "t0": 54.74,
+   "dur": 0.3,
+   "t1": 55.46,
+   "grosor": 8,
+   "color": "blanco"
+  },
+  {
+   "tipo": "reticula",
+   "cols": 4,
+   "filas": 3,
+   "cruces": 12,
+   "color": "#2445B0",
+   "t0": 69.0,
+   "dur": 0.08,
+   "t1": 71.76
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     80,
+     1175
+    ],
+    [
+     1000,
+     1175
+    ]
+   ],
+   "t0": 86.36,
+   "dur": 0.3,
+   "t1": 89.02,
+   "grosor": 8,
+   "color": "acento"
+  },
+  {
+   "tipo": "linea",
+   "puntos": [
+    [
+     -20,
+     700
+    ],
+    [
+     1100,
+     700
+    ]
+   ],
+   "t0": 90.14,
+   "dur": 0.4,
+   "t1": 92.96,
+   "grosor": 3,
+   "color": "acento",
+   "nodos": 5
+  }
+ ],
+ "cajas": [],
+ "subtitulos": {
+  "y": 1460,
+  "resaltar": [
+   17,
+   24,
+   28,
+   105,
+   114,
+   141,
+   148,
+   154,
+   165,
+   185,
+   196,
+   206,
+   212
+  ],
+  "ocultar": [
+   [
+    90.14,
+    92.96
+   ]
+  ]
+ }
+}

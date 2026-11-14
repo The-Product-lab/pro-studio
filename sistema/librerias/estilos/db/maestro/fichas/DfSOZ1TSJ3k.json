@@ -1,0 +1,153 @@
+{
+ "ref": "DfSOZ1TSJ3k",
+ "fuente": "busqueda",
+ "sirve": true,
+ "por_que": "Podcast oscuro con palabras rojas gigantes detrás del sujeto, alternando relleno, hueco y cursiva fina; es la palabra-detrás en su forma más pura aunque a ritmo lento.",
+ "paleta": [
+  {
+   "hex": "#000000",
+   "rol": "fondo",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#A80D0D",
+   "rol": "palabra de impacto",
+   "cuanto": "dominante"
+  },
+  {
+   "hex": "#857038",
+   "rol": "dorado apagado, variante",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#1E822E",
+   "rol": "palabra de cierre",
+   "cuanto": "acento"
+  },
+  {
+   "hex": "#FFFFFF",
+   "rol": "cursiva fina",
+   "cuanto": "detalle"
+  }
+ ],
+ "tipografia": [
+  {
+   "rol": "display",
+   "como_es": "sans condensada pesada en mayúsculas",
+   "google": "Anton"
+  },
+  {
+   "rol": "script",
+   "como_es": "cursiva fina caligráfica blanca para conector",
+   "google": "Playfair Display"
+  }
+ ],
+ "ritmo": {
+  "cambio_cada_s": [
+   2.5,
+   10.0
+  ],
+  "cortes_por_min": [
+   10,
+   10
+  ],
+  "gancho": "0–1 s: apertura de barras letterbox, primera palabra roja a 1 s"
+ },
+ "subtitulos": {
+  "hay": false,
+  "modo": "ninguno",
+  "y_aprox": 700,
+  "mayus": true,
+  "clave": "palabra clave aislada gigante tras el sujeto; no hay subtitulado corrido"
+ },
+ "persona": {
+  "tratamiento": "low-key, luz lateral tenue, recorte para texto detrás",
+  "encuadre": "plano medio fijo"
+ },
+ "recursos": [
+  {
+   "nombre": "palabra gigante detrás",
+   "por_min": [
+    20,
+    30
+   ],
+   "dur_s": [
+    0.8,
+    1.5
+   ],
+   "cuando": "palabras clave de la frase",
+   "como": "texto z atrás, rojo; cambia solo en palabras estructurales"
+  },
+  {
+   "nombre": "palabra con contorno hueco",
+   "por_min": [
+    2,
+    6
+   ],
+   "dur_s": [
+    1.0,
+    1.0
+   ],
+   "cuando": "variar para no saturar",
+   "como": "contorno dorado"
+  },
+  {
+   "nombre": "conector cursiva blanca",
+   "por_min": [
+    2,
+    4
+   ],
+   "dur_s": [
+    1.0,
+    1.0
+   ],
+   "cuando": "pausa personal",
+   "como": "script fino blanco"
+  },
+  {
+   "nombre": "apertura letterbox",
+   "por_min": [
+    0,
+    0
+   ],
+   "dur_s": [
+    0.8,
+    0.8
+   ],
+   "cuando": "primer segundo",
+   "como": "barras negras que se abren"
+  }
+ ],
+ "apoyos": {
+  "por_min": [
+   0,
+   6
+  ],
+  "tipos": [
+   "texto detrás"
+  ]
+ },
+ "imagenes": {
+  "tipo": "ninguna",
+  "tratamiento": "-",
+  "cuantas": 0
+ },
+ "transiciones": [
+  "corte limpio entre interlocutores",
+  "fundido a negro al cierre"
+ ],
+ "camara": [
+  "plano fijo"
+ ],
+ "sonido": [
+  "piano melancólico lento",
+  "sin SFX"
+ ],
+ "si": [
+  "alternar relleno y hueco",
+  "cambiar solo en palabras clave"
+ ],
+ "no": [
+  "subtitular todo"
+ ]
+}

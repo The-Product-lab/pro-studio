@@ -1,0 +1,448 @@
+{
+ "version": 1,
+ "proyecto": "c8867",
+ "firma": "c35b70fa91a5",
+ "fuente_s": 195.2,
+ "duracion_s": 23.7,
+ "cortes": [
+  [
+   0.0,
+   3.94
+  ],
+  [
+   5.755,
+   25.205
+  ],
+  [
+   27.055,
+   27.155
+  ],
+  [
+   35.445,
+   86.465
+  ],
+  [
+   89.925,
+   90.015
+  ],
+  [
+   92.325,
+   185.725
+  ],
+  [
+   191.7,
+   195.2
+  ]
+ ],
+ "color": {
+  "entrada": "rec709",
+  "receta": "pablo",
+  "look": "calido-EliteColor200",
+  "fuerza": 0.7
+ },
+ "quitado_s": {
+  "claqueta": 6.0,
+  "apuntador": 35.9,
+  "tomas_repetidas": 4.8,
+  "ia_fuera_de_guion": 51.3,
+  "pausas_y_aire": 73.5
+ },
+ "ia": {
+  "usada": true,
+  "quito": [
+   {
+    "t0": 15.54,
+    "t1": 20.02,
+    "texto": "qué ritmo quiere Es como tener un editor de planta, le dices qué quieres,",
+    "motivo": "toma abandonada: arranca con «qué ritmo quiere» y se corta en «le dices qué quieres»; la versión completa es la 8"
+   },
+   {
+    "t0": 20.16,
+    "t1": 20.8,
+    "texto": "cómo editar,",
+    "motivo": "fragmento suelto que no cierra"
+   },
+   {
+    "t0": 21.01,
+    "t1": 24.0,
+    "texto": "ya, listo 1, 2, 3, va",
+    "motivo": "conteo / charla con el equipo"
+   },
+   {
+    "t0": 41.99,
+    "t1": 47.68,
+    "texto": "tu computador algo Además trabaja en segundo plano y mientras edita puede seguir haciendo ",
+    "motivo": "versión anterior de «trabaja en segundo plano», empieza truncada («tu computador algo»); queda la última, la 33"
+   },
+   {
+    "t0": 51.61,
+    "t1": 52.08,
+    "texto": "sigue",
+    "motivo": "versión anterior de segundo plano/entrega; queda la última, la 33"
+   },
+   {
+    "t0": 52.08,
+    "t1": 52.44,
+    "texto": "trabajando",
+    "motivo": "versión anterior de segundo plano/entrega; queda la última, la 33"
+   },
+   {
+    "t0": 52.44,
+    "t1": 52.76,
+    "texto": "en",
+    "motivo": "versión anterior de segundo plano/entrega; queda la última, la 33"
+   },
+   {
+    "t0": 52.76,
+    "t1": 52.98,
+    "texto": "segundo",
+    "motivo": "versión anterior de segundo plano/entrega; queda la última, la 33"
+   },
+   {
+    "t0": 52.98,
+    "t1": 53.36,
+    "texto": "plano",
+    "motivo": "versión anterior de segundo plano/entrega; queda la última, la 33"
+   },
+   {
+    "t0": 53.36,
+    "t1": 53.78,
+    "texto": "Mientras",
+    "motivo": "versión anterior de segundo plano/entrega; queda la última, la 33"
+   },
+   {
+    "t0": 53.78,
+    "t1": 54.08,
+    "texto": "tú",
+    "motivo": "versión anterior de segundo plano/entrega; queda la última, la 33"
+   },
+   {
+    "t0": 54.08,
+    "t1": 59.98,
+    "texto": "sigues realizando Lo que tú quieras en tu computador Y una vez que termina te los entrega ",
+    "motivo": "versión anterior de segundo plano/entrega; queda la última, la 33"
+   },
+   {
+    "t0": 71.22,
+    "t1": 71.7,
+    "texto": "Además",
+    "motivo": "arranque abandonado"
+   },
+   {
+    "t0": 72.22,
+    "t1": 72.78,
+    "texto": "¿Qué era?",
+    "motivo": "comentario fuera de guion (se le olvidó la línea)"
+   },
+   {
+    "t0": 72.84,
+    "t1": 73.36,
+    "texto": "Ya me olvidé",
+    "motivo": "comentario fuera de guion"
+   },
+   {
+    "t0": 79.28,
+    "t1": 81.23,
+    "texto": "en segundo plano, Y lo ya está listo.",
+    "motivo": "toma truncada de segundo plano; queda la 33"
+   },
+   {
+    "t0": 81.3,
+    "t1": 84.45,
+    "texto": "que puedes seguir haciendo cualquier cosa y ya listo.",
+    "motivo": "versión que sobró de segundo plano; queda la 33"
+   },
+   {
+    "t0": 94.08,
+    "t1": 94.98,
+    "texto": "Lo último.",
+    "motivo": "charla con el equipo («Lo último.»)"
+   },
+   {
+    "t0": 111.22,
+    "t1": 115.33,
+    "texto": "acción en el workshop en el workshop Hueso.",
+    "motivo": "toma abandonada del CTA del workshop"
+   },
+   {
+    "t0": 121.24,
+    "t1": 121.8,
+    "texto": "comenta",
+    "motivo": "CTA truncado del workshop; queda el CTA final, la 91"
+   },
+   {
+    "t0": 121.8,
+    "t1": 122.58,
+    "texto": "o",
+    "motivo": "CTA truncado; queda la 91"
+   },
+   {
+    "t0": 122.58,
+    "t1": 122.88,
+    "texto": "ponga",
+    "motivo": "CTA truncado; queda la 91"
+   },
+   {
+    "t0": 122.88,
+    "t1": 123.0,
+    "texto": "en",
+    "motivo": "CTA truncado; queda la 91"
+   },
+   {
+    "t0": 123.0,
+    "t1": 123.12,
+    "texto": "todo",
+    "motivo": "CTA truncado; queda la 91"
+   },
+   {
+    "t0": 123.12,
+    "t1": 123.78,
+    "texto": "te",
+    "motivo": "CTA truncado; queda la 91"
+   },
+   {
+    "t0": 123.78,
+    "t1": 123.86,
+    "texto": "enseño",
+    "motivo": "CTA truncado; queda la 91"
+   },
+   {
+    "t0": 123.86,
+    "t1": 123.98,
+    "texto": "a",
+    "motivo": "CTA truncado; queda la 91"
+   },
+   {
+    "t0": 130.74,
+    "t1": 131.08,
+    "texto": "editar",
+    "motivo": "charla con el equipo sobre qué palabra pedir que comenten"
+   },
+   {
+    "t0": 131.08,
+    "t1": 131.42,
+    "texto": "o",
+    "motivo": "charla con el equipo sobre la palabra del CTA"
+   },
+   {
+    "t0": 131.42,
+    "t1": 131.9,
+    "texto": "comenta",
+    "motivo": "charla con el equipo sobre la palabra del CTA"
+   },
+   {
+    "t0": 131.9,
+    "t1": 132.56,
+    "texto": "workshop",
+    "motivo": "charla con el equipo sobre la palabra del CTA"
+   },
+   {
+    "t0": 133.84,
+    "t1": 134.0,
+    "texto": "había",
+    "motivo": "comentario fuera de guion"
+   },
+   {
+    "t0": 134.0,
+    "t1": 134.26,
+    "texto": "estado",
+    "motivo": "comentario fuera de guion"
+   },
+   {
+    "t0": 134.26,
+    "t1": 134.82,
+    "texto": "hueso",
+    "motivo": "comentario fuera de guion"
+   },
+   {
+    "t0": 137.42,
+    "t1": 137.58,
+    "texto": "el",
+    "motivo": "charla con el equipo (workshop vs. taller)"
+   },
+   {
+    "t0": 137.58,
+    "t1": 137.92,
+    "texto": "taller",
+    "motivo": "charla con el equipo (workshop vs. taller)"
+   },
+   {
+    "t0": 137.92,
+    "t1": 138.2,
+    "texto": "o",
+    "motivo": "charla con el equipo (workshop vs. taller)"
+   },
+   {
+    "t0": 138.2,
+    "t1": 138.34,
+    "texto": "por",
+    "motivo": "charla con el equipo (workshop vs. taller)"
+   },
+   {
+    "t0": 138.34,
+    "t1": 138.44,
+    "texto": "si",
+    "motivo": "charla con el equipo (workshop vs. taller)"
+   },
+   {
+    "t0": 138.44,
+    "t1": 138.6,
+    "texto": "acaso",
+    "motivo": "charla con el equipo (workshop vs. taller)"
+   },
+   {
+    "t0": 138.6,
+    "t1": 138.98,
+    "texto": "en",
+    "motivo": "charla con el equipo (workshop vs. taller)"
+   },
+   {
+    "t0": 138.98,
+    "t1": 139.26,
+    "texto": "el",
+    "motivo": "charla con el equipo (workshop vs. taller)"
+   },
+   {
+    "t0": 142.18,
+    "t1": 142.44,
+    "texto": "porque",
+    "motivo": "charla con el equipo (la gente no escribe bien en inglés)"
+   },
+   {
+    "t0": 142.44,
+    "t1": 142.56,
+    "texto": "hay",
+    "motivo": "charla con el equipo"
+   },
+   {
+    "t0": 142.56,
+    "t1": 142.72,
+    "texto": "gente",
+    "motivo": "charla con el equipo"
+   },
+   {
+    "t0": 142.72,
+    "t1": 142.88,
+    "texto": "que",
+    "motivo": "charla con el equipo"
+   },
+   {
+    "t0": 142.88,
+    "t1": 148.88,
+    "texto": "no escribe bien inglés en el taller te enseñó cómo editar cómo era y a mí fue",
+    "motivo": "charla con el equipo y CTA abandonado"
+   },
+   {
+    "t0": 162.88,
+    "t1": 167.36,
+    "texto": "Igual hago como lo de Si quieres aprender a hacer videos como estos",
+    "motivo": "charla («Igual hago como lo de…») más arranque truncado del CTA; queda la 91"
+   },
+   {
+    "t0": 170.82,
+    "t1": 173.19,
+    "texto": "Y te Y y te...",
+    "motivo": "toma truncada con titubeos"
+   },
+   {
+    "t0": 173.16,
+    "t1": 175.28,
+    "texto": "mando el link O te mando la información",
+    "motivo": "versión del CTA que sobró; queda la 91"
+   },
+   {
+    "t0": 78.29,
+    "t1": 79.255,
+    "texto": "trabajen.",
+    "motivo": "palabra suelta de otra toma («trabajen.») que no forma parte de la frase"
+   }
+  ],
+  "restauro": [],
+  "llamadas": 2,
+  "usd_eq": 0.501
+ },
+ "avisos": [
+  {
+   "motivo": "107 palabras tratadas como apuntador (voz ~15 dB bajo el talento) entre 8.5 y 181.8 s: revisa que no sea el talento hablando bajo",
+   "t": 8.53,
+   "tipo": "apuntador"
+  }
+ ],
+ "residuales": [],
+ "render": {
+  "firma": "560cf4a0ce66",
+  "ancho": 720,
+  "alto": 1280,
+  "crf": 26,
+  "duracion_s": 23.8,
+  "bytes": 1977573
+ },
+ "revision": {
+  "firma": "560cf4a0ce66",
+  "ok": true,
+  "fallas": []
+ },
+ "ajustes_tecnicos": [
+  {
+   "fecha": "2026-11-10 10:23",
+   "cambios": [
+    {
+     "de": [
+      5.76,
+      25.2
+     ],
+     "a": [
+      5.755,
+      25.205
+     ],
+     "mueve_s": 0.005
+    },
+    {
+     "de": [
+      27.06,
+      27.15
+     ],
+     "a": [
+      27.055,
+      27.155
+     ],
+     "mueve_s": 0.005
+    },
+    {
+     "de": [
+      35.45,
+      86.46
+     ],
+     "a": [
+      35.445,
+      86.465
+     ],
+     "mueve_s": 0.005
+    },
+    {
+     "de": [
+      89.93,
+      90.01
+     ],
+     "a": [
+      89.925,
+      90.015
+     ],
+     "mueve_s": 0.005
+    },
+    {
+     "de": [
+      92.33,
+      185.72
+     ],
+     "a": [
+      92.325,
+      185.725
+     ],
+     "mueve_s": 0.005
+    }
+   ],
+   "mismas_palabras": true
+  }
+ ]
+}
